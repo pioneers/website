@@ -13,11 +13,12 @@ html {
 }
 
 //
-// Remove default margin.
+// Remove default margin and padding.
 //
 
-body {
+* {
   margin: 0;
+  padding: 0;
 }
 
 // HTML5 display definitions
