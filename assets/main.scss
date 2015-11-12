@@ -6,7 +6,6 @@
 // Fonts
 $source-sans: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" !default;
 $open-sans: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" !default;
-
 @mixin web-font($path){
   @import url("#{$path}");
 }
@@ -23,7 +22,8 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$pie-blue:         #363895;
+// $pie-blue:         #363895;
+$pie-blue:         #2b3d62; // Blue used in Open Source website
 $pie-gold:         #c7aa36;
 
 $grey-color:       #828282;
@@ -50,8 +50,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

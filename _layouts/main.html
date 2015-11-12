@@ -7,11 +7,11 @@
 
     {% include header.html %}
 
-    <div class="hero-unit" style="background-image: url({{ page.hero-image }})">
-      <!-- <img src="{{ page.hero-image }}" alt="{{ page.title }}"> -->
-      <div class="text-container">
+    <div class="hero-unit tall" style="background-image: {{ page.hero-image }}">
+      <div class="fade-overlay"></div>
+      <div class="container">
         <h1>
-          {{ page.title }}
+          {{ page.hero-message }}
         </h1>
       </div>
     </div>
