@@ -13,6 +13,9 @@
         <h1>
           {{ page.hero-message }}
         </h1>
+        {% if page.hero-button %}
+        <center><a href="{{page.hero-button-url}}" class="btn btn-primary btn-lg">{{page.hero-button}}</a></center>
+        {% endif %}
       </div>
     </div>
 
