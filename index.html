@@ -2,10 +2,65 @@
 layout: main
 hero-image: url(https://images.unsplash.com/photo-1445264918150-66a2371142a2?ixlib=rb-0.3.5&q=80&fm=jpg&s=5a7b9b8a9fd013c8852453f2342f9428)
 hero-message: Welcome to Pioneers in Engineering!!!
+title: HomeBama
+
 ---
 
 <div class="home">
+  <div class="container">
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quod qui eaque iste, beatae voluptatum natus officia, optio a debitis, ipsum veniam facere reiciendis, commodi at deleniti temporibus dicta aliquam accusantium expedita modi cupiditate exercitationem. Corporis aliquam, ut repellendus facilis cupiditate quod quo minima. Ipsa amet veniam aliquid, nobis necessitatibus doloremque voluptatem atque quas eos officiis, ullam fugit, eveniet tenetur molestiae deleniti. Fugiat ex cumque dicta consectetur aliquam dolor, voluptatem vitae veritatis at debitis perspiciatis explicabo veniam ipsa iure facere libero. Aut quasi doloremque saepe dolorem ea soluta aperiam molestiae, quae accusantium, sint provident excepturi. Ab animi, asperiores quasi minus.</p>
+    <div class="row" id="pie-description">
+      <div class="col-md-4">
+        <h2>Engineering</h2>
+        <img src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png">
+        <p>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram; multa quoque et bello passus, dum conderet urbem,</p>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Outreach</h2>
+        <img src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png">
+        <p>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram; multa quoque et bello passus, dum conderet urbem, 5 inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae. Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores </p>
+        <div class="borderlands"></div>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Education</h2>
+        <img src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png">
+        <p>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem </p>
+      </div>
+    </div>
+
+    <div class="row" id="news">
+      <div class="col-md-4">
+        {% include schedule.html %}    
+      </div>
+
+      <div class="col-md-8">
+        <h2>News Updates</h2>
+        {% for post in site.posts %}
+          <div class="post-row">
+            <h4 class="title">
+              <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
+            </h4>
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </div>
+         
+          
+       
+        {% endfor %}
+        
+      </div>
+      <div class="borderlands"></div>
+    </div>
+
+    <div class="row" id="alumni">
+      <div class="col-md-12">
+        <h2>Alumni</h2>
+        Apple Microsoft Dell Google HP
+        <img src="http://cdn.macworld.com.au/wp-content/uploads/2012/11/Did-Obama-and-Apples-Tim-Cook-discuss-tax-loopholes-Macworld-Australia.jpg">
+      </div>
+      <div class="borderlands"></div>
+    </div>
+  </div>
 
 </div>
