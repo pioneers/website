@@ -118,28 +118,36 @@ Does not work on round things. */
     display:block;
     margin:auto;
     width:55%;
-    margin-bottom: $spacing-unit/2
   }
 
-  p{
-    width: 80%;
-    text-align: center;
-    margin: auto;
-  }
+  
 
   .container{
     background-color: white;
     position: relative;
 
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+
     .borderlands{
       position: absolute;
-      border-color: grey;
-      border-width: 1px;
+      border-color: $ram-gray;
+      border-width: 2px;
+    }
+
+    .row{
+      padding-bottom: $spacing-unit;
     }
 
     #pie-description{
-      padding-bottom: $spacing-unit;
-
+      p{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+      }
+      image{
+        margin-bottom: $spacing-unit/2;
+      }
       .borderlands{
         border-left-style: solid;
         border-right-style: solid;
@@ -152,17 +160,37 @@ Does not work on round things. */
     }  
 
     #news{
+      position: relative;
+
+      p{
+        width: 80%;
+        margin: auto;
+      }
+
       .borderlands{
         border-top-style: solid;
         
-        width: 80%;
+        width: 90%;
         top: 0px;
-        right: 10%;
+        right: 5%;
       }
 
       img{
         width: 100%;
       }
+    }
+
+    #alumni{
+      position: relative;
+
+      .borderlands{
+        border-top-style: solid;
+        
+        width: 90%;
+        top: 0px;
+        right: 5%;
+      }
+
     } 
   }
 }
