@@ -39,7 +39,7 @@
   height: 80%;
   margin: 0 auto;
   img {
-    @extend .img-scaled-wh;
+    @extend img-scaled-wh;
   }
 }
 
