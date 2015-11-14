@@ -21,7 +21,6 @@ figure,
 /**
  * Wrapper
  */
-
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -38,19 +37,11 @@ figure,
   }
 }
 
-.img-scaled-wh {
+/*
+ * Images
+ */
+%img-scaled-wh {
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
-
-.fade-overlay {
-  // height: 100%;
-  // width: 100%;
-  background-color: rgba(0, 0, 0, 0.15);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }

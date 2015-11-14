@@ -4,18 +4,20 @@
 
 .hero-unit {
   @extend .jumbotron; // for consistent padding, responsiveness
-  height: 300px;
-  background-size: auto 100%;
+  height: 50vh;
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   &.tall {
     height: 80vh;
   }
-  h1, h2 {
+  h1,
+  h2 {
     color: #ffffff;
   }
   .container {
+    // Try to vertically center containers
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -41,6 +43,17 @@
   }
 }
 
+
+/* Applies a faded overlay to a position:relative div.
+Does not work on round things. */
+.fade-overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 /**
  * Site footer

@@ -18,38 +18,38 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+          <a href="{{ "/about/team.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">The PiE Team</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="{{ "/about/team.html" | prepend: site.baseurl }}">The PiE Team</a></li>
+            <li><a href="{{ "/about/gallery.html" | prepend: site.baseurl }}">Gallery</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Robotics Competition</a></li>
-            <li><a href="#">Open Source</a></li>
-            <li><a href="#">PiE Prep</a></li>
-            <li><a href="#">Scholarship</a></li>
+            <li><a href="{{ "/programs/rc-spring.html" | prepend: site.baseurl }}">Robotics Competition</a></li>
+            <li><a href="{{ "/programs/open-source.html" | prepend: site.baseurl }}">Open Source</a></li>
+            <li><a href="{{ "/programs/prep.html" | prepend: site.baseurl }}">PiE Prep</a></li>
+            <li><a href="{{ "/programs/scholarship.html" | prepend: site.baseurl }}">Scholarship</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/get-involved/start-team.html">Start a Team</a></li>
-            <li><a href="#">Join PiE Staff</a></li>
-            <li><a href="#">Become a Mentor</a></li>
-            <li><a href="#">Volunteer</a></li>
+            <li><a href="{{ "/get-involved/start-team.html" | prepend: site.baseurl }}">Start a Team</a></li>
+            <li><a href="{{ "/get-involved/join-staff.html" | prepend: site.baseurl }}">Join PiE Staff</a></li>
+            <li><a href="{{ "/get-involved/become-mentor.html" | prepend: site.baseurl }}">Become a Mentor</a></li>
+            <li><a href="{{ "/get-involved/volunteer.html" | prepend: site.baseurl }}">Volunteer</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support PiE <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">How You Can Help</a></li>
-            <li><a href="#">List of Sponsors</a></li>
+            <li><a href="{{ "/support-pie/donate.html" | prepend: site.baseurl }}">How You Can Help</a></li>
+            <li><a href="{{ "/support-pie/sponsors.html" | prepend: site.baseurl }}">List of Sponsors</a></li>
           </ul>
         </li>
-        <li><a href="{{ "/" | prepend: site.baseurl }}">Blog</a></li>
+        <li><a href="{{ "/posts" | prepend: site.baseurl }}">Blog</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
