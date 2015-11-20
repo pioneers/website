@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Pie Annual Report and Competition"
-date:   2015-10-31 12:11:17
+title:  "PiE teams up with Pieology for a Tasty Fundraiser!"
+date:   2015-12-25 12:11:17
 categories: jekyll update
 ---
-We are happy to share with you the recently published 2014-15 PiE Annual Report. Year 7 was a successful year in many respects, with accomplishments including:
+Due to coincidences in naming, the dynamic duo PiE x Pieology is now thing. Come join us and spend all your hard earned college tuition money on tasty pies and the salad that no one gets!
 
 - The Prep Program held a successful Mindstorm Maze Programming Challenge with Community Day High School and Ralph Bunche High School.
 - The first robotics challenge that involves an actuated field, designed by PiE staff. It includes a rotating turntable and button-activated gates.
