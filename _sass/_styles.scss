@@ -30,18 +30,90 @@
 *Team page
 */
 
-.profiles {
-  text-align: center;
+.staff-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
-.profile-pic {
-  @extend %vertical-rhythm;
-  width: 80%;
-  height: 80%;
-  margin: 0 auto;
-  img {
-    @extend img-scaled-wh;
+.staff-member {
+  text-align: center;
+  padding: 30px 30px 5px;
+  .staff-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #E6E6E6;
+    margin: 0 auto 10px;
+    img {
+      @extend img-scaled-wh;
+    }
   }
+  .staff-description {
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.team {
+  .sub-heading {
+  text-align: center;
+  padding-top: 25px;
+  }
+}
+
+#first-heading {
+  margin-top: 40px;
+}
+
+#last-category {
+  margin-bottom: 100px;
+}
+
+.staff-email {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* About Us page */
+
+#fall-image {
+  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-size: cover;
+  background-color: #2b3d62;
+  background-blend-mode: multiply;
+  padding-bottom: 100%;
+}
+
+#fall-description {
+  margin: 40px;
+}
+
+#fall-stuff {
+  padding: 0;
+}
+
+#fall-row {
+  background-color: #2b3d62;
+}
+
+#fall-description {
+  color: white;
+}
+
+#spring-description {
+  background-color: #FBC02D;
+  font-color: #4A148C;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
 }
 
 
