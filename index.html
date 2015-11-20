@@ -31,13 +31,15 @@ title: HomeBama
     </div>
 
     <div class="row" id="news">
-      <div class="col-md-4">
+
+      <div class="col-md-5">
+        <h2>Schedule</h2>
         {% include schedule.html %}    
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-7">
         <h2>News Updates</h2>
-        {% for post in site.posts %}
+        {% for post in site.posts limit:2%}
           <div class="post-row">
             <h4 class="title">
               <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
@@ -49,15 +51,20 @@ title: HomeBama
        
         {% endfor %}
         
+      
       </div>
       <div class="borderlands"></div>
     </div>
 
     <div class="row" id="alumni">
-      <div class="col-md-12">
-        <h2>Alumni</h2>
-        Apple Microsoft Dell Google HP
-        <img src="http://cdn.macworld.com.au/wp-content/uploads/2012/11/Did-Obama-and-Apples-Tim-Cook-discuss-tax-loopholes-Macworld-Australia.jpg">
+      <div class="col-md-5">
+        <h2>Alumni Spotlight</h2>
+            <img src="http://photos.the-scientist.com/legacyArticleImages/2012/10/10_12_Obama.jpg" style="box-shadow: 5px 5px 2.5px #888888; width:125px; display:inline;">
+
+      </div>
+      <div class="col-md-7">
+        <h2>Logos</h2>
+        Pathos Ethos
       </div>
       <div class="borderlands"></div>
     </div>
