@@ -1,41 +1,56 @@
 ---
 layout: default
 title: About Us
-hero-image: url(https://pioneers.berkeley.edu/static/images/contentbanners/contentbanner1.jpg)
+<!--hero-image: url(https://pioneers.berkeley.edu/static/images/contentbanners/contentbanner1.jpg)-->
+hero-image: url(../assets/images/stock-images/work-in-progress.jpg)
 hero-message: About Us
 ---
 
 <div class="about-us">
 
-	<!--<title>Gallery</title>-->
-
 	<h2 class="sub-heading">About Us</h2>
 
-	<p class="description">Pioneers in Engineering (PiE) is a student outreach organization based in UC Berkeley. It was founded in 2008 by members of Tau Beta Pi with the goal of making STEM (science, technology, engineering, and math) programs more accessible to all K-12 students. We believe that no student should be denied a quality STEM education experience.</p>
+	<p id="mission-statement">PiE's mission is to promote science, technology, engineering, and mathematics (STEM) education through an exciting, mentorship-based process.</p>
 
 	<h2 class="sub-heading">What We Do</h2>
-		<!--THE GRAPHIC-->
-		<div id="fall-description" class="graphic"> <!--FALL GRAPHIC-->
-			<h3 class="graphic-heading">FALL</h3>
-			<p class="graphic-description">In the Fall, PiE Prep visits high schools weekly to teach hands-on STEM lessons that we've developed. Prep inspires students and prepares them for our robotics competition. We also participate in a number of outreach events, such as the Bay Area Science Festival, events with the Lawrence Hall of Science, and Mini Maker Faire.</p>
+		<div id="fall" class="graphic">
+			<!--<div class="container-fluid">-->
+				<div id="fall-row" class="row">
+					<div class="col-sm-6 text-left">
+						<div id="fall-description" class="graphic-description"> <!--TINT ORANGE-->
+							<h3>FALL</h3>
+							<p>In the Fall, PiE Prep visits high schools weekly to teach hands-on STEM lessons that we've developed. Prep inspires students and prepares them for our robotics competition. We also participate in a number of outreach events, such as the Bay Area Science Festival, events with the Lawrence Hall of Science, and Mini Maker Faire.</p>
+						</div>
+					</div>
+					<div id="fall-stuff" class="col-sm-6 text-center">
+						<div id="fall-image">
+							<!--<img class="image" src="../assets/images/stock-images/work-in-progress.jpg">--> <!--INSERT FALL IMAGE-->
+						</div>
+					</div>
+				</div>
+			<!--</div>-->
 		</div>
-		<div id="fall-image" class="graphic">
-			<img class="image" src="#">
+		
+
+		<div id="spring" class="graphic"> <!--TINT GOLD-->
+			<!--<div class="container-fluid">-->
+				<div class="row-spring">
+					<div class="col-sm-6 text-center">
+						<div id="spring-image" class="image">
+							<img src="#">  <!--INSERT SPRING IMAGE-->
+						</div>
+					</div>
+					<div class="col-sm-6 text-left">
+						<div id="spring-description" class="graphic-description">
+							<h3>SPRING</h3>
+							<p>Every Spring, around late February to April,  high school teams from all over the East Bay and San Francisco face off in an experience that we craft. The competition is hosted entirely by UC Berkeley students: we build our own robotics kit for every team, we mentor the teams, we design and build the competition field, and we fundraise more than $30,000 each year to make this all possible.</p>
+						</div>
+					</div>
+				</div>
+			<!--</div>-->
 		</div>
 
-		<div id="spring-image" class="graphic">
-			<img class="image" src="#">
-		</div>
-
-		<div id="spring" class="graphic-container"> <!--SPRING GRAPHIC-->
-			<h3 class="graphic-heading">SPRING</h3>
-			<p class="graphic-description">Every Spring, around late February to April,  high school teams from all over the East Bay and San Francisco face off in an experience that we craft. The competition is hosted entirely by UC Berkeley students: we build our own robotics kit for every team, we mentor the teams, we design and build the competition field, and we fundraise more than $30,000 each year to make this all possible.</p>
-		</div>
-
-	<h2 class="history"
-
-	<h2 class="sub-heading">Who We Are</h2>
-		<!--THE TABLE-->
-		{% include annual-data.html %}
+	<h2 class="sub-heading">Who We Are/History???</h2>
+		<p>Pioneers in Engineering (PiE) is a student outreach organization based in UC Berkeley. It was founded in 2008 by members of Tau Beta Pi with the goal of making STEM (science, technology, engineering, and math) programs more accessible to all K-12 students. We believe that no student should be denied a quality STEM education experience.</p>
 
 </div>
