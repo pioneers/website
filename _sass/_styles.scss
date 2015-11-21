@@ -94,42 +94,68 @@ Does not work on round things. */
   text-align: center;
   font-size: 14px;
   font-style: italic;
+  text-decoration: none;
+  opacity: .54;
 }
 
 /* About Us page */
 
+#fall-row {
+  marign-bottom: 15px;
+}
+
+
 #fall-image {
   background-image: url(../assets/images/stock-images/work-in-progress.jpg);
   background-size: cover;
-  background-color: #2b3d62;
+  /*background-color: $pie-blue;*/
+  background-color: rgba($pie-blue, .70);
   background-blend-mode: multiply;
-  padding-bottom: 100%;
+  padding-bottom: 400px;
 }
 
-#fall-description {
-  margin: 40px;
+#spring-image {
+  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-size: cover;
+  /*background-color: $pie-gold;*/
+  background-color: #c7aa36;
+  background-blend-mode: multiply;
+  padding-bottom: 400px;
+}
+
+#spring-description {
+}
+
+.graphic-description {
+  margin: 60px 40px 0 40px;
 }
 
 #fall-stuff {
   padding: 0;
 }
 
+#spring-stuff {
+  padding: 0;
+}
+
 #fall-row {
-  background-color: #2b3d62;
+  background-color: $pie-blue;
+}
+
+#spring-row {
+  background-color: $pie-gold;
 }
 
 #fall-description {
   color: white;
 }
 
-#spring-description {
-  background-color: #FBC02D;
-  font-color: #4A148C;
+#image-col {
+  float: left;
 }
 
-.image {
-  height: 100%;
-  width: 100%;
+#description-col {
+  float: right;
 }
 
 
