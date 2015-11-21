@@ -1,31 +1,46 @@
+/*
+ * Commonly used styles
+ */
+.gold {
+  color: $pie-gold;
+}
+.blue {
+  color: $pie-blue;
+}
+
 /**
  * Hero unit
  */
 
 .hero-unit {
   @extend .jumbotron; // for consistent padding, responsiveness
-  height: 50vh;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  margin-bottom: 0px;
   text-align: center;
   &.tall {
-    height: 80vh;
+    // height: 80vh;
   }
   h1,
   h2 {
     color: #ffffff;
   }
   .container {
-    // Try to vertically center containers
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 
+/* Applies a faded overlay to a position:relative div.
+Does not work on round things. */
+.fade-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 /**
 *Team page
@@ -117,17 +132,6 @@
   width: 100%;
 }
 
-
-/* Applies a faded overlay to a position:relative div.
-Does not work on round things. */
-.fade-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 
 /**
  * Site footer
@@ -291,7 +295,7 @@ Does not work on round things. */
 .stats-col {
   text-align: center;
 }
-/* 
+/*
 #twentyfour {
   background-color: $pie-blue;
 } */
@@ -301,7 +305,7 @@ Does not work on round things. */
 /**
  * Posts
  */
-// (christinewa): Commenting this out because we might need it later
+// (christinewang): Commenting this out because we might need it later
 
 // .post-header {
 //   margin-bottom: $spacing-unit;
