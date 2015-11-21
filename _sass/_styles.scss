@@ -101,7 +101,7 @@ Does not work on round things. */
 /* About Us page */
 
 #fall-row {
-  marign-bottom: 15px;
+  // margin-bottom: 15px;
 }
 
 
@@ -155,7 +155,10 @@ Does not work on round things. */
 }
 
 #description-col {
-  float: right;
+  position: relative;
+  @media (min-width: $screen-sm-min) {
+    float: right;
+  }
 }
 
 
@@ -208,6 +211,21 @@ Does not work on round things. */
  * Home Page - Scott and Christian
  */
 
+.horizontal-border {
+  border-color: $gray-lighter;
+  border-width: 2px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.vertical-border {
+  border-left: 2px solid $gray-lighter;
+  position: relative;
+  height: 80%;
+  top: 10%;
+  left: 0px;
+}
+
 .home {
   width:95%;
   height:100%;
@@ -224,77 +242,45 @@ Does not work on round things. */
   }
 
 
+  .row{
+    padding-bottom: $spacing-unit;
+  }
 
-  .container{
-    background-color: white;
+  #pie-description{
+    p{
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    img {
+      margin-bottom: $spacing-unit/2;
+    }
+    .borderlands{
+      border-left-style: solid;
+      border-right-style: solid;
+
+      width: 100%;
+      height: 80%;
+      top: 10%;
+      right: 0px;
+    }
+  }
+
+  #news{
     position: relative;
 
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-
-    .borderlands{
-      position: absolute;
-      border-color: $ram-gray;
-      border-width: 2px;
+    p{
+      width: 80%;
+      margin: auto;
     }
 
-    .row{
-      padding-bottom: $spacing-unit;
+    img{
+      width: 100%;
     }
+  }
 
-    #pie-description{
-      p{
-        width: 80%;
-        text-align: center;
-        margin: auto;
-      }
-      image{
-        margin-bottom: $spacing-unit/2;
-      }
-      .borderlands{
-        border-left-style: solid;
-        border-right-style: solid;
-
-        width: 100%;
-        height: 80%;
-        top: 10%;
-        right: 0px;
-      }
-    }
-
-    #news{
-      position: relative;
-
-      p{
-        width: 80%;
-        margin: auto;
-      }
-
-      .borderlands{
-        border-top-style: solid;
-
-        width: 90%;
-        top: 0px;
-        right: 5%;
-      }
-
-      img{
-        width: 100%;
-      }
-    }
-
-    #alumni{
-      position: relative;
-
-      .borderlands{
-        border-top-style: solid;
-
-        width: 90%;
-        top: 0px;
-        right: 5%;
-      }
-
-    }
+  #alumni{
+    position: relative;
   }
 }
 
