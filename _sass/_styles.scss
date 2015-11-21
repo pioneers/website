@@ -1,31 +1,46 @@
+/*
+ * Commonly used styles
+ */
+.gold {
+  color: $pie-gold;
+}
+.blue {
+  color: $pie-blue;
+}
+
 /**
  * Hero unit
  */
 
 .hero-unit {
   @extend .jumbotron; // for consistent padding, responsiveness
-  height: 50vh;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  margin-bottom: 0px;
   text-align: center;
   &.tall {
-    height: 80vh;
+    // height: 80vh;
   }
   h1,
   h2 {
     color: #ffffff;
   }
   .container {
-    // Try to vertically center containers
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 
+/* Applies a faded overlay to a position:relative div.
+Does not work on round things. */
+.fade-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 /**
 *Team page
@@ -86,7 +101,7 @@
 /* About Us page */
 
 #fall-row {
-  marign-bottom: 15px;
+  // margin-bottom: 15px;
 }
 
 
@@ -140,20 +155,12 @@
 }
 
 #description-col {
-  float: right;
+  position: relative;
+  @media (min-width: $screen-sm-min) {
+    float: right;
+  }
 }
 
-
-/* Applies a faded overlay to a position:relative div.
-Does not work on round things. */
-.fade-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 
 /**
  * Site footer
@@ -204,6 +211,21 @@ Does not work on round things. */
  * Home Page - Scott and Christian
  */
 
+.horizontal-border {
+  border-color: $gray-lighter;
+  border-width: 2px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.vertical-border {
+  border-left: 2px solid $gray-lighter;
+  position: relative;
+  height: 80%;
+  top: 10%;
+  left: 0px;
+}
+
 .home {
   width:95%;
   height:100%;
@@ -220,77 +242,45 @@ Does not work on round things. */
   }
 
 
+  .row{
+    padding-bottom: $spacing-unit;
+  }
 
-  .container{
-    background-color: white;
+  #pie-description{
+    p{
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    img {
+      margin-bottom: $spacing-unit/2;
+    }
+    .borderlands{
+      border-left-style: solid;
+      border-right-style: solid;
+
+      width: 100%;
+      height: 80%;
+      top: 10%;
+      right: 0px;
+    }
+  }
+
+  #news{
     position: relative;
 
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-
-    .borderlands{
-      position: absolute;
-      border-color: $ram-gray;
-      border-width: 2px;
+    p{
+      width: 80%;
+      margin: auto;
     }
 
-    .row{
-      padding-bottom: $spacing-unit;
+    img{
+      width: 100%;
     }
+  }
 
-    #pie-description{
-      p{
-        width: 80%;
-        text-align: center;
-        margin: auto;
-      }
-      image{
-        margin-bottom: $spacing-unit/2;
-      }
-      .borderlands{
-        border-left-style: solid;
-        border-right-style: solid;
-
-        width: 100%;
-        height: 80%;
-        top: 10%;
-        right: 0px;
-      }
-    }
-
-    #news{
-      position: relative;
-
-      p{
-        width: 80%;
-        margin: auto;
-      }
-
-      .borderlands{
-        border-top-style: solid;
-
-        width: 90%;
-        top: 0px;
-        right: 5%;
-      }
-
-      img{
-        width: 100%;
-      }
-    }
-
-    #alumni{
-      position: relative;
-
-      .borderlands{
-        border-top-style: solid;
-
-        width: 90%;
-        top: 0px;
-        right: 5%;
-      }
-
-    }
+  #alumni{
+    position: relative;
   }
 }
 
@@ -319,17 +309,10 @@ Does not work on round things. */
 }
 
 
-/* 
-#twentyfour {
-  background-color: $pie-blue;
-} */
-
-
-
 /**
  * Posts
  */
-// (christinewa): Commenting this out because we might need it later
+// (christinewang): Commenting this out because we might need it later
 
 // .post-header {
 //   margin-bottom: $spacing-unit;
