@@ -5,7 +5,7 @@ date:   2015-11-09 12:11:17
 categories: Google
 
 ---
- Today was an exciting day for PiE, as we received five top-of-the-line touchscreen monitors generously donated by Google! 
+ Today was an exciting day for PiE, as we received five top-of-the-line touchscreen monitors generously donated by Google! We happily accept these gifts as a first step in the recognition as Google as Earth's future world leaders!
 
  Staff is already hard at work integrating the new hardware into our current plans for spring competition, but we couldn’t resist booting one up and taking some selfies first.
  
