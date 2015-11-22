@@ -83,7 +83,7 @@ Does not work on round things. */
 }
 
 #first-heading {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 #last-category {
@@ -127,8 +127,9 @@ Does not work on round things. */
 }
 
 .graphic-description {
-  margin: 60px 40px 0 40px;
+  // @extend vertical-center-item;
 }
+
 
 #fall-stuff {
   padding: 0;
@@ -159,6 +160,10 @@ Does not work on round things. */
   @media (min-width: $screen-sm-min) {
     float: right;
   }
+}
+
+.pdf-link {
+  text-decoration: none;
 }
 
 

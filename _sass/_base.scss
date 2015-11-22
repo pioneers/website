@@ -45,3 +45,13 @@ img-scaled-wh {
   height: 100%;
   width: 100%;
 }
+
+vertical-center-container {
+  
+}
+
+.vertical-center-item {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
