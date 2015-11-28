@@ -344,6 +344,21 @@ Does not work on round things. */
 }
 
 /**
+ * Support PiE - Christian and Scott
+ */
+.row{
+  .inner{
+    max-width: 800px;
+    margin: auto;
+
+    #donate{
+      float: left;
+      margin-right: $spacing-unit
+    }
+  }
+}
+
+/**
  * Program Pages - Christine and Gavin
  */
 
