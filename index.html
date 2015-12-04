@@ -16,14 +16,14 @@ title: HomeBama
         <p>Pioneers in Engineering is a non-profit organization that provides a quality STEM learning experience for students in underserved Bay Area high schools.</p>
       </div>
 
-      <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div>
+      <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
       <div class="col-md-4">
         <h2>Outreach</h2>
         <img src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png">
         <p>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</p>
       </div>
 
-      <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div>
+      <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
       <div class="col-md-4">
         <h2>Education</h2>
         <img src="https://pbs.twimg.com/profile_images/451007105391022080/iu1f7brY_400x400.png">
@@ -44,7 +44,7 @@ title: HomeBama
         {% for post in site.posts limit:2%}
           <div class="post-row">
             <h4 class="title">
-              <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
             </h4>
             <div class="excerpt">{{ post.excerpt }}</div>
           </div>
@@ -73,7 +73,7 @@ title: HomeBama
       </div>
       <div class="col-md-7">
         <h2>Where are our alumni now?</h2>
-        
+
       </div>
     </div>
 
