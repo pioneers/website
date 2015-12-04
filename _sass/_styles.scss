@@ -371,6 +371,27 @@ collage {
 }
 
 /**
+ * Support PiE - Christian and Scott
+ */
+ #donate{
+      float: left;
+      margin-right: $spacing-unit
+}
+#poster{
+  width: 100%;
+  padding: $spacing-unit;
+  padding-top: 0;
+}
+
+#paypal{
+  margin: 15px;
+  margin-top: 0;
+}
+
+.donations{
+  margin-left: $spacing-unit;
+}
+/**
  * Program Pages - Christine and Gavin
  */
 
