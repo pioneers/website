@@ -46,12 +46,8 @@ img-scaled-wh {
   width: 100%;
 }
 
-vertical-center-container {
-  
-}
-
-.vertical-center-item {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

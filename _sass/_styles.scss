@@ -107,7 +107,7 @@ Does not work on round things. */
   /*background-color: $pie-blue;*/
   background-color: rgba($pie-blue, .70);
   background-blend-mode: multiply;
-  padding-bottom: 400px;
+  height: 400px;
 }
 
 #spring-image {
@@ -116,14 +116,15 @@ Does not work on round things. */
   /*background-color: $pie-gold;*/
   background-color: #c7aa36;
   background-blend-mode: multiply;
-  padding-bottom: 400px;
+  height: 400px;
 }
 
 #spring-description {
+  padding: 10px;
 }
 
 .graphic-description {
-  // @extend vertical-center-item;
+
 }
 
 
@@ -145,6 +146,7 @@ Does not work on round things. */
 
 #fall-description {
   color: white;
+  padding: 10px;
 }
 
 #image-col {
@@ -156,6 +158,11 @@ Does not work on round things. */
   @media (min-width: $screen-sm-min) {
     float: right;
   }
+}
+
+.description-container {
+  @extend center-container;
+  height: 400px;
 }
 
 .pdf-link {
