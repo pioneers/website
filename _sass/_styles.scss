@@ -284,6 +284,7 @@ collage {
 .vertical-border {
   border-left: 2px solid $gray-lighter;
   position: relative;
+  float: left;
   height: 80%;
   top: 10%;
   left: 0px;
@@ -426,37 +427,37 @@ collage {
  */
 // (christinewang): Commenting this out because we might need it later
 
-// .post-header {
-//   margin-bottom: $spacing-unit;
-// }
+.post-header {
+  margin-bottom: $spacing-unit;
+}
 
-// .post-title {
-//   font-size: 42px;
-//   letter-spacing: -1px;
-//   line-height: 1;
-//   @include media-query($on-laptop) {
-//     font-size: 36px;
-//   }
-// }
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
 
-// .post-content {
-//   margin-bottom: $spacing-unit;
-//   h2 {
-//     font-size: 32px;
-//     @include media-query($on-laptop) {
-//       font-size: 28px;
-//     }
-//   }
-//   h3 {
-//     font-size: 26px;
-//     @include media-query($on-laptop) {
-//       font-size: 22px;
-//     }
-//   }
-//   h4 {
-//     font-size: 20px;
-//     @include media-query($on-laptop) {
-//       font-size: 18px;
-//     }
-//   }
-// }
+.post-content {
+  margin-bottom: $spacing-unit;
+  h2 {
+    font-size: 32px;
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+  h3 {
+    font-size: 26px;
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}
