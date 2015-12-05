@@ -93,12 +93,9 @@ Does not work on round things. */
   padding-top: $spacing-unit;
 }
 
-/* About Us page */
-
-#fall-row {
-  // margin-bottom: 15px;
-}
-
+/**
+* About Us
+*/
 
 #fall-image {
   background-image: url(../assets/images/stock-images/work-in-progress.jpg);
@@ -118,12 +115,8 @@ Does not work on round things. */
   height: 400px;
 }
 
-#spring-description {
-  padding: 10px;
-}
-
 .graphic-description {
-
+  padding: 0 40px 0 40px;
 }
 
 
@@ -137,10 +130,12 @@ Does not work on round things. */
 
 #fall-row {
   background-color: $pie-blue;
+  margin: 0;
 }
 
 #spring-row {
   background-color: $pie-gold;
+  margin: 0;
 }
 
 #fall-description {
@@ -168,6 +163,67 @@ Does not work on round things. */
   text-decoration: none;
 }
 
+/**
+* Gallery
+*/
+
+
+.heading-image {
+  padding-top: 85px;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-color: rgba(#000000, .30);
+  background-blend-mode: multiply;
+  padding-left: 0;
+  color: white;
+  text-align: center;
+}
+
+#retreat-2015 {
+  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
+}
+
+
+.heading-title {
+  font-size: 100px;
+}
+
+.heading-description {
+  font-size: 25px;
+}
+
+.picture-1 {
+  height: 400px;
+  width: 65%;
+  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
+  background-size: cover;
+}
+
+collage {
+  row {
+    col-sm-6 {
+      padding: 0;
+    }
+  }
+}
+
+.picture-2-3 {
+  padding: 0 0 0 0;
+  width: 35%
+}
+
+.picture-2 {
+  height: 200px;
+  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
+  background-size: cover;
+}
+
+.picture-3 {
+  height: 200px;
+  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
+  background-size: cover;
+}
 
 /**
  * Site footer
@@ -313,6 +369,27 @@ Does not work on round things. */
   }
 }
 
+/**
+ * Support PiE - Christian and Scott
+ */
+ #donate{
+      float: left;
+      margin-right: $spacing-unit
+}
+#poster{
+  width: 100%;
+  padding: $spacing-unit;
+  padding-top: 0;
+}
+
+#paypal{
+  margin: 15px;
+  margin-top: 0;
+}
+
+.donations{
+  margin-left: $spacing-unit;
+}
 /**
  * Program Pages - Christine and Gavin
  */
