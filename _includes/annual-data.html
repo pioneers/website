@@ -1,13 +1,48 @@
 
+		
 		<script src="../assets/javascripts/Chart.js"></script>
 		<script src="../assets/javascripts/legend.js"></script>
 
-		<div style="width: 50%">
-			<canvas id="canvas" height="400" width="600" ></canvas>
-			<div id="legendDiv"></div>
+		<style>
+
+#fork {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+.legend {
+    width: 10em;
+    border: 1px solid black;
+}
+
+.legend .title {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    line-height: 1.2em;
+    padding: 0 0.3em;
+}
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid; /* Comment out if you don't want to show the fillColor */
+    //border-radius: 0.5em; /* Comment out if you prefer squarish samples */
+    margin-right: 0.5em;
+} </style>
+
+		<div style="width: 75%">
+		<div style="float:left"><h2>PiE Annual Data</h2></div>
+		<div id="legend" style="float:right"></div>
+			<canvas id="canvas" height="300" width="600" ></canvas>
+			
 	
 		</div>
-
+		
 
 	<script>
 	
@@ -16,21 +51,22 @@
 		labels : ["2009", "2010", "2011", "2012", "2013", "2014", "2015"],
 		datasets : [
 			{
-				label: "Schools",
-				fillColor : "rgba(54, 56, 149,0.5)",
-				strokeColor : "rgba(54, 56, 149,0.8)",
-				highlightFill: "rgba(54, 56, 149,0.75)",
-				highlightStroke: "rgba(54, 56, 149,1)",
-				data : [6, 8, 9, 20, 24, 20, 24]
-			},
-			{
 				label: "Students",
-				fillColor : "rgba(199, 170, 54,0.5)",
-				strokeColor : "rgba(199, 170, 54,0.8)",
-				highlightFill : "rgba(199, 170, 54,0.75)",
-				highlightStroke : "rgba(199, 170, 54,1)",
+				fillColor : "rgba(43,61,98,0.5)",
+				strokeColor : "rgba(43,61,98,0.8)",
+				highlightFill : "rgba(43,61,98,0.75)",
+				highlightStroke : "rgba(43,61,98,1)",
 				data : [44, 60, 102, 265, 260, 276, 350]
 			},
+			{
+				label: "Schools",
+				fillColor : "rgba(199, 170, 54,0.5)",
+				strokeColor : "rgba(199, 170, 54,0.8)",
+				highlightFill: "rgba(199, 170, 54,0.75)",
+				highlightStroke: "rgba(199, 170, 54,1)",
+				data : [6, 8, 9, 20, 24, 20, 24]
+			},
+			
 			{
 				label: "Mentors",
 				fillColor : "rgba(151,187,205,0.5)",
@@ -48,12 +84,12 @@
 
 		var ctx = document.getElementById("canvas").getContext("2d");
 pieData = new Chart(ctx).Bar(pieAnnualData, {
-			responsive : true
+			responsive : true 
 		});
 	
 
-legend(document.getElementById("legendDiv"), pieAnnualData, pieData);
-console.log("hello");
+legend(document.getElementById("legend"), pieAnnualData, pieData);
+show()
 
 	</script>
 	 
