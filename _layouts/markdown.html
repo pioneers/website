@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    <div class="hero-unit" style="background-image: {{ page.hero-image }}">
+      <!-- <img src="{{ page.hero-image }}" alt="{{ page.title }}"> -->
+      <div class="fade-overlay"></div>
+      <div class="container">
+        <h1>
+          {{ page.hero-message }}
+        </h1>
+
+         {% if page.hero-button %}
+        <center><a href="{{page.hero-button-url}}" class="btn btn-primary btn-lg">{{page.hero-button}}</a></center>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
