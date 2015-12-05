@@ -373,6 +373,18 @@ collage {
 /**
  * Support PiE - Christian and Scott
  */
+
+ #paying{
+  text-align: center;
+ }
+
+@media (max-width: $screen-sm-min) {
+    #support{
+      margin-left: $spacing-unit/2;
+    }
+  }
+ 
+
  #donate{
       float: left;
       margin-right: $spacing-unit
