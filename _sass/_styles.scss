@@ -388,6 +388,23 @@ collage {
   margin-top: 0;
 }
 
+#sparker{
+    height:160px;
+}
+
+#berkEng{
+  height: 150px;
+  padding-bottom:20px;
+}
+
+@media (min-width: $screen-md-min){
+  #sparker{
+    transform:translateY(-55%);
+  }
+  #berkEng{
+    transform:translateY(-10%);
+  }
+}
 .donations{
   margin-left: $spacing-unit;
 }
