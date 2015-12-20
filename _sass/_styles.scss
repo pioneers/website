@@ -169,6 +169,7 @@ Does not work on round things. */
 
 
 .heading-image {
+  @extend .jumbotron;
   padding-top: 85px;
   height: 400px;
   width: 100%;
@@ -180,51 +181,44 @@ Does not work on round things. */
   text-align: center;
 }
 
-#retreat-2015 {
-  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
-  background-position: left bottom;
-}
 
 
 .heading-title {
-  font-size: 100px;
+  //font-size: 100px;
+  //font-size: 7em;
 }
 
 .heading-description {
   font-size: 25px;
 }
 
-.picture-1 {
-  height: 400px;
-  width: 65%;
-  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
-  background-size: cover;
-}
+.gallery {
+  .staff-images {
+  padding: 20px 10px 100px 20px;
+  justify-content: center;
+  }
 
-collage {
-  row {
-    col-sm-6 {
-      padding: 0;
-    }
+  .staff-image {
+  height: 280px;
+  width: 280px;
+  margin: 2px 2px 2px 2px;
+  //margin-bottom: 0;
+  }
+
+  .staff-member {
+  padding: 0 0 0 0;
   }
 }
 
-.picture-2-3 {
-  padding: 0 0 0 0;
-  width: 35%
+#fall-competition-2015 {
+  background-image: url(../assets/images/gallery-photos/fall-comp-2015-5.jpg);
+  background-position: 0 60%;
 }
 
-.picture-2 {
-  height: 200px;
+#retreat-2015 {
   background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
-  background-size: cover;
 }
 
-.picture-3 {
-  height: 200px;
-  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
-  background-size: cover;
-}
 
 /**
  * Site footer
