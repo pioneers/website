@@ -1,0 +1,19 @@
+---
+layout: default
+hero-image: url('https://pioneers.berkeley.edu/sites/default/files/PiE_Pic%20(6).jpg')
+hero-message: PiE Blog
+---
+
+<div class="container">
+{% for post in site.posts %}
+  <div class="post-row">
+    <h4 class="title">
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
+    </h4>
+    <div class="excerpt">{{ post.excerpt }}</div>
+  </div>
+
+
+
+{% endfor %}
+</div>
