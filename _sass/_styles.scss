@@ -272,15 +272,9 @@ Does not work on round things. */
 
 .home {
   width: 95%;
-  height: 100%;
-  margin: auto;
+  margin: 0 auto;
   h2 {
     text-align: center;
-  }
-  img {
-    display: block;
-    margin: auto;
-    width: 55%;
   }
   .row {
     padding-bottom: $spacing-unit;
@@ -294,7 +288,9 @@ Does not work on round things. */
     margin: auto;
   }
   img {
-    margin-bottom: $spacing-unit/2;
+    display: block;
+    margin: 0 auto $spacing-unit/2;
+    width: 55%;
   }
 }
 
