@@ -285,48 +285,51 @@ Does not work on round things. */
   .row {
     padding-bottom: $spacing-unit;
   }
-  #pie-description {
-    p {
-      width: 80%;
-      text-align: center;
-      margin: auto;
-    }
-    img {
-      margin-bottom: $spacing-unit/2;
-    }
+}
+
+#pie-description {
+  p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
   }
-  #news {
-    position: relative;
-    p {
-      width: 80%;
-      margin: auto;
-    }
-    img {
-      width: 100%;
-    }
+  img {
+    margin-bottom: $spacing-unit/2;
   }
-  #alumni {
-    position: relative;
-    .intro {
-      overflow: hidden;
-    }
-    h3 {
-      margin-top: 0px;
-    }
-    #alumni-photo {
-      box-shadow: 2.5px 2.5px 1.25px #888888;
-      width: 125px;
-      display: inline;
-      margin-right: $spacing-unit;
-      float: left;
-    }
-    .achievement {
-      font-weight: 600;
-    }
-    .quote {
-      font-size: 1.25em;
-      font-style: italic;
-    }
+}
+
+#news {
+  position: relative;
+  p {
+    width: 80%;
+    margin: auto;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+#alumni {
+  position: relative;
+  .intro {
+    overflow: hidden;
+  }
+  h3 {
+    margin-top: 0px;
+  }
+  #alumni-photo {
+    box-shadow: 2.5px 2.5px 1.25px #888888;
+    width: 125px;
+    display: inline;
+    margin-right: $spacing-unit;
+    float: left;
+  }
+  .achievement {
+    font-weight: 600;
+  }
+  .quote {
+    font-size: 1.25em;
+    font-style: italic;
   }
 }
 
