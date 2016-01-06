@@ -19,9 +19,6 @@
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
-  &.tall {
-    // height: 80vh;
-  }
   h1,
   h2 {
     color: #ffffff;
@@ -63,25 +60,21 @@ Does not work on round things. */
     background-color: #E6E6E6;
     margin: 0 auto 10px;
     img {
-      @extend img-scaled-wh;
+      @extend .img-scaled-wh;
     }
   }
   .staff-description {
-    p {
-      margin: 0;
-    }
+    width: 200px;
   }
 }
 
 .team {
   .sub-heading {
   text-align: center;
-  // padding-top: 25px;
   }
-}
-
-#last-category {
-  margin-bottom: $spacing-unit;
+  :last-child {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .staff-email {
