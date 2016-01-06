@@ -1,7 +1,7 @@
 ---
 layout: markdown
 hero-message: Become a Mentor
-hero-image: url()
+hero-image: url(http://realmcharterschool.org/wp-content/uploads/2013/04/Screen-Shot-2013-04-28-at-10.14.09-PM.png)
 ---
 
 # Become a Mentor
@@ -18,12 +18,26 @@ A Pioneers in Engineering mentor for the Prep program helps to engage students i
 5. Earn units in our DeCal Classes - Fall and/or Spring.
 
 <div class="container-fluid">
-    <div class="embed-responsive embed-responsive-16-by-9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQPqf-cxs0A" frameborder="0" allowfullscreen></iframe>
+    <div class="row vertical-align">
+        <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQPqf-cxs0A" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>What Mentors Say</h2>
+            <p>"I learned loads about robot design and . . . general engineering principles that I wouldn't have otherwise."</p>
+            <p>- Christian Pedersen, 1st year, Electrical Engineering and Computer Science</p>
+            <p>"The smiles on my students' faces and their desire to participate next year made my PiE experience fulfilling."</p>
+            <p>- Albert Lu, 1st year, Bioengineering</p>
+            <p>"Mentoring for PiE is the perfect opportunity to gain teaching experience . . . and apply what I learned in my engineering classes at Cal."</p>
+            <p>- Jessica Miller, 2nd year, Electrical Engineering and Computer Science</p>
+        </div>
     </div>
 </div>
 
-# What Mentors Say
+
+<!-- # What Mentors Say
 
 "I learned loads about robot design and . . . general engineering principles that I wouldn't have otherwise."
 - Christian Pedersen, 1st year, Electrical Engineering and Computer Science
@@ -33,3 +47,4 @@ A Pioneers in Engineering mentor for the Prep program helps to engage students i
 
 "Mentoring for PiE is the perfect opportunity to gain teaching experience . . . and apply what I learned in my engineering classes at Cal."
 - Jessica Miller, 2nd year, Electrical Engineering and Computer Science
+ -->

@@ -1,12 +1,7 @@
 /*
  * Commonly used styles
  */
-.gold {
-  color: $pie-gold;
-}
-.blue {
-  color: $pie-blue;
-}
+
 
 /**
  * Hero unit
@@ -19,9 +14,6 @@
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
-  &.tall {
-    // height: 80vh;
-  }
   h1,
   h2 {
     color: #ffffff;
@@ -31,8 +23,10 @@
   }
 }
 
+
 /* Applies a faded overlay to a position:relative div.
 Does not work on round things. */
+
 .fade-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -41,6 +35,7 @@ Does not work on round things. */
   bottom: 0;
   left: 0;
 }
+
 
 /**
 *Team page
@@ -51,6 +46,9 @@ Does not work on round things. */
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  &:last-of-type {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .staff-member {
@@ -63,10 +61,11 @@ Does not work on round things. */
     background-color: #E6E6E6;
     margin: 0 auto 10px;
     img {
-      @extend img-scaled-wh;
+      @extend .img-scaled-wh;
     }
   }
   .staff-description {
+    width: 200px;
     p {
       margin: 0;
     }
@@ -75,13 +74,9 @@ Does not work on round things. */
 
 .team {
   .sub-heading {
-  text-align: center;
-  // padding-top: 25px;
+    text-align: center;
+    // padding-top: 25px;
   }
-}
-
-#last-category {
-  margin-bottom: $spacing-unit;
 }
 
 .staff-email {
@@ -92,6 +87,7 @@ Does not work on round things. */
   opacity: .54;
   padding-top: $spacing-unit;
 }
+
 
 /**
 * About Us
@@ -154,10 +150,10 @@ Does not work on round things. */
   text-decoration: none;
 }
 
+
 /**
 * Gallery
 */
-
 
 .heading-image {
   @extend .jumbotron;
@@ -172,8 +168,6 @@ Does not work on round things. */
   text-align: center;
 }
 
-
-
 .heading-title {
   //font-size: 100px;
   //font-size: 7em;
@@ -185,19 +179,17 @@ Does not work on round things. */
 
 .gallery {
   .staff-images {
-  padding: 20px 10px 100px 20px;
-  justify-content: center;
+    padding: 20px 10px 100px 20px;
+    justify-content: center;
   }
-
   .staff-image {
-  height: 280px;
-  width: 280px;
-  margin: 2px 2px 2px 2px;
-  //margin-bottom: 0;
+    height: 280px;
+    width: 280px;
+    margin: 2px 2px 2px 2px;
+    //margin-bottom: 0;
   }
-
   .staff-member {
-  padding: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 }
 
@@ -225,6 +217,7 @@ Does not work on round things. */
   list-style: none;
   margin-left: 0;
 }
+
 
 /**
  * Page content
@@ -256,6 +249,7 @@ Does not work on round things. */
   font-size: 24px;
 }
 
+
 /**
  * Home Page - Scott and Christian
  */
@@ -277,135 +271,118 @@ Does not work on round things. */
 }
 
 .home {
-  width:95%;
-  height:100%;
-  margin:auto;
-
-  h2{
-    text-align:center;
+  width: 95%;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
   }
-
-  img{
-    display:block;
-    margin:auto;
-    width:55%;
-  }
-
-
-  .row{
+  .row {
     padding-bottom: $spacing-unit;
   }
+}
 
-  #pie-description{
-    p{
-      width: 80%;
-      text-align: center;
-      margin: auto;
-    }
-    img {
-      margin-bottom: $spacing-unit/2;
-    }
+#pie-description {
+  p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
   }
-
-  #news{
-    position: relative;
-
-    p{
-      width: 80%;
-      margin: auto;
-    }
-
-    img{
-      width: 100%;
-    }
-  }
-
-  #alumni{
-    position: relative;
-
-    .intro{
-      overflow: hidden;
-    }
-
-    h3{
-      margin-top: 0px;
-    }
-
-    #alumni-photo{
-      box-shadow: 2.5px 2.5px 1.25px #888888;
-      width:125px;
-      display:inline;
-      margin-right: $spacing-unit;
-      float: left;
-    }
-
-    .achievement{
-      font-weight: 600;
-    }
-
-    .quote{
-      font-size: 1.25em;
-      font-style: italic;
-    }
-
-  }
-
-
-  #alumni{
-    position: relative;
+  img {
+    display: block;
+    margin: 0 auto $spacing-unit/2;
+    width: 55%;
   }
 }
+
+#news {
+  position: relative;
+  p {
+    width: 80%;
+    margin: auto;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+#alumni {
+  position: relative;
+  .intro {
+    overflow: hidden;
+  }
+  h3 {
+    margin-top: 0px;
+  }
+  #alumni-photo {
+    box-shadow: 2.5px 2.5px 1.25px #888888;
+    width: 125px;
+    display: inline;
+    margin-right: $spacing-unit;
+    float: left;
+  }
+  .achievement {
+    font-weight: 600;
+  }
+  .quote {
+    font-size: 1.25em;
+    font-style: italic;
+  }
+}
+
 
 /**
  * Support PiE - Christian and Scott
  */
 
- #paying{
+#paying {
   text-align: center;
- }
+}
 
 @media (max-width: $screen-sm-min) {
-    #support{
-      margin-left: $spacing-unit/2;
-    }
+  #support {
+    margin-left: $spacing-unit/2;
   }
-
-
- #donate{
-      float: left;
-      margin-right: $spacing-unit
 }
-#poster{
+
+#donate {
+  float: left;
+  margin-right: $spacing-unit;
+}
+
+#poster {
   width: 100%;
   padding: $spacing-unit;
   padding-top: 0;
 }
 
-#paypal{
+#paypal {
   margin: 15px;
   margin-top: 0;
 }
 
-#sparker{
-    height:160px;
+#sparker {
+  height: 160px;
 }
 
-#berkEng{
+#berkEng {
   height: 150px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
-@media (min-width: $screen-md-min){
-  #sparker{
-    transform:translateY(-55%);
+@media (min-width: $screen-md-min) {
+  #sparker {
+    transform: translateY(-55%);
   }
-  #berkEng{
-    transform:translateY(-10%);
+  #berkEng {
+    transform: translateY(-10%);
   }
 }
-.donations{
+
+.donations {
   margin-left: $spacing-unit;
 }
+
+
 /**
  * Program Pages - Christine and Gavin
  */
@@ -413,7 +390,6 @@ Does not work on round things. */
 .big-txt {
   font-size: 10rem;
   text-align: center;
-
   margin: 15px;
   color: $pie-blue;
 }
@@ -421,7 +397,6 @@ Does not work on round things. */
 .big-gold-txt {
   font-size: 10rem;
   text-align: center;
-
   margin: 15px;
   color: $pie-gold;
 }
@@ -440,8 +415,8 @@ Does not work on round things. */
 /**
  * Posts
  */
-// (christinewang): Commenting this out because we might need it later
 
+// (christinewang): Commenting this out because we might need it later
 .post-header {
   margin-bottom: $spacing-unit;
 }
