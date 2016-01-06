@@ -99,64 +99,55 @@ Does not work on round things. */
 
 #fall-image {
   background-image: url(../assets/images/stock-images/work-in-progress.jpg);
-  background-size: cover;
-  /*background-color: $pie-blue;*/
   background-color: rgba($pie-blue, .70);
-  background-blend-mode: multiply;
-  height: 400px;
 }
 
 #spring-image {
   background-image: url(../assets/images/stock-images/work-in-progress.jpg);
-  background-size: cover;
-  /*background-color: $pie-gold;*/
-  background-color: #c7aa36;
-  background-blend-mode: multiply;
-  height: 400px;
+  background-color: rgba($pie-gold, 0.70);
 }
 
 .graphic-description {
-  padding: 0 40px 0 40px;
+  width: 80%;
+  padding: floor($grid-gutter-width / 2);
+  margin: 0 auto;
 }
 
-
-#fall-stuff {
-  padding: 0;
-}
-
-#spring-stuff {
-  padding: 0;
+.rc-row {
+  @media (max-width: $screen-xs-max) {
+    flex-wrap: wrap;
+  }
 }
 
 #fall-row {
   background-color: $pie-blue;
-  margin: 0;
+  color: white;
 }
 
 #spring-row {
   background-color: $pie-gold;
-  margin: 0;
+  flex-direction: row-reverse;
 }
 
-#fall-description {
-  color: white;
-  padding: 10px;
-}
-
-#image-col {
-  float: left;
-}
-
-#description-col {
-  position: relative;
-  @media (min-width: $screen-sm-min) {
-    float: right;
+.text-col {
+  box-sizing: border-box;
+  width: 50%;
+  @media (max-width: $screen-xs-max) {
+    width: 100%;
   }
 }
 
-.description-container {
-  @extend center-container;
+.image-col {
+  box-sizing: border-box;
+  padding: 0;
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 50%;
   height: 400px;
+  @media (max-width: $screen-xs-max) {
+    width: 100%;
+    height: 200px;
+  }
 }
 
 .pdf-link {
@@ -378,7 +369,7 @@ Does not work on round things. */
       margin-left: $spacing-unit/2;
     }
   }
- 
+
 
  #donate{
       float: left;
