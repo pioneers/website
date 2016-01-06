@@ -17,7 +17,7 @@ $gray-lighter:           lighten($gray-base, 90%) !default; // #eee
 
 $brand-primary:         $pie-blue !default;
 $brand-success:         #3FB618 !default;
-$brand-info:            #9954BB !default;
+$brand-info:            $pie-gold !default;
 $brand-warning:         #FF7518 !default;
 $brand-danger:          #FF0039 !default;
 
@@ -728,6 +728,7 @@ $panel-success-heading-bg:    $state-success-bg !default;
 $panel-info-text:             $state-info-text !default;
 $panel-info-border:           $state-info-border !default;
 $panel-info-heading-bg:       $state-info-bg !default;
+$panel-info-border:
 
 $panel-warning-text:          $state-warning-text !default;
 $panel-warning-border:        $state-warning-border !default;
