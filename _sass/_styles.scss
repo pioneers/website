@@ -451,3 +451,20 @@ Does not work on round things. */
     }
   }
 }
+
+
+/**
+ * Sponsors page
+ */
+
+.pie-sponsor-logo {
+  height: 125px;
+  max-width: 100%;
+  margin: 15px;
+  img {
+    object-fit: cover;
+    height: 100%;
+    // width: auto;
+    // @extend .img-scaled-wh;
+  }
+}
