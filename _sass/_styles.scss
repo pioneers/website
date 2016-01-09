@@ -86,6 +86,7 @@ Does not work on round things. */
   text-decoration: none;
   opacity: .54;
   padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
 
@@ -195,7 +196,11 @@ Does not work on round things. */
 
 #fall-competition-2015 {
   background-image: url(../assets/images/gallery-photos/fall-comp-2015-5.jpg);
-  background-position: 0 60%;
+  background-position: 0 70%;
+}
+
+#spring-competition-2015 {
+  background-image: url();
 }
 
 #retreat-2015 {
