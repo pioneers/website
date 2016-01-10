@@ -4,6 +4,16 @@ title: Gallery
 hero-image: url(../assets/images/stock-images/group.jpg)
 hero-message: Gallery
 ---
+<script src="../assets/javascripts/gallery.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=onLoadFn"></script>
+<div id="authorize-div" style="display: none">
+  <span>Authorize access to Drive API</span>
+  <!--Button for the user to click to initiate auth sequence -->
+  <button id="authorize-button" onclick="handleAuthClick(event)">
+  Authorize
+  </button>
+</div>
+<pre id="output"></pre>
 
 <div class="gallery">
 
