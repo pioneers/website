@@ -256,6 +256,13 @@ Does not work on round things. */
 
 
 /**
+ * Sponsor Page - Scott and Christian
+ */
+#sponsor-top{
+  margin-left: $spacing-unit/2;
+}
+
+/**
  * Home Page - Scott and Christian
  */
 
@@ -334,6 +341,12 @@ Does not work on round things. */
   }
 }
 
+.alumni-logo {
+  width: 20%;
+  float: left;
+  margin: 2%;
+}
+
 
 /**
  * Support PiE - Christian and Scott
@@ -358,6 +371,7 @@ Does not work on round things. */
   width: 100%;
   padding: $spacing-unit;
   padding-top: 0;
+  margin-top: 37px;
 }
 
 #paypal {
