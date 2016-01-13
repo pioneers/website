@@ -8,6 +8,7 @@ var SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
  * Check if current user has authorized this application.
  */
 function checkAuth() {
+  console.log('Checking authentication');
   gapi.auth.authorize({
     'client_id': CLIENT_ID,
     'scope': SCOPES.join(' '),
@@ -21,7 +22,6 @@ function checkAuth() {
  * @param {Object} authResult Authorization result.
  */
 function handleAuthResult(authResult) {
-  console.trace();
   var authorizeDiv = document.getElementById('authorize-div');
   if (authResult && !authResult.error) {
     // Hide auth UI, then load client library.
@@ -53,7 +53,8 @@ function handleAuthClick(event) {
  * Load Drive API client library.
  */
 function loadDriveApi() {
-  gapi.client.load('drive', 'v2').then(retrieveAllFilesInFolder('0BxMLuiMxG16PZ0V2VGpPT29hQ2c', printResult));
+  console.log('Loading Drive API');
+  gapi.client.load('drive', 'v2').then(retrieveAllFilesInPublicFolder);
 }
 
 /**
@@ -90,6 +91,15 @@ function appendPre(message) {
   pre.appendChild(textContent);
 }
 
+
+/**
+ * Retrieve all files in the Public folder where we're storing our photos.
+ * @return {[type]} [description]
+ */
+function retrieveAllFilesInPublicFolder() {
+  return retrieveAllFilesInFolder('0BxMLuiMxG16PZ0V2VGpPT29hQ2c', printResult);
+}
+
 /**
  * Retrieve a list of files belonging to a folder.
  *
@@ -116,8 +126,8 @@ function retrieveAllFilesInFolder(folderId, callback) {
       }
     });
   }
-  console.log('gapi.client:');
-  console.log(gapi.client);
+  console.log('gapi.client.drive:');
+  console.log(gapi.client.drive);
   var initialRequest = gapi.client.drive.children.list({
       'folderId' : folderId
     });
@@ -132,4 +142,5 @@ function printResult(result) {
 function onLoadFn() {
   console.log('Retrieving files from Public folder:');
   checkAuth();
+  // loadDriveApi();
 }
