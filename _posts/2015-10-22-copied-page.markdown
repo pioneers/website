@@ -2,7 +2,7 @@
 layout: post
 title:  "Pie Annual Report and Competition"
 date:   2015-10-31 12:11:17
-categories: jekyll update
+categories: annual report final competition scholarship
 ---
 We are happy to share with you the recently published 2014-15 PiE Annual Report. Year 7 was a successful year in many respects, with accomplishments including:
 
