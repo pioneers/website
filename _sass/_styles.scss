@@ -67,7 +67,7 @@ Does not work on round things. */
   .staff-description {
     width: 200px;
     p {
-      margin: 0;
+      margin-bottom: 0;
     }
   }
 }
@@ -179,15 +179,18 @@ Does not work on round things. */
 }
 
 .gallery {
-  .staff-images {
-    padding: 20px 10px 100px 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 10px 100px;
+  &:last-of-type {
+    margin-bottom: $spacing-unit;
   }
   .staff-image {
     height: 280px;
     width: 280px;
-    margin: 2px 2px 2px 2px;
-    //margin-bottom: 0;
+    margin: 2px;
   }
   .staff-member {
     padding: 0 0 0 0;
