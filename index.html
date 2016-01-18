@@ -11,25 +11,34 @@ title: Pioneers in Engineering
 
     <div class="row" id="pie-description">
       <div class="col-md-4">
-        <h2>Engineering</h2>
-        <img src="assets/images/engineering.svg">
-        <p>Pioneerings in Engineering increases student interest in STEM</p>
+        <h2>Competition</h2>
+
+        <img src="assets/images/education.svg">
+        <p>Bringing Bay Area students together to challenge themselves in new ways through robotics</p>
       </div>
 
       <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
       <div class="col-md-4">
         <h2>Outreach</h2>
         <img src="assets/images/outreach.svg">
-        <p>Pioneers in Engineering has affected the lives of more than 24,601 students at 42 Bay Area high schools</p>
+        <p>Mentoring Bay Area high school students in STEM through PIE Robotics Competition and PIE Prep</p>
       </div>
 
       <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
       <div class="col-md-4">
-        <h2>Education</h2>
-        <img src="assets/images/education.svg">
-        <p>Pioneers in Engineering provides a quality STEM learning experience for students</p>
+        <h2>Development</h2>
+
+        <img src="assets/images/engineering.svg">
+        <p>Developing our own electronics to give students the best experience for the lowest cost</p>
       </div>
     </div>
+    <div class="row" id="stats">
+      <hr class="horizontal-border"></hr>
+      <h2>Pioneers in Engineering has affected</h2>
+      <h2><strong>24</strong> Schools • <strong>350</strong> High School Students • <strong>76</strong> Berkeley Students</h2>
+      <!-- <img src="assets/images/sprocket.png" id="sprocket"> -->
+    </div>
+    
 
     <div class="row" id="news">
       <hr class="horizontal-border"></hr>
@@ -41,7 +50,7 @@ title: Pioneers in Engineering
 
       <div class="col-md-7">
         <h2>News Updates</h2>
-        {% for post in site.posts limit:2%}
+        {% for post in site.posts limit:3%}
           <div class="post-row">
             <h4 class="title">
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
@@ -53,8 +62,9 @@ title: Pioneers in Engineering
 
       </div>
     </div>
+    
 
-    <div class="row" id="alumni">
+ <!--    <div class="row" id="alumni">
       <hr class="horizontal-border"></hr>
       <div class="col-md-5">
         <h2>Alumni Spotlight</h2>
@@ -71,7 +81,6 @@ title: Pioneers in Engineering
       <div class="col-md-7">
         <h2>Where are our alumni now?</h2>
         <div>
-          <!-- <img class="alumni-logo" src="assets/images/robot2.JPG">
           <img class="alumni-logo" src="assets/images/robot2.JPG">
           <img class="alumni-logo" src="assets/images/robot2.JPG">
           <img class="alumni-logo" src="assets/images/robot2.JPG">
@@ -80,10 +89,11 @@ title: Pioneers in Engineering
           <img class="alumni-logo" src="assets/images/robot2.JPG">
           <img class="alumni-logo" src="assets/images/robot2.JPG">
           <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG"> -->
+          <img class="alumni-logo" src="assets/images/robot2.JPG">
+          <img class="alumni-logo" src="assets/images/robot2.JPG">
         </div>
 
       </div>
-    </div>
+    </div> -->
 
 </div>
