@@ -4,7 +4,9 @@ title:  "Pie Annual Report and Competition"
 date:   2015-10-31 12:11:17
 categories: annual report final competition scholarship
 ---
-We are happy to share with you the recently published 2014-15 PiE Annual Report. Year 7 was a successful year in many respects, with accomplishments including:
+We are happy to share with you the recently published 2014-15 PiE Annual Report. 
+
+Year 7 was a successful year in many respects, with accomplishments including:
 
 - The Prep Program held a successful Mindstorm Maze Programming Challenge with Community Day High School and Ralph Bunche High School.
 - The first robotics challenge that involves an actuated field, designed by PiE staff. It includes a rotating turntable and button-activated gates.

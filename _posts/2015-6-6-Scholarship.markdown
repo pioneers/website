@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Congratulations to the 2015 PiE Alumni Scholarship Recipients!"
+title:  "Congratulations 2015 PiE Alumni Scholarship Recipients!"
 date:   2015-6-6 12:11:17
 categories: alumni application kickoff scholarship workshop
 ---
