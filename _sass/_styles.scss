@@ -23,6 +23,14 @@
   }
 }
 
+@media (min-width: $screen-md-min) {
+  .hero-unit{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+  }
+    
+}
+
 
 /* Applies a faded overlay to a position:relative div.
 Does not work on round things. */
@@ -305,7 +313,7 @@ Does not work on round things. */
   img {
     display: block;
     margin: 0 auto $spacing-unit/2;
-    width: 55%;
+    width: 75%;
   }
 }
 
