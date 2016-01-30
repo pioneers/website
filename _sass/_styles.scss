@@ -341,6 +341,7 @@ Does not work on round things. */
 }
 
 #pie-description {
+    margin-top: -$spacing-unit;
   p {
     width: 80%;
     text-align: center;
