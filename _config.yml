@@ -1,6 +1,6 @@
 # Site settings
 title: Pioneers in Engineering
-email: operations@pioneers.berkeley.edu
+email: leadership@pioneers.berkeley.edu
 description: >
   (c) Pioneers in Engineering Foundation 2015. </br>
   Licensed under CC-BY-4.0.
@@ -8,6 +8,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pioneers.berkeley.edu" # the base hostname & protocol for your site
 twitter_username: PieRobotics
 github_username:  pioneers
+facebook_username: pierobotics
+youtube_username: pierobotics
+instagram_username: pierobotics
 host: 0.0.0.0
 
 # Build settings
