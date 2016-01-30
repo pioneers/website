@@ -28,7 +28,7 @@
     padding-top: 20vh;
     padding-bottom: 20vh;
   }
-    
+
 }
 
 
@@ -225,15 +225,47 @@ Does not work on round things. */
 
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit;
 }
 
-.contact-list,
-.social-media-list {
+.contact-list, .social-media-list {
   list-style: none;
-  margin-left: 0;
 }
 
+.social-media-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-list li {
+  display: inline;
+  padding: 15px;
+}
+
+.social-media-list li a {
+  transition: .25s;
+  text-decoration: none;
+}
+
+.social-media-list li a:hover {
+  color: #657494;
+}
+
+.footer-description {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width:991px) {
+	.social-media-list, .footer-description {
+		justify-content: flex-start;
+    margin-top: 10px;
+	}
+
+  .social-media-list li {
+    padding: 0 30px 0 0;
+  }
+}
 
 /**
  * Page content
