@@ -4,50 +4,57 @@ title: Gallery
 hero-image: url(../assets/images/stock-images/group.jpg)
 hero-message: Gallery
 ---
-  <div class="container-fluid">
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
-  <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
-  <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
-</ul>
+<div class="container-fluid">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
+<!--     <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
+    <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
+ -->  </ul>
 
-<div class="tab-content">
-  <div class="tab-pane active" id="2015">
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="2015">
 
-    <div id="fall-competition-2015" class="heading-image">
-      <h1 class="heading-title">Fall Competition</h1>
-      <p class="heading-description">Building cool stuff</p>
+      <div id="fall-competition-2015" class="heading-image">
+        <h1 class="heading-title">Fall Competition</h1>
+        <p class="heading-description">Building cool stuff</p>
+      </div>
+
+      <div class="gallery">
+
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-1.jpg" img_caption="Kicking off the competition in the foyer of the Hearst Memorial Mining Building." gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-2.jpg" img_caption="Setting up the field." gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-3.jpg" img_caption="The field is ready!" gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-7.jpg" img_caption="Our beautiful rotating table." gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-4.jpg" img_caption="PiE staff takes a break during the competition." gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-5.jpg" img_caption="Awards!" gallery="2015-fall-comp"%}
+        {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-6.jpg" img_caption="More awards!" gallery="2015-fall-comp"%}
+
+      </div>
+
+      <div id="retreat-2015" class="heading-image">
+        <h1 class="heading-title">Retreat</h1>
+        <p class="heading-description">Check out what the PiE team does outside of building robots</p>
+      </div>
+
+      <div class="gallery">
+        {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
+        {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
+        {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
+        {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
+
+      </div>
     </div>
 
-    <div class="gallery">
-
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-1.jpg" img_caption="Kicking off the competition in the foyer of the Hearst Memorial Mining Building." gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-2.jpg" img_caption="Setting up the field." gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-3.jpg" img_caption="The field is ready!" gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-7.jpg" img_caption="Our beautiful rotating table." gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-4.jpg" img_caption="PiE staff takes a break during the competition." gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-5.jpg" img_caption="Awards!" gallery="2015-fall-comp"%}
-      {% include gallery-image.html img_url="../assets/images/gallery-photos/fall-comp-2015-6.jpg" img_caption="More awards!" gallery="2015-fall-comp"%}
-
+<!--     <div role="tabpanel" class="tab-pane active" id="2014">
     </div>
-
-
-
-    <div id="retreat-2015" class="heading-image">
-      <h1 class="heading-title">Retreat</h1>
-      <p class="heading-description">Check out what the PiE team does outside of building robots</p>
+    <div role="tabpanel" class="tab-pane active" id="2013">
     </div>
-
-    <div class="gallery">
-      {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
-      {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
-      {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
-      {% include gallery-image.html img_url="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/Administration/People/president_official_portrait_hires.jpg" img_caption="Our most famous alumnus." gallery="2015-retreat"%}
-
-    </div>
+ -->
   </div>
+
+
+
 </div>
-  </div>
 
 
 <script type="text/javascript">
