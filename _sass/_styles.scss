@@ -102,13 +102,22 @@ Does not work on round things. */
 * About Us
 */
 
+.about-us .sub-heading {
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit;
+}
+
+#about-us-heading {
+  margin-top: $spacing-unit;
+}
+
 #fall-image {
-  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-image: url(../assets/images/about-us/fall.jpg);
   background-color: rgba($pie-blue, .70);
 }
 
 #spring-image {
-  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-image: url(../assets/images/about-us/spring.jpg);
   background-color: rgba($pie-gold, 0.70);
 }
 
@@ -159,6 +168,13 @@ Does not work on round things. */
   text-decoration: none;
 }
 
+.about-us table {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.about-us center {
+  margin-bottom: $spacing-unit * 2;
+}
 
 /**
 * Gallery
@@ -341,6 +357,7 @@ Does not work on round things. */
 }
 
 #pie-description {
+    margin-top: -$spacing-unit;
   p {
     width: 80%;
     text-align: center;
