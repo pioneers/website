@@ -207,7 +207,7 @@ Does not work on round things. */
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  padding: 20px 10px 100px;
+  // padding: 20px 10px 100px;
   &:last-of-type {
     margin-bottom: $spacing-unit;
   }
@@ -473,6 +473,12 @@ Does not work on round things. */
   .row {
     padding-bottom: $spacing-unit;
   }
+}
+
+#rc-video {
+  width: 70%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 
