@@ -182,20 +182,13 @@ Does not work on round things. */
 
 .heading-image {
   @extend .jumbotron;
-  // padding-top: 85px;
-  // height: 400px;
+  margin: 30px 0;
   width: 100%;
   background-size: cover;
   background-color: rgba(#000000, .30);
   background-blend-mode: multiply;
-  padding-left: 0;
   color: white;
   text-align: center;
-}
-
-.heading-title {
-  //font-size: 100px;
-  //font-size: 7em;
 }
 
 .heading-description {
