@@ -4,38 +4,65 @@
   <div class="container-fluid">
 
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-4">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-4">
         <ul class="social-media-list">
+          <div class="social-media-wrap">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}">
-            <!-- TODO (christinewang): incorporate fontawesome icons instead of manual SVG paths -->
-              <i class="fa fa-github"></i>
-              <span class="username">{{ site.github_username }}</span>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank">
+              <i class="fa fa-github fa-2x"></i>
             </a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <i class="fa fa-twitter"></i>
-              <span class="username">{{ site.twitter_username }}</span>
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+              <i class="fa fa-twitter fa-2x"></i>
             </a>
           </li>
           {% endif %}
+
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
+              <i class="fa fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.youtube_username %}
+          <li>
+            <a href="https://youtube.com/user/{{ site.youtube_username }}" target="_blank">
+              <i class="fa fa-youtube-play fa-2x"></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+              <i class="fa fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          {% endif %}
+        </div>
         </ul>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
+        <div class="footer-description">
+        <div class="description-wrap">
         <p>{{ site.description }}</p>
+      </div>
+    </div>
       </div>
     </div>
 
