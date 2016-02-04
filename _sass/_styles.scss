@@ -312,6 +312,23 @@ Does not work on round things. */
 /**
  * Home Page - Scott and Christian
  */
+#title {
+  display:inline;
+}
+
+#small-title {
+  visibility:hidden;
+}
+
+@media (max-width: 350px) {
+  #title {
+      display:none;
+  }
+  #small-title {
+      visibility:visible;
+  }
+}
+
 
 .horizontal-border {
   border-color: $gray-lighter;
