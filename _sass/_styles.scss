@@ -102,13 +102,22 @@ Does not work on round things. */
 * About Us
 */
 
+.about-us .sub-heading {
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit;
+}
+
+#about-us-heading {
+  margin-top: $spacing-unit;
+}
+
 #fall-image {
-  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-image: url(../assets/images/about-us/fall.jpg);
   background-color: rgba($pie-blue, .70);
 }
 
 #spring-image {
-  background-image: url(../assets/images/stock-images/work-in-progress.jpg);
+  background-image: url(../assets/images/about-us/spring.jpg);
   background-color: rgba($pie-gold, 0.70);
 }
 
@@ -159,6 +168,13 @@ Does not work on round things. */
   text-decoration: none;
 }
 
+.about-us table {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.about-us center {
+  margin-bottom: $spacing-unit * 2;
+}
 
 /**
 * Gallery
@@ -166,20 +182,13 @@ Does not work on round things. */
 
 .heading-image {
   @extend .jumbotron;
-  // padding-top: 85px;
-  // height: 400px;
+  margin: 30px 0;
   width: 100%;
   background-size: cover;
   background-color: rgba(#000000, .30);
   background-blend-mode: multiply;
-  padding-left: 0;
   color: white;
   text-align: center;
-}
-
-.heading-title {
-  //font-size: 100px;
-  //font-size: 7em;
 }
 
 .heading-description {
@@ -191,7 +200,7 @@ Does not work on round things. */
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  padding: 20px 10px 100px;
+  // padding: 20px 10px 100px;
   &:last-of-type {
     margin-bottom: $spacing-unit;
   }
@@ -206,24 +215,57 @@ Does not work on round things. */
 }
 
 #fall-competition-2015 {
-  background-image: url(../assets/images/gallery-photos/fall-comp-2015-5.jpg);
+  background-image: url(../assets/images/gallery-photos/fall-comp-2015-h.jpg);
   background-position: 0 70%;
 }
 
 #spring-competition-2015 {
-  background-image: url();
+  background-image: url(../assets/images/gallery-photos/spring-comp-2015-h.jpg);
+  background-position: 0 50%;
 }
 
 #retreat-2015 {
-  background-image: url(../assets/images/gallery-photos/IMG_0826.JPG);
+  background-image: url(../assets/images/gallery-photos/retreat-2015-h.jpg);
 }
 
+#fall-events-2014 {
+  background-image: url(../assets/images/gallery-photos/fall-events-2014-h.jpg);
+  background-position: 0 70%;
+}
+
+/*
+#spring-competition-2014 {
+  background-image: url(../assets/images/gallery-photos/spring-events-2014-h.jpg);
+  background-position: 0 50%;
+}
+*/
+
+/*
+#retreat-2014 {
+  background-image: url(../assets/images/gallery-photos/retreat-2014-h.jpg);
+}
+*/
+
+#fall-events-2013 {
+  background-image: url(../assets/images/gallery-photos/fall-events-2013-h.jpg);
+  background-position: 0 40%;
+}
+
+#spring-events-2013 {
+  background-image: url(../assets/images/gallery-photos/spring-events-2013-h.jpg);
+  background-position: 0 50%;
+}
+
+#retreat-2013 {
+  background-image: url(../assets/images/gallery-photos/retreat-2013-h.jpg);
+}
 
 /**
  * Site footer
  */
 
 .site-footer {
+  margin-top: 35px;
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit;
 }
@@ -311,6 +353,23 @@ Does not work on round things. */
 /**
  * Home Page - Scott and Christian
  */
+#title {
+  display:inline;
+}
+
+#small-title {
+  visibility:hidden;
+}
+
+@media (max-width: 350px) {
+  #title {
+      display:none;
+  }
+  #small-title {
+      visibility:visible;
+  }
+}
+
 
 .horizontal-border {
   border-color: $gray-lighter;
@@ -340,6 +399,7 @@ Does not work on round things. */
 }
 
 #pie-description {
+    margin-top: -$spacing-unit;
   p {
     width: 80%;
     text-align: center;
@@ -455,6 +515,12 @@ Does not work on round things. */
   .row {
     padding-bottom: $spacing-unit;
   }
+}
+
+#rc-video {
+  width: 70%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 
