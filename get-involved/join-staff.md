@@ -12,7 +12,7 @@ We currently have over 20 projects that you can get involved in -  you can check
 
 If you're thinking of joining PiE, or just looking for some more information about us, contact <recruiting@pioneers.berkeley.edu> or sign up for our e-mail list [here](https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform)! Feel free to drop by our weekly worksessions, which are held Wednesday from 7-9pm and Saturdays from 1-3 pm, starting on September 12th in the 3rd Floor O'Brien Breezeway (the glass hallway above the concrete canoe between McLaughlin and O'Brien Hall)!
 
-<img class="img-responsive" src="{{ '/assets/join-staff/join.png' | prepend: site.baseurl }}">
+<img class="img-responsive" src="{{ '/assets/images/join-staff/join.png' | prepend: site.baseurl }}">
 
 # Other Student Groups on Campus
 
