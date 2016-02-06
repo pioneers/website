@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(http://40.media.tumblr.com/f5ef27984a985800d4d38da552909d60/tumblr_neqahmZ3WL1ru7tbqo2_1280.png)
+hero-image: url(../assets/images/stock-images/team.jpg)
 hero-message: Start a PiE team at your high school!
 hero-button: Team Application
 hero-button-url: https://docs.google.com/a/berkeley.edu/forms/d/1-QxkMBPiOFwjY5GWJBMPZdA_WaKFHNVvF0zjRHI0UIE/viewform?c=0&w=1
