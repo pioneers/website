@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(https://pioneers.berkeley.edu/pie_newsletter/v2/i1/images/group.jpg)
+hero-image: url(../assets/images/stock-images/pie-staff.jpg)
 hero-message: Join Us!
 ---
 
@@ -26,4 +26,3 @@ Robotics@Berkeley is a student group committed to lowering the barriers to start
 3. Organizing socially and intellectually engaging events for roboticists of all ages, majors, and interests.
 
 You can check out more about their group on their website [here](http://calrobotics.xyz), along with a list of other robotics organizations they list [here](http://calrobotics.xyz/related/).
-
