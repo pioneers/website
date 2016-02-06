@@ -8,7 +8,7 @@ hero-image: url(http://realmcharterschool.org/wp-content/uploads/2013/04/Screen-
 If you are a UC Berkeley or SFSU student, you can be a great PiE mentor! Mentors are required to take our DeCal (2 units, P/NP) and mentor their teams for at least two hours per week.  Mentors are needed for both the Prep season, during the Fall, and the Robotics Competition, during the Spring.
 
 # Who is a Mentor?
-A Pioneers in Engineering mentor for the Prep program helps to engage students in the STEM modules, while teaching them and answering any questions regarding the weeks material.  A mentor for the Robotics Competition guides a team of local high school students through the design and build process of a robot that will compete in an eight-week long, exciting competition season. Our mentors are mostly UC Berkeley students, but we also have mentors from SFSU and other volunteers in the community.
+A Pioneers in Engineering mentor for the Prep program helps to engage students in the STEM modules, while teaching them and answering any questions regarding the weeks material.  A mentor for the Robotics Competition guides a team of local high school students through the design and build process of a robot that will compete in an eight-week long, exciting competition season. Our mentors are mostly UC Berkeley students, but we also have mentors from the City College of SF and other volunteers in the community.
 
 # Why Mentor for PiE
 1. Opportunity to learn more about robotics, mechanical design, and electrical design
