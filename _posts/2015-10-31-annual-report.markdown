@@ -3,10 +3,10 @@ layout: post
 title:  "PiE Annual Report and Competition"
 date:   2015-10-31 12:11:17
 categories: annual report final competition scholarship
-image: /assets/images/blog/annual_report.png
+image: annual_report.png
 author: mattchang
 ---
-We are happy to share with you the recently published 2014-15 PiE Annual Report. 
+We are happy to share with you the recently published 2014-15 PiE Annual Report.
 
 Year 7 was a successful year in many respects, with accomplishments including:
 
