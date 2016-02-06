@@ -288,10 +288,11 @@ Does not work on round things. */
 .social-media-list li a {
   transition: .25s;
   text-decoration: none;
-}
 
-.social-media-list li a:hover {
-  color: #657494;
+  :hover {
+    // color: #657494;
+    color: lighten($pie-blue, 15%);
+  }
 }
 
 .footer-description {
