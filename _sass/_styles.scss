@@ -70,6 +70,7 @@ Does not work on round things. */
     margin: 0 auto 10px;
     img {
       @extend .img-scaled-wh;
+      background-color: white;
     }
   }
   .staff-description {
