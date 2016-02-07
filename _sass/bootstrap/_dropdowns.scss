@@ -83,6 +83,11 @@
   }
 }
 
+// Enable hover over dropdown toggles to open dropdown menus.
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
 // Active state
 .dropdown-menu > .active > a {
   &,
