@@ -1,11 +1,11 @@
 ---
 layout: markdown
-hero-image: url(https://pioneers.berkeley.edu/media/uploads/zinnia/10_18_ACLC_006.JPG)
+hero-image: url(../assets/images/stock-images/prep.jpg)
 hero-message: PREP
 ---
 # PREP
 
-PREP is PiE’s Fall mentorship program. It spans from September through the first four weeks of the Spring semester, just prior to competition season. This program aims to spark underserved high school students' interest in STEM and to provide them with mentors to nurture this interest further. We achieve this ambitious goal with cool projects like hovercrafts, marshmallow trebuchets, and robotic arms. 
+PREP is PiE’s Fall mentorship program. It spans from September through the first four weeks of the Spring semester, just prior to competition season. This program aims to spark underserved high school students' interest in STEM and to provide them with mentors to nurture this interest further. We achieve this ambitious goal with cool projects like hovercrafts, marshmallow trebuchets, and robotic arms.
 
 In addition to this gentle introduction to STEM, PREP also tries to inspire the students to pursue higher education. We organize a student field trip to the UC Berkeley campus and host Q&A sessions with current undergraduates.
 
