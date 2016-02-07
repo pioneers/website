@@ -395,6 +395,7 @@ Does not work on round things. */
   margin: 0 auto;
   h2 {
     text-align: center;
+    margin-bottom: $spacing-unit *2/3;
   }
   .row {
     padding-bottom: $spacing-unit;
