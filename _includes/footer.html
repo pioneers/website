@@ -13,7 +13,6 @@
 
       <div class="col-md-4">
         <ul class="social-media-list">
-          <div class="social-media-wrap">
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}" target="_blank">
@@ -53,16 +52,16 @@
             </a>
           </li>
           {% endif %}
-        </div>
         </ul>
       </div>
 
       <div class="col-md-4">
         <div class="footer-description">
-        <div class="description-wrap">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+          <div class="description-wrap">
+            <p>{{ site.copyright }}</p>
+            <p>{{ site.license }}</p>
+          </div>
+        </div>
       </div>
     </div>
 
