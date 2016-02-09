@@ -9,9 +9,14 @@ body {
  * Images
  */
 .img-scaled-wh {
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+// For the school logos on the Robotics Compeition page.
+.rc-spring .img-scaled-wh{
+  object-fit: contain;
 }
 
 .vertical-align {
