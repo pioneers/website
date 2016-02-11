@@ -50,10 +50,8 @@ Does not work on round things. */
 */
 
 .staff-images {
-  display: flex;
-  flex-wrap: wrap;
+  @include flex;
   justify-content: space-around;
-  align-items: flex-start;
   &:last-of-type {
     margin-bottom: $spacing-unit;
   }
@@ -130,7 +128,7 @@ Does not work on round things. */
 
 .rc-row {
   @media (max-width: $screen-xs-max) {
-    flex-wrap: wrap;
+    @include flex;
   }
 }
 
@@ -197,9 +195,7 @@ Does not work on round things. */
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  @include flex;
   justify-content: center;
   // padding: 20px 10px 100px;
   &:last-of-type {
@@ -277,7 +273,7 @@ Does not work on round things. */
 }
 
 .social-media-list {
-  display: flex;
+  @include flex;
   justify-content: center;
 }
 
@@ -297,7 +293,7 @@ Does not work on round things. */
 }
 
 .footer-description {
-  display: flex;
+  @include flex;
   justify-content: flex-end;
 }
 

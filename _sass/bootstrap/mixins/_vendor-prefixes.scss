@@ -220,3 +220,22 @@
       -ms-user-select: $select; // IE10+
           user-select: $select;
 }
+
+// Flex
+
+@mixin flex{
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-wrap: wrap;
+  -webkit-box-wrap: wrap;
+  -ms-flexbox-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
