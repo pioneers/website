@@ -590,3 +590,86 @@ Does not work on round things. */
     }
   }
 }
+
+
+/**
+* Start a team
+*/
+
+#start-team h2 {
+  margin: $spacing-unit*2 0 $spacing-unit/2 0;
+}
+
+#instructions-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.instructions-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.instructions {
+  width: 400px;
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  font-size: 100px;
+  color: white;
+}
+
+#users {
+  background-color: #3F51B5;
+}
+
+#user {
+  background-color: $brand-warning;
+}
+
+#pencil {
+  background-color: #FFEB3B;
+}
+
+#check {
+  background-color: $brand-success;
+}
+
+.instructions h2 {
+  margin: 30px 0 10px 0 !important;
+}
+
+.instructions-description {
+  margin: 0;
+}
+
+@media (max-width: $screen-xs-min) {
+
+  #start-team h2 {
+    margin: $spacing-unit 0 $spacing-unit/2 0;
+  }
+
+  .instructions {
+    width: 350px;
+  }
+
+  .team-icon {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+#application-link {
+  text-decoration: underline;
+}
