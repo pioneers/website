@@ -1,1 +1,1 @@
-Docker build -t pie-jekyll .;
+Docker build -t pie-website .;
