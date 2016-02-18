@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Nonprofit
+title: Foundation
 hero-image: url(../assets/images/stock-images/sponsors.jpg)
 hero-message: The Pioneers in Engineering Foundation
-title: Nonprofit
+title: Foundation
 ---
 <div class="container" id="nonprofit">
 
@@ -69,7 +69,6 @@ The PiE Foundation is led by a board of current and former PiE members.
 </div>
 </div>
 
-
 <div class="row">
 <h2>Acknowledgement</h2>
 <div class="col-md-11">
@@ -77,36 +76,10 @@ The PiE Foundation is led by a board of current and former PiE members.
 In 2015, Pioneers in Engineering obtained 501(c)(3) (EIN 47-4554504) nonprofit status with the help of [Michael M. Rosen](http://www.fr.com/michael-m-rosen/) of [Fish and Richardson](http://www.fr.com/) as well as with the support of a group of dedicated alumni.  
 </div>
 
-<div class="col-md-4">
-<div markdown="1">
-* Xiao Yu Fu
-* Vanathi Ganesh
-* Nikita Kitaev
-* Ryan Julian
-</div>
-</div>
-
-<div class="col-md-4">
-<div markdown="1">
-* Douglas Hutchings
-* Allen Li
-* William Li
-* Winston Long
-</div>
-</div>
-
-<div class="col-md-4">
-<div markdown="1">
-* Robert Luan
-* Dennis Wai
-</div>
-</div>
-
 </div>
 </div>
 
 </div> <!-- end of first column -->
-
 
 <div class="col-md-4"> <!-- second column -->
 <div class="row">
