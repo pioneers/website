@@ -11,4 +11,4 @@ In addition to this gentle introduction to STEM, PREP also tries to inspire the 
 
 This year, the participating schools in the PiE PREP Program are Ralph Bunche High School, Middle College High School, and Community Day School in Oakland. PREP piloted at Ralph Bunche two years ago with much success, and since then we have grown a lot. We now have more students, projects, and ideas than ever before.
 
-If you are interested in being a mentor for PiE PREP, look here to see how! Check back here later this year to access our lesson plans.
+If you are interested in being a mentor for PiE PREP, look [here]({{site.baseurl}}/get-involved/become-mentor.html) to see how! Check back here later this year to access our lesson plans.
