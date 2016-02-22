@@ -23,7 +23,7 @@ The Pioneers in Engineering Foundation is an independent, tax-exempt 501(c)(3) n
 <h2>Donate</h2>
 <div class="col-md-11">
 <div markdown="1">
-Donations to PiE are tax deductible subject to federal and state charitable giving rules. If you would like to make a donation, please [donate online now]({{ "/support-pie/donate.html" | prepend: site.baseurl }}), or [email us](mailto:foundation@pioneers.berkeley.edu) to arrange your gift.
+Donations to PiE are tax-deductible subject to federal and state charitable giving rules. If you would like to make a donation, please [donate online now]({{ "/support-pie/donate.html" | prepend: site.baseurl }}), or [email us](mailto:foundation@pioneers.berkeley.edu) to arrange your gift.
 </div>
 </div>
 </div>
@@ -35,7 +35,7 @@ Donations to PiE are tax deductible subject to federal and state charitable givi
 The PiE Foundation is led by a board of current and former PiE members.
 </div>
 
-<div class="col-md-4">
+<div class="col-md-6">
 <div markdown="1">
 #### Executive Officers
 * Dennis Wai
@@ -44,20 +44,14 @@ The PiE Foundation is led by a board of current and former PiE members.
 </div>
 </div>
 
-<div class="col-md-4">
+<div class="col-md-6">
 <div markdown="1">
 #### Board Members
-* Xiao Yu Fu
+* Xiao-Yu Fu
 * Vanathi Ganesh
 * Douglas Hutchings
 * Ryan Julian
 * Nikita Kitaev
-</div>
-</div>
-
-<div class="col-md-4">
-<br><br>
-<div markdown="1">
 * Allen Li
 * William Li
 * Winston Long
@@ -73,7 +67,7 @@ The PiE Foundation is led by a board of current and former PiE members.
 <h2>Acknowledgement</h2>
 <div class="col-md-11">
 <div markdown="1">
-In 2015, Pioneers in Engineering obtained 501(c)(3) (EIN 47-4554504) nonprofit status with the help of [Michael M. Rosen](http://www.fr.com/michael-m-rosen/) of [Fish and Richardson](http://www.fr.com/) as well as with the support of a group of dedicated alumni.  
+In 2015, Pioneers in Engineering obtained 501(c)(3) nonprofit status with the help of [Michael M. Rosen](http://www.fr.com/michael-m-rosen/) of [Fish and Richardson](http://www.fr.com/).
 </div>
 
 </div>
@@ -89,6 +83,8 @@ In 2015, Pioneers in Engineering obtained 501(c)(3) (EIN 47-4554504) nonprofit s
 #### Tax
 * EIN 47-4554504
 * [IRS Determination Letter]({{ "/assets/sponsors/pief_determination_letter.pdf" | prepend: site.baseurl }})
+
+<br><br>
 
 #### Contact Us
 ~~~~~~~
