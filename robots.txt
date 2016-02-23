@@ -1,0 +1,4 @@
+# REMOVE THIS FILE FROM REPO ON PRODUCTION
+
+User-agent: *
+Disallow: /
