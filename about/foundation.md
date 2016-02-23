@@ -11,9 +11,7 @@ title: Foundation
 ## Mission
 The Pioneers in Engineering Foundation is an independent, tax-exempt 501(c)(3) non-profit organization. Its mission is to promote STEM education through an exciting, mentor-based process.
 
-<!-- <div id="donate" display:block><h2>Donate</h2></div> -->
-
-## Donate to Us
+## Donate
 Donations to PiE are tax-deductible subject to federal and state charitable giving rules. If you would like to make a donation, please [donate online now]({{ "/support-pie/donate.html" | prepend: site.baseurl }}), or [email us](mailto:foundation@pioneers.berkeley.edu) to arrange your gift.
 
 ## Board of Directors and Executive Officers
