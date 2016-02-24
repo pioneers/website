@@ -48,14 +48,14 @@ Applicants must be current or past PiE participants in their last year of high s
 ## Deliverables
 1. **Scholarship application**
     * Please type your responses to the Application Questions and send them in DOC, DOCX, or PDF format.
-    * Submit this form and your responses to scholarship@pioneers.berkeley.edu as attachments to an email with the word “Application” in the subject line.
+    * Submit this form and your responses to <scholarship@pioneers.berkeley.edu> as attachments to an email with the word “Application” in the subject line.
 2. **Unofficial transcript (1 copy)**
     * Please request an unofficial transcript from your school counselor.
-    * Electronic copies can be submitted to scholarship@pioneers.berkeley.edu as an attachment to an email with the word “Transcript” in the subject line.
+    * Electronic copies can be submitted to <scholarship@pioneers.berkeley.edu> as an attachment to an email with the word “Transcript” in the subject line.
     * Paper transcripts can be turned in during worksessions to the worksession manager, who will deposit it in the scholarship drop box.
 3. **Recommendation form (2 pages) - Optional but recommended**
     * Please request a letter from a teacher, counselor, PiE mentor, or PiE staff member who has worked with you in the past. We recommend that you approach your advocate as soon as possible to ensure that we receive the best recommendation on your behalf.
-    * Your advocate can submit the letter to scholarship@pioneers.berkeley.edu as an attachment to an email with the word “Recommendation” in the subject line.
+    * Your advocate can submit the letter to <scholarship@pioneers.berkeley.edu> as an attachment to an email with the word “Recommendation” in the subject line.
 
 <center>
 <a href="{{ '/assets/scholarship/2015_pie_scholarship_application_form.pdf' | prepend: site.baseurl }}" class="btn btn-primary">Download Application (.pdf)</a>
@@ -63,4 +63,4 @@ Applicants must be current or past PiE participants in their last year of high s
 </center>
 
 ## Questions?
-For any questions about the scholarship or application, contact us at scholarship@pioneers.berkeley.edu
+For any questions about the scholarship or application, contact us at <scholarship@pioneers.berkeley.edu>
