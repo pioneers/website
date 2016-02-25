@@ -51,7 +51,7 @@ Paper applications are provided for your convenience. Please use the online web 
 * [2016 Recommendation Form]({{ '/assets/scholarship/2016_pie_scholarship_recommendation_form.pdf' | prepend: site.baseurl }})
 
 <center>
-<a href="http://django.matthewchang.com/" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
+<a href=" " class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
 </center>
 
 ## Questions?
