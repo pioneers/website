@@ -45,15 +45,10 @@ The scholarship committee will review each application holistically, taking into
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
 ## Apply!
-<!-- Paper applications are provided for your convenience. Please use the online web application to submit your scholarship application. -->
+Paper applications are provided for your convenience. Please use the online web application, __which will be released on Game Day (March 5th)__, to submit your scholarship application.
 
 * [2016 Scholarship Application]({{ '/assets/scholarship/2016_pie_scholarship_application_form.pdf' | prepend: site.baseurl }})
 * [2016 Recommendation Form]({{ '/assets/scholarship/2016_pie_scholarship_recommendation_form.pdf' | prepend: site.baseurl }})
-
-<!-- <center>
-<a href=" " class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
-</center>
- -->
 
 ## Questions?
 For any questions about the scholarship or application, contact us at <scholarship@pioneers.berkeley.edu>
