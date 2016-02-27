@@ -1,1 +1,3 @@
-Docker build -t pie-website .;
+#! /usr/bin/env bash
+
+docker build -t pie-website .;
