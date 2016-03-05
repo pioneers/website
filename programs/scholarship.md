@@ -53,8 +53,8 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents are provided for your convenience.
 
-* [2016 Scholarship Application]({{ '/assets/scholarship/2016_pie_scholarship_application_form.pdf' | prepend: site.baseurl }})
-* [2016 Recommendation Form]({{ '/assets/scholarship/2016_pie_scholarship_recommendation_form.pdf' | prepend: site.baseurl }})
+* [2016 Scholarship Application Summary]({{ '/assets/scholarship/2016_pie_scholarship_application_form.pdf' | prepend: site.baseurl }})
+* [2016 Recommendation Form Summary]({{ '/assets/scholarship/2016_pie_scholarship_recommendation_form.pdf' | prepend: site.baseurl }})
 * [2016 Scholarship Workshop]({{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }})
 
 ## Questions?
