@@ -1,7 +1,7 @@
 ---
 layout: markdown
 hero-message: Become a Mentor
-hero-image: url(http://realmcharterschool.org/wp-content/uploads/2013/04/Screen-Shot-2013-04-28-at-10.14.09-PM.png)
+hero-image: url(../assets/images/stock-images/realm-charter-kit-assembly.png)
 ---
 
 # Become a Mentor
