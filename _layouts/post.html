@@ -1,6 +1,12 @@
 ---
 layout: default-minus-hero
 ---
+
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+<meta property="og:image" content="{{site.url}}/assets/images/blog/{{ page.image }}" />
+
 <div class="container">
   <div class="post">
     <header class="post-header">
