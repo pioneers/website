@@ -2,14 +2,14 @@
 title: Pioneers in Engineering
 email: leadership@pioneers.berkeley.edu
 copyright: >
-  © Pioneers in Engineering Foundation 2015. </br>
+  © Pioneers in Engineering Foundation 2016.
 license: >
   This work is licensed under a
   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pioneers.berkeley.edu" # the base hostname & protocol for your site
 twitter_username: PieRobotics
-github_username:  pioneers
+github_username: pioneers
 facebook_username: pierobotics
 youtube_username: pierobotics
 instagram_username: pierobotics
