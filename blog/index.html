@@ -9,7 +9,7 @@ hero-message: PiE Blog
 <div class="container">
   <div class="post">
     <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title"><a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></h1>
       <p class="post-meta">{% if page.author %} Written by {{ page.author }} on {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
 

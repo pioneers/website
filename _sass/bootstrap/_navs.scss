@@ -2,6 +2,13 @@
 // Navs
 // --------------------------------------------------
 
+// Don't underline navbar links.
+nav,
+.nav {
+  li > a {
+    text-decoration: none;
+  }
+}
 
 // Base class
 // --------------------------------------------------
