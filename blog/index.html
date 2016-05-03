@@ -15,18 +15,16 @@ hero-message: PiE Blog
 
     <article class="post-content">
     	<div class="container-fluid">
-	    	{% if page.image %}
 	    	<div class="row">
 	    		<div class="col-md-7">
 	      			{{ page.content }}
 	      		</div>
 	      		<div class="col-md-5">
+            {% if page.image %}
 	      			<img src="{{site.baseurl}}/assets/images/blog/{{ page.image }}">
+            {% endif %}
 	      		</div>
 	  		</div>
-	  		{% else %}
-	  			{{ page.content }}
-	    	{% endif %}
     	</div>
     </article>
   </div>
