@@ -3,7 +3,6 @@ layout: post
 title:   Meet the Finalists and Winner of the 2016 PiE Alumni Scholarship!
 date:   2016-5-01 22:11:17,
 categories: 2016, scholarship
-image: ''
 author: Jessica Wong
 ---
 <img src="{{site.baseurl}}/assets/images/blog/scholarship_env_2016.jpg">
