@@ -3,10 +3,11 @@ layout: post
 title:   Meet the Finalists and Winner of the 2016 PiE Alumni Scholarship!
 date:   2016-5-01 22:11:17,
 categories: 2016, scholarship
-image: scholarship_env_2016.jpg
+image: ''
 author: Jessica Wong
 ---
-
+<img src="{{site.baseurl}}/assets/images/blog/scholarship_env_2016.jpg">
+<br><br>
 The winners of the 2016 PiE Alumni Scholarship have been announced! For the third annual scholarship, we were excited to increase the award amount to $2000. We received a record number of applications from many qualified students. Meet the four exceptional finalists and the winner of this year’s award. 
 
 <img src="{{site.baseurl}}/assets/images/blog/scholarship_winner_2016.jpg"><
