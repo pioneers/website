@@ -7,12 +7,12 @@ image: ''
 author: Jessica Wong
 ---
 <img src="{{site.baseurl}}/assets/images/blog/scholarship_env_2016.jpg">
-<br><br>
+<br>
 The winners of the 2016 PiE Alumni Scholarship have been announced! For the third annual scholarship, we were excited to increase the award amount to $2000. We received a record number of applications from many qualified students. Meet the four exceptional finalists and the winner of this year’s award. 
 
-<img src="{{site.baseurl}}/assets/images/blog/scholarship_winner_2016.jpg"><
-br><br>
 <h4>Eduardo Navarro (Lionel Wilson High School)</h4>
+<img src="{{site.baseurl}}/assets/images/blog/scholarship_winner_2016.jpg">
+<br>
 Eduardo Navarro is the winner of the 2016 PiE Alumni Scholarship. His energy and perseverance astound us. Eduardo was a lead software engineer for his PiE team for three years. His outstanding efforts were recognized when his team won the Software and Sensors award in the 2015 PiE Competition. This experience inspired him to participate in STEM outreach. Working with his teacher, he raised $10,000 to start a robotics program for middle school students.
 
 Eduardo will be joining the California Maritime Academy in the field of Mechanical Engineering. He will also be taking part in the Air Force ROTC, where he hopes to achieve his lifelong goal of flying for the Air Force. 
