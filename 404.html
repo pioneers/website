@@ -7,3 +7,18 @@ layout: default-minus-hero
 
   <p>Looks like we can't find that page. If you reached this page by typing in a URL, make sure that you spelled it correctly. If you reached this page by clicking on a link, contact us at {% email website@pioneers.berkeley.edu %} so we can fix the link!</p>
 </div>
+
+<script>
+  // Hacky solution to redirect old URLs. As written, this will only work in the
+  // production environment; there is no easy way to copy variables like baseurl
+  // from _config.yml into the Javascript.
+  (function () {
+    var path = window.location.pathname.replace(/\//g, "");
+    if (path == "home") {
+      window.location.pathname = "/";
+    } else if (path == "student_app") {
+      window.location = "https://scholarship.pierobotics.org/student_app/";
+    }
+  })();
+</script>
+
