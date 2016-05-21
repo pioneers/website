@@ -13,10 +13,10 @@ layout: default-minus-hero
   // production environment; there is no easy way to copy variables like baseurl
   // from _config.yml into the Javascript.
   (function () {
-    var path = window.location.pathname;
-    if (path == "/home" || path == "/home/") {
+    var path = window.location.pathname.replace(/\//g, "");
+    if (path == "home") {
       window.location.pathname = "/";
-    } else if (path == "/student_app" || path == "/student_app/") {
+    } else if (path == "student_app") {
       window.location = "https://scholarship.pierobotics.org/student_app/";
     }
   })();
