@@ -9,7 +9,9 @@ layout: default-minus-hero
 </div>
 
 <script>
-  // Hacky solution to redirect old URLs
+  // Hacky solution to redirect old URLs. As written, this will only work in the
+  // production environment; there is no easy way to copy variables like baseurl
+  // from _config.yml into the Javascript.
   (function () {
     var path = window.location.pathname;
     if (path == "/home" || path == "/home/") {
