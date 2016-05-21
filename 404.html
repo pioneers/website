@@ -7,3 +7,16 @@ layout: default-minus-hero
 
   <p>Looks like we can't find that page. If you reached this page by typing in a URL, make sure that you spelled it correctly. If you reached this page by clicking on a link, contact us at {% email website@pioneers.berkeley.edu %} so we can fix the link!</p>
 </div>
+
+<script>
+  // Hacky solution to redirect old URLs
+  (function () {
+    var path = window.location.pathname;
+    if (path == "/home" || path == "/home/") {
+      window.location.pathname = "/";
+    } else if (path == "/student_app" || path == "/student_app/") {
+      window.location = "https://scholarship.pierobotics.org/student_app/";
+    }
+  })();
+</script>
+
