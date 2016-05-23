@@ -9,13 +9,45 @@ hero-message: Gallery
 
 <div class="container-fluid">
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
+    <li class="active"><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a>
+    <li class=""><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
     <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
     <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane fade active in" id="2015">
+    <div class="tab-pane fade active in" id="2016">
+
+      <div id="spring-events-2016" class="heading-image">
+          <h1 class="heading-title">Spring Events</h1>
+          <p class="heading-description">We had a ball (pit)!</p>
+        </div>
+
+        <div class="gallery">
+          {% include gallery-image.html img_url="spring-events-2016-1.jpg" img_caption="Students check-in as PiE kicks off it's 8th year!" gallery="2016-spring-events"%}
+          {% include gallery-image.html img_url= "spring-events-2016-2.jpg" img_caption="High school seniors attend the scholarship workshop" gallery="2016-spring-events"%}
+          {% include gallery-image.html img_url= "spring-events-2016-3.jpg" img_caption="Metal parts, assemble! Students work with their mentor to put together their kit." gallery="2016-spring-events"%}
+          {% include gallery-image.html img_url= "spring-events-2016-4.jpg" img_caption="This is serious business. No, really." gallery="2016-spring-events"%}
+          {% include gallery-image.html img_url= "spring-events-2016-5.jpg" img_caption="Every team needs a hype man!" gallery="spring-events-2016"%}
+          {% include gallery-image.html img_url= "spring-events-2016-6.jpg" img_caption="How many PiE staff members does it take to fish tennis balls out of a ball pit? Apparently, a lot." gallery="2016-spring-events"%}
+          {% include gallery-image.html img_url= "spring-events-2016-7.jpg" img_caption="Ohana means family, and family means PiE staff." gallery="2016-spring-events"%}
+        </div>
+
+        <div id="staff-events-2016" class="heading-image">
+          <h1 class="heading-title">Staff Events</h1>
+          <p class="heading-description">PiE staff just want to have fun.</p>
+        </div>
+
+        <div class="gallery">
+          {% include gallery-image.html img_url="staff-events-2016-1.jpg" img_caption="Enjoying some quality time in Tahoe." gallery="2016-staff-events"%}
+          {% include gallery-image.html img_url="staff-events-2016-2.jpg" img_caption="DIY sushi night!" gallery="2016-staff-events"%}
+          {% include gallery-image.html img_url="staff-events-2016-3.jpg" img_caption="PiE staff dresses up and buckles down for our end of the year banquet." gallery="2016-staff-events"%}
+          {% include gallery-image.html img_url="staff-events-2016-4.jpg" img_caption="There's a new leadership team in town." gallery="2016-staff-events"%}
+        </div>
+          
+
+      </div>
+    <div class="tab-pane fade in" id="2015">
 
       <div id="spring-competition-2015" class="heading-image">
           <h1 class="heading-title">Spring Competition</h1>
@@ -28,7 +60,7 @@ hero-message: Gallery
           {% include gallery-image.html img_url= "spring-comp-2015-3.jpg" img_caption="Check out the arena!" gallery="2015-spring-comp"%}
           {% include gallery-image.html img_url= "spring-comp-2015-4.jpg" img_caption="Ready, set..." gallery="2015-spring-comp"%}
           {% include gallery-image.html img_url= "spring-comp-2015-6.jpg" img_caption="And the crowd goes wild." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-7.jpg" img_caption="[insert caption]"%}
+          {% include gallery-image.html img_url= "spring-comp-2015-7.jpg" img_caption="[insert caption]" gallery="2015-spring-comp"%}
           {% include gallery-image.html img_url= "spring-comp-2015-2.jpg" img_caption="The PiE team, gone mad after many long hours." gallery="2015-spring-comp"%}
           {% include gallery-image.html img_url= "spring-comp-2015-5.jpg" img_caption="Students celebrating their success." gallery="2015-spring-comp"%}
         </div>
