@@ -59,15 +59,14 @@ In 2015, Pioneers in Engineering obtained 501(c)(3) nonprofit status with the he
 <br><br>
 
 #### Contact Us
-~~~~~~~
+
 Pioneers in Engineering Foundation
 1862 Arch St Apt 4
 Berkeley, CA 94709
-~~~~~~~
 
-~~~~~~~
-foundation@pioneers[dot]berkeley[dot]edu
-~~~~~~~
+
+{% email foundation@pioneers.berkeley.edu %}
+
 
 </div>
 
