@@ -6,3 +6,11 @@ var imageUrl = "assets/images/homepage-banners/" + imageNames[imageIndex] + ".jp
 
 
 banner.css('background-image', 'url(' + imageUrl + ')');
+
+var numClicks = 0;
+var pkmnclicker = $("#pkmn").click(function() {
+  numClicks += 1;
+  if (numClicks > 6){
+    $("html").load("/assets/pokemon.html");
+  }
+});
