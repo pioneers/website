@@ -1,4 +1,4 @@
-docker run -i --rm -p 4000:4000 -v $PWD:/srv/jekyll numascott/jekylldev:latest
+docker run -i --rm -p 4000:4000 -v "$PWD:/srv/jekyll" numascott/jekylldev:latest
 
 # Breaking it down
 
@@ -15,8 +15,10 @@ docker run -i --rm -p 4000:4000 -v $PWD:/srv/jekyll numascott/jekylldev:latest
 # 4000:4000
 # Map port 4000 inside the Docker container to port 4000 inside our computer
 
-# -v $PWD:/srv/jekyll
+# -v "$PWD:/srv/jekyll"
 # Allow the current folder of PWD be accessible inside the Docker container
-# inside the folder /srv/jekyll.
+# inside the folder /srv/jekyll. The quotes are necessary to address folder
+# names that contain characters such as spaces.
+
 # The files inside the container will change as you change them in the current
 # folder
