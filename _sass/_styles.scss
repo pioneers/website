@@ -31,15 +31,6 @@
 
 }
 
-/**
-  * Gold Links
-  */
-
-.gold-link{
-    color: $pie-gold;
-  }
-
-
 
 /* Applies a faded overlay to a position:relative div.
 Does not work on round things. */
@@ -184,6 +175,19 @@ Does not work on round things. */
   margin-bottom: $spacing-unit * 2;
 }
 
+/**
+* Projects
+*/
+
+#right-desc {
+    background-color: #1d2f4a;
+    min-height: 100%;
+}
+
+#proj-desc {
+    color: whitesmoke;
+    font-size: 10;
+}
 
 
 
@@ -221,6 +225,16 @@ Does not work on round things. */
   .staff-member {
     padding: 0 0 0 0;
   }
+}
+
+#spring-events-2016 {
+  background-image: url(../assets/images/gallery-photos/spring-events-2016-h.jpg);
+  background-position: 0 60%;
+}
+
+#staff-events-2016 {
+  background-image: url(../assets/images/gallery-photos/staff-events-2016-h.jpg);
+  background-position: 0 45%;
 }
 
 #fall-competition-2015 {
@@ -676,3 +690,27 @@ Does not work on round things. */
 #application-link {
   text-decoration: underline;
 }
+
+/*
+New Staff Forms
+*/
+
+.form-icon{
+  text-align: center;
+  width: 100%;
+}
+.form-title{
+  text-align: center;
+}
+
+/*
+ * Fall Competition
+ */
+
+ .notecard {
+    box-sizing: border-box;
+    border: 2px solid $gray-lighter;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+ }
