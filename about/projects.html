@@ -1,0 +1,257 @@
+---
+layout: default
+title: About Us
+hero-image: url(../assets/images/about-us/work-in-progress.jpg)
+hero-message: Projects
+---
+
+<style type="text/css">
+    #mynetwork {
+    height: 500px;
+    background-image: url('../assets/images/about-us/work-in-progress.jpg');
+}
+</style>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css" rel="stylesheet" type="text/css" />
+<script src="assets/javascripts/projects.js"></script>
+
+<div class="row" style="height: 500px;">
+<div id="right-desc" class="col-sm-4" style="float:right">
+    <div>
+        <p id="proj-title" style="float:left; color: white; font-size: 35px;">Projects by PiE</p>
+        <img style="width:50px; margin-top:3px;" src="{{"/titleicon.png" | prepend: site.baseurl }}">
+    </div>
+    <p></p>
+    <p id="proj-desc">Please change me</p>
+</div>
+    
+<div id="mynetwork" class="col-sm-8">
+    <script type="text/javascript">
+        // create an array with nodes
+        var nodes = new vis.DataSet([
+            //main node
+            {id: 0, label: ' Pioneers \n in \n Engineering ', color: '#2b3d62'},
+            //depth 1
+            {id: 1, label: 'Engineering', group: 0},
+            {id: 2, label: 'Programs', group: 0},
+            {id: 3, label: 'Staff Ops', group: 0},
+            {id: 4, label: 'Web Ops', group: 1},
+            {id: 5, label: 'Education', group: 1},
+            {id: 6, label: ' Business \n Ops ', group: 1}]);
+
+        // create an array with edges
+        var edges = new vis.DataSet([
+            {from: 0, to: 1},
+            {from: 0, to: 2},
+            {from: 0, to: 3},
+            {from: 0, to: 4},
+            {from: 0, to: 5},
+            {from: 0, to: 6}]);
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+
+        // provide the data in the vis format
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+
+        
+        //Styling Variables
+        var corecolor = '#2b3d62';
+        var coresize = 40; //unused
+        
+        var options = {
+            autoResize: true,
+            height: '100%',
+            width: '100%',
+            nodes: {
+                borderWidth: 2,
+                borderWidthSelected: 3,
+                color: {
+                    border: '#ffffff',
+                    highlight: {
+                            border: '#FFC400',
+                            background: '#D4BB00'
+                          }
+                },
+                font: {
+                  color: 'white',
+                  size: 20, // px
+                  face: 'Trebuchet MS',
+                  background: 'none',
+                  strokeWidth: 0, // px
+                  strokeColor: '#ffffff',
+                  align: 'center'
+                },
+                shape: 'circle'
+            },
+            edges: {
+                color: {
+                    color: '#2b3d62'
+                },
+                width: 3
+            },
+            groups: {
+                0: {
+                    color: {
+                        background: '#3F4145'
+                    }
+                },
+                1: {
+                    color: {
+                        background: '#215DB0'
+                    }
+                },
+                2: {
+                    color: {
+                        background: '#009DFF'
+                    }
+                }
+            }
+        }; 
+
+        // initialize your network!
+        var network = new vis.Network(container, data, options);
+        
+        network.on('click', function(properties) {
+            switch (properties.nodes[0]) {
+                case 1:
+                    nodes = new vis.DataSet([
+                        {id: 1, label: 'Engineering', color: corecolor, size: coresize},
+                            {id: 10, label: 'Electrical', group: 0},
+                                {id: 100, label: ' Summer \n Production ', group: 1},
+                                {id: 101, label: 'Hardware\nResearch', group: 1},
+                                    {id: 1010, label: 'YogiBear', group: 2},
+                                    {id: 1011, label: 'PiEDB', group: 2},
+                                    {id: 1012, label: 'Eagle\nLibrary', group: 2},
+                            {id: 11, label: 'Software', group: 0},
+                                {id: 110, label: ' Runtime \n Research ', group: 1},
+                                {id: 111, label: ' DevOps \n Research ', group: 1},
+                            {id: 12, label: 'Mechanical', group: 0},
+                                {id: 120, label: " 2.5th \n Shelf ", group: 1},
+                            {id: 13, label: ' Leaky \n Refresh \n II ', group: 0}]);
+                    edges = new vis.DataSet([
+                        {from: 1, to: 10},
+                            {from: 10, to: 100},
+                            {from: 10, to: 101},
+                                {from: 101, to: 1010},
+                                {from: 101, to: 1011},
+                                {from: 101, to: 1012},
+                        {from: 1, to: 11},
+                            {from: 11, to: 110},
+                            {from: 11, to: 111},
+                        {from: 1, to: 12},
+                            {from: 12, to: 120},
+                        {from: 1, to: 13}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+                case 2:
+                    nodes = new vis.DataSet([
+                        {id: 2, label: 'Programs', color: corecolor, size: coresize},
+                            {id: 20, label: 'Fall \n Comp', group: 0},
+                            {id: 21, label: 'Mechanical \n Design', group: 0},
+                            {id: 22, label: 'Software \n Design', group: 0},
+                            {id: 23, label: ' Events \n External ', group: 0}]);
+                    edges = new vis.DataSet([
+                        {from: 2, to: 20},
+                        {from: 2, to: 21},
+                        {from: 2, to: 22},
+                        {from: 2, to: 23}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+                case 10:
+                    $('#proj-desc').text('Andy loves Electricity bzzt');
+                    break;
+                case 11:
+                    $('#proj-desc').text('Andy loves Software :o');
+                    break;
+                case 3:
+                    nodes = new vis.DataSet([
+                        {id: 3, label: 'Staff Ops', color: corecolor, size: coresize},
+                            {id: 30, label: ' 101 \n Revamp ', group: 0},
+                            {id: 31, label: ' Staff/PM \n Handbook ', group: 0},
+                            {id: 32, label: 'Recruiting', group: 0},
+                            {id: 33, label: 'Retention', group: 0},
+                            {id: 34, label: 'Retreat', group: 0},
+                            {id: 35, label: ' Internal \n Events ', group: 0}]);
+                    edges = new vis.DataSet([
+                            {from: 3, to: 30},
+                            {from: 3, to: 31},
+                            {from: 3, to: 32},
+                            {from: 3, to: 33},
+                            {from: 3, to: 34},
+                            {from: 3, to: 35}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+                case 4:
+                    nodes = new vis.DataSet([
+                        {id: 4, label: 'Web Ops ', color: corecolor, size: coresize},
+                            {id: 40, label: 'Website', group: 0},
+                            {id: 41, label: 'Webapps', group: 0},
+                                {id: 410, label: 'Reimbursement', group: 1},
+                            {id: 42, label: 'Database', group: 0},
+                            {id: 43, label: 'Discourse', group: 0}]);
+                    edges = new vis.DataSet([
+                            {from: 4, to: 40},
+                            {from: 4, to: 41},
+                                {from: 41, to: 410},
+                            {from: 4, to: 42},
+                            {from: 4, to: 43}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+                case 5:
+                    nodes = new vis.DataSet([
+                        {id: 5, label: 'Education', color: '#2b3d62', size: coresize},
+                            {id: 50, label: ' Fall \n Workshops ', group: 0},
+                            {id: 51, label: ' CS \n Education ', group: 0}]);
+                    edges = new vis.DataSet([
+                            {from: 5, to: 50},
+                            {from: 5, to: 51}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+                case 6:
+                    nodes = new vis.DataSet([
+                        {id: 6, label: ' Business \n Ops ', color: corecolor, size: coresize},
+                             {id: 60, label: 'Finance', group: 0},
+                             {id: 61, label: 'Partnerships', group: 0},
+                             {id: 62, label: ' Social \n Media ', group: 0},
+                             {id: 63, label: 'Foundation', group: 0}]);
+                    edges = new vis.DataSet([
+                        {from: 6, to: 60},
+                        {from: 6, to: 61},
+                        {from: 6, to: 62},
+                        {from: 6, to: 63}]);
+                    data = {
+                        nodes: nodes,
+                        edges: edges
+                    }
+                    network.setData(data)
+                    break;
+            }
+        });
+    </script>
+    </div>
+</div>

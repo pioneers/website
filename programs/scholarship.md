@@ -53,9 +53,9 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents are provided for your convenience.
 
-* [2016 Scholarship Application Summary]({{ '/assets/scholarship/2016_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }})
-* [2016 Recommendation Form Summary]({{ '/assets/scholarship/2016_pie_scholarship_recommendation_summary.pdf' | prepend: site.baseurl }})
-* [2016 Scholarship Workshop]({{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }})
+* <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2016 Scholarship Application Summary</a>
+* <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_recommendation_summary.pdf' | prepend: site.baseurl }}">2016 Recommendation Form Summary</a>
+* <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2016 Scholarship Workshop</a>
 
 ## Questions?
-For any questions about the scholarship or application, contact us at <scholarship@pioneers.berkeley.edu>
+For any questions about the scholarship or application, contact us at <a class="gold-link" href="mailto:scholarship@pioneers.berkeley.edu"> scholarship@pioneers.berkeley.edu </a>
