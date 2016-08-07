@@ -11,7 +11,7 @@ hero-message: Projects
     background-image: url('../assets/images/about-us/work-in-progress.jpg');
 }
 </style>
-    
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css" rel="stylesheet" type="text/css" />
 <script src="assets/javascripts/projects.js"></script>
@@ -23,9 +23,9 @@ hero-message: Projects
         <img style="width:50px; margin-top:3px;" src="{{"/titleicon.png" | prepend: site.baseurl }}">
     </div>
     <p></p>
-    <p id="proj-desc">Please change me</p>
+    <p id="proj-desc">A look into how Pioneers in Engineering is organized.</p>
 </div>
-    
+
 <div id="mynetwork" class="col-sm-8">
     <script type="text/javascript">
         // create an array with nodes
@@ -58,11 +58,11 @@ hero-message: Projects
             edges: edges
         };
 
-        
+
         //Styling Variables
         var corecolor = '#2b3d62';
         var coresize = 40; //unused
-        
+
         var options = {
             autoResize: true,
             height: '100%',
@@ -111,11 +111,11 @@ hero-message: Projects
                     }
                 }
             }
-        }; 
+        };
 
         // initialize your network!
         var network = new vis.Network(container, data, options);
-        
+
         network.on('click', function(properties) {
             switch (properties.nodes[0]) {
                 case 1:
