@@ -8,6 +8,15 @@ Pioneers in Engineering strives to provide a quality STEM educational experience
 
 The scholarship committee will review each application holistically, taking into account academic achievement, extracurricular activities, leadership skills, and passion. As a STEM organization, we are especially interested in how your pursuits involve science and engineering.
 
+<br>
+<br>
+
+<div class="alert alert-info" role="alert">The 2017 PiE Alumni Scholarship season hasn't begun yet. Please come back in the beginning of 2017 for updates!</div>
+
+<br>
+<br>
+
+<!---
 ## Scholarship Schedule
 <table class="table table-striped table-hover">
   <thead>
@@ -56,6 +65,8 @@ The following documents are provided for your convenience.
 * <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2016 Scholarship Application Summary</a>
 * <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_recommendation_summary.pdf' | prepend: site.baseurl }}">2016 Recommendation Form Summary</a>
 * <a class="gold-link" href="{{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2016 Scholarship Workshop</a>
+ -->
+
 
 ## Questions?
 For any questions about the scholarship or application, contact us at <a class="gold-link" href="mailto:scholarship@pioneers.berkeley.edu"> scholarship@pioneers.berkeley.edu </a>
