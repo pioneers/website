@@ -18,458 +18,66 @@ hero-button-url: ../get-involved/join-staff.html
       <div class="tab-pane fade active in" id="staff"> <!-- first tab -->
         <h2 class="sub-heading">Leadership</h2>
         <div class="staff-images">
+            {% for member in site.data.leadership %}
             <div class="staff-member">
               <div class="staff-image">
-                <img src="../assets/images/team/andy.jpg" alt="">
+                <img src="../assets/images/team/{{ member.url }}" alt="">
               </div>
               <div class="staff-description">
-                <p>Andy Wong</p>
-                <p>Director</p>
+                <p>{{ member.name }}</p>
+                <p>{{ member.title }}</p>
               </div>
             </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/suzy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Suzy Huang</p>
-                <p>Business Operations Director</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/grant.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Grant Emmendorfer</p>
-                <p>Programs Director</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/aravind.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Aravind Kumaraguru</p>
-                <p>Engineering Director</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/wing.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Wing Chuen Lam</p>
-                <p>Operations Director</p>
-              </div>
-            </div>
+            {% endfor %}
         </div>
 
         <div class="staff-email">{% email leadership@pioneers.berkeley.edu %}</div>
 
         <h2 class="sub-heading">Project Managers</h2>
         <div class="staff-images">
+            {% for member in site.data.project-managers %}
             <div class="staff-member">
               <div class="staff-image">
-                <img src="../assets/images/team/christine.jpg" alt="">
+                <img src="../assets/images/team/{{ member.url }}" alt="">
               </div>
               <div class="staff-description">
-                <p>Christine Wang</p>
-                <p>Website Development</p>
+                <p>{{ member.name }}</p>
+                <p>{{ member.project }}</p>
               </div>
             </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/hannah.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Hannah Ling</p>
-                <p>Website Development</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/martin.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Martin He</p>
-                <p>Scholarship App</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/grant.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Grant Emmendorfer</p>
-                <p>Fall Comp, Game Design</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/anthonyt.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Anthony Tan</p>
-                <p>RFID</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/doug.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Douglass Hutchings</p>
-                <p>101 Maintenance, Thank You Pies</p>
-              </div>
-            </div>
-
-      			<div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/suzy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Suzy Huang</p>
-                <p>Microsoft Tech Talk</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/pie_logo.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Dapree Doyle</p>
-                <p>Social Media</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/pie_logo.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Jeremy Tran</p>
-                <p>Social Media</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/brianna.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Brianna Niu</p>
-                <p>Resume Workshop</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/andy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Andy Wong</p>
-                <p>Prep Decal/Dev</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/clancy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Clancy Lee</p>
-                <p>EEDev - LHS</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/wing.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Wing Chuen</p>
-                <p>Electrical Production</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/pie_logo.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Sagar Patel</p>
-                <p>CNC Mill</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/allan.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Allan Zhou</p>
-                <p>Dawn</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/matt.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Matt Zhou</p>
-                <p>Runtime - API</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/vincent.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Vincent Donato</p>
-                <p>Frankfurter, Axiom</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/rachel.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Rachel Ieda</p>
-                <p>Electrical Production</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/griffin.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Griffin Potrock</p>
-                <p>Field Cont</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/krystyn.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Krystyn Neisess</p>
-                <p>Footprint</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/charlie.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Charlie Friesen</p>
-                <p>Game Design</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/aravind.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Aravind Kumaraguru</p>
-                <p>Hibike</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/ben.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Ben Sheff</p>
-                <p>Kit Refresh</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/casey.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Casey Duckering</p>
-                <p>Smart Sensor</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/pie_logo.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Kyungna Kim</p>
-                <p>Team Flag</p>
-              </div>
-            </div>
+            {% endfor %}
         </div>
       </div>
 
       <div class="tab-pane fade in" id="advisors"> <!-- second tab -->
         <h2 class="sub-heading">Faculty Advisors</h2>
         <div class="staff-images">
+            {% for advisor in site.data.advisors %}
             <div class="staff-member">
               <div class="staff-image">
-                <img src="../assets/images/team/abbeel.jpg" alt="">
+                <img src="../assets/images/team/{{ advisor.url }}" alt="">
               </div>
               <div class="staff-description">
-                <p>Pieter Abbeel</p>
-                <p>Associate Professor</p>
+                <p>{{ advisor.name }}</p>
+                <p>{{ advisor.title }}</p>
               </div>
             </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/johnson.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Terry Johnson</p>
-                <p>Associate Professor</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/anwar.png" alt="">
-              </div>
-              <div class="staff-description">
-                <p>George Anwar</p>
-                <p>Lecturer</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/johnson.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Terry Johnson</p>
-                <p>Associate Professor</p>
-              </div>
-            </div>
+            {% endfor %}
         </div>
 
         <h2 class="sub-heading">Alumni</h2>
         <div class="staff-images">
+            {% for alumnus in site.data.alumni %}
             <div class="staff-member">
               <div class="staff-image">
-                <img src="../assets/images/team/xiao.jpg" alt="">
+                <img src="../assets/images/team/{{ alumnus.url }}" alt="">
               </div>
               <div class="staff-description">
-                <p>Xiao Yu Fu</p>
-                <p>Founder | Univ. of Michigan</p>
+                <p>{{ alumnus.name }}</p>
+                <p>{{ alumnus.title }}</p>
               </div>
             </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/mattchang.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Matthew Chang</p>
-                <p>MyLikes</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/amy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Amy Fu</p>
-                <p>Google</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/sam.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Samuel Fung</p>
-                <p>E.ON Climate and Renewables </p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/vanathi.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Vanathi Ganesh</p>
-                <p>Advisor | Qualcomm</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/humpy.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Humphrey Hu</p>
-                <p>Carnegie Mellon</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/doug.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Douglas Hutchings</p>
-                <p>Advisor | UC Berkeley</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/ryan.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Ryan Julian</p>
-                <p>Advisor | Google</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/huda.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Huda Khayrallah</p>
-                <p>Johns Hopkins</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/nikita.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Nikita Kitaev</p>
-                <p>Advisor | UC Berkeley</p>
-              </div>
-            </div>
+            {% endfor %}
 
             <!-- <div class="staff-member">
               <div class="staff-image">
@@ -480,106 +88,6 @@ hero-button-url: ../get-involved/join-staff.html
                 <p>Advisor | UC Berkeley</p>
               </div>
             </div> -->
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/wli.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>William Li</p>
-                <p>Advisor | Ninjacourses</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/ali.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Allen Li</p>
-                <p>Advisor | Asana</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/winston.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Winston Long</p>
-                <p>Advisor | Kravin</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/robert.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Robert Luan</p>
-                <p>Advisor | Apple</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/peter.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Peter Nakamoto</p>
-                <p>Think Surgical</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/jared.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Jared Porter</p>
-                <p>UC Berkeley</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/dennis.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Dennis Wai</p>
-                <p>Advisor | UC Berkeley</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/john.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>John Wang</p>
-                <p>Univ. of Michigan</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/or.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Or Weizman</p>
-                <p>Yelp</p>
-              </div>
-            </div>
-
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/aditya.jpg" alt="">
-              </div>
-              <div class="staff-description">
-                <p>Baladitya Yellapragada</p>
-                <p>UC Berkeley</p>
-              </div>
-            </div>
 
         </div>
       </div>
