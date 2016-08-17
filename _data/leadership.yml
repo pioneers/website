@@ -1,19 +1,19 @@
 - name: Andy Wong
   title: Director
-  url: andy.jpg
+  picture: andy.jpg
 
 - name: Suzy Huang
   title: Business Operations Director
-  url: suzy.jpg
+  picture: suzy.jpg
 
 - name: Grant Emmendorfer
   title: Programs Director
-  url: grant.jpg
+  picture: grant.jpg
 
 - name: Aravind Kumaraguru
   title: Engineering Director
-  url: aravind.jpg
+  picture: aravind.jpg
 
 - name: Wing Chuen Lam
   title: Operations Director
-  url: wing.jpg
+  picture: wing.jpg
