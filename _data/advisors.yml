@@ -1,0 +1,11 @@
+- name: Pieter Abbeel
+  title: Associate Professor
+  picture: abbeel.jpg
+
+- name: Terry Johnson
+  title: Associate Professor
+  picture: johnson.jpg
+
+- name: George Anwar
+  title: Lecturer
+  picture: anwar.png
