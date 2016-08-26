@@ -310,10 +310,10 @@ Does not work on round things. */
 }
 
 @media screen and (max-width:991px) {
-	.social-media-list, .footer-description {
-		justify-content: flex-start;
+  .social-media-list, .footer-description {
+    justify-content: flex-start;
     margin-top: 10px;
-	}
+  }
 
   .social-media-list li {
     padding: 0 30px 0 0;
@@ -377,6 +377,15 @@ Does not work on round things. */
   }
 }
 
+#announcements{
+  @extend .jumbotron;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  p{
+    font-size: $jumbotron-font-size/2;
+  }
+}
 
 .horizontal-border {
   border-color: $gray-lighter;
