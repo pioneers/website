@@ -2,7 +2,7 @@
 layout: post
 title:  "PiE 2015 Competition Awards"
 date:   2015-4-28 12:11:17
-categories: alumni application kickoff scholarship workshop
+tags: [alumni, application, kickoff, scholarship, workshop]
 image: awards.jpg
 author: jesca
 ---
