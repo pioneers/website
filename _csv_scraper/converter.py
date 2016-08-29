@@ -23,7 +23,7 @@ class post():
         self.content = row[self.CONTENT]
         self.creation_date = datetime.strptime(row[self.CREATION_DATE], '%Y-%m-%d %H:%M:%S')
         self.slug = row[self.SLUG]
-        self.tags = row[self.TAGS].replace(",", "")
+        self.tags = row[self.TAGS]
         self.title = row[self.TITLE]
 
     def __str__(self):
@@ -45,7 +45,7 @@ class post():
         result += 'layout: post\n'
         result += 'title: "%s"\n' % self.title
         result += 'date: %s\n' % datetime.strftime(self.creation_date, '%Y-%m-%d %H:%M:%S')
-        result += 'categories: %s\n' % self.tags
+        result += 'tags: [%s]\n' % self.tags
         result += 'author: %s\n' % 'PiE Team'
         result += '---\n\n'
 
