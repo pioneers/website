@@ -4,7 +4,7 @@ title:  "Congratulations 2015 PiE Alumni Scholarship Recipients!"
 date:   2015-6-6 12:11:17
 tags: [alumni, application, kickoff, scholarship, workshop]
 image: scholarship.jpg
-author: douglash
+author: Doug Hutchings
 ---
 We’re happy to announce the recipients of the 2015 PiE Alumni Scholarship, including four $100 finalists and the $1500 main award recipient!
 
