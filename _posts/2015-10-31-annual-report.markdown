@@ -2,7 +2,7 @@
 layout: post
 title:  "PiE Annual Report and Competition"
 date:   2015-10-31 12:11:17
-categories: annual report final competition scholarship
+tags: [annual, report, final, competition, scholarship]
 image: annual_report.png
 author: mattchang
 ---

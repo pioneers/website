@@ -2,7 +2,7 @@
 layout: post
 title:  "PiE Example Post Title"
 date:   2016-3-11 22:11:17,
-categories: categories go here
+tags: [tags, go, here]
 image: annual_report.png
 author: Your Name
 ---

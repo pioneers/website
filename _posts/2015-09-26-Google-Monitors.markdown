@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Monitors"
 date:   2015-11-09 12:11:17
-categories: Google
+tags: Google
 image: google_monitor.jpg
 author: douglash
 

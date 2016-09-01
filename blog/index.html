@@ -6,6 +6,7 @@ hero-message: PiE Blog
 
 <div class="container">
 {% for page in site.posts %}
+{% if page.hide == true %} {% continue %} {% endif %}
 <div class="container">
   <div class="post">
     <header class="post-header">
