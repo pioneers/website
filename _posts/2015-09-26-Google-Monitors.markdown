@@ -2,9 +2,9 @@
 layout: post
 title:  "Google Monitors"
 date:   2015-11-09 12:11:17
-categories: Google
+tags: Google
 image: google_monitor.jpg
-author: douglash
+author: Doug Hutchings
 
 ---
  Today was an exciting day for PiE, as we received five top-of-the-line touchscreen monitors generously donated by Google!
