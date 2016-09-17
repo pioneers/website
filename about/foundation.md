@@ -38,7 +38,8 @@ The PiE Foundation is led by a board of current and former PiE members.
 * William Li
 * Winston Long
 * Robert Luan
-* Tomoya Ogura
+* Andy Wong
+* Suzy Huang
 </div>
 </div>
 
