@@ -16,7 +16,7 @@ hero-button-url: ../get-involved/join-staff.html
           <h3>Worksessions</h3>
           <p>Still interested in joining PiE staff? Stop by one of our worksessions - Wednesdays from 7 - 9 PM or Saturday from 1 - 3 PM at O'Brien Hall!</p><p><a class="btn btn-primary btn-sm" href="../get-involved/join-staff.html" role="button">More information here!</a></p>
     </div>
-    
+
     <br/>
      <div class="row" id="pie-description"> <!-- First Row of Images, meant for immediate description of what PiE is/does -->
       <div class="col-sm-4">
@@ -59,50 +59,19 @@ hero-button-url: ../get-involved/join-staff.html
 
       <div class="col-md-7">
         <h2>News Updates</h2>
-        {% for post in site.posts limit:3%}
+        {% for post in site.posts limit:5%}
+        {% unless post.hide %}
           <div class="post-row">
             <h4 class="title">
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
             </h4>
             <div class="excerpt">{{ post.excerpt }}</div>
           </div>
-
+        {% endunless %}
         {% endfor %}
 
       </div>
     </div>
 
-
-    <!-- <div class="row" id="alumni"> <!--Fourth Row, meant to demonstrate notable Alumni and legacy of PiE
-      <hr class="horizontal-border"></hr>
-      <div class="col-md-5">
-        <h2>Alumni Spotlight</h2>
-        <div class="intro">
-          <img src="http://photos.the-scientist.com/legacyArticleImages/2012/10/10_12_Obama.jpg" id="alumni-photo">
-          <h3>Barack Obama</h3>
-          <div class="achievement">PiE Alumnus, Class of 2019</div>
-          <div class="achievement">44th President of the United States</div>
-          <div class="achievement">Nobel Peace Prize Award Winner</div>
-          <p>Obama is currently taking Chem 1A. He revised his lab report and hopes to get points back on his final project.
-        </div >
-        <div class="quote">"Pioneers in Engineering was an enriching experience that allowed me to learn, teach, and collaborate alongside like-minded peers and their passion for engineering."</div>
-      </div>
-      <div class="col-md-7">
-        <h2>Where are our alumni now?</h2>
-        <div>
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-          <img class="alumni-logo" src="assets/images/robot2.JPG">
-        </div>
-
-      </div>
-    </div> -->
 
 </div>
