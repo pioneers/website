@@ -1,7 +1,7 @@
 - department: Kit Engineering Projects
   projects:
   - project: Smart Sensor
-    description: Design and route the elecrical boards PiE's sensors run on
+    description: Design and route the electrical boards PiE's sensors run on
     manager: Seiya Ono
   - project: Runtime
     description: Design the software on the BBB platform that interfaces and controls the other kit components
