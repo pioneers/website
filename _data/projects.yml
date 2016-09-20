@@ -1,0 +1,93 @@
+- department: Kit Engineering Projects
+  projects:
+  - project: Smart Sensor
+    description: Design and route the electrical boards PiE's sensors run on
+    manager: Seiya Ono
+  - project: Runtime
+    description: Design the software on the BBB platform that interfaces and controls the other kit components
+    manager: Bob Dai
+  - project: Yogi Bear
+    description: Design the new generation of PiE motor controllers
+    manager: Stanley Liu
+  - project: Sourcing
+    description: Source the materials for PiE's electrical kit projects
+    manager: Krystyn Neisess
+  - project: Field Control
+    description: Ensure steady and consistent communication between PiE's robots and field systems
+    manager: Yizhe Liu
+  - project: Dawn
+    description: Design the front-end interface for student-robot interaction
+    manager: Kevin Ma
+  - project: Hibike
+    description: Design the communication protocols between sensors and the BBB platform
+    manager: Karthik Shamugam
+  - project: Hardware Ops
+    description: Ensure and maintain the operation of PiE's development robots for kit testing
+    manager: Griff Potrock
+  - project: PiEDB 
+    description: Design the next generation of PiE's power distribution boards
+    manager: Tobin Holcomb
+  - project: DevOps
+    description: Maintain the PiE software testing and integration framework
+    manager: Arjun Sridhar
+  - project: Mechanical Kit
+    description: Design and produce PiE's 2017 mechanical kit (chassis, drive train, et al)
+    manager: Jehan Yang
+  - project: Actuated Field
+    description: Design actuated elements of PiE's 2017 game
+    manager: Jehan Yang
+- department: Programs Projects
+  projects:
+  - project: Game Design Committee (GDC)
+    description: Design and organize PiE's 2018 game
+    manager: Alan Zhang, Jenny Wong
+  - project: Game Implementation Committee (GIC)
+    description: Bring PiE's 2017 game design into reality through field construction, game piece design, and more
+    manager: Alan Zhang
+  - project: Fall Comp
+    description: Organize PiE's 2017 Fall Competition, in which students play an unmodified version of last year's game
+    manager: Alan Zhang
+  - project: Mechanical Design Challenge (MDC)
+    description: Design the mechanisms challenge that students will compete in during PiE's 2017 Fall Competition
+    manager: Jehan Yang
+- department: Education & Outreach Projects
+  projects: 
+  - project: E.D.You
+    description: Design PiE's fall workshop program for high school students, which covers fundamentals of mechanical and software engineering 
+    manager: Clancy Lee
+  - project: PiE Academy
+    description: Design videos to maintain the education of PiE students online
+    manager: Rachel Ieda
+  - project: LHS Trebuchet
+    description: Build a trebuchet that throws pumpkins for Discovery Days at the Lawrence Hall of Science
+    manager: Grant Emmendorfer
+- department: Web Operations Projects
+  projects:
+  - project: Website
+    description: Design and maintain the PiE website
+    manager: Vivien Nguyen
+  - project: Kit Extension Web App
+    description: Design a new purchasing system for student kit extension
+    manager: James Hulett
+  - project: Worksession Plugin
+    description: Design a worksession plugin to integrate worksessions into discourse
+    manager: Jiana Huang
+- department: Business Operations Projects
+  projects: 
+  - project: Social Media
+    description: Maintain PiE's social media presence 
+    manager: Vivien Nguyen
+  - project: Partnerships
+    description: Form new PiE partnerships with potential sponsors
+    manager: Suzy Huang
+  - project: Finance
+    description: Ensure the responsible funding of PiE projects
+    manager: Suzy Huang
+- department: Staff Operations Projects
+  projects: 
+  - project: Staff Recruiting
+    description: Recruit the next genration of PiE staff members
+    manager: Briana Niu, Kevin Ma
+  - project: Staff Retention
+    description: Ensure PiE staff are integrated well into the organization
+    manager: Christian Ramiro, Sarah Zhou
