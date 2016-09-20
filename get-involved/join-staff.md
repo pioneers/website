@@ -24,4 +24,4 @@ Robotics@Berkeley is a student group committed to lowering the barriers to start
 2. Collecting and publicizing information about and opportunities in UC Berkeley’s robotics-related student groups and research labs, and
 3. Organizing socially and intellectually engaging events for roboticists of all ages, majors, and interests.
 
-You can check out more about their group on their website [here](http://calrobotics.xyz), along with a list of other robotics organizations they list [here](http://calrobotics.xyz/related/).
+You can check out more about their group on their website [here](https://rab.berkeley.edu), along with a list of other robotics organizations they list [here](https://rab.berkeley.edu/related/clubs).
