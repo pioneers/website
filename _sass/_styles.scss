@@ -379,11 +379,13 @@ Does not work on round things. */
 
 #announcements{
   @extend .jumbotron;
+  position: relative;
+  height: auto;
   padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
   p{
-    font-size: $jumbotron-font-size/2;
+    font-size: $jumbotron-font-size/1.5;
   }
 }
 
