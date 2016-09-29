@@ -1,7 +1,7 @@
 - department: Kit Engineering Projects
   projects:
   - project: Smart Sensor
-    description: Design and route the elecrical boards PiE's sensors run on
+    description: Design and route the electrical boards PiE's sensors run on
     manager: Seiya Ono
   - project: Runtime
     description: Design the software on the BBB platform that interfaces and controls the other kit components
@@ -45,7 +45,7 @@
     description: Bring PiE's 2017 game design into reality through field construction, game piece design, and more
     manager: Alan Zhang
   - project: Fall Comp
-    description: Organize PiE's 2017 Fall Competition, in which student splay an unmodified version of last year's game
+    description: Organize PiE's 2017 Fall Competition, in which students play an unmodified version of last year's game
     manager: Alan Zhang
   - project: Mechanical Design Challenge (MDC)
     description: Design the mechanisms challenge that students will compete in during PiE's 2017 Fall Competition
@@ -53,7 +53,7 @@
 - department: Education & Outreach Projects
   projects: 
   - project: E.D.You
-    description: Design PiE's fall workshop program for high school students, which covers fundaments of mechanical and software engineering 
+    description: Design PiE's fall workshop program for high school students, which covers fundamentals of mechanical and software engineering 
     manager: Clancy Lee
   - project: PiE Academy
     description: Design videos to maintain the education of PiE students online
@@ -86,7 +86,7 @@
 - department: Staff Operations Projects
   projects: 
   - project: Staff Recruiting
-    description: Recruit the next genration of PiE staff members
+    description: Recruit the next generation of PiE staff members
     manager: Briana Niu, Kevin Ma
   - project: Staff Retention
     description: Ensure PiE staff are integrated well into the organization

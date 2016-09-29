@@ -20,9 +20,10 @@ The PiE Foundation is led by a board of current and former PiE members.
 <div class="col-md-6">
 <div markdown="1">
 #### Executive Officers
-* Dennis Wai
-* Robert Luan
 * Douglas Hutchings
+* Winston Long
+* Tommy Ogura
+
 </div>
 </div>
 
@@ -31,15 +32,16 @@ The PiE Foundation is led by a board of current and former PiE members.
 #### Board Members
 * Xiao-Yu Fu
 * Vanathi Ganesh
-* Douglas Hutchings
+* Suzy Huang
 * Ryan Julian
 * Nikita Kitaev
+* Daniel Lee
 * Allen Li
 * William Li
-* Winston Long
 * Robert Luan
+* Dennis Wai
 * Andy Wong
-* Suzy Huang
+
 </div>
 </div>
 
