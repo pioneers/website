@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Interested in Mentoring For PiE?"
+date: 2013-01-25 15:45:05
+categories:
+author: PiE Team
+---
+
+Think back to your time in high school:  questions about college, uncertainties about your future, and what seemed like an endless pile of work.  When thoughts of college became overwhelming, we looked to our role models for assistance. 
+
+That is where PiE and, more importantly, mentors as individuals come into play.  As a mentor, you will find students from a particular school and stay with them throughout the entire eight week PiE competition.  The students will grow and change under your guidance, and you will become the person they go to when they need help or have questions.
+
+In addition, you'll be able to stimulate your creativity as you assist the students in building and designing a fully operational robot. Uncertain of your technical skills?  No problem!  Mentors may enroll in a student run, UC Berkeley course that will teach prospective mentors anything that they may need to know.  Already a robotics veteran? We will also be hosting and advanced course that takes on more difficult topics such as autonomous programming and sensor control.  Did we mention that you could get class credit too?
+
+If you are interested in signing up, look under the "Get Involved-Become a Mentor" tab at the top of this page.  If you have any specific questions or concerns, e-mail us at [mentorship@pioneers.berkeley.edu][0].  We accept all ages and all majors, and you need not be a UC Berkeley student to apply.
+
+
+[0]: mailto:mentorship@pioneers.berkeley.edu
