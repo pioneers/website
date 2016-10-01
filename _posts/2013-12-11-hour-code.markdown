@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Hour of Code"
+date: 2013-12-11 23:36:20
+tags: \[Hour of Code, CS, programming\]
+author: PiE Team
+---
+
+This week has been Computer Science Education Week ([CSEdWeek][0]), an annual program dedicated to inspiring K-12 students to take interest in computer science. One program that CSEdWeek offers is a one-hour introduction to CS known as Hour of Code. Today, PiE visited [Joaquin Miller Elementary School][1] to work with students on Hour of Code.
+
+We worked with a class of 3rd graders on the the basic concepts of Computer Science. They advanced through a game-like tutorial on CS concepts like loops, conditionals, pattern recognition, and basic algorithms ([link here][2]). Despite the tricky subject matter, the students found the lesson fun and engaging! In the tutorial the students helped a Zombie, from Plants vs. Zombies, reach a sunflower through different mazes. As the whole lesson progressed, the students had fun and learned a lot of new computer science concepts.
+
+Hour of Code is an exciting and engaging way for students of all ages to learn about programming and computational thinking. We highly encourage students to look into all of the resources available at code.org and try to code for an hour this week.
+
+This Friday, PiE Prep will be doing an Hour of Code of their own with Ralphe Bunche students, many of which will program for the first time. Look forward to another blog post about that.
+
+Thanks once again to Ms. Smith, Ms. Moore, and Joaquin Miller Elementary School for having us today!
+
+![](https://tbp.berkeley.edu/gallery/d/363119-2/IMG_0398.JPG)
+
+  
+
+
+[0]: http://csedweek.org/
+[1]: http://www.joaquinmiller.org/
+[2]: http://learn.code.org/

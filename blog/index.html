@@ -18,7 +18,8 @@ hero-message: PiE Blog
     	<div class="container-fluid">
 	    	<div class="row">
 	    		<div class="col-md-7">
-	      			{{ page.content }}
+	      			{{ page.excerpt }}
+				<a href="{{ page.url | prepend: site.baseurl }}">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 	      		</div>
 	      		<div class="col-md-5">
             {% if page.image %}

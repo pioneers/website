@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Game Day 2013"
+date: 2013-03-14 22:45:56
+tags: \[gameday\]
+author: PiE Team
+---
+
+New to this year, Game day is the second half of Kickoff. During this day, the PiE challenge is revealed, and teams are given their base kits! The teams then disperse into workshops with their mentors to complete the base robotics kit. The goal of Game Day is for each team to have a fully functional base robot to expand upon. Staff was happy to see the 24 teams working hard to put together their newly received kit, taking advantage of the resources on the PiE wiki, and spending what little time left on planning and designing strategies.
+
+One of the most thrilling part of Game Day is the announcement of the Game Challenge.  This year, challenge is "Cube Route", a game that will heavily focus on sensors, Radio-Frequency Identification (RFID) and programming.  It will certainly be a highly anticipating game where it will test each team's programming knowledge and skills to the limit.
