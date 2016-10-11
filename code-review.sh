@@ -14,5 +14,5 @@ else
   BRANCH="$2"
 fi
 
-eval $"git checkout -b $USERNAME-$BRANCH $BRANCH"
+eval $"git checkout -b $USERNAME-$BRANCH master"
 eval $"git pull https://github.com/$USERNAME/website.git $BRANCH"
