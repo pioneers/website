@@ -542,7 +542,11 @@ Does not work on round things. */
 .panel-schedule {
 	width: 65%;
 	margin: 15px auto;
+	@include media-query($on-laptop){
+		width: 100%;
+	}
 }
+
 /**
  * Posts
  */
