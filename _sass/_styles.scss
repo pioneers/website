@@ -522,6 +522,11 @@ Does not work on round things. */
   color: $pie-blue;
 }
 
+.notecard{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .rc-spring {
   .row {
     padding-bottom: $spacing-unit;
@@ -534,7 +539,10 @@ Does not work on round things. */
   margin: 0 auto;
 }
 
-
+.panel-schedule {
+	width: 65%;
+	margin: 15px auto;
+}
 /**
  * Posts
  */
