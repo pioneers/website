@@ -6,12 +6,32 @@ hero-message: Robotics Competition
 <!-- The Competition row -->
 <div class="container rc-spring">
   <div class="row">
-    <ul id="timeline">
-      <li class="timeline-item">Kickoff</li>
-      <li class="timeline-item">Game Day</li>
-      <li class="timeline-item">Scrimmage</li>
-      <li class="timeline-item">Final Competition</li>
-    </ul>
+    <div id="timeline">
+      <ul id="timeline-arrows" class="hidden-xs hidden-sm">
+        <li class="timeline-arrow">Kickoff</li>
+        <li class="timeline-arrow">Game Day</li>
+        <li class="timeline-arrow">Scrimmage</li>
+        <li class="timeline-arrow">Final Competition</li>
+      </ul>
+      <div class="panel list-group hidden-md hidden-md hidden-lg">
+        <a class="list-group-item" data-toggle="collapse" data-target="#kickoff" data-parent="#timeline">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="kickoff" class="sublinks collapse">
+          <!-- Put Kickoff description here -->
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day" data-parent="#timeline">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day" class="sublinks collapse">
+          <!-- Put Game Day description here -->
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage" data-parent="#timeline">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage" class="sublinks collapse">
+          <!-- Put Scrimmage description here -->
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp" data-parent="#timeline">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp" class="sublinks collapse">
+          <!-- Put Final Competition description here -->
+       </div>
+      </div>
+    </div>
   </div>
   <div class="row text-center">
     <div id="rc-video" class ="embed-responsive embed-responsive-16by9">
