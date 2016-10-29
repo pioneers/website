@@ -543,50 +543,66 @@ Does not work on round things. */
 }
 
 #timeline {
-  $timeline-height: 80px;
+  $timeline-height: 100px;
   $arrow-width: 40px;
   $arrow-spacing: 10px;
   $timeline-font-size: 20px;
-  .timeline-item {
-    display: block;
-    float: left;
-    height: $timeline-height;
-    line-height: $timeline-height;
-    background: $pie-blue;
-    text-align: center;
-    padding: 0 $arrow-width $arrow-width;
-    position: relative;
-    margin: 0 $arrow-spacing 0 0;
+  $timeline-horizontal-padding: 40px;
 
-    font-size: $timeline-font-size;
-    text-decoration: none;
-    color: white;
+  // See variables and breakpoints defined in _sass/bootstrap/_variables.scss
+  @media (min-width: $screen-md-min) {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
 
-    &:after {
-      content: "";
-      border-top: $timeline-height/2 solid transparent;
-      border-bottom: $timeline-height/2 solid transparent;
-      border-left: $arrow-width solid $pie-blue;
-      position: absolute;
-      right: -$arrow-width;
-      top: 0;
-    }
+    .timeline-item {
+      flex: 1 1 auto;
+      height: $timeline-height;
+      line-height: $timeline-height;
+      background-color: $pie-blue;
+      text-align: center;
+      padding: 0 $arrow-width+$timeline-horizontal-padding;
+      position: relative;
+      margin: 0 $arrow-spacing 0 0;
 
-    &:before {
-      content: "";
-      border-top: $timeline-height/2 solid transparent;
-      border-bottom: $timeline-height/2 solid transparent;
-      border-left: $arrow-width solid transparent;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
+      font-size: $timeline-font-size;
+      text-decoration: none;
+      color: white;
 
-    &:first-child:before {
-      display: none;
-    }
-    &:last-child:after {
-      display: none;
+      &:after {
+        content: "";
+        border-top: $timeline-height/2 solid transparent;
+        border-bottom: $timeline-height/2 solid transparent;
+        border-left: $arrow-width solid $pie-blue;
+        position: absolute;
+        right: -$arrow-width;
+        top: 0;
+        z-index: 5; // Force it to be above the :before of the next element
+      }
+
+      &:before {
+        content: "";
+        border-top: $timeline-height/2 solid transparent;
+        border-bottom: $timeline-height/2 solid transparent;
+        border-left: $arrow-width solid white;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      &:first-child {
+        padding-left: $timeline-horizontal-padding;
+        &:before {
+          display: none;
+        }
+      }
+      &:last-child {
+        padding-right: $timeline-horizontal-padding;
+        margin-right: 0;
+        &:after {
+          display: none;
+        }
+      }
     }
   }
 }
