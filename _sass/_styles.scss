@@ -381,12 +381,7 @@ Does not work on round things. */
 
 #announcements{
   @extend .jumbotron;
-  position: relative;
-  height: auto;
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  p{
+  p {
     font-size: $jumbotron-font-size/1.5;
   }
 }
@@ -478,10 +473,6 @@ Does not work on round things. */
  * Support PiE - Christian and Scott
  */
 
-#paying {
-  text-align: center;
-}
-
 @media (max-width: $screen-sm-min) {
   #support {
     margin-left: $spacing-unit/2;
@@ -492,6 +483,10 @@ Does not work on round things. */
   width: 100%;
   padding: $spacing-unit;
   padding-top: 0;
+}
+
+#amazon-smile {
+    width: 250px;
 }
 
 #paypal {
@@ -542,7 +537,11 @@ Does not work on round things. */
 .panel-schedule {
 	width: 65%;
 	margin: 15px auto;
+	@include media-query($on-laptop){
+		width: 100%;
+	}
 }
+
 /**
  * Posts
  */
