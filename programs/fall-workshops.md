@@ -7,7 +7,8 @@ Are you interested in developing your skills in building and designing?
 
 Pioneers in Engineering (PiE) is launching a new series of monthly workshops for local high school students in September, October and November.
 
-## Exploring Engineering with PiE
+## Exploring Engineering with PiE  
+December 3, 9:45 am - 3 pm
 
 We proudly present our third, and final, workshop for this year! Exploring Engineering with PiE will give students the opportunity to see what UC Berkeley students and staff in engineering do on campus, and if you are not sure whether or not you want to pursue engineering as a career, no worries! Not all PiE staff are engineering majors and we will be more than happy to talk to you about what life as a UC Berkeley student is like.
 
@@ -15,9 +16,12 @@ Some of the day's activities include 3D modeling/printing and a tour of lab, and
 
 This workshop will be on December 3rd from 9:45 am - 3 pm on UC Berkeley campus. Please arrive to the Hearst Mining Circle on UC Berkeley campus by 9:45! You must [register](/programs/fall-workshops-registration.html) to attend. **SIGNUPS CLOSE Sunday, November 27th, 8 AM.** You CANNOT register after this time due to the fact that we have to order materials. Thank you for understanding.
 
-Registration: [Online Form](/programs/fall-workshops-registration.html)
-
 Questions, comments, concerns? Email us at <mailto:education@pioneers.berkeley.edu>.
+
+<div class="text-center">
+    <a href="/programs/fall-workshops-registration.html" class="btn btn-primary">Register for Workshop</a>    
+</div>
+
 
 ### FAQS:
 
