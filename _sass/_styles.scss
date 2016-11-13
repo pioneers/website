@@ -65,11 +65,12 @@ Does not work on round things. */
     width: 200px;
     height: 200px;
     overflow: hidden;
-    background-color: #E6E6E6;
     margin: 0 auto 10px;
     img {
-      @extend .img-scaled-wh;
       background-color: white;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
   .staff-description {
