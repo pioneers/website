@@ -67,6 +67,41 @@ The following documents are provided for your convenience.
 * <a href="{{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2016 Scholarship Workshop</a>
  -->
 
+## Past Scholars
+
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>High School</th>
+      <th>College</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alix Plascencia</td>
+      <td>Lighthouse Commmunity Charter School</td>
+      <td>UC Berkeley</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Pedro Becerra</td>
+      <td>Community Day High School</td>
+      <td>Chabot Community College</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <td>Eduardo Navarro</td>
+      <td>Lionel Wilson High School</td>
+      <td>Cal Maritime Academy</td>
+      <td>2016</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Questions?
+
 For any questions about the scholarship or application, contact us at <a href="mailto:scholarship@pioneers.berkeley.edu"> scholarship@pioneers.berkeley.edu </a>
+
+
