@@ -1,0 +1,53 @@
+---
+layout: default
+hero-image: url(../assets/images/stock-images/robotics-competition.jpg)
+hero-message: Spring Competition
+---
+<script>
+  $(document).ready(function() {
+    $('#kickoff-arrow').click(function() {
+      $('#kickoff-description').collapse("toggle");
+    });
+  });
+</script>
+<!-- The Competition row -->
+<div class="container rc-spring">
+  <div class="row">
+    <div id="timeline">
+      <ul id="timeline-arrows" class="hidden-xs hidden-sm">
+        <li id="kickoff-arrow" class="timeline-arrow">Kickoff</li>
+        <li id="game-day-arrow" class="timeline-arrow">Game Day</li>
+        <li id="scrimmage-arrow" class="timeline-arrow">Scrimmage</li>
+        <li id="final-comp-arrow" class="timeline-arrow">Final Competition</li>
+      </ul>
+      <div class="panel list-group hidden-md hidden-md hidden-lg">
+        <a class="list-group-item"  data-parent="#timeline">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="kickoff-description" class="sublinks">
+          <!-- Put Kickoff description here -->
+          djsvnkl fknf
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-description" data-parent="#timeline">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day-description" class="sublinks collapse">
+          <!-- Put Game Day description here -->
+          khafg jkljghjg
+
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-description" data-parent="#timeline">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage-description" class="sublinks collapse">
+          <!-- Put Scrimmage description here -->
+          gjkh kgjarghiojgkahgopjglj
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-description" data-parent="#timeline">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp-description" class="sublinks collapse">
+          <!-- Put Final Competition description here -->
+          gh irjgojgnuhjgjsghjpoeg op
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div id="rc-video" class ="embed-responsive embed-responsive-16by9">
+      <iframe class ="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
