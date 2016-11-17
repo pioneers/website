@@ -5,36 +5,32 @@ hero-message: Spring Competition
 ---
 <!-- The Competition row -->
 <div class="container rc-spring">
-   <div class="row text-center">
-    <h2 class="blue-title"> The Competition </h2>
-    <div class="col-md-4">
-      <div class = "big-txt"> 24 </div>
-      <h3>Teams</h3>
-    </div>
-    <div class="col-md-4">
-      <div class = "big-txt"> 8 </div>
-      <h3>Week-long competition</h3>
-    </div>
-    <div class="col-md-4">
-      <div class="big-txt"> $100 </div>
-      <h3> To participate</h3>
-    </div>
-  </div>
-  <hr class="horizontal-border"></hr>
-  <!-- How It Works row -->
-  <div class="row text-center">
-    <h2> How It Works </h2>
-    <div class="col-md-4">
-      <div class = "big-gold-txt"> <i class="fa fa-hand-paper-o"></i> </div>
-      <h3>We build the kits</h3>
-    </div>
-    <div class="col-md-4">
-      <div class = "big-gold-txt"> <i class="fa fa-users"></i> </div>
-      <h3>We provide guidance and mentorship</h3>
-    </div>
-    <div class="col-md-4">
-      <div class="big-gold-txt"> <i class="fa fa-building-o"></i> </div>
-      <h3>We provide judges and a beautiful venue!</h3>
+  <div class="row">
+    <div id="timeline">
+      <ul id="timeline-arrows" class="hidden-xs hidden-sm">
+        <li class="timeline-arrow">Kickoff</li>
+        <li class="timeline-arrow">Game Day</li>
+        <li class="timeline-arrow">Scrimmage</li>
+        <li class="timeline-arrow">Final Competition</li>
+      </ul>
+      <div class="panel list-group hidden-md hidden-md hidden-lg">
+        <a class="list-group-item" data-toggle="collapse" data-target="#kickoff" data-parent="#timeline">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="kickoff" class="sublinks collapse">
+          <!-- Put Kickoff description here -->
+        </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day" data-parent="#timeline">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day" class="sublinks collapse">
+          <!-- Put Game Day description here -->
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage" data-parent="#timeline">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage" class="sublinks collapse">
+          <!-- Put Scrimmage description here -->
+       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp" data-parent="#timeline">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp" class="sublinks collapse">
+          <!-- Put Final Competition description here -->
+       </div>
+      </div>
     </div>
   </div>
   <div class="row text-center">
