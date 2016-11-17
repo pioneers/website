@@ -8,15 +8,30 @@ body {
 /*
  * Images
  */
+.img-contain-w {
+  object-fit: contain;
+  width: 100%;
+}
+
+.img-contain-h {
+  object-fit: contain;
+  height: 100%;
+}
+
 .img-scaled-wh {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
-// For the school logos on the Robotics Compeition page.
-.rc-spring .img-scaled-wh {
-  object-fit: contain;
+.img-scaled-w {
+  object-fit: cover;
+  width: 100%;
+}
+
+.img-scaled-h {
+  object-fit: cover;
+  height: 100%;
 }
 
 .vertical-align {
