@@ -3,35 +3,13 @@
 <style>
 
 #fork {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
 }
 
-.legend {
-    width: 15%;
-    border: 1px solid black;
-}
-
-.legend .title {
-    display: block;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
-    line-height: 1.2em;
-    padding: 0 0.3em;
-    font-size: 80%;
-}
-
-.legend .color-sample {
-    display: block;
-    float: left;
-    width: 1em;
-    height: 1em;
-    border: 2px solid; /* Comment out if you don't want to show the backgroundColor */
-    //border-radius: 0.5em;
-    margin-right: 0.5em;
-} </style>
+</style>
 
 <div style="width: 100%; height:50%">
 	<h2 class ="sub-heading">PiE Annual Data</h2>
@@ -55,7 +33,7 @@
 </div>
 
 <div style="width: 100%; height: 100%">
-	<h2 class ="sub-heading">2016 RC Participant's Annual Household Income</h2>
+	<h2 class ="sub-heading">2016 RC Participants' Annual Household Income</h2>
 	<div class="hidden-xs">
 		<div style="float: center; width: 90%; height: 100%">
 			<canvas id="canvas2" height="50%" width="100%" ></canvas>
@@ -108,7 +86,8 @@
 				borderColor : "rgba(43,61,98,0.8)",
 				hoverBackgroundColor : "rgba(43,61,98,0.75)",
 				hoverBorderColor : "rgba(43,61,98,1)",
-				data : [44, 60, 102, 265, 260, 276, 350]
+				data : [44, 60, 102, 265, 260, 276, 350],
+        borderWidth: 2
 			},
 			{
 				label: "Schools",
@@ -116,7 +95,8 @@
 				borderColor : "rgba(199, 170, 54,0.8)",
 				hoverBackgroundColor: "rgba(199, 170, 54,0.75)",
 				hoverBorderColor: "rgba(199, 170, 54,1)",
-				data : [6, 8, 9, 20, 24, 20, 24]
+				data : [6, 8, 9, 20, 24, 20, 24],
+        borderWidth: 2
 			},
 
 			{
@@ -125,7 +105,8 @@
 				borderColor : "rgba(151,187,205,0.8)",
 				hoverBackgroundColor : "rgba(151,187,205,0.75)",
 				hoverBorderColor : "rgba(151,187,205,1)",
-				data : [18, 27, 35, 90, 107, 86, 76]
+				data : [18, 27, 35, 90, 107, 86, 76],
+        borderWidth: 2
 			}
 		]
 
@@ -151,14 +132,6 @@
           "rgb(102, 153, 255)",
           "#46BFBD",
           "rgba(151,187,205,0.5)"
-        ],
-        hoverBackgroundColor: [
-          "#FF5A5E",
-          "#FFC870",
-          "rgba(199, 170, 54,0.8)",
-          "rgb(136, 164, 221)",
-          "#5AD3D1",
-          "rgba(151,187,205,0.75)"
         ]
       }
 	  ]
@@ -200,8 +173,6 @@
     }
 	});
 
-	//legend(document.getElementById("legend"), pieAnnualData, pieData);
-	//legend(document.getElementById("legend2"), pieIncomeData, incomeChart);
-	//show()
+	/* consider: increase font size of legend, tooltip, labels */
 
 </script>
