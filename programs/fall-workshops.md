@@ -14,7 +14,7 @@ We proudly present our third, and final, workshop for this year! Exploring Engin
 
 Some of the day's activities include 3D modeling/printing and a tour of a lab, as well as hands-on activities throughout the day. You are more than welcome to attend, even if you have not participated in our previous workshops.
 
-This workshop will be on December 3rd from 9:45 am - 3 pm on the UC Berkeley campus. Please arrive at the Hearst Mining Circle on the UC Berkeley campus by 9:45! You must [register](/programs/fall-workshops-registration.html) to attend. **SIGNUPS CLOSE Sunday, November 27th, 8 AM.** You CANNOT register after this time due to the fact that we have to order materials. Thank you for understanding.
+This workshop will be on December 3rd from 9:45 am - 3 pm on the UC Berkeley campus. Please arrive at the Hearst Mining Circle on the UC Berkeley campus by 9:45! You must [register](/programs/fall-workshops-registration.html) to attend. **SIGNUPS CLOSE Wednesday, November 30th, 11:59 PM.** You CANNOT register after this time due to the fact that we have to order materials. Thank you for understanding.
 
 Questions, comments, concerns? Email us at <mailto:education@pioneers.berkeley.edu>.
 
