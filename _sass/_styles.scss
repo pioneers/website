@@ -551,6 +551,7 @@ Does not work on round things. */
   $timeline-horizontal-padding: 40px;
 
   padding: 0;
+  margin-bottom: 0;
   width: 100%;
   display: flex;
   list-style-type: none;
@@ -603,6 +604,20 @@ Does not work on round things. */
         display: none;
       }
     }
+  }
+}
+
+#timeline-arrow-descriptions {
+  padding-left: 0;
+
+  li {
+    display: none;
+    padding: 25px;
+    width: 100%;
+    // display: flex;
+    list-style-type: none;
+    background-color: $pie-blue;
+    color: white;
   }
 }
 

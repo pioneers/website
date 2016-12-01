@@ -5,8 +5,44 @@ hero-message: Spring Competition
 ---
 <script>
   $(document).ready(function() {
-    $('#kickoff-arrow').click(function() {
-      $('#kickoff-description').collapse("toggle");
+    // Write the description text once, here
+    var kickoffDescription = "djsvnkl fknf";
+    var gameDayDescription = "This is game day description";
+    var scrimmageDescription = "This is scrimmage description";
+    var finalCompDescription = "This is final comp description";
+
+    var hideAllOthers = function(elementIndex) {
+      var arrowDescriptions = $("#timeline-arrow-descriptions > li");
+
+      for (var i = 0; i < arrowDescriptions.length; i++) {
+        if (i !== elementIndex) {
+          $(arrowDescriptions[i]).hide();
+        }
+      }
+    };
+
+    // Fill in the description text in the HTML
+    $(".kickoff-description").text(kickoffDescription);
+    $(".game-day-description").text(gameDayDescription);
+    $(".scrimmage-description").text(scrimmageDescription);
+    $(".final-comp-description").text(finalCompDescription);
+
+    // Show descriptions for timeline arrows on click
+    $("#kickoff-arrow").click(function(e) {
+      $("#kickoff-arrow-description").toggle();
+      hideAllOthers(0);
+    });
+    $("#game-day-arrow").click(function(e) {
+      $("#game-day-arrow-description").toggle();
+      hideAllOthers(1);
+    });
+    $("#scrimmage-arrow").click(function(e) {
+      $("#scrimmage-arrow-description").toggle();
+      hideAllOthers(2);
+    });
+    $("#final-comp-arrow").click(function(e) {
+      $("#final-comp-arrow-description").toggle();
+      hideAllOthers(3);
     });
   });
 </script>
@@ -20,28 +56,32 @@ hero-message: Spring Competition
         <li id="scrimmage-arrow" class="timeline-arrow">Scrimmage</li>
         <li id="final-comp-arrow" class="timeline-arrow">Final Competition</li>
       </ul>
-      <div class="panel list-group hidden-md hidden-md hidden-lg">
-        <a class="list-group-item"  data-parent="#timeline">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="kickoff-description" class="sublinks">
-          <!-- Put Kickoff description here -->
-          djsvnkl fknf
-        </div>
-        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-description" data-parent="#timeline">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="game-day-description" class="sublinks collapse">
-          <!-- Put Game Day description here -->
-          khafg jkljghjg
+      <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
+        <li id="kickoff-arrow-description" class="kickoff-description" style="display: block;">
+          <!-- Put Kickoff description in JS above -->
+        </li>
+        <li id="game-day-arrow-description" class="game-day-description">
+          <!-- Put Game Day description in JS above -->
+        </li>
+        <li id="scrimmage-arrow-description" class="scrimmage-description">
+          <!-- Put Scrimmage description in JS above -->
+        </li>
+        <li id="final-comp-arrow-description" class="final-comp-description">
+          <!-- Put Final Competition description in JS above -->
+        </li>
+      </ul>
+      <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
+        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-list-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="kickoff-list-description" class="kickoff-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
 
-       </div>
-        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-description" data-parent="#timeline">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="scrimmage-description" class="sublinks collapse">
-          <!-- Put Scrimmage description here -->
-          gjkh kgjarghiojgkahgopjglj
-       </div>
-        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-description" data-parent="#timeline">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="final-comp-description" class="sublinks collapse">
-          <!-- Put Final Competition description here -->
-          gh irjgojgnuhjgjsghjpoeg op
-       </div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --></div>
       </div>
     </div>
   </div>
