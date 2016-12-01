@@ -15,6 +15,7 @@ facebook_username: pierobotics
 youtube_username: pierobotics
 instagram_username: pierobotics
 host: 0.0.0.0
+sponsors: /assets/sponsors/SponsorshipLevels15-16.pdf
 
 # Build settings
 markdown: kramdown
