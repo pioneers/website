@@ -56,6 +56,7 @@ hero-message: Spring Competition
         <li id="scrimmage-arrow" class="timeline-arrow">Scrimmage</li>
         <li id="final-comp-arrow" class="timeline-arrow">Final Competition</li>
       </ul>
+      <!-- big pretty arrows for big screens -->
       <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
         <li id="kickoff-arrow-description" class="kickoff-description" style="display: block;">
           <!-- Put Kickoff description in JS above -->
@@ -70,18 +71,19 @@ hero-message: Spring Competition
           <!-- Put Final Competition description in JS above -->
         </li>
       </ul>
+      <!-- listed panels for small screens -->
       <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
-        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-list-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="kickoff-list-description" class="kickoff-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="kickoff-panel-description" class="kickoff-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
 
-        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="game-day-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day-panel-description" class="game-day-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
 
-        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="scrimmage-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-panel-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage-panel-description" class="scrimmage-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
 
-        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="final-comp-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --></div>
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-panel-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp-panel-description" class="final-comp-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --></div>
       </div>
     </div>
   </div>
