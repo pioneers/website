@@ -559,16 +559,17 @@ Does not work on round things. */
   .timeline-arrow {
     flex: 1 1 auto;
     height: $timeline-height;
-    line-height: $timeline-height;
+    //line-height: $timeline-height;
     background-color: $pie-blue;
     text-align: center;
-    padding: 0 $arrow-width+$timeline-horizontal-padding;
+    padding: $timeline-height/3 $arrow-width+$timeline-horizontal-padding;
     position: relative;
     margin: 0 $arrow-spacing 0 0;
 
     font-size: $timeline-font-size;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 
     &:after {
       content: "";
@@ -602,6 +603,14 @@ Does not work on round things. */
       margin-right: 0;
       &:after {
         display: none;
+      }
+    }
+
+    &:hover {
+      background-color: #4a6591;
+
+      &:after{
+        border-left-color: #4a6591;
       }
     }
   }
