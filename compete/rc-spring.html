@@ -11,12 +11,17 @@ hero-message: Spring Competition
     var scrimmageDescription = "This is scrimmage description";
     var finalCompDescription = "This is final comp description";
 
-    var hideAllOthers = function(elementIndex) {
+    // Show the respective description and change arrow style on click
+    var onArrowClick = function(elementIndex) {
       var arrowDescriptions = $("#timeline-arrow-descriptions > li");
+      var arrowHeads = $("#timeline-arrows > li");
 
+      $(arrowDescriptions[elementIndex]).show();
+      $(arrowHeads[elementIndex]).attr('class', 'timeline-arrow');
       for (var i = 0; i < arrowDescriptions.length; i++) {
         if (i !== elementIndex) {
           $(arrowDescriptions[i]).hide();
+          $(arrowHeads[i]).attr('class', 'inactive-timeline-arrow');
         }
       }
     };
@@ -27,38 +32,37 @@ hero-message: Spring Competition
     $(".scrimmage-description").text(scrimmageDescription);
     $(".final-comp-description").text(finalCompDescription);
 
-    // Show descriptions for timeline arrows on click
+    // Assign onArrowClick function to each arrow
     $("#kickoff-arrow").click(function(e) {
-      $("#kickoff-arrow-description").show();
-      hideAllOthers(0);
+      onArrowClick(0);
     });
     $("#game-day-arrow").click(function(e) {
-      $("#game-day-arrow-description").show();
-      hideAllOthers(1);
+      onArrowClick(1);
     });
     $("#scrimmage-arrow").click(function(e) {
-      $("#scrimmage-arrow-description").show();
-      hideAllOthers(2);
+      onArrowClick(2);
     });
     $("#final-comp-arrow").click(function(e) {
-      $("#final-comp-arrow-description").show();
-      hideAllOthers(3);
+      onArrowClick(3);
     });
+
+    // select kickoff-arrow
+    // onArrowClick(0);
   });
 </script>
 <!-- The Competition row -->
 <div class="container rc-spring">
   <div class="row">
     <div id="timeline">
+      <!-- big pretty arrows for big screens -->
       <ul id="timeline-arrows" class="hidden-xs hidden-sm">
         <li id="kickoff-arrow" class="timeline-arrow">Kickoff</li>
-        <li id="game-day-arrow" class="timeline-arrow">Game Day</li>
-        <li id="scrimmage-arrow" class="timeline-arrow">Scrimmage</li>
-        <li id="final-comp-arrow" class="timeline-arrow">Final Competition</li>
+        <li id="game-day-arrow" class="inactive-timeline-arrow">Game Day</li>
+        <li id="scrimmage-arrow" class="inactive-timeline-arrow">Scrimmage</li>
+        <li id="final-comp-arrow" class="inactive-timeline-arrow">Final Competition</li>
       </ul>
-      <!-- big pretty arrows for big screens -->
       <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
-        <li id="kickoff-arrow-description" class="kickoff-description" style="display: block;">
+        <li id="kickoff-arrow-description" class="kickoff-description">
           <!-- Put Kickoff description in JS above -->
         </li>
         <li id="game-day-arrow-description" class="game-day-description">
