@@ -6,7 +6,7 @@ hero-message: Spring Competition
 <script>
   $(document).ready(function() {
     // Write the description text once, here
-    var kickoffDescription = "djsvnkl fknf";
+    var kickoffDescription = "This is kickoff description";
     var gameDayDescription = "This is game day description";
     var scrimmageDescription = "This is scrimmage description";
     var finalCompDescription = "This is final comp description";
@@ -27,10 +27,10 @@ hero-message: Spring Competition
     };
 
     // Fill in the description text in the HTML
-    $(".kickoff-description").text(kickoffDescription);
-    $(".game-day-description").text(gameDayDescription);
-    $(".scrimmage-description").text(scrimmageDescription);
-    $(".final-comp-description").text(finalCompDescription);
+    $(".kickoff-description").html(kickoffDescription);
+    $(".game-day-description").html(gameDayDescription);
+    $(".scrimmage-description").html(scrimmageDescription);
+    $(".final-comp-description").html(finalCompDescription);
 
     // Assign onArrowClick function to each arrow
     $("#kickoff-arrow").click(function(e) {
@@ -45,9 +45,6 @@ hero-message: Spring Competition
     $("#final-comp-arrow").click(function(e) {
       onArrowClick(3);
     });
-
-    // select kickoff-arrow
-    // onArrowClick(0);
   });
 </script>
 <!-- The Competition row -->
@@ -62,7 +59,7 @@ hero-message: Spring Competition
         <li id="final-comp-arrow" class="inactive-timeline-arrow">Final Competition</li>
       </ul>
       <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
-        <li id="kickoff-arrow-description" class="kickoff-description">
+        <li id="kickoff-arrow-description" class="kickoff-description" style="display: block;">
           <!-- Put Kickoff description in JS above -->
         </li>
         <li id="game-day-arrow-description" class="game-day-description">
@@ -78,16 +75,16 @@ hero-message: Spring Competition
       <!-- listed panels for small screens -->
       <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
         <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="kickoff-panel-description" class="kickoff-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <div id="kickoff-panel-description" class="kickoff-description sublinks collapse"><!-- Put Game Day description in JS above --></div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="game-day-panel-description" class="game-day-description" class="sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <div id="game-day-panel-description" class="game-day-description sublinks collapse"><!-- Put Game Day description in JS above --></div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-panel-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="scrimmage-panel-description" class="scrimmage-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
+        <div id="scrimmage-panel-description" class="scrimmage-description sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-panel-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="final-comp-panel-description" class="final-comp-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --></div>
+        <div id="final-comp-panel-description" class="final-comp-description sublinks collapse"><!-- Put Final Competition description in JS above --></div>
       </div>
     </div>
   </div>
