@@ -32,14 +32,13 @@
 	</div>
 </div>
 
-<h2 class="sub-heading">Quick Facts on RC Participants (in 2016)</h2>
+<h2 class="sub-heading">Quick Facts on PiE's RC Participants (in 2016)</h2>
 
 <div style="width: 100%; height: 100%">
 	<h3 class="sub-heading">Annual Household Income</h3>
 	<div class="hidden-xs">
 		<div style="float: center; width: 90%; height: 100%">
 			<canvas id="canvas2" height="50%" width="100%" ></canvas>
-      <h3><em>47% of our participants live below the US median wage.</em></h3>
 		</div>
 	</div>
 	<div class = "visible-xs">
@@ -55,14 +54,16 @@
 			 </tbody>
 		</table>
 	</div>
+  <h4>47% of our participants live below the US median wage of $51,939 (US Census Bureau).</h3>
+  <h4>Some of our participants live below the US household<sup>*</sup> poverty line of $20,090 (US Dept. of Health and Human Services).</h3>
+  <p><sup>*</sup>household of 3 members</p>
 </div>
 
 <div style="width: 100%; height: 100%">
-	<h3 class ="sub-heading">Gender Distribution</h3>
+	<h3 class ="sub-heading">Gender Demographics</h3>
 	<div class="hidden-xs">
 		<div style="float: center; width: 90%; height: 100%">
 			<canvas id="canvas3" height="50%" width="100%" ></canvas>
-      <h3><em>One in three of our participants are girls.</em></h3>
 		</div>
 	</div>
 	<div class = "visible-xs">
@@ -74,6 +75,9 @@
      </tbody>
   </table>
 	</div>
+  <h4>1 in 3 of PiE's RC participants are female. This is doing better than most
+colleges in participation of females in robotics or computer science.</h4>
+  <p>(Data: National Girls Collaborative Project)</p>
 </div>
 
 <script>
@@ -82,7 +86,7 @@
 	var pieAnnualData = {
 		labels : ["2009", "2010", "2011", "2012", "2013", "2014", "2015"],
 		datasets : [
-			{
+      {
 				label: "Participants",
 				backgroundColor : "rgba(43,61,98,0.5)",
 				borderColor : "rgba(43,61,98,0.8)",
@@ -90,8 +94,7 @@
 				hoverBorderColor : "rgba(43,61,98,1)",
 				data : [44, 60, 102, 265, 260, 276, 350],
         borderWidth: 2
-			},
-			{
+			}, {
 				label: "Schools",
 				backgroundColor : "rgba(199, 170, 54,0.5)",
 				borderColor : "rgba(199, 170, 54,0.8)",
@@ -99,9 +102,7 @@
 				hoverBorderColor: "rgba(199, 170, 54,1)",
 				data : [6, 8, 9, 20, 24, 20, 24],
         borderWidth: 2
-			},
-
-			{
+			}, {
 				label: "Mentors",
 				backgroundColor : "rgba(151,187,205,0.5)",
 				borderColor : "rgba(151,187,205,0.8)",
@@ -111,9 +112,7 @@
         borderWidth: 2
 			}
 		]
-
 	};
-
 
 	var pieIncomeData = {
     labels: [
@@ -134,45 +133,88 @@
           "rgb(102, 153, 255)",
           "#46BFBD",
           "rgba(151,187,205,0.5)"
-        ]
-      }
-	  ]
+        ],
+      },
+	  ],
   };
 
   var pieGenderData = {
-    labels: ["Male", "Female"],
+    labels: [
+      "PiE RC Participants",
+      //"STEM Workforce in US",
+      "Engineering grads in US",
+      "Computer Science grads in US",
+    ],
     datasets: [
       {
-        data: [187, 88],
-        backgroundColor: [
-          "#5ab9ed",
-          "#ff7cc0"
-        ]
-      }
-    ]
-  }
+        label: "% of which are girls",
+        // girls in pie: 88, boys in pie: 187
+        data: [88/(88+187)*100, /*29,*/ 19.3, 17.9],
+        backgroundColor: "rgba(252, 151, 217, 0.5)",
+        borderColor: "rgba(209, 125, 179, 0.5)",
+        borderWidth: 2,
+      }, {
+        label: "% of which are boys",
+        data: [187/(88+187)*100, /*100-29,*/ 100-19.3, 100-17.9],
+        backgroundColor: "rgba(151,187,205,0.5)",
+				borderColor : "rgba(151,187,205,0.8)",
+        borderWidth: 2,
+      },
+    ],
+  };
 
 	var ctx = document.getElementById("canvas").getContext("2d");
 	var pieAnnualChart = new Chart(ctx, {
     type: "bar",
     data: pieAnnualData,
-    options: {}
+    options: {
+      legend: {
+        display: true,
+        labels: {
+          fontSize: 14
+        },
+      },
+    },
 	});
 
 	var ctx2 = document.getElementById("canvas2").getContext("2d");
 	var pieIncomeChart = new Chart(ctx2, {
     type: "pie",
     data: pieIncomeData,
-    options: {}
+    options: {
+      legend: {
+        display: true,
+        position: 'right',
+        labels: {
+          fontSize: 14
+        },
+      },
+    },
 	});
 
 	var ctx3 = document.getElementById("canvas3").getContext("2d");
 	var pieGenderChart = new Chart(ctx3, {
-    type: "pie",
+    type: "bar",
     data: pieGenderData,
     options: {
-      rotation: (2*0.32-0.5)*Math.PI
-    }
+      legend: {
+        display: true,
+        labels: {
+          fontSize: 14
+        },
+      },
+      scales: {
+          yAxes: [{
+            ticks: {
+              //suggestedMin: 0,
+            },
+            stacked: true,
+          }],
+          xAxes: [{
+            stacked: true,
+          }]
+      }
+    },
 	});
 
 	/* consider: increase font size of legend, tooltip, labels */
