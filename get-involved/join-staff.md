@@ -6,7 +6,7 @@ hero-message: Join Us!
 
 <h1>Join PiE Staff</h1>
 
-Are you interested in joining the more than 80 active staff members of PiE? We currently have [over 20 different projects](../get-involved/faq.html) for you to get involved in. Pioneers in Engineering is an excellent way to get involved in outreach through engineering - your work in PiE will reach hundreds of Bay Area high school students. Our organization is entirely student run and depends on the efforts and contributions of students like you.
+Are you interested in joining the more than 80 active staff members of PiE? We currently have [over 20 different projects](../get-involved/faq.html#projects) for you to get involved in. Pioneers in Engineering is an excellent way to get involved in outreach through engineering - your work in PiE will reach hundreds of Bay Area high school students. Our organization is entirely student run and depends on the efforts and contributions of students like you.
 
 
 If you’re looking to get involved, or just want more information about us, shoot an email to <a href="mailto:recruiting@pioneers.berkeley.edu">recruiting@pioneers.berkeley.edu</a> or fill out [this form](https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform) to join our mailing list! You can also drop by our weekly work sessions - catch us in the 3rd Floor O’Brien Breezeway (the glass hallway between McLaughlin and O’Brien) on Wednesdays from 7-9 PM and Saturdays from 1-3 PM, starting September 12.
