@@ -640,9 +640,9 @@ Does not work on round things. */
   @extend .well-lg;
 
   //padding-left: 0;
-background-color: $pie-blue;
+background-color: lighten($pie-blue, 5%);
 color:white;
-border-color: $pie-blue;
+border-color: lighten($pie-blue, 5%);
   li {
     display: none;
     //padding: 25px;
