@@ -42,7 +42,20 @@ hero-message: Spring Competition
   <div class="row text-center">
     <h2 class="blue-title"> Season Schedule </h2>
   </div>
-  {% include schedule.html %}
+  <div class="row">
+    <div class="col-md-4">
+      {% include schedule.html %}
+    </div>
+    <div class="col-md-8">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=yi-fanchien%40pioneers.berkeley.edu&ctz=America/Los_Angeles"
+        style="border: 0"
+        width="100%" height="600"
+        frameborder="0"
+        scrolling="no">
+      </iframe>
+    </div>
+  </div>
   <!-- Youtube Video -->
   <div class="row text-center">
     <div id="rc-video" class ="embed-responsive embed-responsive-16by9">
