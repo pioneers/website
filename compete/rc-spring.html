@@ -6,6 +6,7 @@ hero-message: PIE Robotics Competition
 <script>
   $(document).ready(function() {
     // Write the description text once, here
+    var kickoffInfo = "Date: March 4<br>time: 8 AM";
     var kickoffDescription = "Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
     var gameDayDescription = "Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
     var scrimmageDescription = "Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
@@ -28,6 +29,7 @@ hero-message: PIE Robotics Competition
 
     // Fill in the description text in the HTML
     $(".kickoff-description").html(kickoffDescription);
+    $(".kickoff-info").html(kickoffInfo);
     $(".game-day-description").html(gameDayDescription);
     $(".scrimmage-description").html(scrimmageDescription);
     $(".final-comp-description").html(finalCompDescription);
@@ -59,7 +61,13 @@ hero-message: PIE Robotics Competition
         <li id="final-comp-arrow" class="inactive-timeline-arrow">Final Competition</li>
       </ul>
       <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
-        <li id="kickoff-arrow-description" class="kickoff-description" style="display: block;">
+        <li id="kickoff-arrow-description" class="container"  style="display: block;">
+        <div class="row">
+        <div class="kickoff-description col-md-6">
+        </div>
+        <div class="kickoff-info col-md-6">
+        </div>
+        </div>
         
           <!-- Put Kickoff description in JS above -->
         </li>
@@ -75,8 +83,12 @@ hero-message: PIE Robotics Competition
       </ul>
       <!-- listed panels for small screens -->
       <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
-        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="kickoff-panel-description" class="kickoff-description sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a> 
+        
+        <div id="kickoff-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="kickoff-info">
+        </div><div class="kickoff-description">
+        </div>
+        </div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
         <div id="game-day-panel-description" class="game-day-description sublinks collapse"><!-- Put Game Day description in JS above --></div>
