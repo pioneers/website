@@ -7,70 +7,76 @@ hero-button-url: ../get-involved/join-staff.html
 ---
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
-    <div id ="announcements">
-        <h2>ANNOUNCEMENTS</h2>
-        <h3>Team Applications</h3>
-        <p>Team applications are now open! If you represent a Bay Area high school interested in competing, please submit an application <a href="https://goo.gl/forms/ABENgm7MS4XevBI42" target="_blank">here!</a> You can email wing@pioneers.berkeley.edu with any questions about applying.</p>
+  <div id ="announcements">
+    <h2>ANNOUNCEMENTS</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Decal</h3>
+        <p>Our PiE Robotics Decal is now open! Attend the first class of one of the sections (starts Monday 01/30/2017 6:30 p.m. or Thursday 02/02 6:30 p.m.) to get the CCN and enroll.</p>
+        <a class="btn btn-primary" href="../get-involved/become-mentor.html" role="button">More Decal info!</a>
+        </div>
+      <div class="col-md-6">
         <h3>Worksessions</h3>
         <p>Still interested in joining PiE staff? Stop by one of our worksessions - Wednesdays from 7 - 9 PM or Saturdays from 1 - 3 PM at O'Brien Hall!</p>
-        <a class="btn btn-primary" href="../get-involved/join-staff.html" role="button">More information here!</a>
-    </div>
-
-    <br/>
-     <div class="row" id="pie-description"> <!-- First Row of Images, meant for immediate description of what PiE is/does -->
-      <div class="col-sm-4">
-        <h2>Competition</h2>
-        <img src="assets/images/comp.JPG">
-        <p>Bringing high school students together to challenge themselves in new ways through robotics</p>
-      </div>
-
-      <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
-      <div class="col-sm-4">
-        <h2>Outreach</h2>
-        <img src="assets/images/prepbot.jpg">
-        <p>Connecting mentors to Bay Area high school students through PIE PREP and promoting STEM awareness throughout the community</p>
-      </div>
-
-      <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
-      <div class="col-sm-4">
-        <h2>Development</h2>
-
-        <img src="assets/images/solderingSquare.jpg">
-        <p>Developing our own software and hardware to give students the best experience for $100 per team</p>
+        <a class="btn btn-info" href="../get-involved/join-staff.html" role="button">More Staff info!</a>
       </div>
     </div>
+  </div>
 
-    <div class="row" id="stats"> <!-- Second Row, meant to demonstrate the impact that PiE has had on the Bay Area/Berkeley -->
-      <hr class="horizontal-border"></hr>
-      <h2>Pioneers in Engineering has served more than</h2>
-      <h2><strong>30</strong> Schools • <strong>700</strong> High School Students • <strong>350</strong> Berkeley Students</h2>
-      <!-- <img src="assets/images/sprocket.png" id="sprocket"> -->
+  <br/>
+   <div class="row" id="pie-description"> <!-- First Row of Images, meant for immediate description of what PiE is/does -->
+    <div class="col-sm-4">
+      <h2>Competition</h2>
+      <img src="assets/images/comp.JPG">
+      <p>Bringing high school students together to challenge themselves in new ways through robotics</p>
     </div>
 
-
-    <div class="row" id="news"> <!-- Third Row, meant for more specific information that is not needed by all visitors (i.e. Schedule, Blog) -->
-      <hr class="horizontal-border"></hr>
-
-      <div class="col-md-5">
-        <h2>Schedule</h2>
-        {% include schedule.html %}
-      </div>
-
-      <div class="col-md-7">
-        <h2>News Updates</h2>
-        {% for post in site.posts limit:5%}
-        {% unless post.hide %}
-          <div class="post-row">
-            <h4 class="title">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
-            </h4>
-            <div class="excerpt">{{ post.excerpt }}</div>
-          </div>
-        {% endunless %}
-        {% endfor %}
-
-      </div>
+    <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
+    <div class="col-sm-4">
+      <h2>Outreach</h2>
+      <img src="assets/images/prepbot.jpg">
+      <p>Connecting mentors to Bay Area high school students through PIE PREP and promoting STEM awareness throughout the community</p>
     </div>
 
+    <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
+    <div class="col-sm-4">
+      <h2>Development</h2>
+
+      <img src="assets/images/solderingSquare.jpg">
+      <p>Developing our own software and hardware to give students the best experience for $100 per team</p>
+    </div>
+  </div>
+
+  <div class="row" id="stats"> <!-- Second Row, meant to demonstrate the impact that PiE has had on the Bay Area/Berkeley -->
+    <hr class="horizontal-border"></hr>
+    <h2>Pioneers in Engineering has served more than</h2>
+    <h2><strong>30</strong> Schools • <strong>700</strong> High School Students • <strong>350</strong> Berkeley Students</h2>
+    <!-- <img src="assets/images/sprocket.png" id="sprocket"> -->
+  </div>
+
+
+  <div class="row" id="news"> <!-- Third Row, meant for more specific information that is not needed by all visitors (i.e. Schedule, Blog) -->
+    <hr class="horizontal-border"></hr>
+
+    <div class="col-md-5">
+      <h2>Schedule</h2>
+      {% include schedule.html %}
+    </div>
+
+    <div class="col-md-7">
+      <h2>News Updates</h2>
+      {% for post in site.posts limit:5%}
+      {% unless post.hide %}
+        <div class="post-row">
+          <h4 class="title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
+          </h4>
+          <div class="excerpt">{{ post.excerpt }}</div>
+        </div>
+      {% endunless %}
+      {% endfor %}
+
+    </div>
+  </div>
 
 </div>
