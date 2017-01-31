@@ -5,7 +5,7 @@ hero-image: url(../assets/images/stock-images/realm-charter-kit-assembly.png)
 ---
 
 # Become a Mentor
-If you are a UC Berkeley or SFSU student, you can be a great PiE mentor! Mentors are required to take our DeCal (2 units, P/NP) and mentor their teams for at least two hours per week.  Mentors are currently needed for the Robotics Competition during the Spring.
+If you are a UC Berkeley or SFSU student, you can be a great PiE mentor! Mentors are required to take our [DeCal](http://decal.berkeley.edu/courses/96) (2 units, P/NP) and mentor their teams for at least two hours per week.  Mentors are currently needed for the Robotics Competition during the Spring.
 
 # Who is a Mentor?
 A Pioneers in Engineering mentor for the Robotics Competition guides a team of local high school students through the design and build process of a robot that will compete in an eight-week long, exciting competition season. Our mentors are mostly UC Berkeley students, but we also have mentors from the City College of SF and other volunteers in the community.

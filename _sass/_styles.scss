@@ -385,26 +385,7 @@ Does not work on round things. */
   p {
     font-size: $jumbotron-font-size/1.5;
   }
-
-  // copied from bootstrap/_jumbotron to maintain paddings on small screens
-  @media screen and (max-width: $screen-sm-min) {
-    padding-top:    ($jumbotron-padding * 0.8);
-    padding-bottom: ($jumbotron-padding * 0.8);
-
-    .container &,
-    .container-fluid & {
-      padding-left:  ($jumbotron-padding * 0.4);
-      padding-right: ($jumbotron-padding * 0.4);
-    }
-  }
-
-  @media screen and (max-width: 350px) {
-    h2 { font-size: 28px; }
-  }
-
-  @media screen and (min-width: 350px) {
-    h2 { font-size: 32px; }
-  }
+  padding: 10px;
 }
 
 .horizontal-border {
@@ -536,6 +517,10 @@ Does not work on round things. */
 
 .blue-title {
   color: $pie-blue;
+}
+
+.gold-title {
+  color: $pie-gold;
 }
 
 .notecard{
