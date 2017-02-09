@@ -6,11 +6,14 @@ hero-message: PIE Robotics Competition
 <script>
   $(document).ready(function() {
     // Write the description text once, here
-    var kickoffInfo = "Date: March 4<br>time: 8 AM";
-    var kickoffDescription = "Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
-    var gameDayDescription = "Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
-    var scrimmageDescription = "Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
-    var finalCompDescription = "Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
+    var kickoffInfo = "<h2>Date: March 4<br>Time: 8 AM</h2>";
+    var kickoffDescription = "<br>Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
+    var gamedayInfo = "<h2>Date March 11<br>Time: 8 AM</h2>";
+    var gameDayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
+    var scrimmageInfo = "<h2>Date April 15<br>Time: 8 AM</h2>";
+    var scrimmageDescription = "<br>Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
+    var finalcompInfo = "<h2>Date April 29<br>Time: 8 AM</h2>";
+    var finalCompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
 
     // Show the respective description and change arrow style on click
     var onArrowClick = function(elementIndex) {
@@ -31,8 +34,11 @@ hero-message: PIE Robotics Competition
     $(".kickoff-description").html(kickoffDescription);
     $(".kickoff-info").html(kickoffInfo);
     $(".game-day-description").html(gameDayDescription);
+    $(".gameday-info").html(gamedayInfo);
     $(".scrimmage-description").html(scrimmageDescription);
+    $(".scrimmage-info").html(scrimmageInfo);
     $(".final-comp-description").html(finalCompDescription);
+    $(".finalcomp-info").html(finalcompInfo);
 
     // Assign onArrowClick function to each arrow
     $("#kickoff-arrow").click(function(e) {
@@ -71,13 +77,31 @@ hero-message: PIE Robotics Competition
         
           <!-- Put Kickoff description in JS above -->
         </li>
-        <li id="game-day-arrow-description" class="game-day-description">
+        <li id="game-day-arrow-description" class="container">
+        <div class="row">
+        <div class="game-day-description col-md-6">
+        </div>
+        <div class="gameday-info col-md-6">
+        </div>
+        </div>
           <!-- Put Game Day description in JS above -->
         </li>
-        <li id="scrimmage-arrow-description" class="scrimmage-description">
+        <li id="scrimmage-arrow-description" class="container">
+        <div class="row">
+        <div class="scrimmage-description col-md-6">
+        </div>
+        <div class="scrimmage-info col-md-6">
+        </div>
+        </div>
           <!-- Put Scrimmage description in JS above -->
         </li>
-        <li id="final-comp-arrow-description" class="final-comp-description">
+        <li id="final-comp-arrow-description" class="container">
+        <div class="row">
+        <div class="final-comp-description col-md-6">
+        </div>
+        <div class="finalcomp-info col-md-6">
+        </div>
+        </div>
           <!-- Put Final Competition description in JS above -->
         </li>
       </ul>
@@ -91,13 +115,19 @@ hero-message: PIE Robotics Competition
         </div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="game-day-panel-description" class="game-day-description sublinks collapse"><!-- Put Game Day description in JS above --></div>
+        <div id="game-day-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="gameday-info">
+        </div><div class="game-day-description">
+        </div></div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-panel-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="scrimmage-panel-description" class="scrimmage-description sublinks collapse"><!-- Put Scrimmage description in JS above --></div>
+        <div id="scrimmage-panel-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --><div class="scrimmage-info">
+        </div><div class="scrimmage-description">
+        </div></div>
 
         <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-panel-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="final-comp-panel-description" class="final-comp-description sublinks collapse"><!-- Put Final Competition description in JS above --></div>
+        <div id="final-comp-panel-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --><div class="finalcomp-info">
+        </div><div class="final-comp-description">
+        </div></div>
       </div>
     </div>
   </div>
