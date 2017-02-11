@@ -1,40 +1,162 @@
 ---
 layout: default
 hero-image: url(../assets/images/stock-images/robotics-competition.jpg)
-hero-message: Spring Competition
+hero-message: PIE Robotics Competition
 ---
+<script>
+  $(document).ready(function() {
+    // Write the description text once, here
+    var kickoffInfo = "<h2>Date: March 4<br>Time: 9 AM</h2>";
+    var kickoffDescription = "<br>Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
+    var gamedayInfo = "<h2>Date: March 11<br>Time: 9 AM</h2>";
+    var gameDayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
+    var drInfo = "<h2>Date: March 20 - 24<br>Time: 4 PM</h2>";
+    var drDescription = "<br>Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals. It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.";
+    var scrimmageInfo = "<h2>Date: April 15<br>Time: 9 AM</h2>";
+    var scrimmageDescription = "<br>Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
+    var finalcompInfo = "<h2>Date: April 29 - 30<br>Time: 9 AM</h2>";
+    var finalCompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
+
+    // Show the respective description and change arrow style on click
+    var onArrowClick = function(elementIndex) {
+      var arrowDescriptions = $("#timeline-arrow-descriptions > li");
+      var arrowHeads = $("#timeline-arrows > li");
+
+      $(arrowDescriptions[elementIndex]).show();
+      $(arrowHeads[elementIndex]).attr('class', 'timeline-arrow');
+			if (elementIndex === 1 || elementIndex === 2 || elementIndex === 4) {
+				$(arrowHeads[elementIndex]).attr('class', 'timeline-arrow twoline-timeline-arrow');
+			}
+      for (var i = 0; i < arrowDescriptions.length; i++) {
+        if (i !== elementIndex) {
+          $(arrowDescriptions[i]).hide();
+          $(arrowHeads[i]).attr('class', 'inactive-timeline-arrow');
+					if (i === 1 || i === 2 || i === 4) {
+						$(arrowHeads[i]).attr('class', 'inactive-timeline-arrow twoline-timeline-arrow');
+					}
+        }
+      }
+    };
+
+    // Fill in the description text in the HTML
+    $(".kickoff-description").html(kickoffDescription);
+    $(".kickoff-info").html(kickoffInfo);
+    $(".game-day-description").html(gameDayDescription);
+    $(".gameday-info").html(gamedayInfo);
+    $(".dr-description").html(drDescription);
+    $(".dr-info").html(drInfo);
+    $(".scrimmage-description").html(scrimmageDescription);
+    $(".scrimmage-info").html(scrimmageInfo);
+    $(".final-comp-description").html(finalCompDescription);
+    $(".finalcomp-info").html(finalcompInfo);
+
+    // Assign onArrowClick function to each arrow
+    $("#kickoff-arrow").click(function(e) {
+      onArrowClick(0);
+    });
+    $("#game-day-arrow").click(function(e) {
+      onArrowClick(1);
+    });
+    $("#dr-arrow").click(function(e) {
+      onArrowClick(2);
+    });
+    $("#scrimmage-arrow").click(function(e) {
+      onArrowClick(3);
+    });
+    $("#final-comp-arrow").click(function(e) {
+      onArrowClick(4);
+    });
+  });
+</script>
 <!-- The Competition row -->
 <div class="container rc-spring">
-   <div class="row text-center">
-    <h2 class="blue-title"> The Competition </h2>
-    <div class="col-md-4">
-      <div class = "big-txt"> 24 </div>
-      <h3>Teams</h3>
-    </div>
-    <div class="col-md-4">
-      <div class = "big-txt"> 8 </div>
-      <h3>Week-long competition</h3>
-    </div>
-    <div class="col-md-4">
-      <div class="big-txt"> $100 </div>
-      <h3> To participate</h3>
-    </div>
-  </div>
-  <hr class="horizontal-border"></hr>
-  <!-- How It Works row -->
-  <div class="row text-center">
-    <h2 class="gold-title"> How It Works </h2>
-    <div class="col-md-4">
-      <div class = "big-gold-txt"> <i class="fa fa-hand-paper-o"></i> </div>
-      <h3>We build the kits</h3>
-    </div>
-    <div class="col-md-4">
-      <div class = "big-gold-txt"> <i class="fa fa-users"></i> </div>
-      <h3>We provide guidance and mentorship</h3>
-    </div>
-    <div class="col-md-4">
-      <div class="big-gold-txt"> <i class="fa fa-building-o"></i> </div>
-      <h3>We provide judges and a beautiful venue!</h3>
+  <div class="row">
+    <div id="timeline">
+      <!-- big pretty arrows for big screens -->
+      <ul id="timeline-arrows" class="hidden-xs hidden-sm">
+        <li id="kickoff-arrow" class="timeline-arrow">Kickoff</li>
+				<li id="game-day-arrow" class="inactive-timeline-arrow twoline-timeline-arrow">Game<br/>Day</li>
+				<li id="dr-arrow" class="inactive-timeline-arrow twoline-timeline-arrow">Design<br/>Reviews</li>
+        <li id="scrimmage-arrow" class="inactive-timeline-arrow">Scrimmage</li>
+				<li id="final-comp-arrow" class="inactive-timeline-arrow twoline-timeline-arrow">Final<br>Competition</li>
+      </ul>
+      <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
+        <li id="kickoff-arrow-description" class="container"  style="display: block;">
+        <div class="row">
+        <div class="kickoff-description col-md-6">
+        </div>
+        <div class="kickoff-info col-md-6">
+        </div>
+        </div>
+        
+          <!-- Put Kickoff description in JS above -->
+        </li>
+        <li id="game-day-arrow-description" class="container">
+        <div class="row">
+        <div class="game-day-description col-md-6">
+        </div>
+        <div class="gameday-info col-md-6">
+        </div>
+        </div>
+          <!-- Put Game Day description in JS above -->
+        </li>
+        <li id="dr-arrow-description" class="container">
+        <div class="row">
+        <div class="dr-description col-md-6">
+        </div>
+        <div class="dr-info col-md-6">
+        </div>
+        </div>
+          <!-- Put DR description in JS above -->
+        </li>
+        <li id="scrimmage-arrow-description" class="container">
+        <div class="row">
+        <div class="scrimmage-description col-md-6">
+        </div>
+        <div class="scrimmage-info col-md-6">
+        </div>
+        </div>
+          <!-- Put Scrimmage description in JS above -->
+        </li>
+        <li id="final-comp-arrow-description" class="container">
+        <div class="row">
+        <div class="final-comp-description col-md-6">
+        </div>
+        <div class="finalcomp-info col-md-6">
+        </div>
+        </div>
+          <!-- Put Final Competition description in JS above -->
+        </li>
+      </ul>
+      <!-- listed panels for small screens -->
+      <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
+        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a> 
+        
+        <div id="kickoff-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="kickoff-info">
+        </div><div class="kickoff-description">
+        </div>
+        </div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="game-day-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="gameday-info">
+        </div><div class="game-day-description">
+        </div></div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#dr-panel-description" data-parent="#timeline-panel">Design Reviews<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="dr-panel-description" class="sublinks collapse"><!-- Put DR description in JS above --><div class="dr-info">
+        </div><div class="dr-description">
+        </div></div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-panel-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="scrimmage-panel-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --><div class="scrimmage-info">
+        </div><div class="scrimmage-description">
+        </div></div>
+
+        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-panel-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
+        <div id="final-comp-panel-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --><div class="finalcomp-info">
+        </div><div class="final-comp-description">
+        </div></div>
+      </div>
     </div>
   </div>
   <hr class="horizontal-border"></hr>

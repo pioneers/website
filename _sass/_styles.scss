@@ -548,6 +548,129 @@ Does not work on round things. */
 	}
 }
 
+#timeline-arrows {
+  $timeline-height: 100px;
+  $arrow-width: 25px;
+  $arrow-spacing: 10px;
+  $timeline-font-size: 20px;
+  $timeline-horizontal-padding: 40px;
+  $timeline-vertical-padding: $timeline-height/3;
+  $arrow-hover-color: darken($pie-gold, 10%);
+  $arrow-color: $pie-gold;
+  $arrow-active-color: $pie-blue;
+
+  padding: 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+
+  .timeline-arrow {
+    flex: 1 1 auto;
+    height: $timeline-height;
+    line-height: $timeline-height/3; 
+    background-color: $arrow-active-color;
+    text-align: center;
+    //padding-top: $timeline-height/4;
+	padding: $timeline-vertical-padding $timeline-horizontal-padding $timeline-vertical-padding $timeline-horizontal-padding+$arrow-width;
+    position: relative;
+    margin: 0 $arrow-spacing 0 0;
+
+    font-size: $timeline-font-size;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+    &:after {
+      content: "";
+      border-top: $timeline-height/2 solid transparent;
+      border-bottom: $timeline-height/2 solid transparent;
+      border-left: $arrow-width solid $arrow-active-color;
+      position: absolute;
+      right: -$arrow-width;
+      top: 0;
+      z-index: 5; // Force it to be above the :before of the next element
+    }
+
+    &:before {
+      content: "";
+      border-top: $timeline-height/2 solid transparent;
+      border-bottom: $timeline-height/2 solid transparent;
+      border-left: $arrow-width solid white;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &:first-child {
+      //border-top-left-radius: 10px;
+      //border-bottom-left-radius: 10px;
+      padding-left: $timeline-horizontal-padding;
+      &:before {
+        display: none;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+      //border-top-right-radius: 10px;
+      //border-bottom-right-radius: 10px;
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .twoline-timeline-arrow {
+	  @extend .timeline-arrow;
+	  padding-top: $timeline-height/6;
+	  padding-bottom: $timeline-height/6;
+  }
+
+  .inactive-timeline-arrow {
+    @extend .timeline-arrow;
+
+    background-color: $arrow-color;
+
+    &:after {
+      border-left: $arrow-width solid $arrow-color;
+    }
+
+    &:hover {
+      background-color: $arrow-hover-color;
+
+      &:after{
+        border-left-color: $arrow-hover-color;
+      }
+    }
+  }
+}
+
+#timeline-arrow-descriptions {
+  @extend .well;
+  @extend .well-lg;
+
+  //padding-left: 0;
+background-color: lighten($pie-blue, 5%);
+color:white;
+border-color: lighten($pie-blue, 5%);
+  li {
+    display: none;
+    //padding: 25px;
+    width: 100%;
+    // display: flex;
+    list-style-type: none;
+    //background-color: $pie-blue;
+    //color: white;
+  }
+}
+
+#timeline-panel {
+  .sublinks {
+    padding: 10px;
+  }
+}
+
 /**
  * Posts
  */
