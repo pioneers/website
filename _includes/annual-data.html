@@ -1,0 +1,106 @@
+
+		
+		<script src="../assets/javascripts/Chart.js"></script>
+		<script src="../assets/javascripts/legend.js"></script>
+
+		<style>
+
+.legend {
+    width: 15%;
+    border: 1px solid black;
+}
+
+.legend .title {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    line-height: 1.2em;
+    padding: 0 0.3em;
+    font-size: 80%;
+}
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid; /* Comment out if you don't want to show the fillColor */
+    //border-radius: 0.5em; 
+    margin-right: 0.5em;
+} </style>
+
+		<div style="width: 100%; height:50%">
+			<h2 class ="sub-heading">PiE Annual Data</h2>
+				<div class="hidden-xs">
+					<div id="legend"></div>
+						<canvas id="canvas" height="25%" width="60%" ></canvas>
+				</div>
+				<div class = "visible-xs">
+					<table class="table table-striped table-hover">
+						<thead> <tr> <th>Year</th> <th>Students</th> <th>Schools</th> <th>Mentors</th> </tr> 
+						</thead>
+						 <tbody> <tr> <th scope=row>2009</th> <td>44</td> <td>6</td> <td>18</td> </tr> 
+						 	<tr> <th scope=row>2010</th> <td>60</td> <td>8</td> <td>27</td> </tr> 
+						 	<tr> <th scope=row>2011</th> <td>102</td> <td>9</td> <td>35</td> </tr> 
+						 	<tr> <th scope=row>2012</th> <td>265</td> <td>20</td> <td>90</td> </tr> 
+						 	<tr> <th scope=row>2013</th> <td>260</td> <td>24</td> <td>107</td> </tr> 
+						 	<tr> <th scope=row>2014</th> <td>276</td> <td>20</td> <td>86</td> </tr> 
+						 	<tr> <th scope=row>2015</th> <td>350</td> <td>24</td> <td>76</td> </tr> 
+						 </tbody> 
+					</table>	
+				</div>
+	
+		</div>
+		
+
+	<script>
+	
+
+	var pieAnnualData = {
+		labels : ["2011", "2012", "2013", "2014", "2015"],
+		datasets : [
+			{
+				label: "Students",
+				fillColor : "rgba(43,61,98,0.)",
+				strokeColor : "rgba(43,61,98,0.8)",
+				highlightFill : "rgba(43,61,98,0.75)",
+				highlightStroke : "rgba(43,61,98,1)",
+				data : [102, 265, 260, 276, 350]
+			},
+			{
+				label: "Schools",
+				fillColor : "rgba(199, 200, 20,0.5)",
+				strokeColor : "rgba(199, 170, 54,0.8)",
+				highlightFill: "rgba(199, 170, 54,0.75)",
+				highlightStroke: "rgba(199, 170, 54,1)",
+				data : [9, 20, 24, 20, 24]
+			},
+			
+			{
+				label: "Mentors",
+				fillColor : "rgba(151,187,205,0.5)",
+				strokeColor : "rgba(151,187,205,0.8)",
+				highlightFill : "rgba(151,187,205,0.75)",
+				highlightStroke : "rgba(151,187,205,1)",
+				data : [35, 90, 107, 86, 76]
+			}
+		]
+
+	};
+	
+
+
+
+		var ctx = document.getElementById("canvas").getContext("2d");
+pieData = new Chart(ctx).Bar(pieAnnualData, {
+			responsive : true 
+		});
+	
+
+legend(document.getElementById("legend"), pieAnnualData, pieData);
+show();
+
+	</script>
+	 
+
+
