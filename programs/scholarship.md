@@ -92,7 +92,7 @@ The following documents are provided for your convenience.
     <tr>
       <td>Eduardo Navarro</td>
       <td>Lionel Wilson High School</td>
-      <td>Cal Maritime Academy</td>
+      <td>University of California, Merced</td>
       <td>2016</td>
     </tr>
   </tbody>
