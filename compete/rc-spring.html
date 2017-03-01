@@ -9,13 +9,13 @@ hero-message: PiE Robotics Competition
     var kickoffInfo = "<h2>Date: March 4<br>Time: 9 AM</h2>";
     var kickoffDescription = "<br>Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
     var gamedayInfo = "<h2>Date: March 11<br>Time: 9 AM</h2>";
-    var gameDayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
+    var gamedayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
     var drInfo = "<h2>Date: March 20 - 24<br>Time: 4 PM</h2>";
     var drDescription = "<br>Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals. It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.";
     var scrimmageInfo = "<h2>Date: April 15<br>Time: 9 AM</h2>";
     var scrimmageDescription = "<br>Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
     var finalcompInfo = "<h2>Date: April 29 - 30<br>Time: 9 AM</h2>";
-    var finalCompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
+    var finalcompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
 
     // Show the respective description and change arrow style on click
     var onArrowClick = function(elementIndex) {
@@ -41,14 +41,14 @@ hero-message: PiE Robotics Competition
     // Fill in the description text in the HTML
     $(".kickoff-description").html(kickoffDescription);
     $(".kickoff-info").html(kickoffInfo);
-    $(".game-day-description").html(gameDayDescription);
-    $(".gameday-info").html(gamedayInfo);
+    $(".game-day-description").html(gamedayDescription);
+    $(".game-day-info").html(gamedayInfo);
     $(".dr-description").html(drDescription);
     $(".dr-info").html(drInfo);
     $(".scrimmage-description").html(scrimmageDescription);
     $(".scrimmage-info").html(scrimmageInfo);
-    $(".final-comp-description").html(finalCompDescription);
-    $(".finalcomp-info").html(finalcompInfo);
+    $(".final-comp-description").html(finalcompDescription);
+    $(".final-comp-info").html(finalcompInfo);
 
     // Assign onArrowClick function to each arrow
     $("#kickoff-arrow").click(function(e) {
@@ -89,14 +89,14 @@ hero-message: PiE Robotics Competition
         <div class="kickoff-info col-md-6">
         </div>
         </div>
-        
+
           <!-- Put Kickoff description in JS above -->
         </li>
         <li id="game-day-arrow-description" class="container">
         <div class="row">
         <div class="game-day-description col-md-6">
         </div>
-        <div class="gameday-info col-md-6">
+        <div class="game-day-info col-md-6">
         </div>
         </div>
           <!-- Put Game Day description in JS above -->
@@ -123,62 +123,103 @@ hero-message: PiE Robotics Competition
         <div class="row">
         <div class="final-comp-description col-md-6">
         </div>
-        <div class="finalcomp-info col-md-6">
+        <div class="final-comp-info col-md-6">
         </div>
         </div>
           <!-- Put Final Competition description in JS above -->
         </li>
       </ul>
-      <!-- listed panels for small screens -->
-      <div id="timeline-panel" class="panel list-group hidden-md hidden-lg">
-        <a id="kickoff-panel" class="list-group-item" data-toggle="collapse" data-target="#kickoff-panel-description" data-parent="#timeline-panel">Kickoff<span class="glyphicon glyphicon-plus pull-right"></span></a> 
-        
-        <div id="kickoff-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="kickoff-info">
-        </div><div class="kickoff-description">
+      <!-- tabbed switching for small screens -->
+      <div class="hidden-md hidden-lg container-fluid">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#kickoff" data-toggle="tab" aria-expanded="false">Kickoff</a>
+          <li class=""><a href="#game-day" data-toggle="tab" aria-expanded="false">GD</a></li>
+          <li class=""><a href="#dr" data-toggle="tab" aria-expanded="false">DR</a></li>
+          <li class=""><a href="#scrimmage" data-toggle="tab" aria-expanded="false">Scrimmage</a></li>
+          <li class=""><a href="#final-comp" data-toggle="tab" aria-expanded="false">FC</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="kickoff">
+            <h1 class="blue-title">Kickoff</h1>
+            <!-- Put Game Day description in JS above -->
+            <div class="kickoff-info"></div>
+            <div class="kickoff-description"></div>
+          </div>
+
+          <div class="tab-pane fade in" id="game-day">
+            <h1 class="blue-title">Game Day</h1>
+            <!-- Put Game Day description in JS above -->
+            <div class="game-day-info"></div>
+            <div class="game-day-description"></div>
+          </div>
+
+          <div class="tab-pane fade in" id="dr">
+            <h1 class="blue-title">Design Reviews</h1>
+            <!-- Put Game Day description in JS above -->
+            <div class="dr-info"></div>
+            <div class="dr-description"></div>
+          </div>
+
+          <div class="tab-pane fade in" id="scrimmage">
+            <h1 class="blue-title">Scrimmage</h1>
+            <!-- Put Game Day description in JS above -->
+            <div class="scrimmage-info"></div>
+            <div class="scrimmage-description"></div>
+          </div>
+
+          <div class="tab-pane fade in" id="final-comp">
+            <h1 class="blue-title">Final Competition</h1>
+            <!-- Put Game Day description in JS above -->
+            <div class="final-comp-info"></div>
+            <div class="final-comp-description"></div>
+          </div>
         </div>
-        </div>
-
-        <a class="list-group-item" data-toggle="collapse" data-target="#game-day-panel-description" data-parent="#timeline-panel">Game Day<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="game-day-panel-description" class="sublinks collapse"><!-- Put Game Day description in JS above --><div class="gameday-info">
-        </div><div class="game-day-description">
-        </div></div>
-
-        <a class="list-group-item" data-toggle="collapse" data-target="#dr-panel-description" data-parent="#timeline-panel">Design Reviews<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="dr-panel-description" class="sublinks collapse"><!-- Put DR description in JS above --><div class="dr-info">
-        </div><div class="dr-description">
-        </div></div>
-
-        <a class="list-group-item" data-toggle="collapse" data-target="#scrimmage-panel-description" data-parent="#timeline-panel">Scrimmage<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="scrimmage-panel-description" class="sublinks collapse"><!-- Put Scrimmage description in JS above --><div class="scrimmage-info">
-        </div><div class="scrimmage-description">
-        </div></div>
-
-        <a class="list-group-item" data-toggle="collapse" data-target="#final-comp-panel-description" data-parent="#timeline-panel">Final Competition<span class="glyphicon glyphicon-plus pull-right"></span></a>
-        <div id="final-comp-panel-description" class="sublinks collapse"><!-- Put Final Competition description in JS above --><div class="finalcomp-info">
-        </div><div class="final-comp-description">
-        </div></div>
       </div>
     </div>
   </div>
-  <hr class="horizontal-border">
-  <!-- Schedule -->
-  <div class="row text-center">
-    <h2 class="blue-title"> Season Schedule </h2>
+
+  <!-- gcal link -->
+  <div class="row" style="text-align: right;">
+     <a href="../compete/gcal.html">Google Calendar of Season Events<span class="glyphicon glyphicon-calendar"></span></a>
   </div>
-  <div class="row">
+
+  <!-- The Competition row -->
+  <div class="container rc-spring">
+   <div class="row text-center">
+    <h2 class="blue-title"> The Competition </h2>
     <div class="col-md-4">
-      {% include schedule.html %}
+      <div class = "big-txt"> 24 </div>
+      <h3>Teams</h3>
     </div>
-    <div class="col-md-8">
-      <iframe
-        src="https://calendar.google.com/calendar/embed?src=yi-fanchien%40pioneers.berkeley.edu&ctz=America/Los_Angeles"
-        style="border: 0"
-        width="100%" height="600"
-        frameborder="0"
-        scrolling="no">
-      </iframe>
+    <div class="col-md-4">
+      <div class = "big-txt"> 8 </div>
+      <h3>Week-long competition</h3>
+    </div>
+    <div class="col-md-4">
+      <div class="big-txt"> $100 </div>
+      <h3> To participate</h3>
     </div>
   </div>
+  <hr class="horizontal-border"></hr>
+  <!-- How It Works row -->
+  <div class="row text-center">
+    <h2 class="gold-title"> How It Works </h2>
+    <div class="col-md-4">
+      <div class = "big-gold-txt"> <i class="fa fa-hand-paper-o"></i> </div>
+      <h3>We build the kits</h3>
+    </div>
+    <div class="col-md-4">
+      <div class = "big-gold-txt"> <i class="fa fa-users"></i> </div>
+      <h3>We provide guidance and mentorship</h3>
+    </div>
+    <div class="col-md-4">
+      <div class="big-gold-txt"> <i class="fa fa-building-o"></i> </div>
+      <h3>We provide judges and a beautiful venue!</h3>
+    </div>
+  </div>
+  <hr class="horizontal-border"></hr>
+  <hr class="horizontal-border">
   <!-- Youtube Video -->
   <div class="row text-center">
     <div id="rc-video" class ="embed-responsive embed-responsive-16by9">
