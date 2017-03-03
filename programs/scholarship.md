@@ -9,12 +9,12 @@ Pioneers in Engineering strives to provide a quality STEM educational experience
 The scholarship committee will review each application holistically, taking into account academic achievement, extracurricular activities, leadership skills, and passion. As a STEM organization, we are especially interested in how your pursuits involve science and engineering.
 
 <br>
-<br>
 
+<!--
 <div class="alert alert-info" role="alert">The 2017 PiE Alumni Scholarship season hasn't begun yet. Please come back in the beginning of 2017 for updates!</div>
 
 <br>
-<br>
+-->
 
 ## Scholarship Schedule
 <table class="table table-striped table-hover">
@@ -62,8 +62,6 @@ Please use the online web application to submit your scholarship application.
 The following documents are provided for your convenience.
 
 * <a href="{{ '/assets/scholarship/2017_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2017 Scholarship Application Summary</a>
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_recommendation_summary.pdf' | prepend: site.baseurl }}">2017 Recommendation Form Summary</a>
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2017 Scholarship Workshop</a>
 
 ## Past Scholars
 
