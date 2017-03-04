@@ -4,19 +4,18 @@ hero-image: url(../assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 # Pioneers in Engineering Alumni Scholarship
-Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our third annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
+Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our fourth annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
 
 The scholarship committee will review each application holistically, taking into account academic achievement, extracurricular activities, leadership skills, and passion. As a STEM organization, we are especially interested in how your pursuits involve science and engineering.
 
 <br>
-<br>
 
+<!--
 <div class="alert alert-info" role="alert">The 2017 PiE Alumni Scholarship season hasn't begun yet. Please come back in the beginning of 2017 for updates!</div>
 
 <br>
-<br>
+-->
 
-<!---
 ## Scholarship Schedule
 <table class="table table-striped table-hover">
   <thead>
@@ -28,23 +27,23 @@ The scholarship committee will review each application holistically, taking into
   <tbody>
     <tr>
       <td>Application release</td>
-      <td>February 27, 2016 (at Kickoff)</td>
+      <td>March 4, 2017 (at Kickoff)</td>
     </tr>
     <tr>
       <td>Workshop</td>
-      <td>February 27, 2016 (at Kickoff)</td>
+      <td>March 4, 2017 (at Kickoff)</td>
     </tr>
     <tr>
       <td>Applications due</td>
-      <td>April 13, 2016</td>
+      <td>April 15, 2017</td>
     </tr>
     <tr>
       <td>Interviews*</td>
-      <td>April 23, 2016 (at PiE Competition)</td>
+      <td>April 29, 2017 (at PiE Competition)</td>
     </tr>
     <tr>
       <td>Recipients announced</td>
-      <td>April 24, 2016 (at PiE Competition)</td>
+      <td>April 30, 2017 (at PiE Competition)</td>
     </tr>
   </tbody>
 </table>
@@ -62,10 +61,7 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents are provided for your convenience.
 
-* <a href="{{ '/assets/scholarship/2016_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2016 Scholarship Application Summary</a>
-* <a href="{{ '/assets/scholarship/2016_pie_scholarship_recommendation_summary.pdf' | prepend: site.baseurl }}">2016 Recommendation Form Summary</a>
-* <a href="{{ '/assets/scholarship/2016_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2016 Scholarship Workshop</a>
- -->
+* <a href="{{ '/assets/scholarship/2017_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2017 Scholarship Application Summary</a>
 
 ## Past Scholars
 
@@ -94,7 +90,7 @@ The following documents are provided for your convenience.
     <tr>
       <td>Eduardo Navarro</td>
       <td>Lionel Wilson High School</td>
-      <td>Cal Maritime Academy</td>
+      <td>University of California, Merced</td>
       <td>2016</td>
     </tr>
   </tbody>
