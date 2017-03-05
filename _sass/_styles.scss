@@ -850,3 +850,26 @@ border-color: lighten($pie-blue, 5%);
 	width: 25%;
 	padding: 0 0 10px 0;
 }
+
+#software-banner {
+	background-color: $pie-blue;
+	display: flex;
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	align-items: baseline;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+
+.software-download{
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	.btn {
+		background-color: lighten($pie-blue, 20%);
+		margin: 10px;
+	}
+	h3 {
+		color: #BBB;
+	}
+}
