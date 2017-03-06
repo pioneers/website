@@ -27,11 +27,11 @@ The scholarship committee will review each application holistically, taking into
   <tbody>
     <tr>
       <td>Application release</td>
-      <td>March 4, 2017 (at Kickoff)</td>
+      <td>March 4, 2017</td>
     </tr>
     <tr>
       <td>Workshop</td>
-      <td>March 4, 2017 (at Kickoff)</td>
+      <td>March 11, 2017 (at Kickoff/Game Day)</td>
     </tr>
     <tr>
       <td>Applications due</td>
@@ -62,6 +62,7 @@ Please use the online web application to submit your scholarship application.
 The following documents are provided for your convenience.
 
 * <a href="{{ '/assets/scholarship/2017_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2017 Scholarship Application Summary</a>
+* <a href="{{ '/assets/scholarship/2017_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2017 Scholarship Workshop</a>
 
 ## Past Scholars
 
