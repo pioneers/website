@@ -663,6 +663,12 @@ border-color: lighten($pie-blue, 5%);
     //background-color: $pie-blue;
     //color: white;
   }
+  a {
+	  color: white;
+	  &:hover{
+		  color: $pie-gold;
+	  }
+  }
 }
 
 #timeline-panel {
@@ -872,4 +878,14 @@ border-color: lighten($pie-blue, 5%);
 	h3 {
 		color: #BBB;
 	}
+}
+
+.tab-pane {
+  padding-left: 15px;
+}
+
+.api-hero{
+  @extend .hero-unit;
+  height: 200px;
+  margin-bottom: 20px;
 }
