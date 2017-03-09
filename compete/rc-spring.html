@@ -7,7 +7,7 @@ hero-message: PiE Robotics Competition
   $(document).ready(function() {
     // Write the description text once, here
     var kickoffInfo = "<h2>Date: March 11<br>Time: 9 AM<br>Check-In: Hearst Field Annex A1</h2>";
-    var kickoffDescription = "<br>Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.";
+    var kickoffDescription = "<br>Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.<br><br><a href=\"https://www.cognitoforms.com/PioneersInEngineering/_2017PioneersInEngineeringStudentRegistration\" target=\"_blank\"><i class=\"fa fa-file-text\" style=\"padding:4px\" aria-hidden=\"true\"></i>Student Registration Form - fill this out before arriving!</a><br><br><a href=\"https://drive.google.com/open?id=1MoaL3NaAaSmlQ9cg5p7v-z6rS-E&usp=sharing\"  target=\"_blank\"><i class=\"fa fa-map-marker\" aria-hidden=\"true\" style=\"padding:4px\"></i>View map of event locations</a><br><br><a href=\"/assets/events/KickoffItinerary.pdf\" target=\"_blank\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"padding:4px\"></i>View PDF of event itinerary</a>";
     //var gamedayInfo = "<h2>Date: March 11<br>Time: 9 AM</h2>";
     //var gamedayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
     var drInfo = "<h2>Date: March 20 - 24<br>Time: TBD</h2>";
@@ -178,8 +178,33 @@ hero-message: PiE Robotics Competition
   </div>
 
   <!-- gcal link -->
-  <div class="row" style="text-align: right;">
+  <!-- <div class="row" style="text-align: right;">
     <a href="../compete/gcal.html"><span class="glyphicon glyphicon-calendar"></span>Google Calendar of Season Events</a>
+  </div> -->
+
+  <div class="row">
+  <div id="announcements" style="margin: 0">
+    <h2 align="center">RESOURCES FOR STUDENTS</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Software</h3>
+        <p>Download Dawn and Runtime software, view documents and guides, and check for updates.</p>
+        <a class="btn btn-primary" href="../software" role="button" target="_blank">Visit software hub</a>
+        <h3>Discourse</h3>
+        <p>Ask questions and get answers! Discuss various competition aspects or just come chat.</p>
+        <a class="btn btn-info" href="https://discourse.pierobotics.org" target="_blank" role="button">Visit the forums</a>
+      </div>
+      <div class="col-md-6">
+        <h3>Worksessions</h3>
+        <p>Sign up for worksessions 24 hours in advance! Having debug issues? Need some more build time or tools? Come on out!</p>
+        <a class="btn btn-info" href="https://worksessions.pierobotics.org" target="_blank" role="button">Sign up for worksession</a>
+        <h3>Calendar</h3>
+        <p>View the entire season's calendar. You can add this to your own Google Calendar!</p>
+        <a class="btn btn-primary" href="../compete/gcal.html">View Google Calendar</a>
+      
+      </div>
+    </div>
+  </div>
   </div>
 
   <!-- The Competition row -->
