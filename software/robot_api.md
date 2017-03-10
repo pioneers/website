@@ -43,49 +43,40 @@ hero-message: Robot API
     </ul>
 
     <div class="tab-content">
-      <div id="r_getval" class="tab-pane fade in active">
-        <h3>Robot.get_value(device, param)</h3>
-        <p markdown="1">
-          The `get_value` function returns a value associated with the device and setting specified.
-        </p>
-        <p markdown="1">
-          `device` <span style="font-variant: small-caps">
-    string
-    </span> - Identifies which sensor or controller will be read. This string is defined by the user in Dawn<br>
-          `param` <span style="font-variant: small-caps">string</span> - Identifies which setting on the specified sensor or controller will be read. Possible `param` values depend on the specified `device`
-        </p>
-        <p markdown="1">
-          This function is useful for checking the state of certain parts of your robot while it is driving. For example, calling this function with a <strong>`Limit Switch`</strong>’s name and “`switch0`” then we would get the value `True` if the first Limit Switch was pressed down and `False` if it was not. Possible devices include: </p>
-          <ul>
-            <li>Limit Switch</li>
-            <li>Line Follower</li>
-            <li>Potentiometer</li>
-            <li>Team Flag</li>
-            <li>Servo</li>
-            <li>YogiBear</li>
-            <li>RFID</li>
-          </ul>
-        
-      </div>
-      <div id="limitswitch" class="tab-pane fade">
-        <h3>Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span></h3>
-        <p markdown="1">
-          Returns a value associated with the device and setting specified.
-        </p>
-        <p markdown="1">
-          The device being specified is a **`Limit Switch`**.
-        </p>
-        <p markdown="1">
-          parameters for a **`Limit Switch`**:</p> <ul>
-          <li>“switch0”</li>
-          <li>“switch1”</li>
-          <li>“switch2”</li>
-          </ul>
-        
-        <p markdown="1">
-          The parameters for a **`Limit Switch`** describe which of the three switches is being read. The <span style="font-variant: small-caps">boolean</span> value that is returned is `True` if the specified switch is being pressed and `False` if it is not.
-        </p>
-      </div>
+      <div markdown = "1" id="r_getval" class="tab-pane fade in active">
+### Robot.get_value(device, param)
+
+The `get_value` function returns a value associated with the device and setting specified.
+
+`device` <span style="font-variant: small-caps"> string </span> - Identifies which sensor or controller will be read. This string is defined by the user in Dawn
+`param` <span style="font-variant: small-caps">string</span> - Identifies which setting on the specified sensor or controller will be read. Possible `param` values depend on the specified `device`
+
+This function is useful for checking the state of certain parts of your robot while it is driving. For example, calling this function with a <strong>`Limit Switch`</strong>’s name and “`switch0`” then we would get the value `True` if the first Limit Switch was pressed down and `False` if it was not. Possible devices include:
+
+- Limit Switch
+- Line Follower
+- Potentiometer
+- Team Flag
+- Servo
+- YogiBear
+- RFID
+
+</div>
+      <div markdown = "1" id="limitswitch" class="tab-pane fade">
+### Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span>
+
+Returns a value associated with the device and setting specified.
+
+The device being specified is a **`Limit Switch`**.
+
+parameters for a **`Limit Switch`**:
+
+- “switch0”
+- “switch1”
+- “switch2”
+
+The parameters for a **`Limit Switch`** describe which of the three switches is being read. The <span style="font-variant: small-caps">boolean</span> value that is returned is `True` if the specified switch is being pressed and `False` if it is not.
+</div>
       <div id="linefollower" class="tab-pane fade">
         <h3>Robot.get_value(device_name, param) <span style="font-variant: small-caps">line follower</span></h3>
         <p markdown="1">
@@ -100,7 +91,6 @@ hero-message: Robot API
           <li>"center"</li>
           <li>"right"</li>
           </ul>
-        
         <p markdown="1">
           The parameters for a **`Line Follower`** describe how much light is being reflected into each sensor. It returns a <span style="font-variant: small-caps">float</span> value between 0 and 1 where a lower value means less light and the sensor is farther off of the reflective tape. 
         </p>
