@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+  <!-- add after bootstrap.min.css -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+  <!-- add after bootstrap.min.js -->
+  <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+  <body data-spy="scroll" data-target="#toc">
+
+    {% include header.html %}
+
+
+    <div class="api-hero" style="background-image: {{ page.hero-image }}">
+      <!-- <img src="{{ page.hero-image }}" alt="{{ page.title }}"> -->
+      <div class="fade-overlay"></div>
+      <div class="container">
+        <h1 data-toc-skip>
+          {{ page.hero-message }}
+        </h1>
+
+         {% if page.hero-button %}
+        <center><a href="{{page.hero-button-url}}" class="btn btn-primary btn-lg">{{page.hero-button}}</a></center>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid"> -->
+      {{ content }}
+    <!-- </div> -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
