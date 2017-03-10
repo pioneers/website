@@ -886,6 +886,6 @@ border-color: lighten($pie-blue, 5%);
 
 .api-hero{
   @extend .hero-unit;
-  height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding: 80px 0 80px 0;
 }
