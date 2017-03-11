@@ -335,7 +335,7 @@ Executes an async function with `*args` passed into the async function as inputs
 
 `*args`: This is a list of a variable number of inputs, depending on how many the `async_function` requires.
 
-Any `async` function must be called by running this function. This function is running async, meaning the next line after this will continue running while this async function runs, both running simultaneously. The input `*args` indicates that any number of inputs can be entered in, and every input (except the first one, which is the async function) will be passed into the function. See the autonomous guide to learn more about async functions.
+Any `async` function must be called by running this function. This function is running async, meaning the next line after this will continue running while this async function runs, both running simultaneously. The input `*args` indicates that any number of inputs can be entered in, and every input (except the first one, which is the async function) will be passed into the function. See the [autonomous guide](/software/auto.html) to learn more about async functions.
 
 **Sample Usage:**
 
