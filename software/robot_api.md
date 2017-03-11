@@ -16,6 +16,9 @@ hero-button: Return to Software Hub
 <div class="col-sm-10">
 
 <h1 style="margin-top:0">Introduction</h1>
+<div markdown="1">
+The Pioneers in Engineering API (Application Program Interface) is a library of functions of that allows users to communicate with the robot. With a rich suite of sensors, your robot can detect and interpret its surroundings for powerful autonomous functionality. Precisely control your robot with new features such as asynchronous Python.
+</div>
 
 <h1>Robot Class</h1>
 
@@ -448,7 +451,73 @@ def teleop_main():
 ````
 </div>
 
-</p>
 <h1>Glossary</h1>
+<div markdown="1">
+**amps**  Measure of how quickly electricity is flowing through a wire or device
+
+**async** Type of function that can run simultaneously to other functions
+
+**asynchronous**  Type of function that can run simultaneously to other functions
+
+**autonomous**  Form of robot control where the robot is only controlled only by code with no input from an xbox controller
+
+**await** Programming keyword used for having the robot sleep
+
+**boolean** Type of data, analagous to integer or character. Boolean variables have only 2 values: `True` and `False`
+
+**device**  Electrical component that either can be controlled by the robot or gives information to the robot
+
+**encoder** Component of motors that reports information on the velocity and position of the motor
+
+**float** Type of data that can hold fractional numbers.
+
+**function**  Set of instructions that can be easily reused to execute an action 
+
+**gamepad** Controller
+
+**int** Type of data than can hold only integers. Fractional numbers will be truncated to integer
+
+**integer** Type of data than can hold only integers. Fractional numbers will be truncated to integer
+
+**LED** Light emitting diode or a tiny light bulb
+
+**limit switch**  Device that delivers information to the robot. Limit switches are like buttons and report whether they have been pressed or not.
+
+**line follower** Device that delivers information to the robot. A Line follower is like a simple that detects only how reflective the surface in front of it is.
+
+**motor** Powerful device that converts electrical power to rotation.
+
+**param** Short for parameter. Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
+
+**PID** Short for Proporitional Integral Differntial. Process for maintaining a sensor value. Similar to cruise control.
+
+**potentiometer** Device that delivers information to the robot. Potentiometers are like protractors and report angular displacement
+
+**RFID**  Short for Radio Frequency Identification. A technology that allows passive (unpowered) devices to communicate data wirelessly using radio waves
+
+**servo** Device similar to a motor. Servos can rotate to a specified degree, but cannot do a full rotation. Servos are roughly 100x weaker than motors
+
+**sleep** Process in which the robot accepts no new instructions for a specified number of seconds
+
+**string**  Type of data that can hold only a sequence of characters (or letters)
+
+**tag** Small component that can be read with the RFID reader
+
+**team flag** Device that indicates your team during official competition. Has 4 small controllable LEDs
+
+**throw** Python programs will *throw* an error when they occur.
+
+**ticks** 
+
+**typeError** Error that occurs when Python attempts to use a value that is of the incorrect type.
+
+**velocity**  Speed of something in a given direction
+
+**YogiBear**  Device that communicates with the motors
+
+**teleop**  Short for tele-operated. Period during the game in which robots are controlled by human input via controllers
+
+**teleoperated**  Period during the game in which robots are controlled by human input via controllers
+</div>
 </div>
 </div>
