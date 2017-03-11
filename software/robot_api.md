@@ -307,13 +307,13 @@ The `device` being specified is a **Team Flag**
 
 `parameters` and valid `values` for a **Team Flag**: 
 
-`“s1”` <span style="font-variant: small-caps">boolean</span>
+`“led1”` <span style="font-variant: small-caps">boolean</span>
 
-`“s2”` <span style="font-variant: small-caps">boolean</span>
+`“led2”` <span style="font-variant: small-caps">boolean</span>
 
-`“s3”` <span style="font-variant: small-caps">boolean</span>
+`“led3”` <span style="font-variant: small-caps">boolean</span>
 
-`“s4”` <span style="font-variant: small-caps">boolean</span>
+`“led4”` <span style="font-variant: small-caps">boolean</span>
 
 Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached to the device. `True` turns the LED on and `False` turns the LED off.
 
