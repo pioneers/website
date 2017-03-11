@@ -16,6 +16,9 @@ hero-button: Return to Software Hub
 <div class="col-sm-10">
 
 <h1 style="margin-top:0">Introduction</h1>
+<div markdown="1">
+The Pioneers in Engineering API (Application Program Interface) is a library of functions of that allows users to communicate with the robot. With a rich suite of sensors, your robot can detect and interpret its surroundings for powerful autonomous functionality. Precisely control your robot with new features such as asynchronous Python.
+</div>
 
 <h1>Robot Class</h1>
 
@@ -66,6 +69,7 @@ This function is useful for checking the state of certain parts of your robot wh
 
 </div>
 <div markdown = "1" id="limitswitch" class="tab-pane fade">
+
 ### Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span>
 
 Returns a value associated with the device and setting specified.
@@ -417,12 +421,103 @@ Can be used only in functions that have the header `"async def ..."`
 </div>
 
 <h1>Example Code</h1>
-<p markdown="1">
-Cold-pressed photo booth kickstarter jean shorts sartorial edison bulb brooklyn, lumbersexual pop-up. Stumptown VHS single-origin coffee hell of. 90's yr edison bulb pickled tattooed, letterpress before they sold out kogi narwhal readymade tousled try-hard `vaporware` copper mug. Cronut enamel pin dreamcatcher live-edge, street art raw denim synth tofu lo-fi meditation. Vice succulents `YOLO`, pabst butcher artisan gluten-free tattooed actually iPhone. Church-key gastropub williamsburg, air plant chicharrones fanny pack vape fixie disrupt. `Iceland` crucifix cardigan, beard copper mug air plant viral coloring book marfa neutra paleo wolf. <br>
+<div markdown="1">
+````python
+left_motor = "YOUR MOTOR ID HERE"
+right_motor = "YOUR MOTOR ID HERE"
 
-Portland hexagon neutra pok pok, tilde vegan knausgaard vice locavore. Health goth roof party iPhone sustainable squid. Lomo leggings post-ironic, knausgaard brooklyn tote bag paleo try-hard letterpress helvetica cred. Activated charcoal scenester irony, kombucha tilde `blue bottle` post-ironic church-key tbh before they sold out bespoke jianbing tousled heirloom. Retro pour-over skateboard heirloom. Neutra copper mug tattooed scenester retro truffaut. Truffaut mustache `squid` butcher, plaid tattooed biodiesel stumptown meh paleo.
+def autonomous_setup():
+    print("Autonomous mode has started!")
+    Robot.run(autonomous_actions)
 
-</p>
+def autonomous_main():
+    pass
+
+async def autonomous_actions():
+    print("Autonomous action sequence started")
+    await Actions.sleep(1.0)
+    print("1 second has passed in autonomous mode")
+
+def teleop_setup():
+    print("Tele-operated mode has started!")
+
+def teleop_main():
+    if Gamepad.get_value("joystick_right_y") > 0.5:
+        Robot.set_value(left_motor, "duty_cycle", -1.0)
+        Robot.set_value(right_motor, "duty_cycle", -1.0)
+    else:
+        Robot.set_value(left_motor, "duty_cycle", 0)
+        Robot.set_value(right_motor, "duty_cycle", 0)
+````
+</div>
+
 <h1>Glossary</h1>
+<div markdown="1">
+**amps**  Measure of how quickly electricity is flowing through a wire or device
+
+**async** Type of function that can run simultaneously to other functions
+
+**asynchronous**  Type of function that can run simultaneously to other functions
+
+**autonomous**  Form of robot control where the robot is only controlled only by code with no input from an xbox controller
+
+**await** Programming keyword used for having the robot sleep
+
+**boolean** Type of data, analagous to integer or character. Boolean variables have only 2 values: `True` and `False`
+
+**device**  Electrical component that either can be controlled by the robot or gives information to the robot
+
+**encoder** Component of motors that reports information on the velocity and position of the motor
+
+**float** Type of data that can hold fractional numbers.
+
+**function**  Set of instructions that can be easily reused to execute an action 
+
+**gamepad** Controller
+
+**int** Type of data than can hold only integers. Fractional numbers will be truncated to integer
+
+**integer** Type of data than can hold only integers. Fractional numbers will be truncated to integer
+
+**LED** Light emitting diode or a tiny light bulb
+
+**limit switch**  Device that delivers information to the robot. Limit switches are like buttons and report whether they have been pressed or not.
+
+**line follower** Device that delivers information to the robot. A Line follower is like a simple that detects only how reflective the surface in front of it is.
+
+**motor** Powerful device that converts electrical power to rotation.
+
+**param** Short for parameter. Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
+
+**PID** Short for Proporitional Integral Differntial. Process for maintaining a sensor value. Similar to cruise control.
+
+**potentiometer** Device that delivers information to the robot. Potentiometers are like protractors and report angular displacement
+
+**RFID**  Short for Radio Frequency Identification. A technology that allows passive (unpowered) devices to communicate data wirelessly using radio waves
+
+**servo** Device similar to a motor. Servos can rotate to a specified degree, but cannot do a full rotation. Servos are roughly 100x weaker than motors
+
+**sleep** Process in which the robot accepts no new instructions for a specified number of seconds
+
+**string**  Type of data that can hold only a sequence of characters (or letters)
+
+**tag** Small component that can be read with the RFID reader
+
+**team flag** Device that indicates your team during official competition. Has 4 small controllable LEDs
+
+**throw** Python programs will *throw* an error when they occur.
+
+**ticks** 
+
+**typeError** Error that occurs when Python attempts to use a value that is of the incorrect type.
+
+**velocity**  Speed of something in a given direction
+
+**YogiBear**  Device that communicates with the motors
+
+**teleop**  Short for tele-operated. Period during the game in which robots are controlled by human input via controllers
+
+**teleoperated**  Period during the game in which robots are controlled by human input via controllers
+</div>
 </div>
 </div>
