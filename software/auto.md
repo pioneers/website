@@ -30,11 +30,11 @@ Let's also assume that the rules restrict the robot from coiling up more than 1 
 
 We will be using the following variables, which you should add to the top of your code:
 
-```python
+~~~ python
 left_motor = "YOUR MOTOR ID HERE"
 right_motor = "YOUR MOTOR ID HERE"
 spool_motor = "YOUR MOTOR ID HERE"
-```
+~~~
 
 <h2 data-toc-text="Fire-and-forget actuation">Our goal: fire-and-forget actuation</h2>
 
@@ -47,7 +47,7 @@ Let's say we want this winding process to stop automatically 1 second after the 
 
 One might try to implement this by adding some code directly to the loop method:
 
-```python
+~~~ python
 ########################################
 #          This code is WRONG          #
 ########################################
@@ -63,7 +63,7 @@ def teleop_main():
         Robot.set_value(spool_motor, "duty_cycle", 1.0)
         # Wait 1 second...
         Robot.set_value(spool_motor, "duty_cycle", 0.0)
-```
+~~~
 
 Consider what would happen if the code paused for 1 second where the "Wait 1 second" comment is placed -- then the six lines of driving code at the start of `teleop_main` would not be running. This means that the robot will be unable to respond to new gamepad commands during that time!
 
@@ -71,7 +71,7 @@ Clearly, this is not what we want. To assist in debugging these sorts of errors,
 
 What we want instead is to start an action that runs independently of the robot, like in the following code:
 
-```python
+~~~ python
 def teleop_main():
     if Gamepad.get_value("joystick_right_y") > 0.5:
         Robot.set_value(left_motor, "duty_cycle", -1.0)
@@ -82,7 +82,7 @@ def teleop_main():
 
     if Gamepads.get_value("button_a"):
         Robot.run(windup)
-```
+~~~
 
 By using `Robot.run`, the `windup` action will be started independently of the `teleop_main` function.
 
@@ -94,12 +94,12 @@ When writing `windup`, we need some way to indicate that it is intended to be ru
 
 To do this, we introduce the `async def` construct, as below:
 
-```python
+~~~ python
 async def windup():
     Robot.set_value(spool_motor, "duty_cycle", 1.0)
     # Wait 1 second...
     Robot.set_value(spool_motor, "duty_cycle", 0.0)
-```
+~~~
 
 The `async` keyword is used to indicate that this function will run independently of the `setup`/`main` code.
 
@@ -110,9 +110,9 @@ __It is an error to pass a regular function to `Robot.run`, or to call an `async
 Now `windup` is running independently of `setup`/`main`, but it still needs to wait for one second in between starting and stopping the motor.
 
 The way this task can wait for events in the real world is by using the `await` keyword. The simplest event one can wait for is for time to pass, which can be coded as:
-```python
+~~~ python
 await Actions.sleep(1.0)
-```
+~~~
 
 The `await` means that the code will pause until something happens -- in this case, the code will remain paused until one second passes.
 
@@ -122,7 +122,7 @@ __Note that `await` is the only way to wait for events in the world, and that `a
 
 Here is the complete code for this example:
 
-```python
+~~~ python
 async def windup():
     Robot.set_value(spool_motor, "duty_cycle", 1.0)
     await Actions.sleep(1.0)
@@ -141,13 +141,13 @@ def teleop_main():
 
     if Gamepads.get_value("button_a"):
         Robot.run(windup)
-```
+~~~
 
 ## Autonomous Mode
 
 Now we are ready to move on from semi-autonomous operation to full-autonomous. We will now break with our tug-of-war game metaphor and instead try to design code that makes the robot drive forward, turn, and then drive forward again (all autonomously).
 
-```python
+~~~ python
 def autonomous_setup():
     Robot.run(open_loop_drive)
 
@@ -178,7 +178,7 @@ async def open_loop_drive():
 # Dawn that do not have a teleop/autonomous dropdown toggle.
 # teleop_setup = autonomous_setup
 # teleop_main = autonomous_main
-```
+~~~
 
 __NOTE:__ the version of Dawn to be released on Kickoff may not contain a dropdown menu to toggle between teleop and autonomous modes. You can work around this by uncommenting the last two lines in the above snippet, which will force the autonomous behavior to be called during teleop mode, as well.
 
