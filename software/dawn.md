@@ -19,7 +19,7 @@ hero-button: Return to Software Hub
 # What is Dawn?
 Dawn is the software through which students can upload code to their robot and receive information. It is essentially a multi-featured app interface through which you can interact with the robot (which runs using Runtime). Dawn runs on Mac, Windows, and Linux distributions.
 
-<img src="/assets/images/student-resources/dawn_guide_1.png" width="800" height="465">
+<img src="/assets/student-resources/dawn_guide_1.png" width="800" height="465">
 ## Editor
 Dawn provides an editor interface, which occupies the left side of the app. Code written here can be uploaded to the robot. In addition, users can save their files, re-open them, and start new files using the File menu options, menu buttons, or the shortcuts. 
 ### Menu Buttons
@@ -30,7 +30,7 @@ The Misc buttons include “Show API”, “Increase font size”, “Decrease f
 A console is, generally put, a debugging interface that prints out messages from code or a receiver. The console in Dawn is responsible for displaying messages that Dawn receives from the robot (Runtime), which is essentially the output that can be expected from a running Python interpreter: print results, Python error messages, etc. Keep in mind that the robot must be connected for Dawn to receive any information to display on the console.
 ## Peripherals
 Peripherals, located on the upper right corner, displays live sensor values collected from each sensor of a connected Robot.
-<img src="/assets/images/student-resources/dawn_guide_2.png" width="447" height="600">
+<img src="/assets/student-resources/dawn_guide_2.png" width="447" height="600">
 ## Gamepads
 Gamepads, located on the bottom right corner, displays the values received from the gamepad controller when connected to the computer. To activate the component, connect a gamepad, then press any button.
 
