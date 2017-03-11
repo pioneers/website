@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+h1,h2,h4,h5,h6{
+  padding-top: 50px; 
+    margin-top: -50px;
+}</style>
 
   {% include head.html %}
   <!-- add after bootstrap.min.css -->
@@ -26,9 +31,9 @@
       </div>
     </div>
 
-    <!-- <div class="container-fluid"> -->
+    <div class="container-fluid">
       {{ content }}
-    <!-- </div> -->
+    </div>
 
     {% include footer.html %}
 
