@@ -785,6 +785,7 @@ if (typeof jQuery === 'undefined') {
       var $this         = $(this)
       var $parent       = getParent($this)
       var relatedTarget = { relatedTarget: this }
+	  Console.log('hi')
 
       if (!$parent.hasClass('open')) return
 

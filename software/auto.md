@@ -1,6 +1,6 @@
 ---
 layout: api
-hero-message: "Guide: Autonomous Code"
+hero-message: "Guide #2: Autonomous Code"
 hero-button-url: /software
 hero-button: Return to Software Hub
 ---
@@ -12,7 +12,7 @@ hero-button: Return to Software Hub
   </div>
 
   <div class="col-sm-10" markdown="1">
-# `Robot.run` and autonomous code
+# 2. `Robot.run` and autonomous code
 
 Continuing from the last tutorial, we now turn to the question of how to make parts of the system behave autonomously.
 
@@ -24,16 +24,16 @@ This section assumes that you've already read part 1.
 
 First, let's make a modification to our robot that plays tug-of-war.
 
-It still has two motors for driving, but let's add an extra motor for some additional pulling power. The rope the robot is pulling is now going to be attached to a spool, and the extra motor can reel it in to get some additional tug.
+It will still have two motors for driving, but let's add an extra motor for some additional pulling power. The rope the robot is pulling is now going to be attached to a spool, and the extra motor can reel it in to get some additional tug.
 
 Let's also assume that the rules restrict the robot from coiling up more than 1 foot of rope.
 
-Let's add this motor's ID to the variables at the top of our code
+We will be using the following variables, which you should add to the top of your code:
 
 ```python
-left_motor = '12345'
-right_motor = '54321'
-spool_motor = '12321'
+left_motor = "YOUR MOTOR ID HERE"
+right_motor = "YOUR MOTOR ID HERE"
+spool_motor = "YOUR MOTOR ID HERE"
 ```
 
 <h2 data-toc-text="Fire-and-forget actuation">Our goal: fire-and-forget actuation</h2>
@@ -48,19 +48,24 @@ Let's say we want this winding process to stop automatically 1 second after the 
 One might try to implement this by adding some code directly to the loop method:
 
 ```python
-# This code is WRONG
+########################################
+#          This code is WRONG          #
+########################################
 def teleop_main():
-    if Gamepads.get_value("left_y") > 0.5:
-        Robot.set_value(left_motor, 1.0)
-        Robot.set_value(right_motor, -1.0)
+    if Gamepad.get_value("joystick_right_y") > 0.5:
+        Robot.set_value(left_motor, "duty_cycle", -1.0)
+        Robot.set_value(right_motor, "duty_cycle", -1.0)
+    else:
+        Robot.set_value(left_motor, "duty_cycle", 0)
+        Robot.set_value(right_motor, "duty_cycle", 0)
 
     if Gamepads.get_value("button_a"):
-        Robot.set_value("shooter_motor", 1.0)
+        Robot.set_value(spool_motor, "duty_cycle", 1.0)
         # Wait 1 second...
-        Robot.set_value("shooter_motor", 0.0)
+        Robot.set_value(spool_motor, "duty_cycle", 0.0)
 ```
 
-Consider what would happen if the code paused for 1 second where the "Wait 1 second" comment is placed -- then the four lines of driving code at the start of `teleop_main` would not be running. This means that the robot will be unable to respond to new gamepad commands during that time!
+Consider what would happen if the code paused for 1 second where the "Wait 1 second" comment is placed -- then the six lines of driving code at the start of `teleop_main` would not be running. This means that the robot will be unable to respond to new gamepad commands during that time!
 
 Clearly, this is not what we want. To assist in debugging these sorts of errors, the student API will error if `teleop_main` (or `autonomous_main`) takes more than 1/20th of a second to complete.
 
@@ -68,13 +73,18 @@ What we want instead is to start an action that runs independently of the robot,
 
 ```python
 def teleop_main():
-    if Gamepads.get_value("left_y") > 0.5:
-        Robot.set_value(left_motor, 1.0)
-        Robot.set_value(right_motor, -1.0)
+    if Gamepad.get_value("joystick_right_y") > 0.5:
+        Robot.set_value(left_motor, "duty_cycle", -1.0)
+        Robot.set_value(right_motor, "duty_cycle", -1.0)
+    else:
+        Robot.set_value(left_motor, "duty_cycle", 0)
+        Robot.set_value(right_motor, "duty_cycle", 0)
 
     if Gamepads.get_value("button_a"):
         Robot.run(windup)
 ```
+
+By using `Robot.run`, the `windup` action will be started independently of the `teleop_main` function.
 
 The question remains how to code `windup`.
 
@@ -86,16 +96,16 @@ To do this, we introduce the `async def` construct, as below:
 
 ```python
 async def windup():
-    Robot.set_value(spool_motor, 1.0)
+    Robot.set_value(spool_motor, "duty_cycle", 1.0)
     # Wait 1 second...
-    Robot.set_value(spool_motor, 0.0)
+    Robot.set_value(spool_motor, "duty_cycle", 0.0)
 ```
 
 The `async` keyword is used to indicate that this function will run independently of the `setup`/`main` code.
 
 __It is an error to pass a regular function to `Robot.run`, or to call an `async def` function directly.__
 
-<h2 data-toc-text="Awaiting for events" markdown="1">`await`ing for events in the world</h2>
+<h2 data-toc-text="'await'ing events" markdown="1">`await`ing for events in the world</h2>
 
 Now `windup` is running independently of `setup`/`main`, but it still needs to wait for one second in between starting and stopping the motor.
 
@@ -114,20 +124,22 @@ Here is the complete code for this example:
 
 ```python
 async def windup():
-    Robot.set_value(spool_motor, 1.0) # start motor
-    await Actions.sleep(1.0) # wait 1 second
-    Robot.set_value(spool_motor, 0.0) # stop motor
+    Robot.set_value(spool_motor, "duty_cycle", 1.0)
+    await Actions.sleep(1.0)
+    Robot.set_value(spool_motor, "duty_cycle", 0.0)
 
 def teleop_setup():
     pass
 
 def teleop_main():
-    left_speed = -Gamepads.get_value("left_y")
-    right_speed = -Gamepads.get_value("right_y")
-    Robot.set_value(left_motor, left_speed)
-    Robot.set_value(right_motor, right_speed)
+    if Gamepad.get_value("joystick_right_y") > 0.5:
+        Robot.set_value(left_motor, "duty_cycle", -1.0)
+        Robot.set_value(right_motor, "duty_cycle", -1.0)
+    else:
+        Robot.set_value(left_motor, "duty_cycle", 0)
+        Robot.set_value(right_motor, "duty_cycle", 0)
 
-    if Gamepads.get("button_a"):
+    if Gamepads.get_value("button_a"):
         Robot.run(windup)
 ```
 
@@ -136,32 +148,39 @@ def teleop_main():
 Now we are ready to move on from semi-autonomous operation to full-autonomous. We will now break with our tug-of-war game metaphor and instead try to design code that makes the robot drive forward, turn, and then drive forward again (all autonomously).
 
 ```python
-def auto_setup():
+def autonomous_setup():
     Robot.run(open_loop_drive)
 
-def auto_main():
+def autonomous_main():
     pass
 
 async def open_loop_drive():
     # Drive forward for one second
-    Robot.set_value(left_motor, 1.0)
-    Robot.set_value(right_motor, 1.0)
+    Robot.set_value(left_motor, "duty_cycle", 1.0)
+    Robot.set_value(right_motor, "duty_cycle", 1.0)
     await Actions.sleep(1.0)
 
     # Turn right for half a second
-    Robot.set_value(left_motor, 0.5)
-    Robot.set_value(right_motor, -0.5)
+    Robot.set_value(left_motor, "duty_cycle", 0.5)
+    Robot.set_value(right_motor, "duty_cycle", -0.5)
     await Actions.sleep(0.5)
 
     # Drive forward again
-    Robot.set_value(left_motor, 1.0)
-    Robot.set_value(right_motor, 1.0)
+    Robot.set_value(left_motor, "duty_cycle", 1.0)
+    Robot.set_value(right_motor, "duty_cycle", 1.0)
     await Actions.sleep(0.5)
 
     # Stop
-    Robot.set_value(left_motor, 0.0)
-    Robot.set_value(right_motor, 0.0)
+    Robot.set_value(left_motor, "duty_cycle", 0.0)
+    Robot.set_value(right_motor, "duty_cycle", 0.0)
+
+# Uncomment the following two lines to test with versions of
+# Dawn that do not have a teleop/autonomous dropdown toggle.
+# teleop_setup = autonomous_setup
+# teleop_main = autonomous_main
 ```
+
+__NOTE:__ the version of Dawn to be released on Kickoff may not contain a dropdown menu to toggle between teleop and autonomous modes. You can work around this by uncommenting the last two lines in the above snippet, which will force the autonomous behavior to be called during teleop mode, as well.
 
 
   </div>

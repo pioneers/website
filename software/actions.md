@@ -1,6 +1,6 @@
 ---
 layout: api
-hero-message: "Guide: Robot Actions"
+hero-message: "Guide #3: Robot Actions"
 hero-button-url: /software
 hero-button: Return to Software Hub
 ---
@@ -12,7 +12,7 @@ hero-button: Return to Software Hub
   </div>
 
   <div class="col-sm-10" markdown="1">
-# A tutorial on robot actions
+# 3. A tutorial on robot actions
 
 ## The `setup`/`loop` paradigm
 

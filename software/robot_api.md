@@ -91,7 +91,7 @@ Returns a value associated with the device and setting specified.
 
 The device being specified is a **`Line Follower`**.
 
-parameters for a **`Limit Switch`**:
+parameters for a **`Line Follower`**:
 
 - `"left"`
 - `"center"`
@@ -166,7 +166,9 @@ The parameters for an RFID describe what tag is found near the RFID. If a tag is
 Sets a parameter on a device using the specified value
   
 `device` <span style="font-variant:small-caps">string</span> - identifies which sensor or controller will be set. This string is defined by the user in Dawn
+
 `param` <span style="font-variant:small-caps">string</span> - identifies which parameter (like a setting) on the specified sensor or controller will be set. Possible param values depend on the specified device
+
 `value` - A variety of inputs depending on the specified device and parameter which change the value of the parameter. Valid values depend on the specified device and parameter as well
 
 This function is useful for changing the state of certain parts of your robot while it is driving. For example, calling this function with a **`YogiBear`**’s name, the parameter `“duty_cycle”`, and the value -1, then the motor attached to the **`YogiBear`** would spin backwards at full power. Possible devices include:
@@ -192,6 +194,7 @@ Sets a parameter on a device using the specified value
 The device being specified is a **`YogiBear`**
 
 parameters and valid values for a **`YogiBear`:**
+
 `"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
 
 `"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
@@ -201,6 +204,7 @@ parameters and valid values for a **`YogiBear`:**
 `“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
 
 `“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
+
 `“current_thresh”` <span style="font-variant: small-caps">integer</span> - reasonably from 2 to 10
 
 `“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
@@ -329,10 +333,10 @@ Advanced users may want to utilize multiple gamepads. Users can add an additiona
 
 ```python
     # Read the value of the first gamepad
-    `Gamepad.get_value(“button_a”, 0)`
+    Gamepad.get_value(“button_a”, 0)
 
     # Read the value of the second gamepad
-    `Gamepad.get_value(“button_a”, 1)`
+    Gamepad.get_value(“button_a”, 1)
 ```
 </div>
 <div id="gp_getval_js" class="tab-pane fade" markdown="1">
@@ -353,14 +357,37 @@ The most common inputs include:
 - `"joystick_right_y"`
 
 Each joystick has a reading in the x and y axes, essentially an (x, y) coordinate. The joysticks are distinguished as either the right or left. The x-value and y-value must be between -1 and 1 and are bounded by the [unit circle](https://www.geogebra.org/m/nv9vex3X).
-
+<div class="row">
+<div class="col-sm-4">
+<img src="/assets/student-resources/robot_api_1.png" width="300px">
+</div>
+<div class="col-sm-6">
 A joystick pointing fully pushed up has a x-value of 0 and a y-value of 1.
+</div>
+</div>
 
+<div class="row">
+<div class="col-sm-4">
+<img src="/assets/student-resources/robot_api_2.png" width="300px">
+</div>
+<div class="col-sm-6">
 A joystick fully pushed left has a x-value of -1 and a y-value of 0.
+</div>
+</div>
 
+<div class="row">
+<div class="col-sm-4">
+<img src="/assets/student-resources/robot_api_3.png" width="300px">
+</div>
+<div class="col-sm-6">
 A joystick fully pushed to the top right has a x-value of roughly .7 and a y-value of roughly .7.
+</div>
+</div>
+
+<div markdown="1">
 
 Users should note some imprecision in the reading. An untouched joystick will likely have a value that slightly greater or less than 0.
+</div>
 </div>
 <div id="gp_getval_b" class="tab-pane fade" markdown="1">
 ### Gamepad.get_value(name) - Buttons
@@ -422,7 +449,7 @@ Can be used only in functions that have the header `"async def ..."`
 
 <h1>Example Code</h1>
 <div markdown="1">
-````python
+```python
 left_motor = "YOUR MOTOR ID HERE"
 right_motor = "YOUR MOTOR ID HERE"
 
@@ -448,7 +475,8 @@ def teleop_main():
     else:
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
-````
+```
+<p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 </div>
 
 <h1>Glossary</h1>
