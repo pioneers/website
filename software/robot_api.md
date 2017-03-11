@@ -89,7 +89,7 @@ The parameters for a **Limit Switch** describe which of the three switches is be
 
 ~~~python
 #returns whether or not switch0 is pressed on limit switch controller named “limit_switch0”
-Robot.get_value(“limit_switch0”, “switch0”) 
+Robot.get_value("limit_switch0", "switch0") 
 ~~~
 
 </div>
@@ -112,7 +112,7 @@ The `parameters` for a **Line Follower** describe how much light is being reflec
 
 ~~~python
 #returns how much light is seen from the center sensor on the line follower named “line_follower0”
-Robot.get_value(“line_follower0”, “center”)
+Robot.get_value("line_follower0", "center")
 ~~~
 
 </div>
@@ -135,7 +135,7 @@ The `parameters` for a **Potentiometer** describe what angle each potentiometer 
 
 ~~~python
 #returns the angle of pot0 on the potentiometer controller named “potentiometer_clock”
-Robot.get_value(“potentiometer_clock”, “pot0”) 
+Robot.get_value("potentiometer_clock", "pot0") 
 ~~~
 
 </div>
@@ -157,7 +157,7 @@ The `parameters` for a Servo describes what angle the servo has turned to. It re
 
 ~~~python
 #returns the angle servo0 is set to on the servo controller named “servo_arm”
-Robot.get_value(“servo_arm”, “servo0”)
+Robot.get_value("servo_arm", "servo0")
 ~~~
 
 
@@ -185,7 +185,7 @@ The `parameters` for a **YogiBear** can be split into 2 categories:
 
 ~~~python
 #returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value(“yogibear_left”, “enc_pos”) 
+Robot.get_value("yogibear_left", "enc_pos") 
 ~~~
 
 </div>
@@ -207,7 +207,7 @@ The `parameters` for an **RFID** describe what tag is found near the RFID. If a 
 
 ~~~python
 #returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value(“yogibear_left”, “enc_pos”) 
+Robot.get_value("yogibear_left", "enc_pos") 
 ~~~
 
 </div>
@@ -268,7 +268,7 @@ The `device` being specified is a **YogiBear**
 
 ~~~python
 #sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
-Robot.set_value(“yogibear_left”, “duty_cycle”, 1) 
+Robot.set_value("yogibear_left", "duty_cycle", 1) 
 ~~~
 
 </div>
@@ -294,7 +294,7 @@ Changing values for the **Servo** spins the servo to an angle based on the value
 
 ~~~python
 #sets servo0 on the servo controller named “servo_arm” to be at its maximum position
-Robot.set_value(“servo_arm”, “servo0”, 1) 
+Robot.set_value("servo_arm", "servo0", 1) 
 ~~~
 
 </div>
@@ -321,7 +321,7 @@ Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached
 
 ~~~python
 #sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
-Robot.set_value(“yogibear_left”, “duty_cycle”, 1) 
+Robot.set_value("yogibear_left", "duty_cycle", 1) 
 ~~~
 
 </div>
@@ -360,7 +360,7 @@ Async functions are run indepedently from where they are called (using `Robot.ru
 ~~~python
 #we define an async function `async def hello_world(a, b, c, d):`
 #check if the function is still running
-`Robot.is_running(hello_world)`
+Robot.is_running(hello_world)
 ~~~
 
 </div>
@@ -540,7 +540,11 @@ Experienced programmers may be tempted to use the `time.sleep` function instead 
 
 Can be used only in functions that have the header `"async def ..."`
 
-**Sample usage:** `await Actions.sleep(1.0)`
+**Sample usage:** 
+
+~~~python
+await Actions.sleep(1.0)
+~~~
 
 </div>
 
