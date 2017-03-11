@@ -99,9 +99,7 @@ Now use Dawn to upload and run your code. (Remember to upload before pressing pl
 
 When you toggle the console, you should see the following:
 
-![A picture of Dawn with console output]( "Information printed to the console comes from the robot.")
-
-
+<img src="/assets/student-resources/teleop_output.png" width="60%">
 
 ## Driving motors
 
@@ -118,7 +116,7 @@ right_motor = "YOUR MOTOR ID HERE"
 
 Afterwards, Dawn should look like the following:
 
-![Picture of Dawn driving motors]( "Motor IDs must match what is in the sidebar!")
+<img src="/assets/student-resources/teleop_uids.png" width="60%">
 
 You will notice that in the sidebar, each Yogi Bear motor controller has several values: `duty_cycle`, `enc_pos`, `enc_vel`. These are known as "parameters" associated with the device. To make the motor drive, we will need to set the `duty_cycle` parameter.
 

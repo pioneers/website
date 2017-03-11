@@ -110,6 +110,7 @@ __It is an error to pass a regular function to `Robot.run`, or to call an `async
 Now `windup` is running independently of `setup`/`main`, but it still needs to wait for one second in between starting and stopping the motor.
 
 The way this task can wait for events in the real world is by using the `await` keyword. The simplest event one can wait for is for time to pass, which can be coded as:
+
 ~~~ python
 await Actions.sleep(1.0)
 ~~~
@@ -174,13 +175,9 @@ async def open_loop_drive():
     Robot.set_value(left_motor, "duty_cycle", 0.0)
     Robot.set_value(right_motor, "duty_cycle", 0.0)
 
-# Uncomment the following two lines to test with versions of
-# Dawn that do not have a teleop/autonomous dropdown toggle.
-# teleop_setup = autonomous_setup
-# teleop_main = autonomous_main
 ~~~
 
-__NOTE:__ the version of Dawn to be released on Kickoff may not contain a dropdown menu to toggle between teleop and autonomous modes. You can work around this by uncommenting the last two lines in the above snippet, which will force the autonomous behavior to be called during teleop mode, as well.
+__NOTE:__ you will need to use the "Mode" dropdown menu in Dawn to ensure that it is the autonomous code that runs.
 
 
   </div>
