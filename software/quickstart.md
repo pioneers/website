@@ -52,7 +52,7 @@ Step 6: Press the following buttons in order: upload code (1), toggle console (2
 
 Copy-paste the following code into Dawn.
 
-```python
+~~~python
 left_motor = "YOUR MOTOR ID HERE"
 right_motor = "YOUR MOTOR ID HERE"
 
@@ -79,24 +79,24 @@ def teleop_main():
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
 
-```
+~~~
 <p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 
 ### Basic Sample Code
 
-```python
+~~~python
 def autonomous_setup():
     pass
-    
+
 def autonomous_main():
   pass
-        
+
 def teleop_setup():
   pass
-            
+
 def teleop_main():
   pass
-```
+~~~
 
 <p style="text-align: right"><a href="/assets/student-resources/basic.py"><i class="fa fa-download" aria-hidden="true"></i> Download basic code</a></p>
 

@@ -331,13 +331,13 @@ Advanced users may want to utilize multiple gamepads. Users can add an additiona
 
 **Example:**
 
-```python
+~~~python
     # Read the value of the first gamepad
     Gamepad.get_value(“button_a”, 0)
 
     # Read the value of the second gamepad
     Gamepad.get_value(“button_a”, 1)
-```
+~~~
 </div>
 <div id="gp_getval_js" class="tab-pane fade" markdown="1">
 ### Gamepad.get_value(name) - Joysticks
@@ -449,7 +449,7 @@ Can be used only in functions that have the header `"async def ..."`
 
 <h1>Example Code</h1>
 <div markdown="1">
-```python
+~~~python
 left_motor = "YOUR MOTOR ID HERE"
 right_motor = "YOUR MOTOR ID HERE"
 
@@ -475,7 +475,7 @@ def teleop_main():
     else:
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
-```
+~~~
 <p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 </div>
 
