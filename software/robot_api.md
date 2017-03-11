@@ -84,6 +84,14 @@ The `device` being specified is a **Limit Switch**.
 - `“switch2”`
 
 The parameters for a **Limit Switch** describe which of the three switches is being read. The <span style="font-variant: small-caps">boolean</span> value that is returned is `True` if the specified switch is being pressed and `False` if it is not.
+
+**Sample Usage:** 
+
+~~~python
+#returns whether or not switch0 is pressed on limit switch controller named “limit_switch0”
+Robot.get_value(“limit_switch0”, “switch0”) 
+~~~
+
 </div>
 <div id="linefollower" class="tab-pane fade" markdown="1">
 ### Robot.get_value(device_name, param) <span style="font-variant: small-caps">line follower</span>
@@ -99,6 +107,14 @@ The `device` being specified is a **Line Follower**.
 - `"right"`
 
 The `parameters` for a **Line Follower** describe how much light is being reflected into each sensor. It returns a <span style="font-variant: small-caps">float</span> value between 0 and 1 where a lower value means less light and the sensor is farther off of the reflective tape. 
+
+**Sample Usage:**
+
+~~~python
+#returns how much light is seen from the center sensor on the line follower named “line_follower0”
+Robot.get_value(“line_follower0”, “center”)
+~~~
+
 </div>
 <div id="potentiometer" class="tab-pane fade" markdown="1">
 ### Robot.get_value(device_name, param) <span style="font-variant: small-caps">potentiometer</span>
@@ -114,6 +130,14 @@ The `device` being specified is a **Potentiometer**.
 - `"pot2"`
 
 The `parameters` for a **Potentiometer** describe what angle each potentiometer has been rotated to. It returns a <span style="font-variant: small-caps">float</span> value between 0 and 1 where the decimal returned represents what percentage of 360° it has rotated through.
+
+**Sample Usage:**
+
+~~~python
+#returns the angle of pot0 on the potentiometer controller named “potentiometer_clock”
+Robot.get_value(“potentiometer_clock”, “pot0”) 
+~~~
+
 </div>
 <div id="servo" class="tab-pane fade" markdown="1">
 ### Robot.get_value(device_name, param) <span style="font-variant: small-caps">servo</span>
@@ -128,6 +152,14 @@ The `device` being specified is a **Servo**.
 - `"servo1"`
 
 The `parameters` for a Servo describes what angle the servo has turned to. It returns a Float from -1 to 1 where both -1 and 1 represent the two end positions for the servo.
+
+**Sample Usage:**
+
+~~~python
+#returns the angle servo0 is set to on the servo controller named “servo_arm”
+Robot.get_value(“servo_arm”, “servo0”)
+~~~
+
 
 </div>
 <div id="yogibear" class="tab-pane fade" markdown="1">
@@ -148,6 +180,14 @@ The `parameters` for a **YogiBear** can be split into 2 categories:
 **Motor Control** includes `duty_cycle` which returns a <span style="font-variant: small-caps">float</span> from -1 to 1 which describes the direction the motor is turning and at what percentage power where a larger absolute value indicates a higher power.
 
 **Encoder Control** includes the two “enc” `parameters` which return information about the position and velocity of the robot. Position is returned as an <span style="font-variant: small-caps">integer</span> that represents the number of ticks of the encoder. There are 46 per revolution of the encoder. Read the YogiBear spec for more information about converting ticks to more sensible values. Velocity is returned as an <span style="font-variant: small-caps">integer</span> that represents the number of ticks per second.
+
+**Sample Usage:**
+
+~~~python
+#returns the number of encoder ticks the yogibear named “yogibear_left” has read
+Robot.get_value(“yogibear_left”, “enc_pos”) 
+~~~
+
 </div>
 <div id="rfid" class="tab-pane fade" markdown="1">
 ### Robot.get_value(device_name, param) <span style="font-variant: small-caps">rfid</span>
@@ -162,6 +202,14 @@ The `device` being specified is an **RFID**.
 - `"tag_detect"`
 
 The `parameters` for an **RFID** describe what tag is found near the RFID. If a tag is close enough, then `“id”` is updated to match the unique identifier for that tag and would return an integer representing that id. As long as that tag is close enough to the RFID, `“tag_detect”` would return `True` or else it would return `False`.
+
+**Sample Usage:**
+
+~~~python
+#returns the number of encoder ticks the yogibear named “yogibear_left” has read
+Robot.get_value(“yogibear_left”, “enc_pos”) 
+~~~
+
 </div>
 
 <div id="r_setval" class="tab-pane fade" markdown="1">
@@ -208,13 +256,21 @@ The `device` being specified is a **YogiBear**
 
 `“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
 
-`“current_thresh”` <span style="font-variant: small-caps">integer</span> - reasonably from 2 to 10
+`“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
 
 `“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
 
 **Primary Control** is handled through the `“duty_cycle”` `parameter`. The `value` passed in tells the motor which direction it should spin and with how much power. The larger the absolute value of the input, the more power the motor tries to output. Also, the two signs of the value, negative or positive, indicate the two directions a motor can spin.
 
 **Additional Features** of the **YogiBear** include the ability to utilize PID control. PID is a closed loop control scheme which uses three factors - `kp`, `ki`, and `kd` - to try and move the motors an exact distance, the specified setpoint. The values of the factors are defaulted to 1, 0, and 0 respectively but can be changed and optimized. The setpoint is in terms of encoder ticks and not distance, so a conversion is necessary to use this feature. In conjunction with the PID controls, `“enc_pos”` can be written to with the value 0 in order to reset the encoder that keeps track of position. It might prove useful to reset the encoder before attempting to drive the robot using PID controls so that the setpoint can be based off of a consistent and known value. The `“current_thresh”` `parameter` is used to set the current threshold that the motor must cross before it enters a Current Limiting state (see **YogiBear** spec for more details). This should be an appropriate value for your motor that will prevent it from being damaged due to overheating. It is defaulted to 3.5 Amps.
+
+**Sample Usage:**
+
+~~~python
+#sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
+Robot.set_value(“yogibear_left”, “duty_cycle”, 1) 
+~~~
+
 </div>
 <div id="set_rfid" class="tab-pane fade" markdown="1">
 ### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">rfid</span>
@@ -233,6 +289,14 @@ The `device` being specified is a **Servo**
 `“servo1”` - <span style="font-variant: small-caps">float</span> from -1 to 1
 
 Changing values for the **Servo** spins the servo to an angle based on the value entered. The values -1 and 1 each refer to the maximum position of the servo in one direction. Any fraction of these values would set the servo to an angle proportional to the maximum positions. For example, if we described our minimum position to be 0°, and our maximum to be 180°, then 1 would set the servo to 180°, -1 would set the servo to 0°, and -0.5 would set it to be 45°.
+
+**Sample Usage:**
+
+~~~python
+#sets servo0 on the servo controller named “servo_arm” to be at its maximum position
+Robot.set_value(“servo_arm”, “servo0”, 1) 
+~~~
+
 </div>
 <div id="set_teamflag" class="tab-pane fade" markdown="1">
 ### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">team flag</span>
@@ -252,21 +316,53 @@ The `device` being specified is a **Team Flag**
 `“s4”` <span style="font-variant: small-caps">boolean</span>
 
 Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached to the device. `True` turns the LED on and `False` turns the LED off.
+
+**Sample Usage:**
+
+~~~python
+#sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
+Robot.set_value(“yogibear_left”, “duty_cycle”, 1) 
+~~~
+
 </div>
+
 <div id="r_run" class="tab-pane fade" markdown="1">
 ### Robot.run(async_function, *args)
-Calls async function on `args` 
 
-**Throws**: `TypeError` 
+Executes an async function with `*args` passed into the async function as inputs.
 
-Asynchronous functions must be executed using this function. To learn more about asynchronous functions, see autonomous guide.
+`async_function`: An async function, defined by creating a function with `async def` instead of just `def`
 
-**Sample usage:** `Robot.run(defined_async_function)`
+`*args`: This is a list of a variable number of inputs, depending on how many the `async_function` requires.
+
+Any `async` function must be called by running this function. This function is running async, meaning the next line after this will continue running while this async function runs, both running simultaneously. The input `*args` indicates that any number of inputs can be entered in, and every input (except the first one, which is the async function) will be passed into the function. See the autonomous guide to learn more about async functions.
+
+**Sample Usage:**
+
+~~~python
+#we define an async function async def hello_world(a, b, c, d)
+#Notice we pass in four additional arguments because the function `hello_world` takes in four arguments.
+Robot.run(hello_world, "hello", "world", "pie", "robotics")
+~~~
+
 </div>
 <div id="r_isrunning" class="tab-pane fade" markdown="1">
 ### Robot.is_running(async_function)
 
-Returns a <span style="font-variant: small-caps">boolean</span> signifying whether the async function is currently running.
+Returns a <span style="font-variant: small-caps">boolean</span> value indicating whether the specified async function is still running.
+
+`async_function`: An async function, defined by creating a function with `async def` instead of just `def`
+
+Async functions are run indepedently from where they are called (using `Robot.run(async_function, *args)`). This function allows the detection of whether an async function is still running. It will return `True` if the specified function is still running, and `False` if the specified function is not running.
+
+**Sample Usage:**
+
+~~~python
+#we define an async function `async def hello_world(a, b, c, d):`
+#check if the function is still running
+`Robot.is_running(hello_world)`
+~~~
+
 </div>
 </div>
 
@@ -435,6 +531,7 @@ Joysticks also click when pushed down and thus can also be treated like buttons.
 Suspends execution of the function for the specified number of `seconds` when used with the `await` keyword
 
 `seconds` <span style="font-variant: small-caps">float</span> - Number of seconds to wait
+
 This function temporarily stops the robot from taking in any new commands. New commands will be accepted after the waiting period. The robot will not cease all movement or function. If the robot is moving when `Actions.sleep` is called, the robot will continue moving at the same speed.
 
 This function is useful when automating processes, such as moving forward for a certain number of seconds or closing a claw for a certain number of seconds.
@@ -483,9 +580,7 @@ def teleop_main():
 <div markdown="1">
 **amps**  Measure of how quickly electricity is flowing through a wire or device
 
-**async** Type of function that can run simultaneously to other functions
-
-**asynchronous**  Type of function that can run simultaneously to other functions
+**asynchronous (async)**  Type of function that can run simultaneously to other functions
 
 **autonomous**  Form of robot control where the robot is only controlled only by code with no input from an xbox controller
 
@@ -503,19 +598,17 @@ def teleop_main():
 
 **gamepad** Controller
 
-**int** Type of data than can hold only integers. Fractional numbers will be truncated to integer
-
-**integer** Type of data than can hold only integers. Fractional numbers will be truncated to integer
+**integer (int)** Type of data than can hold only integers. Fractional numbers will be truncated to integer
 
 **LED** Light emitting diode or a tiny light bulb
 
 **limit switch**  Device that delivers information to the robot. Limit switches are like buttons and report whether they have been pressed or not.
 
-**line follower** Device that delivers information to the robot. A Line follower is like a simple that detects only how reflective the surface in front of it is.
+**line follower** Device that delivers information to the robot. A Line follower is a sensor that detects only how reflective the surface in front of it is.
 
 **motor** Powerful device that converts electrical power to rotation.
 
-**param** Short for parameter. Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
+**paramameters (params)** Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
 
 **PID** Short for Proporitional Integral Differntial. Process for maintaining a sensor value. Similar to cruise control.
 
@@ -533,17 +626,12 @@ def teleop_main():
 
 **team flag** Device that indicates your team during official competition. Has 4 small controllable LEDs
 
-**throw** Python programs will *throw* an error when they occur.
-
-**typeError** Error that occurs when Python attempts to use a value that is of the incorrect type.
+**teleoperated (teleop)**  Period during the game in which robots are controlled by human input via controllers
 
 **velocity**  Speed of something in a given direction
 
 **YogiBear**  Device that communicates with the motors
 
-**teleop**  Short for tele-operated. Period during the game in which robots are controlled by human input via controllers
-
-**teleoperated**  Period during the game in which robots are controlled by human input via controllers
 </div>
 </div>
 </div>
