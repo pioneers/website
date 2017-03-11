@@ -223,6 +223,7 @@ Sets a parameter on a device using the specified value
 `value` - A variety of inputs depending on the specified device and parameter which change the value of the parameter. Valid values depend on the specified device and parameter as well
 
 This function is useful for changing the state of certain parts of your robot while it is driving. For example, calling this function with a **YogiBear**’s name, the parameter `“duty_cycle”`, and the value -1, then the motor attached to the **YogiBear** would spin backwards at full power. Possible devices include:
+
 - **Team Flag**
 - **Servo**
 - **YogiBear**
@@ -246,19 +247,13 @@ The `device` being specified is a **YogiBear**
 
 `parameters` and valid `values` for a **YogiBear:**
 
-`"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
-
-`"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
-
-`“pid_pos_kp”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
-
-`“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
+- `"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
+- `"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
+- `“pid_pos_kp”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
+- `“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
 
 **Primary Control** is handled through the `“duty_cycle”` `parameter`. The `value` passed in tells the motor which direction it should spin and with how much power. The larger the absolute value of the input, the more power the motor tries to output. Also, the two signs of the value, negative or positive, indicate the two directions a motor can spin.
 
@@ -284,9 +279,8 @@ The `device` being specified is a **Servo**
 
 `parameters` and valid `values` for a **Servo:**
 
-`“servo0”` - <span style="font-variant: small-caps">float</span> from -1 to 1
-
-`“servo1”` - <span style="font-variant: small-caps">float</span> from -1 to 1
+- `“servo0”` - <span style="font-variant: small-caps">float</span> from -1 to 1
+- `“servo1”` - <span style="font-variant: small-caps">float</span> from -1 to 1
 
 Changing values for the **Servo** spins the servo to an angle based on the value entered. The values -1 and 1 each refer to the maximum position of the servo in one direction. Any fraction of these values would set the servo to an angle proportional to the maximum positions. For example, if we described our minimum position to be 0°, and our maximum to be 180°, then 1 would set the servo to 180°, -1 would set the servo to 0°, and -0.5 would set it to be 45°.
 
@@ -307,13 +301,10 @@ The `device` being specified is a **Team Flag**
 
 `parameters` and valid `values` for a **Team Flag**: 
 
-`“led1”` <span style="font-variant: small-caps">boolean</span>
-
-`“led2”` <span style="font-variant: small-caps">boolean</span>
-
-`“led3”` <span style="font-variant: small-caps">boolean</span>
-
-`“led4”` <span style="font-variant: small-caps">boolean</span>
+- `“led1”` <span style="font-variant: small-caps">boolean</span>
+- `“led2”` <span style="font-variant: small-caps">boolean</span>
+- `“led3”` <span style="font-variant: small-caps">boolean</span>
+- `“led4”` <span style="font-variant: small-caps">boolean</span>
 
 Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached to the device. `True` turns the LED on and `False` turns the LED off.
 
@@ -433,10 +424,10 @@ Advanced users may want to utilize multiple gamepads. Users can add an additiona
 
 ~~~python
     # Read the value of the first gamepad
-    Gamepad.get_value(“button_a”, 0)
+    Gamepad.get_value("button_a", 0)
 
     # Read the value of the second gamepad
-    Gamepad.get_value(“button_a”, 1)
+    Gamepad.get_value("button_a", 1)
 ~~~
 </div>
 <div id="gp_getval_js" class="tab-pane fade" markdown="1">
