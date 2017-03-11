@@ -34,7 +34,7 @@ You may already have some code in Dawn. We recommend you save that code and open
 
 Delete everything and start with the minimal code you need to have a working robot:
 
-```python
+~~~python
 def autonomous_setup():
     pass
 
@@ -46,7 +46,7 @@ def teleop_setup():
 
 def teleop_main():
     pass
-```
+~~~
 
 This defines four functions that will be run at various points throughout a match: `autonomous_setup`, `autonomous_main`, `teleop_setup`, `teleop_main`.
 
@@ -71,17 +71,17 @@ For this tutorial, we'll be focusing only on the tele-operated code.
 
 Change the tele-op code so that it looks like this:
 
-```python
+~~~python
 def teleop_setup():
     print("Tele-operated mode has started!")
 
 def teleop_main():
     print("Tele-operated mode is ongoing")
-```
+~~~
 
 Your entire file should now read like this: (from now on we'll only be showing the section of the file that need to be changed.)
 
-```python
+~~~python
 def autonomous_setup():
     pass
 
@@ -93,7 +93,7 @@ def teleop_setup():
 
 def teleop_main():
     print("Tele-operated mode is ongoing")
-```
+~~~
 
 Now use Dawn to upload and run your code. (Remember to upload before pressing play to run the code!)
 
@@ -111,10 +111,10 @@ The kit uses unique numerical IDs to refer to all peripherals (motors, sensors, 
 
 Add the following code to the top of the file, substituting your IDs:
 
-```python
+~~~python
 left_motor = "YOUR MOTOR ID HERE"
 right_motor = "YOUR MOTOR ID HERE"
-```
+~~~
 
 Afterwards, Dawn should look like the following:
 
@@ -124,11 +124,11 @@ You will notice that in the sidebar, each Yogi Bear motor controller has several
 
 Let's try driving the robot backwards:
 
-```python
+~~~python
 def teleop_main():
     Robot.set_value(left_motor, "duty_cycle", -1.0)
     Robot.set_value(right_motor, "duty_cycle", -1.0)
-```
+~~~
 
 Note that you might need to flip the negative sign to get the robot to drive backwards (the direction the motors need to spin will depend on how you built and wired your robot.)
 
@@ -138,7 +138,7 @@ Try running this code in Dawn until the robot is able to drive backwards.
 
 Now let's actually make the driving controllable. The goal is to drive backwards when you pull the left thumb-stick on your controller backwards.
 
-```python
+~~~python
 def teleop_main():
     if Gamepad.get_value("joystick_right_y") > 0.5:
         Robot.set_value(left_motor, "duty_cycle", -1.0)
@@ -146,7 +146,7 @@ def teleop_main():
     else:
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
-```
+~~~
 
 <h2 data-toc-text="Setup & sensors" markdown="1">`setup`, sensors, and remembering state</h2>
 
@@ -156,7 +156,7 @@ The `setup` functions exist to allow setting some values when a robot first star
 
 Here is code that can accomplish this:
 
-```python
+~~~python
 limit_switch = "YOUR SENSOR ID HERE"
 
 def teleop_setup():
@@ -172,7 +172,7 @@ def teleop_main():
     else:
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
-```
+~~~
 
 Note that we are assigning to a new `Robot.speed` variable. Variables created inside a function are cleared when the function finishes running -- therefore, we use the `Robot` object to ensure that our values are retained across all calls of both `teleop_setup` and `teleop_main`.
 </div>
