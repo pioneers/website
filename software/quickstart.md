@@ -21,13 +21,13 @@ This guide covers running Dawn and using it to drive a base kit.
 
 Follow the instructions on the main Software Hub for downloading and installing Dawn.
 
-Dawn has built in interactive guided tour for beginners. You can start the tour by clicking the "Tour" button in the upper-right corner of Dawn (highlighted in red below).
+Dawn has a built in interactive guided tour for beginners. You can start the tour by clicking the "Tour" button in the upper-right corner of Dawn (highlighted in red below).
 
 <img src="/assets/student-resources/quickstart_tour.png" width="60%">
 
 ## Connecting to your robot
 
-Step 1: Turn on your team's router by powering it from your computer over USB.
+Step 1: Turn on your team's router by connecting it to your computer with a USB cable.
 
 Step 2: Connect your computer to the router over WiFi (note that the router may take up to a minute to boot). The network will be named after your team number. The password is printed on the back side of your router, at the bottom right.
 
@@ -93,7 +93,7 @@ def teleop_main():
 ~~~
 <p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 
-After you have added the code, Dawn will look something like the following:
+After you have added the code, Dawn will look something like the following. Motor IDs were copied from right panel in Dawn.
 
 <img src="/assets/student-resources/quickstart.004.png" width="60%">
 
