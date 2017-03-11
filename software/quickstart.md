@@ -27,21 +27,25 @@ Dawn has built in interactive guided tour for beginners. You can start the tour 
 
 ## Connecting to your robot
 
-Step 1: Turn on both your robot and your team's router. They may take up to one minute to boot.
+Step 1: Turn on your team's router by powering it from your computer over USB.
 
-Step 2: Connect your computer to your team's router over WiFi. The network will be named after your team network. The password is printed on the back side of your router, at the bottom right.
+Step 2: Connect your computer to the router over WiFi (note that the router may take up to a minute to boot). The network will be named after your team number. The password is printed on the back side of your router, at the bottom right.
 
-Step 3: Press the button in Dawn to configure your robot IP
+Step 3: Turn on your robot. Be sure that the robot is turned on _after_ your router is already running. Wait for the green light on your robot's USB WiFi dongle to light up or blink before continuing.
+
+Step 4: Press the button in Dawn to configure your robot IP
 
 <img src="/assets/student-resources/quickstart.001.png" width="60%">
 
-Step 2: Type your robot IP address. It will be of the form `192.168.0.2XX`, substituting your two-digit team number for `XX`. For example, team 7 will have an address ending in 207.
+Step 5: Type your robot IP address. It will be of the form `192.168.0.2XX`, substituting your two-digit team number for `XX`. For example, team 1 will have an address ending in 201.
 
 <img src="/assets/student-resources/quickstart.002.png" width="60%">
 
-Step 3: Dawn will start displaying peripheral information once you are successfully connected.
+Step 6: Dawn will start displaying peripheral information once you are successfully connected.
 
 <img src="/assets/student-resources/quickstart.003.png" width="60%">
+
+If Dawn fails to connect, try restarting your robot. (You should not need to restart the wifi router).
 
 ## Connecting a controller
 
@@ -51,7 +55,7 @@ The "Gamepads" section in Dawn originally looks like this:
 
 <img src="/assets/student-resources/quickstart_gamepads_no.png" width="40%">
 
-And here is what it looks like after plugging in a gamepad:
+And here is what it looks like after plugging in a gamepad and pressing a button:
 
 <img src="/assets/student-resources/quickstart_gamepads_yes.png" width="40%">
 
