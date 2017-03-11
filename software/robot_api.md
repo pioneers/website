@@ -320,8 +320,8 @@ Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached
 **Sample Usage:**
 
 ~~~python
-#sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
-Robot.set_value("yogibear_left", "duty_cycle", 1) 
+#sets the second LED of the team flag to on
+Robot.set_value("team_flag", "led2", True) 
 ~~~
 
 </div>
