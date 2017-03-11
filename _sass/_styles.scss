@@ -886,6 +886,22 @@ border-color: lighten($pie-blue, 5%);
 
 .api-hero{
   @extend .hero-unit;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 80px 0 80px 0;
+  height: 300px;
+  h1 {
+	  padding-top: 0px;
+	  margin-top: 0px;
+	  margin-bottom:15px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav.affix[data-toggle='toc'] {
+    position: static;
+  }
+}
+
+.highlight {
+	background:#EEE;
 }
