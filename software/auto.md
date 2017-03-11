@@ -110,6 +110,7 @@ __It is an error to pass a regular function to `Robot.run`, or to call an `async
 Now `windup` is running independently of `setup`/`main`, but it still needs to wait for one second in between starting and stopping the motor.
 
 The way this task can wait for events in the real world is by using the `await` keyword. The simplest event one can wait for is for time to pass, which can be coded as:
+
 ~~~ python
 await Actions.sleep(1.0)
 ~~~
