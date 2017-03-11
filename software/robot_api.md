@@ -16,7 +16,7 @@ hero-message: Robot API
     <h1 style="margin-top:0">Introduction</h1>
     <div markdown="1">
 The Pioneers in Engineering API (Application Program Interface) is a library of functions of that allows users to communicate with the robot. With a rich suite of sensors, your robot can detect and interpret its surroundings for powerful autonomous functionality. Precisely control your robot with new features such as asynchronous Python. 
-    </div>
+</div>
 
     <h1>Robot Class</h1>
 
@@ -443,12 +443,36 @@ The parameters for a **`Limit Switch`** describe which of the three switches is 
     </div>
 
     <h1>Example Code</h1>
-    <p markdown="1">
-      Cold-pressed photo booth kickstarter jean shorts sartorial edison bulb brooklyn, lumbersexual pop-up. Stumptown VHS single-origin coffee hell of. 90's yr edison bulb pickled tattooed, letterpress before they sold out kogi narwhal readymade tousled try-hard `vaporware` copper mug. Cronut enamel pin dreamcatcher live-edge, street art raw denim synth tofu lo-fi meditation. Vice succulents `YOLO`, pabst butcher artisan gluten-free tattooed actually iPhone. Church-key gastropub williamsburg, air plant chicharrones fanny pack vape fixie disrupt. `Iceland` crucifix cardigan, beard copper mug air plant viral coloring book marfa neutra paleo wolf. <br>
+    <div markdown="1">
 
-      Portland hexagon neutra pok pok, tilde vegan knausgaard vice locavore. Health goth roof party iPhone sustainable squid. Lomo leggings post-ironic, knausgaard brooklyn tote bag paleo try-hard letterpress helvetica cred. Activated charcoal scenester irony, kombucha tilde `blue bottle` post-ironic church-key tbh before they sold out bespoke jianbing tousled heirloom. Retro pour-over skateboard heirloom. Neutra copper mug tattooed scenester retro truffaut. Truffaut mustache `squid` butcher, plaid tattooed biodiesel stumptown meh paleo.
+````python
+left_motor = "YOUR MOTOR ID HERE"
+right_motor = "YOUR MOTOR ID HERE"
 
-    </p>
+def autonomous_setup():
+    print("Autonomous mode has started!")
+    Robot.run(autonomous_actions)
+
+def autonomous_main():
+    pass
+
+async def autonomous_actions():
+    print("Autonomous action sequence started")
+    await Actions.sleep(1.0)
+    print("1 second has passed in autonomous mode")
+
+def teleop_setup():
+    print("Tele-operated mode has started!")
+
+def teleop_main():
+    if Gamepad.get_value("joystick_right_y") > 0.5:
+	Robot.set_value(left_motor, "duty_cycle", -1.0)
+	Robot.set_value(right_motor, "duty_cycle", -1.0)
+    else:
+	Robot.set_value(left_motor, "duty_cycle", 0)
+	Robot.set_value(right_motor, "duty_cycle", 0)
+````
+</div>
     <h1>Glossary</h1>
     <div markdown="1">
 **amps**  Measure of how quickly electricity is flowing through a wire or device
