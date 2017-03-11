@@ -14,6 +14,9 @@ hero-message: Robot API
   <div class="col-sm-10">
 
     <h1 style="margin-top:0">Introduction</h1>
+    <div markdown="1">
+The Pioneers in Engineering API (Application Program Interface) is a library of functions of that allows users to communicate with the robot. With a rich suite of sensors, your robot can detect and interpret its surroundings for powerful autonomous functionality. Precisely control your robot with new features such as asynchronous Python. 
+    </div>
 
     <h1>Robot Class</h1>
 
