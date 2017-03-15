@@ -56,6 +56,7 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "bootstrap",
+		"https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css",
         "base",
         "bootswatch",
         "styles",
