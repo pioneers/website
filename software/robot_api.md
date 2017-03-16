@@ -314,7 +314,7 @@ The most common inputs include:
 - `"button_x"`
 - `"button_y"`
 
-Users should be careful to distinguish between values such as `“l_stick”` and values such as `“joystick_left_x”`. `“l_stick”` returns whether the joystick has been depressed like a button. `“joystick_left_x”` returns how far the joystick is tilted on the x axis.
+Users should be careful to distinguish between values such as `“l_stick”` and values such as `“joystick_left_x”`. `“l_stick”` returns whether the joystick has been depressed like a button. `“joystick_left_x”` returns how far the joystick is tilted on the x-axis.
 
 Possible devices include:
 
