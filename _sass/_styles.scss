@@ -901,8 +901,14 @@ border-color: lighten($pie-blue, 5%);
   nav.affix[data-toggle='toc'] {
     position: static;
   }
+  nav[data-toggle='toc'] .nav .nav {
+	  display:block;
+	  word-wrap: break-word;
+  }
 }
-
+nav[data-toggle='toc'] .nav .nav {
+	  word-wrap: break-word;
+  }
 .highlight {
 	background:#EEE;
 }

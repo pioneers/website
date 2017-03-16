@@ -8,49 +8,22 @@ hero-button: Return to Software Hub
 <div class="container">
 <div class="row">
 <!-- sidebar, which will move to the top on a small screen -->
-<div class="col-sm-2">
+<div class="col-sm-3">
 
 <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
 </div>
 
-<div class="col-sm-10">
+<div class="col-sm-9" markdown="1">
 
 <h1 style="margin-top:0">Introduction</h1>
 <div markdown="1">
 The Pioneers in Engineering API (Application Program Interface) is a library of functions of that allows users to communicate with the robot. With a rich suite of sensors, your robot can detect and interpret its surroundings for powerful autonomous functionality. Precisely control your robot with new features such as asynchronous Python.
 </div>
 
+<br>
 <h1>Robot Class</h1>
 
-<ul class="nav nav-tabs">
-<li class="dropdown active">
-<a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#r_getval">get_value <span class="caret"></span></a>
-<ul class="dropdown-menu mobile-dropdown-menu">
-<li><a data-toggle="tab" href="#r_getval">Overview</a></li>
-<li><a data-toggle="tab" href="#limitswitch">Limit Switch</a></li>
-<li><a data-toggle="tab" href="#linefollower">Line Follower</a></li>
-<li><a data-toggle="tab" href="#potentiometer">Potentiometer</a></li> 
-<li><a data-toggle="tab" href="#servo">Servo</a></li>
-<li><a data-toggle="tab" href="#yogibear">YogiBear</a></li>
-<li><a data-toggle="tab" href="#rfid">RFID</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#r_setval">set_value <span class="caret"></span></a>
-<ul class="dropdown-menu mobile-dropdown-menu">
-<li><a data-toggle="tab" href="#r_setval">Overview</a></li>
-<li><a data-toggle="tab" href="#set_yogibear">YogiBear</a></li>
-<li><a data-toggle="tab" href="#set_servo">Servo</a></li>
-<li><a data-toggle="tab" href="#set_teamflag">Team Flag</a></li>
-</ul>
-</li>
-<li><a data-toggle="tab" href="#r_run">run</a></li>
-<li><a data-toggle="tab" href="#r_isrunning">is_running</a></li>
-</ul>
-
-<div class="tab-content">
-<div markdown = "1" id="r_getval" class="tab-pane fade in active">
-### Robot.get_value(device, param)
+<h2 data-toc-text="Robot.get_value" markdown="1">Robot.get_value(device, param)</h2>
 
 The `get_value` function returns a value associated with the `device` and `parameter` specified.
 
@@ -68,10 +41,8 @@ This function is useful for checking the state of certain parts of your robot wh
 - **YogiBear**
 - **RFID**
 
-</div>
-<div markdown = "1" id="limitswitch" class="tab-pane fade">
 
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span>
+<h2 data-toc-text="Robot.get_value (limit switch)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span></h2>
 
 Returns a value associated with the device and `parameter` specified.
 
@@ -92,9 +63,7 @@ The parameters for a **Limit Switch** describe which of the three switches is be
 Robot.get_value("limit_switch0", "switch0") 
 ~~~
 
-</div>
-<div id="linefollower" class="tab-pane fade" markdown="1">
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">line follower</span>
+<h2 data-toc-text="Robot.get_value (line follower)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">line follower</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -115,9 +84,7 @@ The `parameters` for a **Line Follower** describe how much light is being reflec
 Robot.get_value("line_follower0", "center")
 ~~~
 
-</div>
-<div id="potentiometer" class="tab-pane fade" markdown="1">
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">potentiometer</span>
+<h2 data-toc-text="Robot.get_value (potentiometer)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">potentiometer</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -138,9 +105,7 @@ The `parameters` for a **Potentiometer** describe what angle each potentiometer 
 Robot.get_value("potentiometer_clock", "pot0") 
 ~~~
 
-</div>
-<div id="servo" class="tab-pane fade" markdown="1">
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">servo</span>
+<h2 data-toc-text="Robot.get_value (servo)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">servo</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -161,9 +126,7 @@ Robot.get_value("servo_arm", "servo0")
 ~~~
 
 
-</div>
-<div id="yogibear" class="tab-pane fade" markdown="1">
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">yogibear</span>
+<h2 data-toc-text="Robot.get_value (yogibear)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">yogibear</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -188,9 +151,7 @@ The `parameters` for a **YogiBear** can be split into 2 categories:
 Robot.get_value("yogibear_left", "enc_pos") 
 ~~~
 
-</div>
-<div id="rfid" class="tab-pane fade" markdown="1">
-### Robot.get_value(device_name, param) <span style="font-variant: small-caps">rfid</span>
+<h2 data-toc-text="Robot.get_value (RFID)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">rfid</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -210,10 +171,7 @@ The `parameters` for an **RFID** describe what tag is found near the RFID. If a 
 Robot.get_value("yogibear_left", "enc_pos") 
 ~~~
 
-</div>
-
-<div id="r_setval" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value)
+<h2 data-toc-text="Robot.set_value">Robot.set_value(device_name, param, value)</h2>
 Sets a parameter on a device using the specified value
   
 `device` <span style="font-variant:small-caps">string</span> - identifies which sensor or controller will be set. This string is defined by the user in Dawn
@@ -223,22 +181,12 @@ Sets a parameter on a device using the specified value
 `value` - A variety of inputs depending on the specified device and parameter which change the value of the parameter. Valid values depend on the specified device and parameter as well
 
 This function is useful for changing the state of certain parts of your robot while it is driving. For example, calling this function with a **YogiBear**’s name, the parameter `“duty_cycle”`, and the value -1, then the motor attached to the **YogiBear** would spin backwards at full power. Possible devices include:
+
 - **Team Flag**
 - **Servo**
 - **YogiBear**
 
-</div>
-<div id="set_limitswitch" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">limit switch</span>
-</div>
-<div id="set_linefollower" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">line follower</span>
-</div>
-<div id="set_potentiometer" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">potentiometer</span>
-</div>
-<div id="set_yogibear" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">yogibear</span>
+<h2 data-toc-text="Robot.set_value (yogibear)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">yogibear</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -246,19 +194,13 @@ The `device` being specified is a **YogiBear**
 
 `parameters` and valid `values` for a **YogiBear:**
 
-`"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
-
-`"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
-
-`“pid_pos_kp”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
-
-`“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
-
-`“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
+- `"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
+- `"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
+- `“pid_pos_kp”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“pid_pos_kd”` <span style="font-variant: small-caps">float</span> - greater than 0
+- `“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
+- `“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
 
 **Primary Control** is handled through the `“duty_cycle”` `parameter`. The `value` passed in tells the motor which direction it should spin and with how much power. The larger the absolute value of the input, the more power the motor tries to output. Also, the two signs of the value, negative or positive, indicate the two directions a motor can spin.
 
@@ -271,12 +213,7 @@ The `device` being specified is a **YogiBear**
 Robot.set_value("yogibear_left", "duty_cycle", 1) 
 ~~~
 
-</div>
-<div id="set_rfid" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">rfid</span>
-</div>
-<div id="set_servo" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">servo</span>
+<h2 data-toc-text="Robot.set_value (servo)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">servo</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -284,9 +221,8 @@ The `device` being specified is a **Servo**
 
 `parameters` and valid `values` for a **Servo:**
 
-`“servo0”` - <span style="font-variant: small-caps">float</span> from -1 to 1
-
-`“servo1”` - <span style="font-variant: small-caps">float</span> from -1 to 1
+- `“servo0”` - <span style="font-variant: small-caps">float</span> from -1 to 1
+- `“servo1”` - <span style="font-variant: small-caps">float</span> from -1 to 1
 
 Changing values for the **Servo** spins the servo to an angle based on the value entered. The values -1 and 1 each refer to the maximum position of the servo in one direction. Any fraction of these values would set the servo to an angle proportional to the maximum positions. For example, if we described our minimum position to be 0°, and our maximum to be 180°, then 1 would set the servo to 180°, -1 would set the servo to 0°, and -0.5 would set it to be 45°.
 
@@ -297,9 +233,7 @@ Changing values for the **Servo** spins the servo to an angle based on the value
 Robot.set_value("servo_arm", "servo0", 1) 
 ~~~
 
-</div>
-<div id="set_teamflag" class="tab-pane fade" markdown="1">
-### Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">team flag</span>
+<h2 data-toc-text="Robot.set_value (team flag)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">team flag</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -307,13 +241,10 @@ The `device` being specified is a **Team Flag**
 
 `parameters` and valid `values` for a **Team Flag**: 
 
-`“led1”` <span style="font-variant: small-caps">boolean</span>
-
-`“led2”` <span style="font-variant: small-caps">boolean</span>
-
-`“led3”` <span style="font-variant: small-caps">boolean</span>
-
-`“led4”` <span style="font-variant: small-caps">boolean</span>
+- `“led1”` <span style="font-variant: small-caps">boolean</span>
+- `“led2”` <span style="font-variant: small-caps">boolean</span>
+- `“led3”` <span style="font-variant: small-caps">boolean</span>
+- `“led4”` <span style="font-variant: small-caps">boolean</span>
 
 Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached to the device. `True` turns the LED on and `False` turns the LED off.
 
@@ -324,10 +255,8 @@ Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached
 Robot.set_value("team_flag", "led2", True) 
 ~~~
 
-</div>
 
-<div id="r_run" class="tab-pane fade" markdown="1">
-### Robot.run(async_function, *args)
+<h2 data-toc-text="Robot.run">Robot.run(async_function, *args)</h2>
 
 Executes an async function with `*args` passed into the async function as inputs.
 
@@ -345,9 +274,7 @@ Any `async` function must be called by running this function. This function is r
 Robot.run(hello_world, "hello", "world", "pie", "robotics")
 ~~~
 
-</div>
-<div id="r_isrunning" class="tab-pane fade" markdown="1">
-### Robot.is_running(async_function)
+<h2 data-toc-text="Robotis_running">Robot.is_running(async_function)</h2>
 
 Returns a <span style="font-variant: small-caps">boolean</span> value indicating whether the specified async function is still running.
 
@@ -363,25 +290,11 @@ Async functions are run indepedently from where they are called (using `Robot.ru
 Robot.is_running(hello_world)
 ~~~
 
-</div>
-</div>
-
+<br>
 <h1>Gamepad Class</h1>
 
-<ul class="nav nav-tabs">
-<li class="active dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#gp_getval">get_value <span class="caret"></span></a>
-<ul class="dropdown-menu mobile-dropdown-menu">
-<li><a data-toggle="tab" href="#gp_getval">Overview</a></li>
-<li><a data-toggle="tab" href="#gp_getval_js">Joysticks</a></li>
-<li><a data-toggle="tab" href="#gp_getval_b">Buttons</a></li>
-</ul>
-</li>
-</ul>
 
-<div class="tab-content">
-<div id="gp_getval" class="tab-pane fade in active" markdown="1">
-### Gamepad.get_value(name)
+<h2 data-toc-text="Gamepad.get_value">Gamepad.get_value(name)</h2>
 Returns the state of the specified part of a specific gamepad.
 
 `name` <span style="font-variant: small-caps">string</span> - Identifies which sensor or controller will be read. This string is defined by the user in Dawn.
@@ -433,14 +346,13 @@ Advanced users may want to utilize multiple gamepads. Users can add an additiona
 
 ~~~python
     # Read the value of the first gamepad
-    Gamepad.get_value(“button_a”, 0)
+    Gamepad.get_value("button_a", 0)
 
     # Read the value of the second gamepad
-    Gamepad.get_value(“button_a”, 1)
+    Gamepad.get_value("button_a", 1)
 ~~~
-</div>
-<div id="gp_getval_js" class="tab-pane fade" markdown="1">
-### Gamepad.get_value(name) - Joysticks
+
+<h2 data-toc-text="Gamepad.get_value">Gamepad.get_value(name) - Joysticks</h2>
 Returns the state of the specified part of a specific gamepad.
 
 `name` <span style="font-variant: small-caps">string</span> - Identifies the joystick to read
@@ -480,13 +392,10 @@ A joystick fully pushed to the top right has a x-value of roughly .7 and a y-val
 </div>
 </div>
 
-<div markdown="1">
 
 Users should note some imprecision in the reading. An untouched joystick will likely have a value that slightly greater or less than 0.
-</div>
-</div>
-<div id="gp_getval_b" class="tab-pane fade" markdown="1">
-### Gamepad.get_value(name) - Buttons
+
+<h2 data-toc-text="Gamepad.get_values (buttons)">Gamepad.get_value(name) - Buttons</h2>
 
 Returns the state of the specified part of a specific button.
 `name` <span style="font-variant: small-caps">string</span> - Identifies the button to read
@@ -515,18 +424,11 @@ The inputs to read the buttons are:
 
 Joysticks also click when pushed down and thus can also be treated like buttons. While triggers traditionally indicate how far they are pushed down, the reading for triggers remains either `True` or `False`.
 
-</div>
 
+<br>
 <h1>Actions Class</h1>
 
-<ul class="nav nav-tabs">
-<li class="active">
-<a data-toggle="tab" href="#a_sleep">sleep</a></li>
-</ul>
-
-<div class="tab-content">
-<div id="a_sleep" class="tab-pane fade in active" markdown="1">
-### Actions.sleep(seconds)
+<h2 data-toc-text="Actions.sleep">Actions.sleep(seconds)</h2>
 
 Suspends execution of the function for the specified number of `seconds` when used with the `await` keyword
 
@@ -546,8 +448,7 @@ Can be used only in functions that have the header `"async def ..."`
 await Actions.sleep(1.0)
 ~~~
 
-</div>
-
+<br>
 <h1>Example Code</h1>
 <div markdown="1">
 ~~~python
@@ -580,6 +481,7 @@ def teleop_main():
 <p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 </div>
 
+<br>
 <h1>Glossary</h1>
 <div markdown="1">
 **amps**  Measure of how quickly electricity is flowing through a wire or device
