@@ -21,7 +21,7 @@ The Pioneers in Engineering API (Application Program Interface) is a library of 
 </div>
 
 <br>
-# Robot Class
+<h1>Robot Class</h1>
 
 <h2 data-toc-text="Robot.get_value" markdown="1">Robot.get_value(device, param)</h2>
 
