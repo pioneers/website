@@ -167,8 +167,8 @@ The `parameters` for an **RFID** describe what tag is found near the RFID. If a 
 **Sample Usage:**
 
 ~~~python
-#returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value("yogibear_left", "enc_pos") 
+#returns the value of the RFID tag read
+Robot.get_value("rfid", "id") 
 ~~~
 
 <h2 data-toc-text="Robot.set_value">Robot.set_value(device_name, param, value)</h2>
