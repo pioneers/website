@@ -1,19 +1,19 @@
-- name: Andy Wong
+- name: Vivien Nguyen
   title: Director
-  picture: andy.jpg
+  picture: vivien.jpg
 
-- name: Suzy Huang
-  title: Business Operations Director
-  picture: suzy.jpg
+- name: Briana Niu
+  title: Director of Business Operations
+  picture: briana.jpg
 
-- name: Grant Emmendorfer
-  title: Programs Director
-  picture: grant.jpg
+- name: Alan Zhang
+  title: Director of Programs
+  picture: alan.jpg
 
-- name: Aravind Kumaraguru
-  title: Engineering Director
-  picture: aravind.jpg
+- name: Brandon Lee
+  title: Director of Engineering
+  picture: brandon.jpg
 
-- name: Wing Chuen Lam
-  title: Operations Director
-  picture: wing.jpg
+- name: Scott Numamoto
+  title: Director of Education
+  picture: scott.jpg
