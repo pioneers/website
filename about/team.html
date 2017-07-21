@@ -18,17 +18,20 @@ hero-button-url: ../get-involved/join-staff.html
       <div class="tab-pane fade active in" id="staff"> <!-- first tab -->
         <h2 class="sub-heading">Leadership</h2>
         <div class="staff-images">
-            {% for member in site.data.leadership %}
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/{{ member.picture }}" alt="" class="img-scaled-wh">
-              </div>
-              <div class="staff-description">
-                <p>{{ member.name }}</p>
-                <p>{{ member.title }}</p>
-              </div>
+          {% for member in site.data.leadership %}
+          <div class="staff-member card" style="width: 250px">
+              <img class="img-scaled-wh card-img-top staff-image" style="" src="../assets/images/team/{{ member.picture }}" alt="">
+            <div class="card-block" style="padding:0 10px">
+              <h4 class="card-text" style="margin-bottom:0">{{ member.name }}</h4>
+              <h5 class="card-text" style="font-style:italic;margin-top:0;">{{ member.title }}</h5>
+              <p class="card-text" style="word-wrap:normal">
+                {{ member.short-bio }} <br>
+                Classes I've taken: {{ member.classes }}
+              </p>
+              <a href="#" class="btn btn-primary" style="margin-bottom:10px; float:right">More about me</a>
             </div>
-            {% endfor %}
+          </div>
+          {% endfor %}
         </div>
 
         <div class="staff-email">{% email leadership@pioneers.berkeley.edu %}</div>
