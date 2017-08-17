@@ -63,12 +63,31 @@ hero-message: Get Involved!
                 </div>
             </div>
             <div style="text-align: center">
-            <a class="btn btn-primary" href="../get-involved/faq.html#projects">See full list of projects!</a>
-            <a class="btn btn-info" href="../get-involved/faq.html">Click here for FAQ!</a>
+                <a class="btn btn-primary" href="../get-involved/faq.html#projects">See full list of projects!</a>
+                <a class="btn btn-info" href="../get-involved/faq.html">Click here for FAQ!</a>
             </div>
         </div>
     </div>
 </div>
+
+<!-- TODO: Staff Benefits -->
+
+<!-- TODO: Staff Work Schedule -->
+
+<!-- Become a Member -->
+<div class="container">
+    <h2 style="text-align: center">Become a Member</h2>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+    <div style="text-align: center">
+        <a class="btn btn-primary" 
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform"
+        >
+            2017 Interest Form
+        </a>
+        <a class="btn btn-info" href="../get-involved/forms.html">Member Official Forms</a>
+    </div>
+
+
 
 <!--
 Are you interested in joining the more than 80 active staff members of PiE? We currently have [over 20 different projects](../get-involved/faq.html#projects) for you to get involved in. Pioneers in Engineering is an excellent way to get involved in outreach through engineering - your work in PiE will reach hundreds of Bay Area high school students. Our organization is entirely student run and depends on the efforts and contributions of students like you.
