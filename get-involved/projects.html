@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projects
+hero-message: Projects
+---
+
+<div class="container">
+
+  {% for department in site.data.projects %}
+  <h2 style="text-align: center">{{ department.name }}</h2>
+  <div class="staff-images">
+    {% for project in department.projects %}
+    <div class="staff-member" style="max-width:280px;">
+      <h3>{{ project.project  }}</h3>
+      <h4>PM: {{ project.manager  }}</h4>
+      <p>{{ project.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>

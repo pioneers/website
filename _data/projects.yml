@@ -1,4 +1,5 @@
-- department: Kit Engineering Projects
+- department: 
+  name: Kit Engineering Projects
   projects:
   - project: Smart Sensor
     description: Design and route the electrical boards PiE's sensors run on
@@ -36,7 +37,8 @@
   - project: Actuated Field
     description: Design actuated elements of PiE's 2017 game
     manager: Jehan Yang
-- department: Programs Projects
+- department: 
+  name: Programs Projects
   projects:
   - project: Game Design Committee (GDC)
     description: Design and organize PiE's 2018 game
@@ -50,7 +52,8 @@
   - project: Mechanical Design Challenge (MDC)
     description: Design the mechanisms challenge that students will compete in during PiE's 2017 Fall Competition
     manager: Jehan Yang
-- department: Education & Outreach Projects
+- department: 
+  name: Education & Outreach Projects
   projects: 
   - project: E.D.You
     description: Design PiE's fall workshop program for high school students, which covers fundamentals of mechanical and software engineering 
@@ -61,7 +64,8 @@
   - project: LHS Trebuchet
     description: Build a trebuchet that throws pumpkins for Discovery Days at the Lawrence Hall of Science
     manager: Grant Emmendorfer
-- department: Web Operations Projects
+- department: 
+  name: Web Operations Projects
   projects:
   - project: Website
     description: Design and maintain the PiE website
@@ -72,7 +76,8 @@
   - project: Worksession Plugin
     description: Design a worksession plugin to integrate worksessions into discourse
     manager: Jiana Huang
-- department: Business Operations Projects
+- department: 
+  name: Business Operations Projects
   projects: 
   - project: Social Media
     description: Maintain PiE's social media presence 
@@ -83,7 +88,8 @@
   - project: Finance
     description: Ensure the responsible funding of PiE projects
     manager: Suzy Huang
-- department: Staff Operations Projects
+- department: 
+  name: Staff Operations Projects
   projects: 
   - project: Staff Recruiting
     description: Recruit the next generation of PiE staff members
