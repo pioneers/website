@@ -3,11 +3,11 @@ layout: markdown
 hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
-Are you interested in learning about gears as you test your skills in design?
+Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?
 
 **PiE on the Road** is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
 
-Our workshop focuses on a hands-on exploration of gears and how we utilize them with our custom gear kit. We’ll be exploring topics such as torque, gear ratios, and designing under constraints. We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
+Our workshop focuses on a hands-on exploration of gears and how we utilize them with our custom gear kit. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints. We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
 
 <!-- TODO: make visible later
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
@@ -15,12 +15,10 @@ Each workshop has a total of 30 seats available. All students are welcome to att
 
 PiE on the Road will be held at the following locations and times. Registration forms will be released shortly.
 
-Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
-
 <!--<h1 style="text-align: center">Events</h1>-->
 <!-- TODO: turn into cards -->
 
-<div class="pie-jumbotron blue-bkg">
+<div class="pie-jumbotron">
 <div class="row">
     <div class="col-xs-12"><h2>PiE on the Road @Hayward</h2></div>
     <div class="col-sm-6">
@@ -35,7 +33,7 @@ Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="#" role="button">
+        <h2><a class="btn btn-default" style="font-size:16px" href="#" role="button">
             Registration form coming soon
             <!--Register for Hayward workshop &raquo;-->
         </a></h2>
@@ -50,9 +48,9 @@ Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
 </div>
 
 
-<div class="pie-jumbotron">
+<div class="pie-jumbotron blue-bkg">
 <div class="row">
-    <div class="col-xs-12"><h2>PiE on the Road @CCPA</h2></div>
+    <div class="col-xs-12"><h2>PiE on the Road @Coliseum College Prep Academy</h2></div>
     <div class="col-sm-6">
         <p>Location:<br>
         Coliseum College Prep Academy<br>
@@ -65,7 +63,7 @@ Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="#" role="button">
+        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="#" role="button">
             Registration form coming soon
             <!--Register for CCPA workshop &raquo;-->
         </a></h2>
@@ -79,7 +77,7 @@ Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
 </div>
 </div>
 
-<div class="pie-jumbotron blue-bkg">
+<div class="pie-jumbotron">
 <div class="row">
     <div class="col-xs-12"><h2>PiE on the Road @Pinole Valley</h2></div>
     <div class="col-sm-6">
@@ -94,7 +92,7 @@ Questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="#" role="button">
+        <h2><a class="btn btn-default" style="font-size:16px" href="#" role="button">
             Registration form coming soon
             <!--Register for Pinole Valley workshop &raquo;-->
         </a></h2>
@@ -148,8 +146,10 @@ No, not at all! Our goal is to introduce basic engineering skills so we will tak
 
 **Do we have to bring anything?**
 
-Only lunch money/packed lunch and your printed and signed liability waiver, if you did not provide a signature on the online registration form.
+If you did not provide a signature on the online registration form (coming soon), you must bring your printed and signed liability waiver.
 
 **Will transportation be provided?**
 
 No, please make your own arrangements for transportation. We recommending carpooling with classmates where possible!
+
+More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
