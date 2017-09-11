@@ -76,10 +76,10 @@
 
 - project: Web Apps
   manager: Kevin Chien
-  description: PiE uses several web applications that our members have built ourselves, including the Worksessions Scheduling App (built on Ruby and Rails), and the Kit Extension Web Store. In Web Apps, you would have the opportunity to build on top of previous web apps, or to build a new web application that addresses the organization’s needs!
+  description: PiE uses several web applications that our members have built ourselves, including the Worksessions Scheduling App (built on Ruby and Rails), the Kit Extension Web Store, and the Final Comp Web App (built using Node and Angular). In Web Apps, you would have the opportunity to build on top of previous web apps, or to build a new web application that addresses the organization’s needs!
   department:  Web Operations Projects
 
 - project: Website
   manager: Kevin Chien
-  description: Website is the team that designs and builds PiE’s website to convey content both effectively and towards aesthetic appeal. We’re a team that’s excited about learning about new web technologies and utilizing them to make our website better both for viewers and developers. Our website brings content to high school students, new staff, and sponsors, and hence there a lot of possibilities for what kind of things you might do for website. Website is a great place to start for those looking to combine a passion for user experience with programming knowledge, and to learn marketable skills such as team-driven Github workflow and front-end website development in both coding and design that can equip you with the skills to build your own resume website.
+  description: Website is the team that designs and builds PiE’s website to convey content both effectively and towards aesthetic appeal. We’re a team that’s excited about learning new web technologies and utilizing them to make our website better both for the user and for the developer. Our website brings content to high school students, new staff, and sponsors, and hence there a lot of possibilities for what kind of things you might do for website. Website is a great place to start for those looking to combine a passion for user experience with programming knowledge, and to learn marketable skills such as team-driven Github workflow, responsive UI using Bootstrap, global styles using SASS, and many more skills that can equip you with the skills to build your own resume website, or perhaps to quickly build a front-end UI for a web app at a hackathon.
   department:  Web Operations Projects
