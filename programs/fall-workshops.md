@@ -18,10 +18,10 @@ PiE on the Road will be held at the following locations and times.
     <div class="col-xs-12"><h2>PiE on the Road @Hayward</h2></div>
     <div class="col-sm-6">
         <p>Location:<br>
-	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         Hayward High School<br>
+	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         1633 East Ave, Hayward, CA 94541<br></a>
-	Library - <a href="/assetes/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
+	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
         </p>
         <p>Time:<br>
         Saturday, September 30, 2017<br>
