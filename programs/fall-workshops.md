@@ -9,14 +9,9 @@ Are you interested in learning about gears as you test your skills in design? Wh
 
 Our workshop focuses on a hands-on exploration of gears and how we utilize them with our custom gear kit. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints. We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
 
-<!-- TODO: make visible later
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
--->
 
-PiE on the Road will be held at the following locations and times. Registration forms will be released shortly.
-
-<!--<h1 style="text-align: center">Events</h1>-->
-<!-- TODO: turn into cards -->
+PiE on the Road will be held at the following locations and times.
 
 <div class="pie-jumbotron">
 <div class="row">
@@ -34,16 +29,12 @@ PiE on the Road will be held at the following locations and times. Registration 
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="#" role="button">
-            Registration form coming soon
-            <!--Register for Hayward workshop &raquo;-->
+        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
+            Register for Hayward workshop &raquo;
         </a></h2>
-        <!-- TODO: make visible later
         <p>
-        PiE on the Road - Hayward Registration Form
         Hayward Registration Deadline: Thursday, September 28, 2017 Midnight
         </p>
-        -->
     </div>
 </div>
 </div>
@@ -64,16 +55,12 @@ PiE on the Road will be held at the following locations and times. Registration 
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="#" role="button">
-            Registration form coming soon
-            <!--Register for CCPA workshop &raquo;-->
+        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
+            Register for CCPA workshop &raquo;
         </a></h2>
-        <!-- TODO: make visible later
         <p>
-        PiE on the Road - CCPA Registration Form
         CCPA Registration Deadline: Thursday, October 26, 2017 Midnight
         </p>
-        -->
     </div>
 </div>
 </div>
@@ -93,16 +80,12 @@ PiE on the Road will be held at the following locations and times. Registration 
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="#" role="button">
-            Registration form coming soon
-            <!--Register for Pinole Valley workshop &raquo;-->
+        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
+            Register for Pinole Valley workshop &raquo;
         </a></h2>
-        <!-- TODO: make visible later
         <p>
-        PiE on the Road - Pinole Valley Registration Form
         Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight
         </p>
-        -->
     </div>
 </div>
 </div>
