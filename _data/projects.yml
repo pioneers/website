@@ -1,93 +1,85 @@
-- department: Kit Engineering Projects
-  projects:
-  - project: Smart Sensor
-    description: Design and route the electrical boards PiE's sensors run on
-    manager: Seiya Ono
-  - project: Runtime
-    description: Design the software on the BBB platform that interfaces and controls the other kit components
-    manager: Bob Dai
-  - project: Yogi Bear
-    description: Design the new generation of PiE motor controllers
-    manager: Stanley Liu
-  - project: Sourcing
-    description: Source the materials for PiE's electrical kit projects
-    manager: Krystyn Neisess
-  - project: Field Control
-    description: Ensure steady and consistent communication between PiE's robots and field systems
-    manager: Yizhe Liu
-  - project: Dawn
-    description: Design the front-end interface for student-robot interaction
-    manager: Kevin Ma
-  - project: Hibike
-    description: Design the communication protocols between sensors and the BBB platform
-    manager: Karthik Shamugam
-  - project: Hardware Ops
-    description: Ensure and maintain the operation of PiE's development robots for kit testing
-    manager: Griff Potrock
-  - project: PiEDB 
-    description: Design the next generation of PiE's power distribution boards
-    manager: Tobin Holcomb
-  - project: DevOps
-    description: Maintain the PiE software testing and integration framework
-    manager: Arjun Sridhar
-  - project: Mechanical Kit
-    description: Design and produce PiE's 2017 mechanical kit (chassis, drive train, et al)
-    manager: Jehan Yang
-  - project: Actuated Field
-    description: Design actuated elements of PiE's 2017 game
-    manager: Jehan Yang
-- department: Programs Projects
-  projects:
-  - project: Game Design Committee (GDC)
-    description: Design and organize PiE's 2018 game
-    manager: Alan Zhang, Jenny Wong
-  - project: Game Implementation Committee (GIC)
-    description: Bring PiE's 2017 game design into reality through field construction, game piece design, and more
-    manager: Alan Zhang
-  - project: Fall Comp
-    description: Organize PiE's 2017 Fall Competition, in which students play an unmodified version of last year's game
-    manager: Alan Zhang
-  - project: Mechanical Design Challenge (MDC)
-    description: Design the mechanisms challenge that students will compete in during PiE's 2017 Fall Competition
-    manager: Jehan Yang
-- department: Education & Outreach Projects
-  projects: 
-  - project: E.D.You
-    description: Design PiE's fall workshop program for high school students, which covers fundamentals of mechanical and software engineering 
-    manager: Clancy Lee
-  - project: PiE Academy
-    description: Design videos to maintain the education of PiE students online
-    manager: Rachel Ieda
-  - project: LHS Trebuchet
-    description: Build a trebuchet that throws pumpkins for Discovery Days at the Lawrence Hall of Science
-    manager: Grant Emmendorfer
-- department: Web Operations Projects
-  projects:
-  - project: Website
-    description: Design and maintain the PiE website
-    manager: Vivien Nguyen
-  - project: Kit Extension Web App
-    description: Design a new purchasing system for student kit extension
-    manager: James Hulett
-  - project: Worksession Plugin
-    description: Design a worksession plugin to integrate worksessions into discourse
-    manager: Jiana Huang
-- department: Business Operations Projects
-  projects: 
-  - project: Social Media
-    description: Maintain PiE's social media presence 
-    manager: Vivien Nguyen
-  - project: Partnerships
-    description: Form new PiE partnerships with potential sponsors
-    manager: Suzy Huang
-  - project: Finance
-    description: Ensure the responsible funding of PiE projects
-    manager: Suzy Huang
-- department: Staff Operations Projects
-  projects: 
-  - project: Staff Recruiting
-    description: Recruit the next generation of PiE staff members
-    manager: Briana Niu, Kevin Ma
-  - project: Staff Retention
-    description: Ensure PiE staff are integrated well into the organization
-    manager: Christian Ramiro, Sarah Zhou
+- project: Business
+  manager: null
+  description: The purpose of Biz Ops is - to put it in one short phrase - to get money. What that phrase encompasses is more than what it may sound like. Business helps to raise the funds necessary for many things across the board, from the projects to the events to the supplies and materials provided to the students. This entails networking with potential sponsors as well as maintaining relations with current ones, applying to grants and funding, and helping make PiE known both on campus and among corporate sponsors. 
+  department: 'Programs Projects'
+
+- project: Dawn
+  manager: 'Arjun Sridhar, Kevin Ma'
+  description: Dawn is the interface our high school students use to program their robots.   - members will learn the tools needed to create modern applications, taking into consideration design and user experience, as well as ensuring the performance and scalability of a JavaScript-based system. 
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Software'
+
+- project: DevOps
+  manager: Jonathan Lee
+  description: Our DevOps team is responsible for the infrastructure that all other projects are based around. Here, you’ll learn and utilize, first hand, industry standard tools and systems. Gain experience working with a GNU/Linux development environment, shell scripting, CI (continuous integration), and more! 
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Software'
+
+- project: E.D.You
+  manager: Angela Kwon
+  description: Education, Development, and You! In the fall, our education team designs the curriculum for our spring semester Mentorship DeCal, and keeps students engaged in the robotics off-season with our workshops. This time we’re partnering with schools around the bay to host a gear kit workshop, which features a kit we laser cut and prototyped this summer! 
+  department: 'Education & Outreach Projects'
+
+- project: Event Planning
+  description: PiE holds 6 major events per year for our high school students - Fall Competition, Spring Kickoff, Game Day, Design Reviews, Scrimmage, and Final Competition. The event planning team interfaces with UC Berkeley staff and faculty, industry professionals, and nearly every project in PiE to make our events happen. 
+  department: 'Programs Projects'
+
+- project: Game Design Committee
+  manager: Charlie Friesen
+  description: What’s a robotics competition without a game? The game drives what many PiE staff work on for this next year. This group works on designing a game that is fair, challenging, and exciting for our high school students. A good game is also exciting and challenging for PiE staff to work on!
+  department: 'Programs Projects'
+
+- project: Game Implementation Committee
+  manager: Jesse Valva
+  description: While designing a game for a robotics competition is important, following through on the design is equally, if not more important. Join in on tasks like field construction and being a referee. The highlights of Game Implementation are the ease of joining and the large impact we cause. All you need to bring is time to invest and we’ll get you working on projects that are fundamental to the competition. Your handiwork will even be displayed and used by all the high school students.
+  department: 'Programs Projects'
+
+- project: Hibike + Runtime
+  manager: Tiffany Chiang
+  description: null
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Software'
+
+- project: Mechanical
+  manager: 'Chad Wakamiya, Miyuki Weldon'
+  description: The mechanical team is responsible for designing the robot base kit and kit extension pieces that students use to bring their ideas to the competition. For those who have participated in robotics, this experience provides insight on the processes behind creating the mechanical kit. This year we will be improving our previous base kit by introducing new structural pieces. You’ll gain hands-on prototyping experience as we teach you how to use Solidworks, a professional 3-D modeling software, and provide machine shop training. In addition, we’ll explore different robot subsystems. You can build prototypes of lifts, drive trains, and intake mechanisms that will be used to inspire high school students!
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Mechanical'
+
+- project: PiE Sens
+  manager: Averal Kandala
+  description: PiE Sens is one of the two projects in PiE Electrical. Members of the team go through an iterative design process to put together our electrical system. The staff goes through a brainstorming phase to collect ideas on what sensors are required for the game. Then, the sensors are prototyped and then translated into a PCB (Printed Circuit Board). We teach the staff how to use industry level PCB software to route our boards before having our sponsors send us the completed boards. We then manufacture the boards in house to test and revise. 
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Electrical'
+
+- project: PiEDB
+  manager: Nick Werblun
+  description: PiEDB is the other half of the PiE Electrical Team. It holds focus on one board, the PDB (Power Distribution Board). It has two components, the battery cell voltage display and the actual power distribution. It goes through the same iterative design process as PiE Sens, but has its own project because of its difficulty in power electronics. It has much room to grow because of our partnership with TI as we try to incorporate more of their technologies.  
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Electrical'
+
+# - project: Publicity
+#   manager: null
+#   department: 'Programs Projects'
+
+- project: Shepherd (Field Control)
+  manager: Sam Zhou
+  description: Shepherd serves as the conductor of PiE competitions. On a high level, field control is very much about interfacing with different sources of information, processing it at a central location, the Shepherd program, and sending commands back to the field/scoreboard. This is one of the larger projects this upcoming season as its goal is to rewrite the entire field control protocol and upgrade it to handle this year’s game. In order to accomplish this, some members on the team will work on developing a scheme for sensors and configuring Arduino controllers to relay information back to Shepherd, some will work on the LCM network protocol that sends commands to each driver station, and some will work on the design and implementation of a new web based UI for displaying score and relevant game information to the teams/audience. Also, as this will be quite a large project involving many different fields of software development, it will be a great opportunity to learn about many of the other projects in PiE and to work with other members outside of just the Shepherd team. Also Sam likes cooking so maybe there’ll be some Shepherd’s Pie at some point or another >:(
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Software'
+
+- project: Sourcing
+  manager: Jehan Yang
+  description:
+  department: 'Kit Engineering Projects'
+  subdepartment: 'Kit Sourcing'
+
+- project: Web Apps
+  manager: Kevin Chien
+  description: PiE uses several web applications that our members have built ourselves, including the Worksessions Scheduling App (built on Ruby and Rails), the Kit Extension Web Store, and the Final Comp Web App (built using Node and Angular). In Web Apps, you would have the opportunity to build on top of previous web apps, or to build a new web application that addresses the organization’s needs!
+  department:  Web Operations Projects
+
+- project: Website
+  manager: Kevin Chien
+  description: Website is the team that designs and builds PiE’s website to convey content both effectively and towards aesthetic appeal. We’re a team that’s excited about learning new web technologies and utilizing them to make our website better both for the user and for the developer. Our website brings content to high school students, new staff, and sponsors, and hence there a lot of possibilities for what kind of things you might do for website. Website is a great place to start for those looking to combine a passion for user experience with programming knowledge, and to learn marketable skills such as team-driven Github workflow, responsive UI using Bootstrap, global styles using SASS, and many more skills that can equip you with the skills to build your own resume website, or perhaps to quickly build a front-end UI for a web app at a hackathon.
+  department:  Web Operations Projects

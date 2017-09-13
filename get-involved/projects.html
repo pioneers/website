@@ -1,0 +1,30 @@
+---
+layout: default
+hero-image: url(../assets/images/stock-images/blog.jpg)
+title: Projects
+hero-message: Projects<br><span style="font-size:.5em; font-weight:400">2017-2018</span>
+---
+
+<div class="container">
+  {% for department in site.data.project_departments %}
+    <h2 style="text-align: center">{{ department.name }}</h2>
+    {% for project in site.data.projects%}
+      {% if project.department == department.name %}
+        <div class="pie-jumbotron">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <h3 style="text-align: center">{{ project.project  }}</h3>
+              {% if project.department == 'Kit Engineering Projects' %}
+              <h4 style="text-align: center">{{ project.subdepartment  }}</h3>
+              {% endif %}
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              {% if project.manager %}<h4>PM: {{ project.manager  }}</h4>{% endif %}
+              <p>{{ project.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
