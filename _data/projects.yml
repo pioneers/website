@@ -36,7 +36,7 @@
 
 - project: Hibike + Runtime
   manager: Tiffany Chiang
-  description: null
+  description: Hibike and Runtime are responsible for managing the state of the robot and its sensors. There are both high and low level programming opportunities (Python & C++) available, alongside traditional dev-ops work (Makefiles & Bash).
   department: 'Kit Engineering Projects'
   subdepartment: 'Kit Software'
 
