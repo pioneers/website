@@ -6,6 +6,28 @@ hero-message: Meet the PiE Team
 hero-button: Join Us!
 hero-button-url: ../get-involved/join-staff.html
 ---
+<script>
+function myFunction() {
+  // Declare variables 
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("members");
+  tr = table.getElementsByClassName("card");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByClassName("classes")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
 <div class="team">
 
   <div class="container-fluid">
@@ -16,19 +38,22 @@ hero-button-url: ../get-involved/join-staff.html
 
     <div class="tab-content">
       <div class="tab-pane fade active in" id="staff"> <!-- first tab -->
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
         <h2 class="sub-heading">Leadership</h2>
-        <div class="staff-images">
-            {% for member in site.data.leadership %}
-            <div class="staff-member">
-              <div class="staff-image">
-                <img src="../assets/images/team/{{ member.picture }}" alt="" class="img-scaled-wh">
-              </div>
-              <div class="staff-description">
-                <p>{{ member.name }}</p>
-                <p>{{ member.title }}</p>
-              </div>
+        <div id="members" class="staff-images">
+          {% for member in site.data.leadership %}
+          <div class="staff-member card" style="width: 250px">
+              <img class="img-scaled-wh card-img-top staff-image" style="" src="../assets/images/team/{{ member.picture }}" alt="">
+            <div class="card-block" style="padding:0 10px">
+              <h4 class="card-text" style="margin-bottom:0">{{ member.name }}</h4>
+              <h5 class="card-text" style="font-style:italic;margin-top:0;">{{ member.title }}</h5>
+              <p class="card-text classes" style="word-wrap:normal">
+                {{ member.short-bio }}
+              </p>
+              <a href="#" class="btn btn-primary" style="margin-bottom:10px; float:right">More about me</a>
             </div>
-            {% endfor %}
+          </div>
+          {% endfor %}
         </div>
 
         <div class="staff-email">{% email leadership@pioneers.berkeley.edu %}</div>
