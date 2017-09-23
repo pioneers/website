@@ -49,7 +49,7 @@ function myFunction() {
             </a>
             <div class="card-block" style="padding:0 10px">
               <h4 class="card-text" style="margin-bottom:0">{{ member.name }}</h4>
-              <h5 class="card-text" style="font-style:italic;margin-top:0;">{{ member.title }}</h5>
+              <h5 class="card-text" style="font-style:italic;margin-top:3px;">{{ member.title }}</h5>
               <p class="card-text classes" style="word-wrap:normal">
                 {{ member.short-bio }}
               </p>
@@ -87,7 +87,7 @@ function myFunction() {
               <div class="staff-image">
                 <img src="../assets/images/team/{{ advisor.picture }}" alt="" class="img-scaled-wh">
               </div>
-              <div class="staff-description">
+              <div class="staff-description" style="margin:5px;">
                 <p>{{ advisor.name }}</p>
                 <p>{{ advisor.title }}</p>
               </div>
@@ -98,12 +98,12 @@ function myFunction() {
         <h2 class="sub-heading">Alumni</h2>
         <div class="staff-images">
             {% for alumnus in site.data.alumni %}
-            <div class="staff-member">
+            <div class="staff-member card" style="margin-bottom: 20px">
               <div class="staff-image">
                 <img src="../assets/images/team/{{ alumnus.picture }}" alt="" class="img-scaled-wh">
               </div>
-              <div class="staff-description">
-                <p>{{ alumnus.name }}</p>
+              <div class="staff-description" style="margin:5px">
+                <p style="font-size: 110%">{{ alumnus.name }}</p>
                 <p>{{ alumnus.title }}</p>
               </div>
             </div>
