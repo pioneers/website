@@ -6,6 +6,7 @@ hero-message: Meet the PiE Team
 hero-button: Join Us!
 hero-button-url: ../get-involved/join-staff.html
 ---
+<!---->
 <script>
 function myFunction() {
   // Declare variables 
@@ -43,12 +44,14 @@ function myFunction() {
         <div id="members" class="staff-images">
           {% for member in site.data.leadership %}
           <div class="staff-member card" style="width: 250px">
+            <a href="../assets/images/team/{{ member.picture }}" data-toggle="lightbox" data-gallery="leaders" data-title="{{ member.name }}">
               <img class="img-scaled-wh card-img-top staff-image" style="" src="../assets/images/team/{{ member.picture }}" alt="">
+            </a>
             <div class="card-block" style="padding:0 10px">
               <h4 class="card-text" style="margin-bottom:0">{{ member.name }}</h4>
               <h5 class="card-text" style="font-style:italic;margin-top:0;">{{ member.title }}</h5>
               <p class="card-text classes" style="word-wrap:normal">
-                {{ member.short-bio }} I LIKE CHEEESEEEEEEEEEEEEEEEEEEE
+                {{ member.short-bio }}
               </p>
               <a href="#" class="btn btn-primary" style="margin-bottom:10px; float:right">More about me</a>
             </div>
@@ -61,12 +64,14 @@ function myFunction() {
         <h2 class="sub-heading">Project Managers</h2>
         <div class="staff-images">
             {% for member in site.data.project-managers %}
-            <div class="staff-member">
+            <div class="staff-member card" style="margin-bottom: 20px">
               <div class="staff-image">
-                <img src="../assets/images/team/{{ member.picture }}" alt="" class="img-scaled-wh">
+                <a href="../assets/images/team/{{ member.picture }}" data-toggle="lightbox" data-gallery="project-managers" data-title="{{ member.name }} - {{ member.project }}">
+                <img class="img-scaled-wh card-img-top staff-image" style="" src="../assets/images/team/{{ member.picture }}" alt="">
+              </a>
               </div>
-              <div class="staff-description">
-                <p>{{ member.name }}</p>
+              <div class="staff-description" style="margin:5px">
+                <p style="font-size: 110%">{{ member.name }}</p>
                 <p>{{ member.project }}</p>
               </div>
             </div>
@@ -122,3 +127,47 @@ function myFunction() {
   </div>
 
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+            event.preventDefault();
+            return $(this).ekkoLightbox({
+                onShown: function() {
+                    if (window.console) {
+                        return console.log('Checking out the events huh?');
+                    }
+                },
+    onNavigate: function(direction, itemIndex) {
+                    if (window.console) {
+                        return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                    }
+    }
+            });
+        });
+        //Programatically call
+        $('#open-image').click(function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });
+        $('#open-youtube').click(function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });
+// navigateTo
+        $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+            event.preventDefault();
+            var lb;
+            return $(this).ekkoLightbox({
+                onShown: function() {
+                    lb = this;
+      $(lb.modal_content).on('click', '.modal-footer a', function(e) {
+        e.preventDefault();
+        lb.navigateTo(2);
+      });
+                }
+            });
+        });
+    });
+</script>
