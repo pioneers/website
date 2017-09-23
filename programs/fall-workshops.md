@@ -11,6 +11,8 @@ Our workshop focuses on a hands-on exploration of gears and how we utilize them 
 
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
 
+<img src="/assets/events/gearworkshopflyer_final.jpg" width="500">
+
 PiE on the Road will be held at the following locations and times.
 
 <div class="pie-jumbotron">
@@ -47,7 +49,7 @@ PiE on the Road will be held at the following locations and times.
         <p>Location:<br>
         Coliseum College Prep Academy<br>
         1390 66th Ave, Oakland, CA 94621<br>
-        Classroom to be announced
+        Classroom: D25, students should enter from the International Blvd gate - <a target="_blank" style="color: white;" href="/assets/events/2017-2018_CCPA_Campus_Map.pdf">Map</a>
         </p>
         <p>Time:<br>
         Saturday, October 28, 2017<br>
@@ -136,4 +138,8 @@ If you did not provide a signature on the online registration form (coming soon)
 
 No, please make your own arrangements for transportation. We recommending carpooling with classmates where possible!
 
-More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.
+**Will lunch be provided?**
+
+No, please eat lunch beforehand.
+
+**More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
