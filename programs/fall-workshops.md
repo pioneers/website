@@ -11,7 +11,7 @@ Our workshop focuses on a hands-on exploration of gears and how we utilize them 
 
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
 
-<img src="/assets/events/gearworkshopflyer_final.jpg" width="500">
+<a target="_blank" href="/assets/events/gearworkshopflyer_final.jpg"><img src="/assets/events/gearworkshopflyer_final.jpg" style="max-width: 50%"></a>
 
 PiE on the Road will be held at the following locations and times.
 
@@ -19,13 +19,13 @@ PiE on the Road will be held at the following locations and times.
 <div class="row">
     <div class="col-xs-12"><h2>PiE on the Road @Hayward</h2></div>
     <div class="col-sm-6">
-        <p>Location:<br>
+        <p><strong>Location:</strong><br>
         Hayward High School<br>
 	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         1633 East Ave, Hayward, CA 94541<br></a>
 	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
         </p>
-        <p>Time:<br>
+        <p><strong>Time:</strong><br>
         Saturday, September 30, 2017<br>
         1 - 4 PM
         </p>
@@ -35,7 +35,7 @@ PiE on the Road will be held at the following locations and times.
             Register for Hayward workshop &raquo;
         </a></h2>
         <p>
-        Hayward Registration Deadline: Thursday, September 28, 2017 Midnight
+        <strong>Hayward Registration Deadline: Thursday, September 28, 2017 Midnight</strong>
         </p>
     </div>
 </div>
@@ -46,12 +46,12 @@ PiE on the Road will be held at the following locations and times.
 <div class="row">
     <div class="col-xs-12"><h2>PiE on the Road @Coliseum College Prep Academy</h2></div>
     <div class="col-sm-6">
-        <p>Location:<br>
+        <p><strong>Location:</strong><br>
         Coliseum College Prep Academy<br>
         1390 66th Ave, Oakland, CA 94621<br>
         Classroom: D25, students should enter from the International Blvd gate - <a target="_blank" style="color: white;" href="/assets/events/2017-2018_CCPA_Campus_Map.pdf">Map</a>
         </p>
-        <p>Time:<br>
+        <p><strong>Time:</strong><br>
         Saturday, October 28, 2017<br>
         1- 4 PM
         </p>
@@ -61,7 +61,7 @@ PiE on the Road will be held at the following locations and times.
             Register for CCPA workshop &raquo;
         </a></h2>
         <p>
-        CCPA Registration Deadline: Thursday, October 26, 2017 Midnight
+        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
         </p>
     </div>
 </div>
@@ -71,12 +71,12 @@ PiE on the Road will be held at the following locations and times.
 <div class="row">
     <div class="col-xs-12"><h2>PiE on the Road @Pinole Valley</h2></div>
     <div class="col-sm-6">
-        <p>Location:<br>
+        <p><strong>Location:</strong><br>
         Pinole Valley High School<br>
         2900 Pinole Valley Rd, Pinole, CA 94564<br>
         Classroom to be announced
         </p>
-        <p>Time: <br>
+        <p><strong>Time: </strong><br>
         Saturday, November 18, 2017<br>
         1 - 4 PM
         </p>
@@ -86,7 +86,7 @@ PiE on the Road will be held at the following locations and times.
             Register for Pinole Valley workshop &raquo;
         </a></h2>
         <p>
-        Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight
+        <strong>Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight</strong>
         </p>
     </div>
 </div>
