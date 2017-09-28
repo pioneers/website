@@ -39,9 +39,9 @@ function myFunction() {
 
     <div class="tab-content">
       <div class="tab-pane fade active in" id="staff"> <!-- first tab -->
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <!--<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">-->
         <h2 class="sub-heading">Leadership</h2>
-        <div id="members" class="staff-images">
+        <div id="members" class="staff-images" style="margin-bottom: 5px">
           {% for member in site.data.leadership %}
           <div class="staff-member card" style="width: 250px">
             <a href="../assets/images/team/{{ member.picture }}" data-toggle="lightbox" data-gallery="leaders" data-title="{{ member.name }}">
@@ -53,13 +53,13 @@ function myFunction() {
               <p class="card-text classes" style="word-wrap:normal">
                 {{ member.short-bio }}
               </p>
-              <a href="#" class="btn btn-primary" style="margin-bottom:10px; float:right">More about me</a>
+              <a href="#" style="margin-bottom:10px; float:right">More about me</a>
             </div>
           </div>
           {% endfor %}
         </div>
 
-        <div class="staff-email">{% email leadership@pioneers.berkeley.edu %}</div>
+        <hr>
 
         <h2 class="sub-heading">Project Managers</h2>
         <div class="staff-images">
@@ -70,7 +70,7 @@ function myFunction() {
                 <img class="img-scaled-wh card-img-top staff-image" style="" src="../assets/images/team/{{ member.picture }}" alt="">
               </a>
               </div>
-              <div class="staff-description" style="margin:5px">
+              <div class="staff-description" style="padding:10px">
                 <p style="font-size: 110%">{{ member.name }}</p>
                 <p>{{ member.project }}</p>
               </div>
@@ -102,7 +102,7 @@ function myFunction() {
               <div class="staff-image">
                 <img src="../assets/images/team/{{ alumnus.picture }}" alt="" class="img-scaled-wh">
               </div>
-              <div class="staff-description" style="margin:5px">
+              <div class="staff-description" style="padding:10px">
                 <p style="font-size: 110%">{{ alumnus.name }}</p>
                 <p>{{ alumnus.title }}</p>
               </div>
