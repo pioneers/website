@@ -1,7 +1,7 @@
 ---
 layout: markdown
 hero-message: Become a Mentor
-hero-image: url(../assets/images/stock-images/realm-charter-kit-assembly.png)
+hero-image: url(../assets/images/stock-images/mentor.jpg)
 ---
 
 # Become a Mentor
