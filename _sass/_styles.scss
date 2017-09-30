@@ -2,6 +2,44 @@
  * Commonly used styles
  */
 
+.center-ver-parent {
+  position: relative;
+}
+
+.center-ver-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-ver-text {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.blue-bkg {
+  background-color: $pie-blue;
+  color: white;
+}
+
+.gold-bkg {
+  background-color: $pie-gold;
+  color: white;
+}
+
+.darker-blue-bkg {
+  background-color: darken($pie-blue, 10%);
+}
+
+// could replace #announcements
+.pie-jumbotron{
+  @extend .jumbotron;
+  p {
+    font-size: $jumbotron-font-size/1.5;
+  }
+  padding: 10px;
+}
 
 /**
  * Hero unit
