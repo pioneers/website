@@ -8,11 +8,11 @@
 
 - name: Jonathan Lee
   project: DevOps
-  picture: pie_logo.jpg
+  picture: jonathan.jpg
 
 - name: Angela Kwon
   project: E.D.You
-  picture: pie_logo.jpg
+  picture: angela.jpg
 
 - name: Charlie Friesen
   project: GDC
@@ -20,19 +20,19 @@
 
 - name: Jesse Valva
   project: GIC
-  picture: pie_logo.jpg
+  picture: jesse_valva.jpg
 
 - name: Tiffany Chiang
   project: "Hibike + Runtime"
-  picture: pie_logo.jpg
+  picture: tiffany_temp.jpg
 
 - name: Chad Wakamiya
   project: Mechanical Kit
   picture: pie_logo.jpg
 
-# - name: Miyuki Weldon
-#   project: Mechanical Kit
-#   picture: pie_logo.jpg
+- name: Miyuki Weldon
+  project: Mechanical Kit
+  picture: pie_logo.jpg
 
 - name: Averal Kandela
   project: PiE Sens
@@ -48,4 +48,5 @@
 
 - name: Kevin Chien
   project: "Website, Web Apps"
+  picture: kevin_chien.jpg
   picture: pie_logo.jpg

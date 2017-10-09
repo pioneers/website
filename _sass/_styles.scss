@@ -96,13 +96,11 @@ Does not work on round things. */
 }
 
 .staff-member {
-  text-align: center;
-  padding: 30px 30px 5px;
   .staff-image {
-    width: 200px;
+    width: 250px;
     height: 200px;
     overflow: hidden;
-    margin: 0 auto 10px;
+    margin: auto;
     img {
       background-color: white;
       position: relative;
