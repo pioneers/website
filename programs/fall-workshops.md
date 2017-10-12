@@ -31,16 +31,12 @@ PiE on the Road will be held at the following locations and times.
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for Hayward workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over
         </a></h2>
-        <p>
-        <strong>Hayward Registration Deadline: Thursday, September 28, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
-
 
 <div class="pie-jumbotron blue-bkg">
 <div class="row">
@@ -90,6 +86,20 @@ PiE on the Road will be held at the following locations and times.
         </p>
     </div>
 </div>
+</div>
+
+<iframe src="https://giphy.com/embed/xUNd9KET1JshRsDIty" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/xUNd9KET1JshRsDIty">via GIPHY</a></p>
+
+<h2><strong>Hayward Photos</strong></h2>
+
+<div class="scrolling-wrapper">
+<div class="card"><img src="/assets/events/hayward_photos/hayward1.jpg" width="480" heigh="270"></div>
+
+<div class="card"><img src="/assets/events/hayward_photos/hayward2.jpg" width="480" heigh="270"></div>
+
+<div class="card"><img src="/assets/events/hayward_photos/hayward3.jpg" width="480" heigh="270"></div>
+
+<div class="card"><img src="/assets/events/hayward_photos/hayward4.jpg" width="480" heigh="270"></div>
 </div>
 
 <!-- stolen from bootstrap website: example row of 3 columns
