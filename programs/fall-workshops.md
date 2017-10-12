@@ -11,9 +11,9 @@ Our workshop focuses on a hands-on exploration of gears and how we utilize them 
 
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
 
-<a target="_blank" href="/assets/events/gearworkshopflyer_final.jpg"><img src="/assets/events/gearworkshopflyer_final.jpg" style="max-width: 50%"></a>
+<a target="_blank" href="/assets/events/gearworkshopflyer_final.jpg">Flyer of PiE On The Road</a>
 
-PiE on the Road will be held at the following locations and times.
+<h2><strong>Locations and Times</strong></h2>
 
 <div class="pie-jumbotron">
 <div class="row">
@@ -32,7 +32,7 @@ PiE on the Road will be held at the following locations and times.
     </div>
     <div class="col-sm-6">
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
-            This event is over
+            This event is over! Thanks for coming.
         </a></h2>
     </div>
 </div>
@@ -53,7 +53,7 @@ PiE on the Road will be held at the following locations and times.
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-primary darker-blue-bkg" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
+        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
             Register for CCPA workshop &raquo;
         </a></h2>
         <p>
@@ -134,7 +134,7 @@ PiE on the Road will be held at the following locations and times.
 </div>
 -->
 
-## FAQS:
+<h2><strong>FAQS:</strong></h2>
 
 **I don’t have a lot of experience. Will that make the workshop too difficult for me?**
 
