@@ -7,14 +7,19 @@ hero-button-url: ../get-involved/
 ---
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
-  <div id ="announcements">
+  <div> <!-- class ="pie-jumbotron" -->
     <h2>ANNOUNCEMENTS</h2>
     <div class="row">
       <div class="col-md-6">
         <h3>Interested in Joining PiE?</h3>
-        <p>Fill out our interest form so we can learn about you, and you can get the latest information from us!</p>
-        <p>You can also follow us on <a href="https://facebook.com/pierobotics">Facebook</a> to see our events this semester.</p>
+        <p>Missed the first few worksessions and events but still want to join PiE? Here are some ways to get started:</p>
+        <ul>
+          <li><a href="get-involved/">Learn more</a> about what it's like to be a PiE Staff and the documents you need to fill out</li>
+          <li>Fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrJ_ImQvy6-D_70E5-bIJFSt8hr10dZzpZlRTBDvcB5vGfMg/viewform">interest form</a> to join our mailing list!</li>
+          <li>You can also follow us on <a href="https://facebook.com/pierobotics">Facebook</a> to see our latest updates and events.</li>
+        </ul>
         <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfrJ_ImQvy6-D_70E5-bIJFSt8hr10dZzpZlRTBDvcB5vGfMg/viewform" role="button">Interest Form</a>
+        <a class="btn btn-info" target="_blank" href="get-involved/" role="button">Get Involved</a>
         </div>
       <div class="col-md-6">
         <h3>PiE on the Road</h3>
@@ -64,20 +69,7 @@ hero-button-url: ../get-involved/
       {% include schedule.html %}
     </div>
 
-    <div class="col-md-7">
-      <h2>News Updates</h2>
-      {% for post in site.posts limit:5%}
-      {% unless post.hide %}
-        <div class="post-row">
-          <h4 class="title">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
-          </h4>
-          <div class="excerpt">{{ post.excerpt }}</div>
-        </div>
-      {% endunless %}
-      {% endfor %}
-
-    </div>
+    
   </div>
 
 </div>
