@@ -1,19 +1,24 @@
 - name: Vivien Nguyen
   title: Director
   picture: vivien.jpg
+  short-bio: Third year CS major
 
 - name: Briana Niu
-  title: Director of Business Operations
+  title: Director of Business
   picture: briana.jpg
+  short-bio: Fourth year IEOR major
 
 - name: Alan Zhang
   title: Director of Programs
   picture: alan.jpg
+  short-bio: Third year math major
 
 - name: Brandon Lee
   title: Director of Engineering
   picture: brandon.jpg
+  short-bio: Third year EECS major
 
 - name: Scott Numamoto
   title: Director of Education
   picture: scott.jpg
+  short-bio: Third year EECS major
