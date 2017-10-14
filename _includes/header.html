@@ -9,7 +9,9 @@
         <span class="icon-bar"></span>
       </button>
       <div style="float:left;"> <!-- Makes sure the title doesn't go all the way right -->
-        <img style="width:50px;" src="{{"/titleicon.png" | prepend: site.baseurl }}">
+        <a href = '/'>
+          <img style="width:50px;" src="{{"/titleicon.png" | prepend: site.baseurl }}">
+        </a>
         <a style="float:right;" class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}"> <!-- Makes the title right of the icon, default is otherwise -->
           <!-- <img alt="Brand" src="http://pioneers.allen.li/graphics/general/logos/Logo_vectorized.svg"> -->
           <div id="title">Pioneers in Engineering</div>
@@ -22,7 +24,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="{{ "/about/team.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <a href="{{ "/about/team.html" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ "/about/about-us.html" | prepend: site.baseurl }}">About Us</a></li>
             <li><a href="{{ "/about/team.html" | prepend: site.baseurl }}">The PiE Team</a></li>
@@ -31,17 +33,12 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compete <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compete/Workshop <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ "/compete/rc-spring.html" | prepend: site.baseurl }}">PiE Robotics Competition</a></li>
 	        <li><a href="{{ "/compete/rc-fall.html" | prepend:site.baseurl }}">PiE Fall Competition</a></li>
             <li><a href="{{ "/compete/start-team.html" | prepend: site.baseurl }}">Start a Team</a></li>
             <li><a href="{{ "/compete/past-participants.html" | prepend: site.baseurl }}">Past Participants</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
-          <ul class="dropdown-menu">
             <li><a href="{{ "/programs/fall-workshops.html" |prepend: site.baseurl }}">Fall Workshops</a></li>
             <li><a href="http://pioneers.github.io/opensource/index.html">Open Source <i class="fa fa-external-link"></i></a></li>
             <li><a href="{{ "/programs/scholarship.html" | prepend: site.baseurl }}">Scholarship</a></li>
@@ -59,7 +56,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support PiE <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support Us <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ "/support-pie/donate.html" | prepend: site.baseurl }}">How You Can Help</a></li>
             <li><a href="{{ "/support-pie/sponsors.html" | prepend: site.baseurl }}">List of Sponsors</a></li>
