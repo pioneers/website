@@ -26,7 +26,6 @@ hero-message: PiE on the Road
     </div>
 </div>
 
-
 <h2><strong>Locations and Times</strong></h2>
 
 <div class="pie-jumbotron">
