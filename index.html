@@ -8,6 +8,10 @@ hero-button-url: ../get-involved/
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
+      <div class="jumbotron">
+        <h2 align="center">PiE Fall Comp is Saturday 10/21!</h2> 
+		<h2 align="center">Click <a href="compete/rc-fall/">here</a> for more details and the released schedule!</h2>  
+      </div>
     <h2>ANNOUNCEMENTS</h2>
     <div class="row">
       <div class="col-md-6">
@@ -69,7 +73,20 @@ hero-button-url: ../get-involved/
       {% include schedule.html %}
     </div>
 
-    
+    <div class="col-md-7">
+      <h2>News Updates</h2>
+      {% for post in site.posts limit:5%}
+      {% unless post.hide %}
+        <div class="post-row">
+          <h4 class="title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
+          </h4>
+          <div class="excerpt">{{ post.excerpt }}</div>
+        </div>
+      {% endunless %}
+      {% endfor %}
+
+    </div>
   </div>
 
 </div>
