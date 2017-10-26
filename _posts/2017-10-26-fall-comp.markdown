@@ -1,22 +1,24 @@
+---
 layout: post
-title:  "PiE Example Post Title"
-date:   2016-10-26 01:59:57,
+title:  "Fall Competition: New Records and New Faces"
+date:   2017-10-26 01:59:57,
 tags: [2017, fall, competition, workshop]
-image: annual_report.png
 author: Alan Zhang
+---
+<img src="{{site.baseurl}}/assets/images/blog/fallcomp_2017_building_robot.png">
 
 On October 21st, over 60 high school students participated in our 3rd annual PiE Fall Competition. These students (from schools in Alameda, Oakland, Richmond, Hayward, El Cerrito and Albany) all made the trip to UC Berkeley campus for this all-day event in Hearst Memorial Mining Building filled with learning, fun, and competition!
 
-The day started with a round-robin of matches! We saw many returning robots, such as Albany’s conveyer belt bot, NEA’s speed demon, and El Cerrito’s multi-faceted machine. This was the second time these teams played Dry Another Day: A Coin Operated Game, and many teams brought in new strategies. Some teams utilized coins more than last year. Others rustled for hampers, and saw much higher scoring games (Albany set a game record of 120 points in a single match)!
-
-<img src="{{site.baseurl}}/assets/images/blog/fallcomp_2017_building_robot">
+The day started with a round-robin of matches! We saw many returning robots, such as Albany’s conveyer belt bot, NEA’s speed demon, and El Cerrito’s multi-faceted machine. This was the second time these teams played *Dry Another Day: A Coin Operated Game*, and many teams brought in new strategies. Some teams utilized coins more than last year. Others rustled for hampers, and saw much higher scoring games (Albany set a game record of 120 points in a single match)!
 
 During the qualification matches, students participated in our Design Challenge workshop. Planned by our Education Team (colloquially referred to as E.D.You), students from different schools were brought together in small groups to come up with solutions to problems they found in today - ranging from ways to improve their classes, social implications of technology, and fighting issues in their own communities. They shared their ideas and viewpoints with their peers, allowing them to gain new perspectives.
 
 After lunch, all the students regrouped in an auditorium for a Diversity Student Panel. The panel consisted of three PiE Staff: Julie Lum (E.D.You), Chudi Nnorukam (Shepherd Project), and Karely Lozano (Dawn Project), as well as a representative from the Filipino Association of Scientists, Architects, and Engineers: Jarad Gonzalez. Karely also represented Hispanic Engineers and Scientists at UC Berkeley. The students got the opportunity to hear from these UC Berkeley students about their experiences at Berkeley, how they got into STEM, and what what diversity meant in their fields.
 
+> The students got the opportunity to hear from these UC Berkeley students about their experiences at Berkeley, how they got into STEM, and what what diversity meant in their fields.
+
+<img src="{{site.baseurl}}/assets/images/blog/fallcomp_2017_diversity_workshop.png">
+
 The day ended with a series of elimination matches. The teams split into alliances of 3 teams each, and competed in a double elimination bracket. Albany, El Cerrito, and Bishop O’Dowd came out victorious in a close battle with Alameda Community Learning Center, Oakland School for the Arts, and Coliseum College Prep Academy in the finals. 
 
 A special thanks to all the students, teachers, and parents from Albany, Alameda Community Learning Center, Bishop O’Dowd, Coliseum College Prep, De Anza, El Cerrito, Hayward, Oakland School for the Arts and NEA Community Learning Center for coming out to this event! We hope you enjoyed it and we look forward to seeing you all soon! Also a special thanks to all the PiE staff that made the event possible!
-
-<img src="{{site.baseurl}}/assets/images/blog/fallcomp_2017_diversity_workshop.png">
