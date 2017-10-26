@@ -28,6 +28,14 @@
   color: white;
 }
 
+.blue-text {
+  color: $pie-blue;
+}
+
+.gold-text {
+  color: $pie-gold;
+}
+
 .darker-blue-bkg {
   background-color: darken($pie-blue, 10%);
 }
@@ -96,13 +104,11 @@ Does not work on round things. */
 }
 
 .staff-member {
-  text-align: center;
-  padding: 30px 30px 5px;
   .staff-image {
-    width: 200px;
+    width: 250px;
     height: 200px;
     overflow: hidden;
-    margin: 0 auto 10px;
+    margin: auto;
     img {
       background-color: white;
       position: relative;
@@ -549,14 +555,6 @@ Does not work on round things. */
   color: $pie-gold;
 }
 
-.blue-title {
-  color: $pie-blue;
-}
-
-.gold-title {
-  color: $pie-gold;
-}
-
 .notecard{
   margin-left: 50px;
   margin-right: 50px;
@@ -948,4 +946,16 @@ nav[data-toggle='toc'] .nav .nav {
 }
 
 .dropdown-menu {
+}
+
+/* styles for horizontal scrolling */
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
 }
