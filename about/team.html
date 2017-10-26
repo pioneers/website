@@ -7,6 +7,13 @@ hero-button: Join Us!
 hero-button-url: ../get-involved/join-staff.html
 ---
 <!---->
+<!--
+
+CSV TO YML CONVERTER
+
+http://www.convertcsv.com/csv-to-yaml.htm
+
+-->
 <script>
 function myFunction() {
   // Declare variables 
@@ -40,7 +47,7 @@ function myFunction() {
     <div class="tab-content">
       <div class="tab-pane fade active in" id="staff"> <!-- first tab -->
         <!--<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">-->
-        <h2 class="sub-heading">Leadership</h2>
+        <h2 class="sub-heading" style="margin-bottom: 20px">Leadership</h2>
         <div id="members" class="staff-images" style="margin-bottom: 20px">
           {% for member in site.data.leadership %}
           <div class="staff-member card" style="margin-bottom: 20px">
@@ -65,7 +72,7 @@ function myFunction() {
                   <h5 class="modal-title">{{ member.name }}</h5>
                 </div>
                 <div class="modal-body">
-                  ...Lorem ipsum dolor sit amet
+                  
                 </div>
               </div>
             </div>
@@ -76,7 +83,7 @@ function myFunction() {
 
         <hr>
 
-        <h2 class="sub-heading">Project Managers</h2>
+        <h2 class="sub-heading" style="margin-bottom: 20px">Project Managers</h2>
         <div class="staff-images">
             {% for member in site.data.project-managers %}
             <div class="staff-member card" style="margin-bottom: 20px">
@@ -92,10 +99,51 @@ function myFunction() {
             </div>
             {% endfor %}
         </div>
+
+        <hr>
+
+        <!-- Working On this -->
+        <h2 class="sub-heading" style="margin-bottom: 20px">Staff</h2>
+        <div class="staff-images">
+            {% for member in site.data.staff-bio %}
+            <div class="staff-member card" style="margin-bottom: 20px">
+              <div class="staff-image">
+                <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
+                  <img class="img-scaled-wh" src="../assets/images/team/staff_photos/{{ member.picture }}" alt="">
+                </a>
+              </div>
+              <div class="staff-description" style="padding: 10px">
+                <h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.name }}</h4>
+                <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.major }}</h5>
+              </div>
+              <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">More about me</a>
+              </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">{{ member.name }}</h5>
+                  </div>
+                  <div class="modal-body">
+                    <p>{{member.short-bio}}</p>
+                    <p>{{member.misc-info}}</p>
+                    <img class="img-scaled-wh" src="../assets/images/team/staff_photos/{{ member.picture }}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+        </div>
       </div>
 
-      <div class="tab-pane fade in" id="advisors"> <!-- second tab -->
-        <h2 class="sub-heading">Faculty Advisors</h2>
+
+
+      <!-- second tab starts here-->
+      <div class="tab-pane fade in" id="advisors"> 
+        <h2 class="sub-heading" style="margin-bottom: 20px">Faculty Advisors</h2>
         <div class="staff-images">
             {% for advisor in site.data.advisors %}
             <div class="staff-member">
@@ -110,7 +158,7 @@ function myFunction() {
             {% endfor %}
         </div>
 
-        <h2 class="sub-heading">Alumni</h2>
+        <h2 class="sub-heading" style="margin-bottom: 20px">Alumni</h2>
         <div class="staff-images">
             {% for alumnus in site.data.alumni %}
             <div class="staff-member card" style="margin-bottom: 20px">
@@ -124,6 +172,7 @@ function myFunction() {
                 <p class="card-text">{{ alumnus.title }}</p>
               </div>
             </div>
+
             {% endfor %}
 
             <!-- <div class="staff-member">
