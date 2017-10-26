@@ -102,19 +102,19 @@ function myFunction() {
 
         <hr>
 
-        <!-- Working On this -->
-        <h2 class="sub-heading" style="margin-bottom: 20px">Staff</h2>
+        <!-- All Staff And Bios -->
+        <h2 class="sub-heading" style="margin-bottom: 20px">All Staff and Bios</h2>
         <div class="staff-images">
             {% for member in site.data.staff-bio %}
             <div class="staff-member card" style="margin-bottom: 20px">
-              <div class="staff-image">
+              <!--<div class="staff-image">
                 <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
                   <img class="img-scaled-wh" src="../assets/images/team/staff_photos/{{ member.picture }}" alt="">
                 </a>
-              </div>
+              </div>-->
               <div class="staff-description" style="padding: 10px">
                 <h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.name }}</h4>
-                <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.major }}</h5>
+                <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.major }} {{ member.year }}</h5>
               </div>
               <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">More about me</a>
               </div>
@@ -129,7 +129,11 @@ function myFunction() {
                   </div>
                   <div class="modal-body">
                     <p>{{member.short-bio}}</p>
-                    <p>{{member.misc-info}}</p>
+                    {% if member.misc-info.link or member.misc-info.text %}
+                    <h5>Misc Info / Links</h5>
+                    <a href="{{member.misc-info.link}}">{{member.misc-info.link}}</a>
+                    <p>{{ member.misc-info.text}} </p>
+                    {% endif %}
                     <img class="img-scaled-wh" src="../assets/images/team/staff_photos/{{ member.picture }}" alt="">
                   </div>
                 </div>
