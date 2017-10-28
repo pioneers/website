@@ -653,8 +653,7 @@ Does not work on round things. */
     }
   }
 
-  .twoline-timeline-arrow {
-	  @extend .timeline-arrow;
+  .twoline {
 	  padding-top: $timeline-height/6;
 	  padding-bottom: $timeline-height/6;
   }
