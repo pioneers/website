@@ -16,26 +16,26 @@ Each workshop has a total of 30 seats available. All students are welcome to att
 <h2><strong>Locations and Times</strong></h2>
 
 <div class="pie-jumbotron">
-    <div class="row">
-        <div class="col-xs-12"><h2>PiE on the Road @Hayward</h2></div>
-        <div class="col-sm-6">
-            <p><strong>Location:</strong><br>
-            Hayward High School<br>
-    	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
-            1633 East Ave, Hayward, CA 94541<br></a>
-    	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
-            </p>
-            <p><strong>Time:</strong><br>
-            Saturday, September 30, 2017<br>
-            1 - 4 PM
-            </p>
-        </div>
-        <div class="col-sm-6">
-            <h2><a class="btn btn-default" style="font-size:16px" role="button">
-                This event is over! Thanks for coming.
-            </a></h2>
-        </div>
+<div class="row">
+    <div class="col-xs-12"><h2>PiE on the Road @Hayward</h2></div>
+    <div class="col-sm-6">
+        <p><strong>Location:</strong><br>
+        Hayward High School<br>
+	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
+        1633 East Ave, Hayward, CA 94541<br></a>
+	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
+        </p>
+        <p><strong>Time:</strong><br>
+        Saturday, September 30, 2017<br>
+        1 - 4 PM
+        </p>
     </div>
+    <div class="col-sm-6">
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
+        </a></h2>
+    </div>
+</div>
 </div>
 
 <div class="pie-jumbotron blue-bkg">
@@ -53,12 +53,9 @@ Each workshop has a total of 30 seats available. All students are welcome to att
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
-        <p>
-        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
