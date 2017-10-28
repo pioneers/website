@@ -3,28 +3,15 @@ layout: markdown
 hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
-<div class="row">
-    <div class="col-md-6 hidden-xs">
-        <a target="_blank" href="/assets/events/POTR_Flyer_Julie_Revision.jpg
-        "><img src="/assets/events/POTR_Flyer_Julie_Revision.jpg" width="100%"></a>
-    </div>
-    <div class="col-md-6">
-        <h2>Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?</h2>
-        <p><strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?
 
-        <ul>
-            <li>Our workshop focuses on a <strong><span class="blue-text">hands-on exploration of gears and how we utilize them with our custom gear kit</span></strong>. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints.
-            </li>
-            <li>We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
-            </li>
-            <li>Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you.
-            </li>
-            <li>Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
-            </li>
-        </ul>
-        </p>
-    </div>
-</div>
+**PiE on the Road** is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+
+Our workshop focuses on a hands-on exploration of gears and how we utilize them with our custom gear kit. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints. We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
+
+Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
+
+<a target="_blank" href="/assets/events/gearworkshopflyer_final.jpg">Flyer of PiE On The Road</a>
 
 <h2><strong>Locations and Times</strong></h2>
 
@@ -66,12 +53,9 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
-        <p>
-        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
@@ -164,5 +148,22 @@ No, please make your own arrangements for transportation. We recommending carpoo
 **Will lunch be provided?**
 
 No, please eat lunch beforehand.
+
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
