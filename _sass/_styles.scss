@@ -57,6 +57,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: -webkit-fill-available;
   position: relative;
   text-align: center;
   h1,
@@ -414,7 +415,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 900px) {
   #title {
       display:none;
   }
@@ -946,6 +947,12 @@ nav[data-toggle='toc'] .nav .nav {
 
 .dropdown-menu {
 }
+
+.vertical-center {
+  position: relative;
+  top: 8%;
+}
+
 
 /* styles for horizontal scrolling */
 

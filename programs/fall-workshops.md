@@ -53,13 +53,8 @@ Each workshop has a total of 30 seats available. All students are welcome to att
         </p>
     </div>
     <div class="col-sm-6">
-<<<<<<< HEAD
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
-=======
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
             This event is over! Thanks for coming.
->>>>>>> 8e24b4f55137359e965ba4e1ad6e7d6a081afb27
         </a></h2>
     </div>
 </div>
