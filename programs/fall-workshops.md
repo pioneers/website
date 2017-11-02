@@ -53,12 +53,9 @@ Each workshop has a total of 30 seats available. All students are welcome to att
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
-        <p>
-        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
@@ -151,5 +148,22 @@ No, please make your own arrangements for transportation. We recommending carpoo
 **Will lunch be provided?**
 
 No, please eat lunch beforehand.
+
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
