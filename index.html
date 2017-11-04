@@ -1,10 +1,25 @@
 ---
 layout: main
-hero-message: <span style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400">Bringing STEM education to the Bay Area</span>
+hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span>
 title: Pioneers in Engineering
-hero-button: Join Us!
-hero-button-url: ../get-involved/
 ---
+<script type="text/javascript">
+    $("#animate1").css("opacity", 0)
+    $("#animate2").css("opacity", 0)
+
+    $(document).ready(function() {
+        setTimeout(function(){
+            $("#animate1").animate({
+                opacity: 1.0
+            }, 3000)
+            setTimeout(function(){
+                $("#animate2").animate({
+                    opacity: 1.0
+                }, 2000)
+            }, 2000)
+        }, 1000)
+    })
+</script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
