@@ -57,6 +57,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: -webkit-fill-available;
   position: relative;
   text-align: center;
   h1,
@@ -414,7 +415,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 900px) {
   #title {
       display:none;
   }
@@ -653,8 +654,7 @@ Does not work on round things. */
     }
   }
 
-  .twoline-timeline-arrow {
-	  @extend .timeline-arrow;
+  .twoline {
 	  padding-top: $timeline-height/6;
 	  padding-bottom: $timeline-height/6;
   }
@@ -948,6 +948,15 @@ nav[data-toggle='toc'] .nav .nav {
 .dropdown-menu {
 }
 
+<<<<<<< HEAD
+=======
+.vertical-center {
+  position: relative;
+  top: 8%;
+}
+
+
+>>>>>>> d69f45932d6029bc554095f7e32a9b9714a6f214
 /* styles for horizontal scrolling */
 
 .scrolling-wrapper {
