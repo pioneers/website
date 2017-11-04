@@ -21,9 +21,9 @@ Each workshop has a total of 30 seats available. All students are welcome to att
     <div class="col-sm-6">
         <p><strong>Location:</strong><br>
         Hayward High School<br>
-	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
+    <a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         1633 East Ave, Hayward, CA 94541<br></a>
-	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
+    Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
         </p>
         <p><strong>Time:</strong><br>
         Saturday, September 30, 2017<br>
@@ -53,13 +53,8 @@ Each workshop has a total of 30 seats available. All students are welcome to att
         </p>
     </div>
     <div class="col-sm-6">
-<<<<<<< HEAD
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
-=======
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
             This event is over! Thanks for coming.
->>>>>>> 8e24b4f55137359e965ba4e1ad6e7d6a081afb27
         </a></h2>
     </div>
 </div>
