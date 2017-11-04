@@ -600,7 +600,7 @@ Does not work on round things. */
   .timeline-arrow {
     flex: 1 1 auto;
     height: $timeline-height;
-    line-height: $timeline-height/3; 
+    line-height: $timeline-height/3;
     background-color: $arrow-active-color;
     text-align: center;
     //padding-top: $timeline-height/4;
@@ -891,8 +891,8 @@ border-color: lighten($pie-blue, 5%);
 #software-banner {
 	background-color: $pie-blue;
 	display: flex;
-	padding-top: 50px; 
-	padding-bottom: 50px; 
+	padding-top: 50px;
+	padding-bottom: 50px;
 	align-items: baseline;
 	flex-wrap: wrap;
 	flex-flow: row wrap;
@@ -945,6 +945,31 @@ nav[data-toggle='toc'] .nav .nav {
 }
 
 .dropdown-menu {
+}
+
+/* site map */
+ul{
+  list-style-type: none;
+}
+
+.sitemap {
+  background-color: $pie-blue;
+  color: white;
+  text-decoration: none;
+  padding-top: 2.5px;
+  padding-right: 2.5px;
+}
+
+.sitemap:hover{
+  color: $pie-gold;
+  text-decoration: none;
+}
+
+.sitemap-header {
+  background-color: $pie-blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* styles for horizontal scrolling */
