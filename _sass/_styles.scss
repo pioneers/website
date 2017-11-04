@@ -953,6 +953,30 @@ nav[data-toggle='toc'] .nav .nav {
   top: 8%;
 }
 
+/* site map */
+ul{
+  list-style-type: none;
+}
+
+.sitemap {
+  background-color: $pie-blue;
+  color: white;
+  text-decoration: none;
+  padding-top: 2.5px;
+  padding-right: 2.5px;
+}
+
+.sitemap:hover{
+  color: $pie-gold;
+  text-decoration: none;
+}
+
+.sitemap-header {
+  background-color: $pie-blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /* styles for horizontal scrolling */
 
