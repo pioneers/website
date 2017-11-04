@@ -957,8 +957,12 @@ ul{
   list-style-type: none;
 }
 
-.sitemap {
+.sitemap-footer {
   background-color: $pie-blue;
+  padding-top: 10px;
+  padding-right: 2.5px;
+}
+.sitemap {
   color: white;
   text-decoration: none;
   padding-top: 2.5px;
