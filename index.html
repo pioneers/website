@@ -4,8 +4,10 @@ hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkm
 title: Pioneers in Engineering
 ---
 <script type="text/javascript">
-    $("#animate1").css("opacity", 0)
-    $("#animate2").css("opacity", 0)
+    $("#animate1").hide().css("opacity", 0).show()
+    $("#animate2").hide().css("opacity", 0).show()
+
+    $(".hero-unit").css("height", "-webkit-fill-available");
 
     $(document).ready(function() {
         setTimeout(function(){
