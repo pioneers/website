@@ -1,20 +1,43 @@
 ---
 layout: main
-hero-message: <span style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400">Bringing STEM education to the Bay Area</span>
+hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span>
 title: Pioneers in Engineering
-hero-button: Join Us!
-hero-button-url: ../get-involved/
 ---
+<script type="text/javascript">
+    $("#animate1").hide().css("opacity", 0).show()
+    $("#animate2").hide().css("opacity", 0).show()
+
+    $(".hero-unit").css("height", "-webkit-fill-available");
+
+    $(document).ready(function() {
+        setTimeout(function(){
+            $("#animate1").animate({
+                opacity: 1.0
+            }, 3000)
+            setTimeout(function(){
+                $("#animate2").animate({
+                    opacity: 1.0
+                }, 2000)
+            }, 2000)
+        }, 1000)
+    })
+</script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
+    <div class="jumbotron">
+      <center>
+        <h3> Applications for our Spring Robotics Competition 🤖 are now open!</h3>
+        <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn more!</a>
+      </center>
+    </div>
 
     <div id="fall-row" class="rc-row vertical-align">
   		<div class="text-col text-left">
         <div class="home-page-text-descr">
           <h1>Who Are We?</h1>
         </div>
-        
+
         <hr class="golden-border">
 
   			<div class="home-page-text-descr">
@@ -27,14 +50,7 @@ hero-button-url: ../get-involved/
         </div>
   		</div>
   		<div id="fall-image" class="image-col"></div>
-  	</div>
-
-
-      <div class="jumbotron">
-        <h2 align="center">PiE Fall Comp is Saturday 10/21!</h2>
-		<h2 align="center">Click <a href="compete/rc-fall/">here</a> for more details and the released schedule!</h2>
-      </div>
-    <h2>ANNOUNCEMENTS</h2>
+  	</div>    <h2>ANNOUNCEMENTS</h2>
     <div class="row">
       <div class="col-md-6">
         <h3>Interested in Joining PiE?</h3>
@@ -100,6 +116,7 @@ hero-button-url: ../get-involved/
   </div>
 
 </div>
+<<<<<<< HEAD
 
 <!--
 <style>
@@ -115,3 +132,5 @@ section {
     </section>
   </div>
 -->
+=======
+>>>>>>> fe8cff11eff2f549dbd102d31d1a1b81d808dfa2

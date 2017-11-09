@@ -34,9 +34,9 @@ hero-message: PiE on the Road
     <div class="col-sm-6">
         <p><strong>Location:</strong><br>
         Hayward High School<br>
-	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
+    <a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         1633 East Ave, Hayward, CA 94541<br></a>
-	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
+    Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
         </p>
         <p><strong>Time:</strong><br>
         Saturday, September 30, 2017<br>
@@ -66,12 +66,9 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
-        <p>
-        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
@@ -164,5 +161,22 @@ No, please make your own arrangements for transportation. We recommending carpoo
 **Will lunch be provided?**
 
 No, please eat lunch beforehand.
+
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**

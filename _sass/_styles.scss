@@ -441,7 +441,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 900px) {
   #title {
       display:none;
   }
@@ -680,8 +680,7 @@ Does not work on round things. */
     }
   }
 
-  .twoline-timeline-arrow {
-	  @extend .timeline-arrow;
+  .twoline {
 	  padding-top: $timeline-height/6;
 	  padding-bottom: $timeline-height/6;
   }
@@ -973,6 +972,40 @@ nav[data-toggle='toc'] .nav .nav {
 }
 
 .dropdown-menu {
+}
+
+.vertical-center {
+  position: relative;
+  top: 8%;
+}
+
+/* site map */
+ul{
+  list-style-type: none;
+}
+
+.sitemap-footer {
+  background-color: $pie-blue;
+  padding-top: 10px;
+  padding-right: 2.5px;
+}
+.sitemap {
+  color: white;
+  text-decoration: none;
+  padding-top: 2.5px;
+  padding-right: 2.5px;
+}
+
+.sitemap:hover{
+  color: $pie-gold;
+  text-decoration: none;
+}
+
+.sitemap-header {
+  background-color: $pie-blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* styles for horizontal scrolling */
