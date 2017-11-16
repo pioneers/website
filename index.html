@@ -4,8 +4,10 @@ hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkm
 title: Pioneers in Engineering
 ---
 <script type="text/javascript">
-    $("#animate1").css("opacity", 0)
-    $("#animate2").css("opacity", 0)
+    $("#animate1").hide().css("opacity", 0).show()
+    $("#animate2").hide().css("opacity", 0).show()
+
+    $(".hero-unit").css("height", "-webkit-fill-available");
 
     $(document).ready(function() {
         setTimeout(function(){
@@ -29,7 +31,26 @@ title: Pioneers in Engineering
         <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn more!</a>
       </center>
     </div>
-    <h2>ANNOUNCEMENTS</h2>
+
+    <div id="fall-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Who Are We?</h1>
+        </div>
+
+        <hr class="golden-border">
+
+  			<div class="home-page-text-descr">
+  				<p>Pioneers in Engineering (PiE) promotes science, technology, engineering, and mathematics (STEM) education through an exciting, mentorship-based process. We strongly believe that no student should be denied a quality STEM education experience.</p>
+  			</div>
+        <div>
+        <center> <a class="btn btn-default" href="about/about-us/" style="font-size:16px" role="button">
+            Learn More!
+        </a> </center>
+        </div>
+  		</div>
+  		<div id="fall-image" class="image-col"></div>
+  	</div>    <h2>ANNOUNCEMENTS</h2>
     <div class="row">
       <div class="col-md-6">
         <h3>Interested in Joining PiE?</h3>
@@ -92,7 +113,21 @@ title: Pioneers in Engineering
       {% include schedule.html %}
     </div>
 
-    
   </div>
 
 </div>
+
+<!--
+<style>
+section {
+    display: block;
+    background-color: #f2f2f2;
+}
+</style>
+
+  <div class="row" id="about"> <!- Second Row, About Section that navigates to about page
+    <section id="grey">
+      <h2> About Us </h2>
+    </section>
+  </div>
+-->

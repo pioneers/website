@@ -1,6 +1,23 @@
 /*
  * Commonly used styles
  */
+.golden-border {
+  display: block;
+  border-color: $pie-gold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.home-page-text-descr {
+  width: 80%;
+  padding: floor($grid-gutter-width / 2);
+  margin: 0 auto;
+  font-size: 13pt;
+ }
 
 .center-ver-parent {
   position: relative;
@@ -16,6 +33,16 @@
   height: 100px;
   line-height: 100px;
   white-space: nowrap;
+}
+
+.white-bkg {
+  background-color: white;
+  color: white;
+}
+
+.grey-bkg {
+  background-color:i #f2f2f2;
+  color: white;
 }
 
 .blue-bkg {
@@ -57,7 +84,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: -webkit-fill-available;
   position: relative;
   text-align: center;
   h1,
@@ -441,8 +467,8 @@ Does not work on round things. */
 }
 
 .home {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  /*margin: 0 auto;*/
   h2 {
     text-align: center;
     margin-bottom: $spacing-unit *2/3;
@@ -958,8 +984,12 @@ ul{
   list-style-type: none;
 }
 
-.sitemap {
+.sitemap-footer {
   background-color: $pie-blue;
+  padding-top: 10px;
+  padding-right: 2.5px;
+}
+.sitemap {
   color: white;
   text-decoration: none;
   padding-top: 2.5px;
