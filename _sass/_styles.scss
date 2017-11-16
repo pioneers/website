@@ -1,6 +1,17 @@
 /*
  * Commonly used styles
  */
+ .blue-border {
+   display: block;
+   border-color: $pie-blue;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: 75px;
+   margin-right: 75px;
+   border-style: inset;
+   border-width: 1px;
+ }
+
 .golden-border {
   display: block;
   border-color: $pie-gold;
