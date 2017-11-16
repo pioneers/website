@@ -5,25 +5,25 @@
 
   <body>
 
+
     {% include header.html %}
 
-    <div class="hero-unit tall" id="homepage-banner" style="background-image: {{ page.hero-image }}">
+    <div class="hero-unit tall" id="homepage-banner" style="background-image: {{ page.hero-image }}; background-attachment: fixed;">
       <div class="fade-overlay"></div>
-      <div class="container">
+      <div class="container vertical-center">
         <h1>
           {{ page.hero-message }}
         </h1>
-        {% if page.hero-button %}
-        <center><a href="{{page.hero-button-url}}" class="btn btn-primary btn-lg">{{page.hero-button}}</a></center>
-        {% endif %}
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> -->
+	
       {{ content }}
-    </div>
+    <!-- </div> -->
 
     {% include footer.html %}
+    {% include sitemap.html %}
 
   </body>
 

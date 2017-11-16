@@ -3,6 +3,7 @@ layout: markdown
 hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
+<<<<<<< HEAD
 Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?
 
 **PiE on the Road** is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
@@ -12,6 +13,30 @@ Our workshop focuses on a hands-on exploration of gears and how we utilize them 
 Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you. Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
 
 <a target="_blank" href="/assets/events/gearworkshopflyer_final.jpg">Flyer of PiE On The Road</a>
+=======
+<div class="row">
+    <div class="col-md-6 hidden-xs">
+        <a target="_blank" href="/assets/events/POTR_Flyer_Julie_Revision.jpg
+        "><img src="/assets/events/POTR_Flyer_Julie_Revision.jpg" width="100%"></a>
+    </div>
+    <div class="col-md-6">
+        <h2>Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?</h2>
+        <p><strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+
+        <ul>
+            <li>Our workshop focuses on a <strong><span class="blue-text">hands-on exploration of gears and how we utilize them with our custom gear kit</span></strong>. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints.
+            </li>
+            <li>We challenge high school students of all backgrounds to explore and innovate with us. Upon completing the workshop, students will be able to take their kit home to share and continue exploring.
+            </li>
+            <li>Each workshop has a total of 30 seats available. All students are welcome to attend any workshop, but we recommend the workshop at a high school closest to you.
+            </li>
+            <li>Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
+            </li>
+        </ul>
+        </p>
+    </div>
+</div>
+>>>>>>> 937431fcae734f7310c07cfc24e301dcaaaed95b
 
 <h2><strong>Locations and Times</strong></h2>
 
@@ -21,9 +46,9 @@ Each workshop has a total of 30 seats available. All students are welcome to att
     <div class="col-sm-6">
         <p><strong>Location:</strong><br>
         Hayward High School<br>
-	<a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
+    <a href="https://www.google.com/maps/place/Hayward+High+School/@37.6716056,-122.1008955,14z/data=!4m8!1m2!2m1!1shayward+high+school!3m4!1s0x808f93c3af266c83:0xd3e22238acd5b838!8m2!3d37.6708676!4d-122.0687859">
         1633 East Ave, Hayward, CA 94541<br></a>
-	Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
+    Library - <a href="/assets/images/workshops/annotated-hayward-map.jpg">Annotated Map</a>
         </p>
         <p><strong>Time:</strong><br>
         Saturday, September 30, 2017<br>
@@ -53,12 +78,9 @@ Each workshop has a total of 30 seats available. All students are welcome to att
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
-        <p>
-        <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
@@ -152,4 +174,24 @@ No, please make your own arrangements for transportation. We recommending carpoo
 
 No, please eat lunch beforehand.
 
+<<<<<<< HEAD
+=======
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+>>>>>>> 937431fcae734f7310c07cfc24e301dcaaaed95b
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
