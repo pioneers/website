@@ -76,8 +76,8 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" role="button">
-            This event is over! Thanks for coming.
+        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
+            Register for CCPA workshop &raquo;
         </a></h2>
         <p>
         <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
