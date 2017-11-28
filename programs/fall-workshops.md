@@ -3,6 +3,11 @@ layout: markdown
 hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
+<div class="jumbotron">
+  <center>
+    <h3> Our Fall 2017 workshops are over! See you next year~ </h3>
+  </center>
+</div>
 <div class="row">
     <div class="col-md-9">
         <blockquote>
@@ -71,8 +76,8 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for CCPA workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
         <p>
         <strong>CCPA Registration Deadline: Thursday, October 26, 2017 Midnight</strong>
@@ -96,8 +101,8 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for Pinole Valley workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! Thanks for coming.
         </a></h2>
         <p>
         <strong>Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight</strong>
