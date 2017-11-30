@@ -203,6 +203,11 @@ Does not work on round things. */
   background-color: rgba($pie-gold, 0.70);
 }
 
+#support-us-image {
+  background-image: url(../assets/images/companyposter.jpg);
+  background-color: rgba($pie-gold, 0.70);
+}
+
 .graphic-description {
   width: 80%;
   padding: floor($grid-gutter-width / 2);
