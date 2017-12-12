@@ -1,23 +1,54 @@
 ---
 layout: main
-hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span>
+hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span><div id="animate-info" style="margin-top:20px; font-size:.5em; font-weight:400"><div style="margin-bottom:20px;">Pioneers in Engineering has served more than</div><span class="animate-num" data-num="30">0</span> Schools • <span class="animate-num" data-num="700">0</span> High School Students • <span class="animate-num" data-num="350">0</span> Berkeley Students</div>
 title: Pioneers in Engineering
 ---
 <script type="text/javascript">
+    //Set image to fill screen
+    $(".hero-unit").css("height", "-webkit-fill-available");
+
+    //Animations below
     $("#animate1").hide().css("opacity", 0).show()
     $("#animate2").hide().css("opacity", 0).show()
+    $("#animate-info").hide()
+    $(".animate-num").css("font-weight", "800")
 
-    $(".hero-unit").css("height", "-webkit-fill-available");
+    toThreePlaces = function(num) {
+      //Returns a string with at least three characters from a num
+      if(num.toString().length < 3) {
+        return toThreePlaces("&nbsp;" + num.toString());
+      }
+      return num
+    }
+
+    increment = function(obj, num, last, waitTime) {
+      $(obj).html(toThreePlaces(num));
+      if (num < last) {
+        setTimeout(function() {
+          increment(obj, num + 1, last, waitTime);           
+        }, waitTime)
+      }
+    }
 
     $(document).ready(function() {
         setTimeout(function(){
             $("#animate1").animate({
                 opacity: 1.0
-            }, 3000)
+            }, 3000);
             setTimeout(function(){
+                //Delay second animation slightly before the first one ends
                 $("#animate2").animate({
                     opacity: 1.0
-                }, 2000)
+                }, 2000, function(){
+                    //Second animation callback
+                    countUpTime = 3000; //Millliseconds to count up to the end
+                    $(".animate-num").each(function(index){
+                        count = $(this).data("num");
+                        waitTime = count / countUpTime;
+                        increment(this, 0, count, waitTime);
+                    });
+                    $("#animate-info").slideDown();
+                })
             }, 2000)
         }, 1000)
     })
@@ -97,6 +128,29 @@ title: Pioneers in Engineering
         </div>
   		</div>
   		<div id="fall-image" class="image-col"></div>
+  	</div>
+
+    <div id="spring-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Support Us</h1>
+        </div>
+        <hr class="blue-border">
+  			<div class="home-page-text-descr">
+  				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
+  			</div>
+        <div>
+        <center>
+        <a class="btn btn-default" href="../support-pie/donate.html" style="font-size:16px" role:"button">
+            How You Can Help
+        </a>
+        <a class="btn btn-default" href="../support-pie/sponsors.html" style="font-size:16px" role="button">
+            List of Sponsors
+        </a>
+        </center>
+        </div>
+  		</div>
+  		<div id="support-us-image" class="image-col"></div>
   	</div>
 
   </div>
