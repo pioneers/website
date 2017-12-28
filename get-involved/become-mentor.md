@@ -13,12 +13,13 @@ Find out more at our info sessions:
 - Thursday 1/25 6:30 - 7:30 PM, 210 Jacobs Hall
 <!--[eventually to be hyperlinked to our FB events]-->
 
-<div class="visible-sm">
+<div class="hidden-md hidden-lg">
     <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
+    <img alt="image of winners" src="/assets/images/stock-images/winners_edit.JPG" style="width: 100%">
 </div>
 
-<div class="row vertical-align">
-    <div class="col-md-6 hidden-sm">
+<div class="row vertical-align hidden-xs hidden-sm">
+    <div class="col-md-6">
         <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
     </div>
     <div class="col-md-6">
