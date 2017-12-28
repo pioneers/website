@@ -101,9 +101,6 @@ hero-message: PiE on the Road
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
             This event is over! <br> Thanks for coming.
         </a></h2>
-        <p>
-        <strong>Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
