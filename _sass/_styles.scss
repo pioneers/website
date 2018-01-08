@@ -36,6 +36,10 @@
   background-color: darken($pie-blue, 10%);
 }
 
+.center-text {
+  text-align: center;
+}
+
 .pie-jumbotron{
   @extend .jumbotron;
   p {
