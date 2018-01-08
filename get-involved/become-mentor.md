@@ -35,7 +35,7 @@ Find out more at our info sessions:
 4. How to inspire high school students through STEM
 
 # Details
-- Enroll in our DeCal class for 2 units, P/NP
+- Enroll in our [DeCal class](https://decal.berkeley.edu/courses/4373) for 2 units, P/NP
 - Choose to attend section on either (not both):
     - Monday 6:30 PM - 8:30, 220 Jacobs Hall
     - Thursday 6:30 - 8:30, 210 Jacobs Hall
