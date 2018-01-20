@@ -1,6 +1,17 @@
 /*
  * Commonly used styles
  */
+ .blue-border {
+   display: block;
+   border-color: $pie-blue;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: 75px;
+   margin-right: 75px;
+   border-style: inset;
+   border-width: 1px;
+ }
+
 .golden-border {
   display: block;
   border-color: $pie-gold;
@@ -189,6 +200,11 @@ Does not work on round things. */
 
 #spring-image {
   background-image: url(../assets/images/about-us/spring.jpg);
+  background-color: rgba($pie-gold, 0.70);
+}
+
+#support-us-image {
+  background-image: url(../assets/images/companyposter.jpg);
   background-color: rgba($pie-gold, 0.70);
 }
 
@@ -1018,4 +1034,8 @@ ul{
   .card {
     display: inline-block;
   }
+}
+
+.navbar-text.sitemap a{
+  margin: 0;
 }

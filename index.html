@@ -1,78 +1,34 @@
 ---
 layout: main
-hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span>
+hero-message: <span style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400">Bringing STEM education to the Bay Area</span>
 title: Pioneers in Engineering
+hero-button: Join Us!
+hero-button-url: ../get-involved/
 ---
-<script type="text/javascript">
-    $("#animate1").hide().css("opacity", 0).show()
-    $("#animate2").hide().css("opacity", 0).show()
-
-    $(".hero-unit").css("height", "-webkit-fill-available");
-
-    $(document).ready(function() {
-        setTimeout(function(){
-            $("#animate1").animate({
-                opacity: 1.0
-            }, 3000)
-            setTimeout(function(){
-                $("#animate2").animate({
-                    opacity: 1.0
-                }, 2000)
-            }, 2000)
-        }, 1000)
-    })
-</script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
-  <div> <!-- class ="pie-jumbotron" -->
-
+  <div class ="pie-jumbotron center-text">
     <h2>ANNOUNCEMENTS</h2>
-=======
-    <div class="jumbotron">
-      <center>
-        <h3> Applications for our Spring Robotics Competition 🤖 are now open!</h3>
-        <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn more!</a>
-      </center>
-    </div>
-
-    <div id="fall-row" class="rc-row vertical-align">
-  		<div class="text-col text-left">
-        <div class="home-page-text-descr">
-          <h1>Who Are We?</h1>
-        </div>
-
-        <hr class="golden-border">
-
-  			<div class="home-page-text-descr">
-  				<p>Pioneers in Engineering (PiE) promotes science, technology, engineering, and mathematics (STEM) education through an exciting, mentorship-based process. We strongly believe that no student should be denied a quality STEM education experience.</p>
-  			</div>
-        <div>
-        <center> <a class="btn btn-default" href="about/about-us/" style="font-size:16px" role="button">
-            Learn More!
-        </a> </center>
-        </div>
-  		</div>
-  		<div id="fall-image" class="image-col"></div>
-  	</div>    <h2>ANNOUNCEMENTS</h2>
->>>>>>> 937431fcae734f7310c07cfc24e301dcaaaed95b
     <div class="row">
       <div class="col-md-6">
-        <h3>Interested in Joining PiE?</h3>
-        <p>Missed the first few worksessions and events but still want to join PiE? Here are some ways to get started:</p>
-        <ul>
-          <li><a href="get-involved/">Learn more</a> about what it's like to be a PiE Staff and the documents you need to fill out</li>
-          <li>Fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrJ_ImQvy6-D_70E5-bIJFSt8hr10dZzpZlRTBDvcB5vGfMg/viewform">interest form</a> to join our mailing list!</li>
-          <li>You can also follow us on <a href="https://facebook.com/pierobotics">Facebook</a> to see our latest updates and events.</li>
-        </ul>
-        <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfrJ_ImQvy6-D_70E5-bIJFSt8hr10dZzpZlRTBDvcB5vGfMg/viewform" role="button">Interest Form</a>
-        <a class="btn btn-info" target="_blank" href="get-involved/" role="button">Get Involved</a>
+        <h3>Get Involved</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <h4>Join PiE Staff</h4>
+            <p>Looking for an engineering outreach club to join for the spring semester? Learn about what PiE does and the work you can do here.</p>
+            <a class="btn btn-primary" target="_blank" href="get-involved/" role="button">Join PiE Staff</a>
+          </div>
+          <div class="col-sm-6">
+              <h4>Become a Mentor</h4>
+              <p>Looking for a DeCal that combines learning robotics with a fun teaching experience to high school students? Check out the PiE RC DeCal.</p>
+              <a class="btn btn-info" target="_blank" href="get-involved/become-mentor.html" role="button">DeCal Mentors</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-6">
-        <h3>PiE on the Road</h3>
-        <p>PiE on the Road is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
-        <p><a class="btn btn-primary" target="_blank" href="programs/fall-workshops" role="button">Learn More!</a></p>
-        <a href="programs/fall-workshops"><iframe src="https://giphy.com/embed/xUNd9KET1JshRsDIty" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>
-        <p><a href="https://giphy.com/gifs/xUNd9KET1JshRsDIty">via GIPHY</a></p>
+        <h3>PiE Spring Robotics Competition</h3>
+        <p>Our capstone robotics competition for Bay Area high school students, 10th year in the running. Learn more about the competition, the timeline, and resources for students.</p>
+        <a class="btn btn-primary" target="_blank" href="compete/rc-spring.html" role="button">2018 Spring Robotics Competition</a>
       </div>
     </div>
   </div>
@@ -117,7 +73,6 @@ title: Pioneers in Engineering
       {% include schedule.html %}
     </div>
 
-
     <div class="col-md-7">
       <h2>News Updates</h2>
       {% for post in site.posts limit:5%}
@@ -132,22 +87,6 @@ title: Pioneers in Engineering
       {% endfor %}
 
     </div>
-
   </div>
 
 </div>
-
-<!--
-<style>
-section {
-    display: block;
-    background-color: #f2f2f2;
-}
-</style>
-
-  <div class="row" id="about"> <!- Second Row, About Section that navigates to about page
-    <section id="grey">
-      <h2> About Us </h2>
-    </section>
-  </div>
--->
