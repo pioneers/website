@@ -2,20 +2,16 @@
  * Commonly used styles
  */
 
-.center-ver-parent {
-  position: relative;
+.seventy-p {
+  width: 70%;
 }
 
-.center-ver-child {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.seventy-five-p {
+  width: 70%;
 }
 
-.center-ver-text {
-  height: 100px;
-  line-height: 100px;
-  white-space: nowrap;
+.eighty-p {
+  width: 80%;
 }
 
 .blue-bkg {
@@ -38,6 +34,10 @@
 
 .darker-blue-bkg {
   background-color: darken($pie-blue, 10%);
+}
+
+.center-text {
+  text-align: center;
 }
 
 .pie-jumbotron{
@@ -64,6 +64,9 @@
     color: #ffffff;
   }
   .container {
+    position: relative;
+  }
+  .container-fluid {
     position: relative;
   }
 }
@@ -600,7 +603,7 @@ Does not work on round things. */
   .timeline-arrow {
     flex: 1 1 auto;
     height: $timeline-height;
-    line-height: $timeline-height/3; 
+    line-height: $timeline-height/3;
     background-color: $arrow-active-color;
     text-align: center;
     //padding-top: $timeline-height/4;
@@ -653,8 +656,7 @@ Does not work on round things. */
     }
   }
 
-  .twoline-timeline-arrow {
-	  @extend .timeline-arrow;
+  .twoline {
 	  padding-top: $timeline-height/6;
 	  padding-bottom: $timeline-height/6;
   }
@@ -892,8 +894,8 @@ border-color: lighten($pie-blue, 5%);
 #software-banner {
 	background-color: $pie-blue;
 	display: flex;
-	padding-top: 50px; 
-	padding-bottom: 50px; 
+	padding-top: 50px;
+	padding-bottom: 50px;
 	align-items: baseline;
 	flex-wrap: wrap;
 	flex-flow: row wrap;
@@ -946,6 +948,31 @@ nav[data-toggle='toc'] .nav .nav {
 }
 
 .dropdown-menu {
+}
+
+/* site map */
+.sitemap ul{
+  list-style-type: none;
+}
+
+.sitemap {
+  background-color: $pie-blue;
+  color: white;
+  text-decoration: none;
+  padding-top: 2.5px;
+  padding-right: 2.5px;
+}
+
+.sitemap:hover{
+  color: $pie-gold;
+  text-decoration: none;
+}
+
+.sitemap-header {
+  background-color: $pie-blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* styles for horizontal scrolling */

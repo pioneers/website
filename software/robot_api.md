@@ -274,7 +274,7 @@ Any `async` function must be called by running this function. This function is r
 Robot.run(hello_world, "hello", "world", "pie", "robotics")
 ~~~
 
-<h2 data-toc-text="Robotis_running">Robot.is_running(async_function)</h2>
+<h2 data-toc-text="Robot.is_running">Robot.is_running(async_function)</h2>
 
 Returns a <span style="font-variant: small-caps">boolean</span> value indicating whether the specified async function is still running.
 
@@ -395,7 +395,7 @@ A joystick fully pushed to the top right has a x-value of roughly .7 and a y-val
 
 Users should note some imprecision in the reading. An untouched joystick will likely have a value that slightly greater or less than 0.
 
-<h2 data-toc-text="Gamepad.get_values (buttons)">Gamepad.get_value(name) - Buttons</h2>
+<h2 data-toc-text="Gamepad.get_value (buttons)">Gamepad.get_value(name) - Buttons</h2>
 
 Returns the state of the specified part of a specific button.
 `name` <span style="font-variant: small-caps">string</span> - Identifies the button to read
@@ -478,7 +478,7 @@ def teleop_main():
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
 ~~~
-<p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
+<p style="text-align: right"><a href="/assets/student-resources/sample_template.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 </div>
 
 <br>
