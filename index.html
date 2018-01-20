@@ -1,36 +1,154 @@
 ---
 layout: main
-hero-message: <span style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400">Bringing STEM education to the Bay Area</span>
+hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span><div id="animate-info" style="margin-top:20px; font-size:.5em; font-weight:400"><div style="margin-bottom:20px;">Pioneers in Engineering has served more than</div><span class="animate-num" data-num="30">0</span> Schools • <span class="animate-num" data-num="700">0</span> High School Students • <span class="animate-num" data-num="350">0</span> Berkeley Students</div>
 title: Pioneers in Engineering
-hero-button: Join Us!
-hero-button-url: ../get-involved/
 ---
+<script type="text/javascript">
+    //Set image to fill screen
+    $(".hero-unit").css("height", "-webkit-fill-available");
+    //Animations below
+    $("#animate1").hide().css("opacity", 0).show()
+    $("#animate2").hide().css("opacity", 0).show()
+    $("#animate-info").hide()
+    $(".animate-num").css("font-weight", "800")
+    toThreePlaces = function(num) {
+      //Returns a string with at least three characters from a num
+      if(num.toString().length < 3) {
+        return toThreePlaces("&nbsp;" + num.toString());
+      }
+      return num
+    }
+    increment = function(obj, num, last, waitTime) {
+      $(obj).html(toThreePlaces(num));
+      if (num < last) {
+        setTimeout(function() {
+          increment(obj, num + 1, last, waitTime);           
+        }, waitTime)
+      }
+    }
+    $(document).ready(function() {
+        setTimeout(function(){
+            $("#animate1").animate({
+                opacity: 1.0
+            }, 3000);
+            setTimeout(function(){
+                //Delay second animation slightly before the first one ends
+                $("#animate2").animate({
+                    opacity: 1.0
+                }, 2000, function(){
+                    //Second animation callback
+                    countUpTime = 3000; //Millliseconds to count up to the end
+                    $(".animate-num").each(function(index){
+                        count = $(this).data("num");
+                        waitTime = count / countUpTime;
+                        increment(this, 0, count, waitTime);
+                    });
+                    $("#animate-info").slideDown();
+                })
+            }, 2000)
+        }, 1000)
+    })
+</script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
-  <div class ="pie-jumbotron center-text">
-    <h2>ANNOUNCEMENTS</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Get Involved</h3>
-        <div class="row">
-          <div class="col-sm-6">
-            <h4>Join PiE Staff</h4>
-            <p>Looking for an engineering outreach club to join for the spring semester? Learn about what PiE does and the work you can do here.</p>
-            <a class="btn btn-primary" target="_blank" href="get-involved/" role="button">Join PiE Staff</a>
-          </div>
-          <div class="col-sm-6">
-              <h4>Become a Mentor</h4>
-              <p>Looking for a DeCal that combines learning robotics with a fun teaching experience to high school students? Check out the PiE RC DeCal.</p>
-              <a class="btn btn-info" target="_blank" href="get-involved/become-mentor.html" role="button">DeCal Mentors</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h3>PiE Spring Robotics Competition</h3>
-        <p>Our capstone robotics competition for Bay Area high school students, 10th year in the running. Learn more about the competition, the timeline, and resources for students.</p>
-        <a class="btn btn-primary" target="_blank" href="compete/rc-spring.html" role="button">2018 Spring Robotics Competition</a>
-      </div>
+  <div> <!-- class ="pie-jumbotron" -->
+    <div class="jumbotron">
+      <center>
+        <h3> Applications for our Spring Robotics Competition 🤖 are now open!</h3>
+        <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn More!</a>
+      </center>
     </div>
+
+    <div id="fall-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Who Are We?</h1>
+        </div>
+        <hr class="golden-border">
+  			<div class="home-page-text-descr">
+  				<p>Pioneers in Engineering (PiE) promotes science, technology, engineering, and mathematics (STEM) education through an exciting, mentorship-based process. We strongly believe that no student should be denied a quality STEM education experience.</p>
+  			</div>
+        <div>
+        <center> <a class="btn btn-default" href="about/about-us/" style="font-size:16px" role="button">
+            Learn More!
+        </a> </center>
+        </div>
+  		</div>
+  		<div id="fall-image" class="image-col"></div>
+  	</div>
+
+    <div id="spring-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Students</h1>
+        </div>
+        <hr class="blue-border">
+  			<div class="home-page-text-descr">
+  				<p>PiE provides a great way to get an awesome STEM robotics experience for your school. We provide an 8-week robotics competition in the Spring, complete with a robotics kit for $100 (subsidized by sponsors) and 2-3 mentors to support you. In fall, we host a reboot of the past spring’s competition. We also hold workshops, such as this year’s PiE On The Road.</p>
+  			</div>
+        <div>
+        <center>
+        <a class="btn btn-default" href="compete/rc-spring/" style="font-size:16px" role="button">
+            Learn More!
+        </a>
+        <a class="btn btn-default" href="compete/start-team/" style="font-size:16px" role="button">
+            Start a Team!
+        </a>
+        </center>
+        </div>
+  		</div>
+  		<div id="spring-image" class="image-col"></div>
+  	</div>
+
+    <div id="fall-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Get Involved</h1>
+        </div>
+        <hr class="golden-border">
+  			<div class="home-page-text-descr">
+  				<p> PiE offers lots of opportunities for students and volunteers to get involved. Choose between designing the back-end of our robots, becoming a mentor for our students, acting as a judge for our competitions, and lots more! </p>
+  			</div>
+        <div>
+        <center>
+          <a class="btn btn-default" href="/get-involved/#projects" style="font-size:16px" role="button">
+              Projects
+          </a>
+          <a class="btn btn-default" href="/get-involved/" style="font-size:16px" role="button">
+              Learn More!
+          </a>
+          <a class="btn btn-default" href="/get-involved/become-mentor" style="font-size:16px" role="button">
+              Mentor (DeCal)
+          </a>
+        </center>
+        </div>
+  		</div>
+  		<div id="fall-image" class="image-col"></div>
+  	</div>
+
+    <div id="spring-row" class="rc-row vertical-align">
+  		<div class="text-col text-left">
+        <div class="home-page-text-descr">
+          <h1>Support Us</h1>
+        </div>
+        <hr class="blue-border">
+  			<div class="home-page-text-descr">
+  				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
+  			</div>
+        <div>
+        <center>
+        <a class="btn btn-default" href="../support-pie/donate.html" style="font-size:16px" role:"button">
+            How You Can Help
+        </a>
+        <a class="btn btn-default" href="../support-pie/sponsors.html" style="font-size:16px" role="button">
+            List of Sponsors
+        </a>
+        </center>
+        </div>
+  		</div>
+  		<div id="support-us-image" class="image-col"></div>
+  	</div>
+
   </div>
 
   <br/>
@@ -73,20 +191,20 @@ hero-button-url: ../get-involved/
       {% include schedule.html %}
     </div>
 
-    <div class="col-md-7">
-      <h2>News Updates</h2>
-      {% for post in site.posts limit:5%}
-      {% unless post.hide %}
-        <div class="post-row">
-          <h4 class="title">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> | {{ post.date | date: '%B %d, %Y' }}
-          </h4>
-          <div class="excerpt">{{ post.excerpt }}</div>
-        </div>
-      {% endunless %}
-      {% endfor %}
-
-    </div>
   </div>
 
 </div>
+
+<!--
+<style>
+section {
+    display: block;
+    background-color: #f2f2f2;
+}
+</style>
+  <div class="row" id="about"> <!- Second Row, About Section that navigates to about page
+    <section id="grey">
+      <h2> About Us </h2>
+    </section>
+  </div>
+-->
