@@ -15,18 +15,14 @@ hero-message: Past Participants
     <script src = "school_source.js"> </script>
     <script>
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
+        var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 10,
           center: new google.maps.LatLng(37.8734855,-122.2597169),
           mapTypeId: 'roadmap'
         });
         for(var i = 0; i < schools.length; i ++){
           var latLng = new google.maps.LatLng(schools[i][1],schools[i][2]);
-          var marker = new google.maps.Marker({
-            position: latLng,
-            label: schools[i][0],
-            map: map
-          });
+          createMarker(map, new google.maps.LatLng(schools[i][1],schools[i][2]), schools[i][0], schools[i][0], schools[i][3]);
         }
       }
      </script>
