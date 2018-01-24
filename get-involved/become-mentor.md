@@ -9,9 +9,32 @@ hero-image: url(../assets/images/stock-images/mentor.jpg)
 Become a mentor for a high school robotics team. Be a role model for local students as you guide them in building a robot for PiE's Robotics Competition. Through our class, you'll learn what you need to know to be a mentor and help build the robot.
 
 Find out more at our info sessions:
-- Monday 1/22 6:30 - 7:30 PM, 220 Jacobs Hall
-- Thursday 1/25 6:30 - 7:30 PM, 210 Jacobs Hall
 <!--[eventually to be hyperlinked to our FB events]-->
+<div class="row">
+<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
+  <div class="card-block">
+    <h4 class="card-title">Infosession #1</h4>
+    <p class="card-text">Monday 1/22 6:30 - 7:30 PM</p>
+    <a class="btn btn-default" href="https://www.facebook.com/events/707604659436031/" role="button">FB Event &raquo;</a>
+  </div>
+</div>
+<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
+  <div class="card-block">
+    <h4 class="card-title">Infosession #2</h4>
+    <p class="card-text">Thursday 1/25 6:30 - 7:30 PM</p>
+    <a class="btn btn-default" href="https://www.facebook.com/events/1556969284393724/" role="button">FB Event &raquo;</a>
+  </div>
+</div>
+</div>
+
+#### First Week of Class
+<ul>
+    <li>Monday 1/29 6:30 - 7:30 pm, 220 Jacobs Hall</li>
+    <li>Thursday 2/1 6:30 - 7:30, 210 Jacobs Hall</li>
+</ul>
+
+If you miss the first week of class and would like to join, {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
+
 
 <div class="hidden-md hidden-lg">
     <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
@@ -39,6 +62,7 @@ Find out more at our info sessions:
 - Choose to attend section on either (not both):
     - Monday 6:30 PM - 8:30, 220 Jacobs Hall
     - Thursday 6:30 - 8:30, 210 Jacobs Hall
+	- First week of class: Monday 1/29 OR Thursday 2/1
 - Meet with your team for two hours each week during our 8-week competition season
 - Come to PiE Robotics Competition events at UC Berkeley on select Saturdays
 
@@ -61,13 +85,13 @@ Find out more at our info sessions:
             <small>Jessica Miller, 2nd year, Electrical Engineering and Computer Science</small>
         </blockquote>
     </div>
-    <div class="col-md-6 hidden-sm">
+    <div class="col-md-6 hidden-sm hidden-xs">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
         </div>
     </div>
 </div>
-<div class="visible-sm">
+<div class="visible-sm visible-xs">
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
     </div>
