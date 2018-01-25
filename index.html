@@ -18,15 +18,19 @@ title: Pioneers in Engineering
       if(num.toString().length < 3) {
         return toThreePlaces("&nbsp;" + num.toString());
       }
-      return num
+      return num;
     }
 
     increment = function(obj, num, last, waitTime) {
       $(obj).html(toThreePlaces(num));
-      if (num < last) {
+      if (num > last * 0.75 && num < last) {
+        setTimeout(function() {
+          increment(obj, num + 1, last, waitTime*1.02);           
+        }, waitTime);
+      } else if (num < last) {
         setTimeout(function() {
           increment(obj, num + 1, last, waitTime);           
-        }, waitTime)
+        }, waitTime);
       }
     }
 
@@ -44,7 +48,7 @@ title: Pioneers in Engineering
                     countUpTime = 3000; //Millliseconds to count up to the end
                     $(".animate-num").each(function(index){
                         count = $(this).data("num");
-                        waitTime = count / countUpTime;
+                        waitTime = countUpTime / count;
                         increment(this, 0, count, waitTime);
                     });
                     $("#animate-info").slideDown();
