@@ -3,6 +3,33 @@ layout: default
 hero-image: url(../assets/images/stock-images/pie-staff.jpg)
 hero-message: Get Involved!
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling for links to '#' id'd sections
+        $('a[href^="#"]').on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            var scrollToPosition = $(hash).offset().top;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              'scrollTop': scrollToPosition
+            }, 800, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              // Force back to end of animation
+            });
+          } // End if
+        });
+    })
+</script>
 
 <div class="container">
     <ul>
@@ -94,7 +121,11 @@ hero-message: Get Involved!
     <hr>
 
     <!-- Why Join PIE -->
-    <h1 style="text-align: center" id="why-join-pie">Why Join Pie?</h1>
+    <div style="position: relative">
+        <h1 style="text-align: center">Why Join Pie?</h1>
+        <div class="transparent-offset" id="why-join-pie"></div>
+    </div>
+
     <div class="row">
         <div class="col-md-6">
             <h2 class="gold-text">Professional Development</h2>
@@ -138,7 +169,10 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 style="text-align: center" id="projects">Projects</h1>
+    <div style="position: relative">
+        <h1 style="text-align: center">Projects</h1>
+        <div class="transparent-offset" id="projects"></div>
+    </div>
     <div class="container">
       {% for department in site.data.project_departments %}
         <h2 style="text-align: center">{{ department.name }}</h2>
@@ -164,7 +198,10 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 id="volunteer" style="text-align: center;">Volunteer</h1>
+    <div style="position: relative">
+        <h1 style="text-align: center">Volunteer</h1>
+        <div class="transparent-offset" id="volunteer"></div>
+    </div>
     <div class="container">
       <p>We are looking for professors and industry professionals to volunteer at our events. You can help us by being a judge at our Design Reviews and/or Final Competition.</p>
       <p>Please contact us at <a href="partnerships@pioneers.berkeley.edu"> partnerships@pioneers.berkeley.edu </a></p>
@@ -182,7 +219,10 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 id="faq" style="text-align: center;">FAQ</h1>
+    <div style="position: relative">
+        <h1 style="text-align: center">FAQ</h1>
+        <div class="transparent-offset" id="faq"></div>
+    </div>
     <div class="container">
         <h2>I missed infosession! Is it too late?</h2>
         Absolutely not! You can see <a href="../assets/faq/fall-infosession-2016.pdf">the slides from our infosession here</a>, and read through this page for some basic info about Pioneers in Engineering.

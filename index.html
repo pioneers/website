@@ -51,7 +51,6 @@ title: Pioneers in Engineering
                 })
             }, 2000)
         }, 1000)
-
         // Add smooth scrolling for links to '/#main' id'd sections
         $('a[href^="/#main"]').on('click', function(event) {
 
@@ -62,7 +61,7 @@ title: Pioneers in Engineering
 
             // Store hash
             var hash = this.hash;
-            var scrollToPosition = $(hash).offset().top - 50;
+            var scrollToPosition = $(hash).offset().top;
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
@@ -71,7 +70,6 @@ title: Pioneers in Engineering
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
               // Force back to end of animation
-              $('html').animate({ 'scrollTop': scrollToPosition }, 0);
             });
           } // End if
         });
@@ -82,15 +80,15 @@ title: Pioneers in Engineering
 
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
-    <div class="jumbotron">
+    <div class="jumbotron" style="position: relative">
       <center>
         <h3> Applications for our Spring Robotics Competition 🤖 are now open!</h3>
         <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn More!</a>
       </center>
-    </div>
-
-    <section id="main-about"></section>
-        <div id="fall-row" class="rc-row vertical-align">
+      </div>
+    <section>
+        <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-about"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Who Are We?</h1>
@@ -116,9 +114,11 @@ title: Pioneers in Engineering
       		</div>
       		<div id="fall-image" class="image-col"></div>
       	</div>
+    </section>
 
-    <section id="main-students">
-        <div id="spring-row" class="rc-row vertical-align">
+    <section>
+        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-students"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Students</h1>
@@ -140,8 +140,9 @@ title: Pioneers in Engineering
       	</div>
     </section>
 
-    <section id="main-get-involved">
-        <div id="fall-row" class="rc-row vertical-align">
+    <section>
+        <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-get-involved"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Get Involved</h1>
@@ -166,8 +167,9 @@ title: Pioneers in Engineering
       	</div>
     </section>
 
-    <section id="main-support-us">
-        <div id="spring-row" class="rc-row vertical-align">
+    <section>
+        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-support-us"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Support Us</h1>
