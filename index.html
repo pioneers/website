@@ -25,7 +25,7 @@ title: Pioneers in Engineering
       $(obj).html(toThreePlaces(num));
       if (num < last) {
         setTimeout(function() {
-          increment(obj, num + 1, last, waitTime);
+          increment(obj, num + 1, last, waitTime);           
         }, waitTime)
       }
     }
@@ -75,9 +75,7 @@ title: Pioneers in Engineering
         });
     })
 </script>
-
 <script src="assets/javascripts/banner.js"></script>
-
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
     <div class="jumbotron" style="position: relative">
@@ -152,11 +150,11 @@ title: Pioneers in Engineering
           				<p> PiE offers lots of opportunities for students and volunteers to get involved. Choose between designing the back-end of our robots, becoming a mentor for our students, acting as a judge for our competitions, and lots more! </p>
           			</div>
                 <div class="button-holder">
-                  <a class="btn btn-default section-button" href="/get-involved/" role="button">
-                      Learn More!
-                  </a>
                   <a class="btn btn-default section-button" href="/get-involved/#projects" role="button">
                       Projects
+                  </a>
+                  <a class="btn btn-default section-button" href="/get-involved/" role="button">
+                      Learn More!
                   </a>
                   <a class="btn btn-default section-button" href="/get-involved/become-mentor" role="button">
                       Mentor (DeCal)
