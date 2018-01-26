@@ -1,7 +1,7 @@
 ---
 layout: markdown
 hero-message: Become a Mentor
-hero-image: url(../assets/images/stock-images/mentor.jpg)
+hero-image: url(/assets/images/stock-images/mentor.jpg)
 ---
 
 # Become a Mentor
