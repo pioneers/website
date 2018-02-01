@@ -1,6 +1,6 @@
 ---
 layout: default
-hero-image: url(../assets/images/stock-images/pie-staff.jpg)
+hero-image: url(/assets/images/stock-images/pie-staff.jpg)
 hero-message: Get Involved!
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -68,7 +68,6 @@ hero-message: Get Involved!
             <div class="graphic-description">
                 <h3>COMPETITION</h3>
                 <p>Our capstone: an annual robotics competition for undeserving high school students in schools in the Bay Area. 10 years in the running. More than $30,000 per year in funding. Run completely by UC Berkeley students. Lots of robots.</p>
-                <a class="btn btn-info" href="../about/about-us.html">Learn more!</a>
             </div>
         </div>
     </div>
@@ -98,8 +97,8 @@ hero-message: Get Involved!
                 </div>
             </div>
             <div style="text-align: center">
-                <a class="btn btn-primary" href="../get-involved/projects.html">See full list of projects!</a>
-                <a class="btn btn-info" href="../get-involved/faq.html">Click here for FAQ!</a>
+                <a class="btn btn-primary" href="#projects">See full list of projects!</a>
+                <a class="btn btn-info" href="#faq">Click here for FAQ!</a>
             </div>
         </div>
     </div>
@@ -116,7 +115,7 @@ hero-message: Get Involved!
             href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
             2017 Interest Form
         </a>
-        <a class="btn btn-info" href="../get-involved/forms.html">Member Official Forms</a>
+        <a class="btn btn-info" href="/get-involved/forms.html">Member Official Forms</a>
     </div>
     <hr>
 
@@ -253,9 +252,11 @@ hero-message: Get Involved!
     <div class="container">
         {% for qa in site.data.faq %}
             <div>
-                <h3 style="cursor: default;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">+ {{ qa.question }}</h2>
+                <i><h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
+                    + {{ qa.question }}
+                </h3></i>
             </div>
-            <p class="collapse" id="collapse{{ forloop.index }}"><i>{{ qa.answer }}</i></p>
+            <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
         {% endfor %}
     </div>
 </div>

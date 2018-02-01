@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/stock-images/scholarship.jpg)
+hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 # Pioneers in Engineering Alumni Scholarship
