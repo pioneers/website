@@ -1,10 +1,39 @@
+/* TABLE OF CONTENTS
+
+- Commonly used styles
+- Hero Unit
+- Team page
+- Abous Us
+- Gallery
+- Site footer
+- Page content
+- Sponsor page
+- Home Page
+- Support PiE
+- Program Pages
+- Posts
+- Cognito Forms
+- Sponsors page (why is this duplicated??)
+- Start a team
+- Projects table
+- Software
+- Sitemap
+- Horizontal scrolling
+
+*/
+
 /*
  * Commonly used styles
  */
+<<<<<<< HEAD
 .navbar-text-style {
     font-family: "arial";
 }
 
+=======
+
+ /* offset class for links to sections on pages */
+>>>>>>> 0aa3df25ea2c409ac01d211207030b923c052cf1
 .transparent-offset {
     position: absolute;
     z-index:-1;
@@ -577,6 +606,25 @@ Does not work on round things. */
   text-decoration: none;
 }
 
+.btn-homepage-white {
+  color: white;
+  background: rgba(0,0,0,0);
+  border: 1px solid white;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.btn-homepage-black {
+  color: black;
+  background: rgba(0,0,0,0);
+  border: 1px solid black;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+  }
+}
+
 /**
  * Support PiE - Christian and Scott
  */
@@ -953,6 +1001,10 @@ border-color: lighten($pie-blue, 5%);
 	width: 25%;
 	padding: 0 0 10px 0;
 }
+
+/**
+ *  Software
+ */
 
 #software-banner {
 	background-color: $pie-blue;
