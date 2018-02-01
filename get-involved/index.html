@@ -1,12 +1,40 @@
 ---
 layout: default
-hero-image: url(../assets/images/stock-images/pie-staff.jpg)
+hero-image: url(/assets/images/stock-images/pie-staff.jpg)
 hero-message: Get Involved!
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling for links to '#' id'd sections
+        $('a[href^="#"]').on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            var scrollToPosition = $(hash).offset().top;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              'scrollTop': scrollToPosition
+            }, 800, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              // Force back to end of animation
+            });
+          } // End if
+        });
+    })
+</script>
 
 <div class="container">
     <ul>
         <li><a href="#why-join-pie">Why Join PiE?</a></li>
+        <li><a href="#mentor">Mentor</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#volunteer">Volunteer</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -41,7 +69,6 @@ hero-message: Get Involved!
             <div class="graphic-description">
                 <h3>COMPETITION</h3>
                 <p>Our capstone: an annual robotics competition for undeserving high school students in schools in the Bay Area. 10 years in the running. More than $30,000 per year in funding. Run completely by UC Berkeley students. Lots of robots.</p>
-                <a class="btn btn-info" href="../about/about-us.html">Learn more!</a>
             </div>
         </div>
     </div>
@@ -71,8 +98,8 @@ hero-message: Get Involved!
                 </div>
             </div>
             <div style="text-align: center">
-                <a class="btn btn-primary" href="../get-involved/projects.html">See full list of projects!</a>
-                <a class="btn btn-info" href="../get-involved/faq.html">Click here for FAQ!</a>
+                <a class="btn btn-primary" href="#projects">See full list of projects!</a>
+                <a class="btn btn-info" href="#faq">Click here for FAQ!</a>
             </div>
         </div>
     </div>
@@ -89,12 +116,16 @@ hero-message: Get Involved!
             href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
             2017 Interest Form
         </a>
-        <a class="btn btn-info" href="../get-involved/forms.html">Member Official Forms</a>
+        <a class="btn btn-info" href="/get-involved/forms">Member Official Forms</a>
     </div>
     <hr>
 
     <!-- Why Join PIE -->
-    <h1 style="text-align: center" id="why-join-pie">Why Join Pie?</h1>
+    <div style="position: relative">
+        <h1 style="text-align: center">Why Join Pie?</h1>
+        <div class="transparent-offset" id="why-join-pie"></div>
+    </div>
+
     <div class="row">
         <div class="col-md-6">
             <h2 class="gold-text">Professional Development</h2>
@@ -148,7 +179,33 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 style="text-align: center" id="projects">Projects</h1>
+    <!-- Mentor -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Mentor</h1>
+        <div class="transparent-offset" id="mentor"></div>
+        <div id="spring-row" class="rc-row vertical-align" style="background-color: #e6e6e6">
+            <div id="spring-image" class="image-col"></div>
+            <div class="text-col text-left" style="text-align: center">
+                <div class="pie-jumbotron" style="margin: 0">
+                    <p>Interested in participating in PiE's mission by becoming a mentor and role model for a team of high school students? PiE RC DeCal, offered every spring, offers just that!<p>
+                    <ul>
+                        <li>* Learn robotics</li>
+                        <li>* Teach and bond with a team of passionate high school students</li>
+                        <li>* Earn units</li>
+                        <li>* Satisfy teaching experience requirements</li>
+                        <li>* Tons of fun!</li>
+                    </ul>
+                    <a class="btn btn-primary" href="/get-involved/become-mentor">More about Mentoring</a>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+    <!-- Projects -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Projects</h1>
+        <div class="transparent-offset" id="projects"></div>
+    </div>
     <div class="container">
       {% for department in site.data.project_departments %}
         <h2 style="text-align: center">{{ department.name }}</h2>
@@ -174,7 +231,11 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 id="volunteer" style="text-align: center;">Volunteer</h1>
+    <!-- Volunteer -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Volunteer</h1>
+        <div class="transparent-offset" id="volunteer"></div>
+    </div>
     <div class="container">
         <p>
             We are looking for professors and industry professionals to volunteer at our events. You can help us by being a judge at our Design Reviews and/or Final Competition.
@@ -209,13 +270,25 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 id="faq" style="text-align: center;">FAQ</h1>
+    <!-- FAQ -->
+    <div style="position: relative">
+        <h1 style="text-align: center">FAQ</h1>
+        <div class="transparent-offset" id="faq"></div>
+    </div>
     <div class="container">
         {% for qa in site.data.faq %}
             <div>
+<<<<<<< HEAD
                 <h3 style="cursor: default;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">+ {{ qa.question }}</h2>
             </div>
             <p class="collapse" id="collapse{{ forloop.index }}"><i>{{ qa.answer }}</i></p>
+=======
+                <i><h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
+                    + {{ qa.question }}
+                </h3></i>
+            </div>
+            <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
+>>>>>>> 8f7b2d28dfc3e455cd99808884642aa4dddc5bf9
         {% endfor %}
     </div>
 </div>
