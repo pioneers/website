@@ -278,17 +278,11 @@ hero-message: Get Involved!
     <div class="container">
         {% for qa in site.data.faq %}
             <div>
-<<<<<<< HEAD
-                <h3 style="cursor: default;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">+ {{ qa.question }}</h2>
-            </div>
-            <p class="collapse" id="collapse{{ forloop.index }}"><i>{{ qa.answer }}</i></p>
-=======
                 <i><h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
                     + {{ qa.question }}
                 </h3></i>
             </div>
             <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
->>>>>>> 8f7b2d28dfc3e455cd99808884642aa4dddc5bf9
         {% endfor %}
     </div>
 </div>
