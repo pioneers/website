@@ -3,7 +3,7 @@
 - Commonly used styles
 - Hero Unit
 - Team page
-- Abous Us
+- About Us
 - Gallery
 - Site footer
 - Page content
@@ -25,15 +25,12 @@
 /*
  * Commonly used styles
  */
-<<<<<<< HEAD
 .navbar-text-style {
     font-family: "arial";
 }
 
-=======
 
  /* offset class for links to sections on pages */
->>>>>>> 0aa3df25ea2c409ac01d211207030b923c052cf1
 .transparent-offset {
     position: absolute;
     z-index:-1;
@@ -46,40 +43,6 @@
 
  .button-holder {
      text-align: center;
- }
-
- .section-button {
-     font-size: 16px;
-     text-align: center;
-     margin: 15px 7px 15px 7px;
- }
- .blue-border {
-   display: block;
-   border-color: $pie-blue;
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
-   margin-left: 75px;
-   margin-right: 75px;
-   border-style: inset;
-   border-width: 1px;
- }
-
-.golden-border {
-  display: block;
-  border-color: $pie-gold;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 75px;
-  margin-right: 75px;
-  border-style: inset;
-  border-width: 1px;
-}
-
-.home-page-text-descr {
-  width: 80%;
-  padding: floor($grid-gutter-width / 2);
-  margin: 0 auto;
-  font-size: 13pt;
  }
 
 .center-ver-parent {
@@ -499,7 +462,7 @@ Does not work on round things. */
 }
 
 /**
- * Home Page - Scott and Christian
+ * Home Page
  */
 #title {
   display:inline;
@@ -613,6 +576,9 @@ Does not work on round things. */
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
+  &:visited {
+    color: white;
+  }
 }
 
 .btn-homepage-black {
@@ -623,6 +589,44 @@ Does not work on round things. */
     background-color: rgba(255, 255, 255, 0.3);
     color: black;
   }
+  &:visited {
+    color: black;
+  }
+}
+
+.section-button {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 7px 15px 7px;
+}
+
+.blue-border {
+  display: block;
+  border-color: $pie-blue;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.golden-border {
+ display: block;
+ border-color: $pie-gold;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: 75px;
+ margin-right: 75px;
+ border-style: inset;
+ border-width: 1px;
+}
+
+.home-page-text-descr {
+ width: 80%;
+ padding: floor($grid-gutter-width / 2);
+ margin: 0 auto;
+ font-size: 13pt;
 }
 
 /**
