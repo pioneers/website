@@ -127,22 +127,29 @@ hero-message: Get Involved!
     </div>
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <h2 class="gold-text">Professional Development</h2>
+            <img src="/assets/images/why_join_pie/prof_dev.png" style="width: 80px; margin: 10px; display: block; float: left" />
             <p>
-                Learn hands-on engineering, coding, and finacne skills all the while making important connections with industry professionals and experienced UC Berkeley students.
+                Learn hands-on engineering, coding, and finance skills all the while making important connections with industry professionals and experienced UC Berkeley students.
             </p>
             <h2 class="blue-text">Community</h2>
+            <img src="/assets/images/why_join_pie/community.png" style="width: 80px; margin: 0; display: block; float: right" />
             <p>
                 PiE is an organization of peers, a collection of friends, and a found family. From biannual retreats to spontatnous dinner outings, we've always got comething fun to do.
             </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
+            <img src="/assets/images/why_join_pie/logo.png" class="hidden-xs" style="width: 300px; display: block; margin-left: auto; margin-right: auto; position: relative; top: 45px;" />
+        </div>
+        <div class="col-md-4">
             <h2 class="blue-text">Resources</h2>
             <p>
                 We have the tools, te space, and the brainpower for you to do great things. Whether you need a workbench or a helping hand, we've got it.
+                <img src="/assets/images/why_join_pie/resources.png" style="width: 80px; margin: 10px; display: block; float: right" />            
             </p>
             <h2 class="gold-text">Outreach</h2>
+            <img src="/assets/images/why_join_pie/outreach.png" style="width: 80px; margin: 15px; display: block; float: left" />
             <p>
                 PiE has served over 30 schools and 700 students in the Bay Area. We believe Stem education should be fun and acessible. Join us in our mission to lead, educate, and inspire.
             </p>
@@ -151,27 +158,32 @@ hero-message: Get Involved!
     <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-2">
-            <p>
+            <img src="/assets/images/why_join_pie/col_pie_staff.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
                 Many former PiE staff have research positions or are in grad school; many others have had internships or now work at top companies.
             </p>
         </div>
         <div class="col-sm-2">
-            <p>
+            <img src="/assets/images/why_join_pie/col_project_manager.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
                 Learn about project management. Get feedback on and experice at making real products for real people.
             </p>
         </div>
         <div class="col-sm-2">
-            <p>
+            <img src="/assets/images/why_join_pie/col_games.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
                 Got a new board game to try out? Need a ranked 5's team? Kayaking? PiE staff have diverse recreational interests.
             </p>
         </div>
         <div class="col-sm-2">
-            <p>
-                Design lessons for high school students. Teach fellow staff how to do cool thinds. We are designers, leaders, and Pioneers.
+            <img src="/assets/images/why_join_pie/col_design_lessons.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />           
+            <p style="text-align: center">
+                Design lessons for high school students. Teach fellow staff how to do cool things. We are designers, leaders, and Pioneers.
             </p>
         </div>
         <div class="col-sm-2">
-            <p>
+            <img src="/assets/images/why_join_pie/col_clubroom.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
                 Our clubroom, 101 O'Brien, is the 3rd largest student organization space on campus. We have places to study, work on projects, and chill between classes.
             </p>
         </div>
@@ -278,9 +290,9 @@ hero-message: Get Involved!
     <div class="container">
         {% for qa in site.data.faq %}
             <div>
-                <i><h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
-                    + {{ qa.question }}
-                </h3></i>
+                <h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
+                    + <i>{{ qa.question }}</i>
+                </h3>
             </div>
             <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
         {% endfor %}
