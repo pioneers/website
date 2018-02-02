@@ -20,9 +20,16 @@ hero-message: Past Participants
           center: new google.maps.LatLng(37.8734855,-122.2597169),
           mapTypeId: 'roadmap'
         });
+        var infowindow = new google.maps.InfoWindow();
         for(var i = 0; i < schools.length; i ++){
           var latLng = new google.maps.LatLng(schools[i][1],schools[i][2]);
-          createMarker(map, new google.maps.LatLng(schools[i][1],schools[i][2]), schools[i][0], schools[i][0], schools[i][3]);
+          createMarker(map,
+                      new google.maps.LatLng(schools[i][1],schools[i][2]),
+                      schools[i][0],
+                      schools[i][0],
+                      schools[i][3],
+                      schools[i][4],
+                      infowindow);
         }
       }
      </script>
