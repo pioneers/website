@@ -1,7 +1,12 @@
 ---
 layout: markdown
+<<<<<<< HEAD
 hero-message: Pioneers in Engineering Robotics Mentoring DeCal
 hero-image: url(../assets/images/stock-images/mentor.jpg)
+=======
+hero-message: Become a Mentor
+hero-image: url(/assets/images/stock-images/mentor.jpg)
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
 ---
 
 # Inspire high school students through STEM

@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/stock-images/prep.jpg)
+hero-image: url(/assets/images/stock-images/prep.jpg)
 hero-message: Past Programs
 ---
 # Fall 2016 Workshops
@@ -20,10 +20,10 @@ hero-message: Past Programs
 
 <div class="row">
   <div class="col-md-6" markdown="1">
-![Bridges Workshop](../assets/images/stock-images/bridges-workshop.jpg)
+![Bridges Workshop](/assets/images/stock-images/bridges-workshop.jpg)
   </div>
   <div class="col-md-6" markdown="1">
-![Software Workshop](../assets/images/stock-images/software-workshop.jpg)
+![Software Workshop](/assets/images/stock-images/software-workshop.jpg)
   </div>
 </div>
 

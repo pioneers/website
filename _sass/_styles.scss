@@ -1,6 +1,49 @@
+/* TABLE OF CONTENTS
+
+- Commonly used styles
+- Hero Unit
+- Team page
+- About Us
+- Gallery
+- Site footer
+- Page content
+- Sponsor page
+- Home Page
+- Support PiE
+- Program Pages
+- Posts
+- Cognito Forms
+- Sponsors page (why is this duplicated??)
+- Start a team
+- Projects table
+- Software
+- Sitemap
+- Horizontal scrolling
+
+*/
+
 /*
  * Commonly used styles
  */
+.navbar-text-style {
+    font-family: "arial";
+}
+
+
+ /* offset class for links to sections on pages */
+.transparent-offset {
+    position: absolute;
+    z-index:-1;
+    top:-50px;
+    width: 50px;
+    height:50px;
+    background-color: red;
+    opacity: 0;
+}
+
+ .button-holder {
+     text-align: center;
+ }
 
 .seventy-p {
   width: 70%;
@@ -12,6 +55,16 @@
 
 .eighty-p {
   width: 80%;
+}
+
+.white-bkg {
+  background-color: white;
+  color: white;
+}
+
+.grey-bkg {
+  background-color:i #f2f2f2;
+  color: white;
 }
 
 .blue-bkg {
@@ -159,12 +212,17 @@ Does not work on round things. */
 }
 
 #fall-image {
-  background-image: url(../assets/images/about-us/fall.jpg);
+  background-image: url(/assets/images/about-us/fall.jpg);
   background-color: rgba($pie-blue, .70);
 }
 
 #spring-image {
-  background-image: url(../assets/images/about-us/spring.jpg);
+  background-image: url(/assets/images/about-us/spring.jpg);
+  background-color: rgba($pie-gold, 0.70);
+}
+
+#support-us-image {
+  background-image: url(/assets/images/companyposter.jpg);
   background-color: rgba($pie-gold, 0.70);
 }
 
@@ -263,59 +321,59 @@ Does not work on round things. */
 }
 
 #spring-events-2016 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2016-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2016-h.jpg);
   background-position: 0 60%;
 }
 
 #staff-events-2016 {
-  background-image: url(../assets/images/gallery-photos/staff-events-2016-h.jpg);
+  background-image: url(/assets/images/gallery-photos/staff-events-2016-h.jpg);
   background-position: 0 45%;
 }
 
 #fall-competition-2015 {
-  background-image: url(../assets/images/gallery-photos/fall-comp-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-comp-2015-h.jpg);
   background-position: 0 70%;
 }
 
 #spring-competition-2015 {
-  background-image: url(../assets/images/gallery-photos/spring-comp-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-comp-2015-h.jpg);
   background-position: 0 50%;
 }
 
 #retreat-2015 {
-  background-image: url(../assets/images/gallery-photos/retreat-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2015-h.jpg);
 }
 
 #fall-events-2014 {
-  background-image: url(../assets/images/gallery-photos/fall-events-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-events-2014-h.jpg);
   background-position: 0 70%;
 }
 
 /*
 #spring-competition-2014 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2014-h.jpg);
   background-position: 0 50%;
 }
 */
 
 /*
 #retreat-2014 {
-  background-image: url(../assets/images/gallery-photos/retreat-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2014-h.jpg);
 }
 */
 
 #fall-events-2013 {
-  background-image: url(../assets/images/gallery-photos/fall-events-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-events-2013-h.jpg);
   background-position: 0 40%;
 }
 
 #spring-events-2013 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2013-h.jpg);
   background-position: 0 50%;
 }
 
 #retreat-2013 {
-  background-image: url(../assets/images/gallery-photos/retreat-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2013-h.jpg);
 }
 
 /**
@@ -407,7 +465,7 @@ Does not work on round things. */
 }
 
 /**
- * Home Page - Scott and Christian
+ * Home Page
  */
 #title {
   display:inline;
@@ -417,7 +475,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 900px) {
   #title {
       display:none;
   }
@@ -443,8 +501,8 @@ Does not work on round things. */
 }
 
 .home {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  /*margin: 0 auto;*/
   h2 {
     text-align: center;
     margin-bottom: $spacing-unit *2/3;
@@ -512,6 +570,66 @@ Does not work on round things. */
 .href-unstyled {
   color: black;
   text-decoration: none;
+}
+
+.btn-homepage-white {
+  color: white;
+  background: rgba(0,0,0,0);
+  border: 1px solid white;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  &:visited {
+    color: white;
+  }
+}
+
+.btn-homepage-black {
+  color: black;
+  background: rgba(0,0,0,0);
+  border: 1px solid black;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.section-button {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 7px 15px 7px;
+}
+
+.blue-border {
+  display: block;
+  border-color: $pie-blue;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.golden-border {
+ display: block;
+ border-color: $pie-gold;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: 75px;
+ margin-right: 75px;
+ border-style: inset;
+ border-width: 1px;
+}
+
+.home-page-text-descr {
+ width: 80%;
+ padding: floor($grid-gutter-width / 2);
+ margin: 0 auto;
+ font-size: 13pt;
 }
 
 /**
@@ -891,6 +1009,10 @@ border-color: lighten($pie-blue, 5%);
 	padding: 0 0 10px 0;
 }
 
+/**
+ *  Software
+ */
+
 #software-banner {
 	background-color: $pie-blue;
 	display: flex;
@@ -950,13 +1072,22 @@ nav[data-toggle='toc'] .nav .nav {
 .dropdown-menu {
 }
 
+.vertical-center {
+  position: relative;
+  top: 8%;
+}
+
 /* site map */
 .sitemap ul{
   list-style-type: none;
 }
 
-.sitemap {
+.sitemap-footer {
   background-color: $pie-blue;
+  padding-top: 10px;
+  padding-right: 2.5px;
+}
+.sitemap {
   color: white;
   text-decoration: none;
   padding-top: 2.5px;
@@ -985,4 +1116,8 @@ nav[data-toggle='toc'] .nav .nav {
   .card {
     display: inline-block;
   }
+}
+
+.navbar-text.sitemap a{
+  margin: 0;
 }

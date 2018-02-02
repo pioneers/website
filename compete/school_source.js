@@ -82,9 +82,8 @@ function add_content(school_name, body, url,img_path){
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">' + school_name + '</h1>'+
             '<div id="bodyContent">'+
-            '<p>' + body + '</p>'+
-            '<img height = "50vh" width = "50vw" src="'+ img_path + '" class = "img-contain-w"'+
-            '<p>School Website: <a href="'+url+'">'+ url + ' </a> '+
+                '<img style="height:20vh; width:20vw;" src="'+ img_path + '" class = "img-contain-w"'+
+            '<p> School Website: <a href="'+url+'">'+ url + ' </a> '+
             '</p>'+
             '</div>'+
             '</div>';

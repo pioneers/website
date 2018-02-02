@@ -5,20 +5,22 @@
 
   <body>
 
+
     {% include header.html %}
 
-    <div class="hero-unit tall" id="homepage-banner" style="background-image: {{ page.hero-image }}">
+    <div class="hero-unit tall" id="homepage-banner" style="background-image: {{ page.hero-image }}; background-attachment: fixed;">
       <div class="fade-overlay"></div>
-      <div class="container">
+      <div class="container vertical-center">
         <h1>
           {{ page.hero-message }}
         </h1>
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> -->
+	
       {{ content }}
-    </div>
+    <!-- </div> -->
 
     {% include footer.html %}
     {% include sitemap.html %}
