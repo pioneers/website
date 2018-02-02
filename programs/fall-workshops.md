@@ -1,8 +1,9 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
+hero-image: url(/assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
+<<<<<<< HEAD
 <div class="jumbotron">
   <center>
     <h3> Our Fall 2017 workshops are over! See you next year~ </h3>
@@ -15,6 +16,16 @@ hero-message: PiE on the Road
         </blockquote>
 
         <strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+=======
+<div class="row">
+    <div class="col-md-6 hidden-xs">
+        <a target="_blank" href="/assets/events/POTR_Flyer_Julie_Revision.jpg
+        "><img src="/assets/events/POTR_Flyer_Julie_Revision.jpg" width="100%"></a>
+    </div>
+    <div class="col-md-6">
+        <h2>Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?</h2>
+        <p><strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
 
         <ul>
             <li>Our workshop focuses on a <strong><span class="blue-text">hands-on exploration of gears and how we utilize them with our custom gear kit</span></strong>. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints.
@@ -26,6 +37,7 @@ hero-message: PiE on the Road
             <li>Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
             </li>
         </ul>
+<<<<<<< HEAD
     </div>
     <div class="col-md-3">
         <br>
@@ -33,6 +45,9 @@ hero-message: PiE on the Road
             <img src="/assets/events/POTR_Flyer_Julie_Revision.jpg" width="200px">
         </a>
         <br>
+=======
+        </p>
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
     </div>
 </div>
 
@@ -169,4 +184,25 @@ No, please make your own arrangements for transportation. We recommending carpoo
 
 No, please eat lunch beforehand.
 
+<<<<<<< HEAD
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
+=======
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+**More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b

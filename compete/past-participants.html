@@ -1,9 +1,41 @@
 ---
 layout: default
-hero-image: url(../assets/images/stock-images/past_participants_sp17.jpg)
+hero-image: url(/assets/images/stock-images/past_participants_sp17.jpg)
 hero-message: Past Participants
 ---
-
+<style>
+  #map {
+ height: 400px;
+ width: 80%;
+ margin-left: 10vw;
+ margin-bottom: 5vh;
+}
+</style>
+<div id="map"></div>
+    <script src = "school_source.js"> </script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: new google.maps.LatLng(37.8734855,-122.2597169),
+          mapTypeId: 'roadmap'
+        });
+        var infowindow = new google.maps.InfoWindow();
+        for(var i = 0; i < schools.length; i ++){
+          var latLng = new google.maps.LatLng(schools[i][1],schools[i][2]);
+          createMarker(map,
+                      new google.maps.LatLng(schools[i][1],schools[i][2]),
+                      schools[i][0],
+                      schools[i][0],
+                      schools[i][3],
+                      schools[i][4],
+                      infowindow);
+        }
+      }
+     </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY667vBUX5auOt2_9zDec-eCuOXdfSs3M&callback=initMap">
+  </script>
 <div class="container" id="alumni">
   <div class="staff-images">
     <div class="staff-member">

@@ -1,7 +1,7 @@
 ---
 layout: markdown
 title: Foundation
-hero-image: url(../assets/images/stock-images/sponsors.jpg)
+hero-image: url(/assets/images/stock-images/sponsors.jpg)
 hero-message: The Pioneers in Engineering Foundation
 title: Foundation
 ---
