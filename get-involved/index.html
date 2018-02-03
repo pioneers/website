@@ -192,33 +192,48 @@ hero-message: Get Involved!
     </div>
           
     <!-- Projects -->
-    <div style="position: relative">
-        <h1 style="text-align: center">Projects</h1>
-        <div class="transparent-offset" id="projects"></div>
-    </div>
-    <div class="container">
-      {% for department in site.data.project_departments %}
-        <h2 style="text-align: center">{{ department.name }}</h2>
-        {% for project in site.data.projects%}
-          {% if project.department == department.name %}
-            <div class="pie-jumbotron">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <h3 style="text-align: center">{{ project.project  }}</h3>
-                  {% if project.department == 'Kit Engineering Projects' %}
-                  <h4 style="text-align: center">{{ project.subdepartment  }}</h3>
-                  {% endif %}
+    
+      <h2 class="sub-heading" style="margin-bottom: 20px">Projects</h2>
+     
+          {% for department in site.data.project_departments %}
+          	<h2 style="text-align: center">{{ department.name }}</h2>
+			<hr>
+			 <div class="staff-images">
+          	{% for project in site.data.projects%}
+				{% if project.department == department.name %}
+          	  		<div class="staff-member card" style="margin-bottom: 20px">
+            <!--<div class="staff-image">
+              <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
+                <img class="img-scaled-wh" src="/assets/images/team/staff_photos/{{ member.picture }}" alt="">
+              </a>
+            </div>-->
+            		<div class="staff-description" style="padding: 10px">
+              		<h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ project.project }}</h4>
+              <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> {% if project.department == 'Kit Engineering Projects' %} {{ project.subdepartment  }} {% endif %} {% if project.manager %} <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> PM: {{ project.manager }} {% endif %} </h5></h5>
+            </div>
+            <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">Learn more</a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">{{ project.project }}</h5>
                 </div>
-                <div class="col-xs-12 col-sm-8">
-                  {% if project.manager %}<h4>PM: {{ project.manager  }}</h4>{% endif %}
+                <div class="modal-body">
                   <p>{{ project.description }}</p>
                 </div>
               </div>
             </div>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </div>
+          </div>
+	          {% endif %}
+	        {% endfor %}
+			</div>
+	      {% endfor %}
+      </div>
+    
     <hr>
 
     <!-- Volunteer -->
