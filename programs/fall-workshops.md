@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
+hero-image: url(/assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
 <<<<<<< HEAD

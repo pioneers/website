@@ -1,52 +1,144 @@
 ---
 layout: default
-hero-image: url(../assets/images/stock-images/pie-staff.jpg)
+hero-image: url(/assets/images/stock-images/pie-staff.jpg)
 hero-message: Get Involved!
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling for links to '#' id'd sections
+        $('a[href^="#"]').on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            var scrollToPosition = $(hash).offset().top;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              'scrollTop': scrollToPosition
+            }, 800, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              // Force back to end of animation
+            });
+          } // End if
+        });
+    })
+</script>
 
 <div class="container">
+    <!-- mini nav -->
     <ul>
         <li><a href="#why-join-pie">Why Join PiE?</a></li>
+        <li><a href="#member">Membership</a></li>
+        <li><a href="#mentor">Mentor</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#volunteer">Volunteer</a></li>
         <li><a href="#faq">FAQ</a></li>
     </ul>
-    <h1 style="text-align: center">Join PiE Staff</h1>
 
-    <!--WHAT WE DO-->
-    <div class="rc-row vertical-align" >
-        <div class="text-col text-left" id="fall-row" style="border-right: 6px solid white">
-            <div class="graphic-description">
-                <h3>ENGINEERING</h3>
-                <p>We're mechanical engineers, software engineers, electrical engineers, industrial engineers. We build, design, reiterate, and improve with industry-grade products, and we plan and coordinate events, building relations with sponsors and organizations.</p>
-                <h2><i class="fa fa-wrench"></i> <i class="fa fa-laptop"></i> <i class="fa fa-cogs"></i></h2>
-            </div>
-        </div>
-        <div class="text-col text-right pull-right" id="spring-row"  style="border-left: 6px solid white">
-            <div class="graphic-description">
-                <h3>OUTREACH</h3>
-                <p>We're UC Berkeley students who care about making a difference in the lives of underrepresented students through STEM education. We run scholarship funds, workshops, and we teach students professional and life skills that can stay with them.</p>
-                <h2><i class="fa fa-heart"></i> <i class="fa fa-users"></i> <i class="fa fa-book"></i></h2>
-            </div>
-        </div>
+    <!-- TODO: Staff Benefits -->
+
+    <!-- TODO: Staff Work Schedule -->
+
+    <!-- Why Join PIE -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Why Join Pie?</h1>
+        <div class="transparent-offset" id="why-join-pie"></div>
     </div>
 
-    <hr style="height: 3px">
-
-    <div id="fall-row" class="rc-row vertical-align">
-        <div style="min-width: 300px; margin: 0 auto;" class ="image-col embed-responsive embed-responsive-16by9">
-          <iframe class ="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
+    <div class="pie-jumbotron button-holder">
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="gold-text">Professional Development</h2>
+            <img src="/assets/images/why_join_pie/prof_dev.png" style="width: 80px; margin: 10px; display: block; float: left" />
+            <p>
+                Learn hands-on engineering, coding, and finance skills all the while making important connections with industry professionals and experienced UC Berkeley students.
+            </p>
+            <h2 class="blue-text">Community</h2>
+            <img src="/assets/images/why_join_pie/community.png" style="width: 80px; margin: 0; display: block; float: right" />
+            <p>
+                PiE is an organization of peers, a collection of friends, and a found family. From biannual retreats to spontaneous dinner outings, we've always got comething fun to do.
+            </p>
         </div>
-        <div class="text-col text-left">
-            <div class="graphic-description">
-                <h3>COMPETITION</h3>
-                <p>Our capstone: an annual robotics competition for undeserving high school students in schools in the Bay Area. 10 years in the running. More than $30,000 per year in funding. Run completely by UC Berkeley students. Lots of robots.</p>
-                <a class="btn btn-info" href="../about/about-us.html">Learn more!</a>
-            </div>
+        <div class="col-md-4">
+            <img src="/assets/images/why_join_pie/logo_transparent.png" class="hidden-xs hidden-sm hidden-md" style="width: 100%; display: block; margin-left: auto; margin-right: auto; position: relative; top: 45px;" />
+            <img src="/assets/images/why_join_pie/logo_transparent.png" class="visible-md" style="width: 100%; display: block; margin-left: auto; margin-right: auto; position: relative; top: 100px;" />
+        </div>
+        <div class="col-md-4">
+            <h2 class="blue-text">Resources</h2>
+            <p>
+                We have the tools, the space, and the brainpower for you to do great things. Whether you need a workbench or a helping hand, we've got it.
+                <img src="/assets/images/why_join_pie/resources.png" style="width: 80px; margin: 10px; display: block; float: right" />            
+            </p>
+            <h2 class="gold-text">Outreach</h2>
+            <img src="/assets/images/why_join_pie/outreach.png" style="width: 80px; margin: 15px; display: block; float: left" />
+            <p>
+                PiE has served over 30 schools and 700 students in the Bay Area. We believe STEM education should be fun and acessible. Join us in our mission to lead, educate, and inspire.
+            </p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_pie_staff.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Many former PiE staff have research positions or are in grad school; many others have had internships or now work at top companies.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_project_manager.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Learn about project management. Get feedback on and experice at making real products for real people.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_games.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Got a new board game to try out? Need a ranked 5's team? Kayaking? PiE staff have diverse recreational interests.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_design_lessons.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />           
+            <p style="text-align: center">
+                Design lessons for high school students. Teach fellow staff how to do cool things. We are designers, leaders, and Pioneers.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_clubroom.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Our clubroom, 101 O'Brien, is the 3rd largest student organization space on campus. We have places to study, work on projects, and chill between classes.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <a class="btn btn-homepage-black"
+        href="/assets/faq/fall-infosession-2016.pdf">
+        Fall Infosession Slides
+    </a>
+    </div>
 
-    <hr style="height: 10px">
+    <hr>
+
+    <!-- Become a Member -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Member</h1>
+        <div class="transparent-offset" id="member"></div>
+    </div>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+    <div style="text-align: center">
+        <a class="btn btn-homepage-black"
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
+            Join Mailing List
+        </a>
+        <a class="btn btn-homepage-black" href="/get-involved/forms">Member Official Forms</a>
+    </div>
+    <hr>
 
     <!-- PiE Staff Roles -->
     <div class="row">
@@ -71,74 +163,39 @@ hero-message: Get Involved!
                 </div>
             </div>
             <div style="text-align: center">
-                <a class="btn btn-primary" href="../get-involved/projects.html">See full list of projects!</a>
-                <a class="btn btn-info" href="../get-involved/faq.html">Click here for FAQ!</a>
+                <a class="btn btn-primary" href="#projects">See full list of projects!</a>
+                <a class="btn btn-info" href="#faq">Click here for FAQ!</a>
             </div>
         </div>
     </div>
 
-    <!-- TODO: Staff Benefits -->
-
-    <!-- TODO: Staff Work Schedule -->
-
-    <!-- Become a Member -->
-    <h2 style="text-align: center">Become a Member</h2>
-    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
-    <div style="text-align: center">
-        <a class="btn btn-primary" 
-            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
-            2017 Interest Form
-        </a>
-        <a class="btn btn-info" href="../get-involved/forms.html">Member Official Forms</a>
-    </div>
-    <hr>
-
-    <!-- Why Join PIE -->
-    <h1 style="text-align: center" id="why-join-pie">Why Join Pie?</h1>
-    <div class="row">
-        <div class="col-md-6">
-            <h2 class="gold-text">Professional Development</h2>
-            <p>Learn hands-on engineering, coding, and finacne skills all the while making important connections with industry professionals and experienced UC Berkeley students.</p>
-            <h2 class="blue-text">Community</h2>
-            <p>PiE is an organization of peers, a collection of friends, and a found family. From biannual retreats to spontatnous dinner outings, we've always got comething fun to do.</p>
-        </div>
-        <div class="col-md-6">
-            <h2 class="blue-text">Resources</h2>
-            <p>We have the tools, te space, and the brainpower for you to do great things. Whether you need a workbench or a helping hand, we've got it.</p>
-            <h2 class="gold-text">Outreach</h2>
-            <p>PiE has served over 30 schools and 700 students in the Bay Area. We believe Stem education should be fun and acessible. Join us in our mission to lead, educate, and inspire.</p>
+    <!-- Mentor -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Mentor</h1>
+        <div class="transparent-offset" id="mentor"></div>
+        <div id="spring-row" class="rc-row vertical-align" style="background-color: #e6e6e6">
+            <div id="spring-image" class="image-col"></div>
+            <div class="text-col text-left" style="text-align: center">
+                <div class="pie-jumbotron" style="margin: 0">
+                    <p>Interested in participating in PiE's mission by becoming a mentor and role model for a team of high school students? PiE RC DeCal, offered every spring, offers just that!<p>
+                    <ul>
+                        <li>* Learn robotics</li>
+                        <li>* Teach and bond with a team of passionate high school students</li>
+                        <li>* Earn units</li>
+                        <li>* Satisfy teaching experience requirements</li>
+                        <li>* Tons of fun!</li>
+                    </ul>
+                    <a class="btn btn-primary" href="/get-involved/become-mentor">More about Mentoring</a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-2">
-            <p>
-                Many former PiE staff have research positions or are in grad school; many others have had internships or now work at top companies.
-            </p>
-        </div>
-        <div class="col-sm-2">
-            <p>
-                Learn about project management. Get feedback on and experice at making real products for real people.
-            </p>
-        </div>
-        <div class="col-sm-2">
-            <p>Got a new board game to try out? Need a ranked 5's team? Kayaking? PiE staff have diverse recreational interests.</p>
-        </div>
-        <div class="col-sm-2">
-            <p>
-                Design lessons for high school students. Teach fellow staff how to do cool thinds. We are designers, leaders, and Pioneers.
-            </p>
-        </div>
-        <div class="col-sm-2">
-            <p>
-                Our clubroom, 101 O'Brien, is the 3rd largest student organization space on campus. We have places to study, work on projects, and chill between classes.
-            </p>
-        </div>
-        <div class="col-sm-1"></div>
+          
+    <!-- Projects -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Projects</h1>
+        <div class="transparent-offset" id="projects"></div>
     </div>
-    <hr>
-
-    <h1 style="text-align: center" id="projects">Projects</h1>
     <div class="container">
       {% for department in site.data.project_departments %}
         <h2 style="text-align: center">{{ department.name }}</h2>
@@ -164,10 +221,18 @@ hero-message: Get Involved!
     </div>
     <hr>
 
-    <h1 id="volunteer" style="text-align: center;">Volunteer</h1>
+    <!-- Volunteer -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Volunteer</h1>
+        <div class="transparent-offset" id="volunteer"></div>
+    </div>
     <div class="container">
-      <p>We are looking for professors and industry professionals to volunteer at our events. You can help us by being a judge at our Design Reviews and/or Final Competition.</p>
-      <p>Please contact us at <a href="partnerships@pioneers.berkeley.edu"> partnerships@pioneers.berkeley.edu </a></p>
+        <p>
+            We are looking for professors and industry professionals to volunteer at our events. You can help us by being a judge at our Design Reviews and/or Final Competition.
+        </p>
+        <p>
+            Please contact us at <a href="partnerships@pioneers.berkeley.edu"> presentationerships@pioneers.berkeley.edu</a>
+        </p>
 
     <!--   <div class="panel panel-info">
         <div class="panel-heading">
@@ -178,37 +243,37 @@ hero-message: Get Involved!
         </div>
       </div>
      -->
-      <div class="row">
+    <div class="row">
         <div id="design-review-judge" class="col-sm-6">
-          <h2>Design Review Judge</h2>
-          <p>We require each high school team to give a presentation to a panel of professors and industry professionals during the first few weeks of the competition season. The purpose of the reviews is to encourage high school students to present their ideas and to receive feedback on their design.</p>
+            <h2>Design Review Judge</h2>
+            <p>
+                We require each high school team to give a presentation to a panel of professors and industry professionals during the first few weeks of the competition season. The purpose of the reviews is to encourage high school students to present their ideas and to receive feedback on their design.
+            </p>
         </div>
         <div id="final-comp-judge" class="col-sm-6">
-          <h2>Final Competition Judge</h2>
-          <p>At Final Competition, teams can earn awards for superior mechanical, electrical, and software robot design. We invite professors and industry professionals to judge these designs and decide on an award winner in each category.</p>
+            <h2>Final Competition Judge</h2>
+            <p>
+                At Final Competition, teams can earn awards for superior mechanical, electrical, and software robot design. We invite professors and industry professionals to judge these designs and decide on an award winner in each category.
+            </p>
         </div>
       </div>
     </div>
     <hr>
 
-    <h1 id="faq" style="text-align: center;">FAQ</h1>
+    <!-- FAQ -->
+    <div style="position: relative">
+        <h1 style="text-align: center">FAQ</h1>
+        <div class="transparent-offset" id="faq"></div>
+    </div>
     <div class="container">
-        <h2>I missed infosession! Is it too late?</h2>
-        Absolutely not! You can see <a href="../assets/faq/fall-infosession-2016.pdf">the slides from our infosession here</a>, and read through this page for some basic info about Pioneers in Engineering.
-        <h2>What does PiE do again?</h2>
-        Our keystone program is an 8 week robotics competition in the spring, held for local Bay Area high school students. We hope to expose students to hands-on robotics opportunities and encourage them towards higher education in STEM.
-        <h2>What do I get out of joining PiE?</h2>
-        We have a lot of opportunities for you to learn new technical skills and gain hands-on experience in a variety of fields. PiE is also a great place for professional development - alumni have gone on to distinguished graduate schools and work for top companies across the country. We're also a social group, with biannual retreats and banquets and near-weekly board game nights and late-night dinner runs.
-        <h2>How do I join? Do I have to apply?</h2>
-        There is no application to get involved with Pioneers in Engineering. We do have a few forms for you to fill out, which you can <a href="{{ "/get-involved/forms.html" | prepend: site.baseurl }}">view here</a>. However, these forms are not an application - they're for you to set up your PiE account and start doing cool stuff with us! You can drop off these forms at one of our worksessions, or pick up pre-printed copies there.
-        <h2>Do I have to be an engineering major to join?</h2>
-        Nope! Plenty of PiE staff are non-engineers - we have Computer Science majors, Cognitive Science majors, Biology majors, Econ majors, and more! We encourage people to explore projects that aren't necessarily related to their field of study.
-        <h2>When does PiE meet?</h2>
-        Our worksessions are every Wednesday from 7 - 9 PM and every Saturday from 1 - 3 PM. We meet in O'Brien Hall - typically in 212 O'Brien or the Breezeway. You can also frequently find us in our clubroom, 101 O'Brien, whether or not we have worksession. 101 can be a little tricky to find the first time around - let us know if you need help!
-        <p></p>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98" height="480" style="width: 100%" ></iframe>
-        <h2><a name="projects" class="href-unstyled">What projects does PiE have?</a></h2>
-        See the <a href="projects">projects</a> page for all the 20+ projects we have!
+        {% for qa in site.data.faq %}
+            <div>
+                <h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
+                    + <i>{{ qa.question }}</i>
+                </h3>
+            </div>
+            <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
+        {% endfor %}
     </div>
 </div>
 

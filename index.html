@@ -22,7 +22,7 @@ title: Pioneers in Engineering
       $(obj).html(toThreePlaces(num));
       if (num < last) {
         setTimeout(function() {
-          increment(obj, num + 1, last, waitTime);           
+          increment(obj, num + 1, last, waitTime);
         }, waitTime)
       }
     }
@@ -47,164 +47,91 @@ title: Pioneers in Engineering
                 })
             }, 2000)
         }, 1000)
+        // Add smooth scrolling for links to '/#main' id'd sections
+        $('a[href^="/#main"]').on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            var scrollToPosition = $(hash).offset().top;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              'scrollTop': scrollToPosition
+            }, 800, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              // Force back to end of animation
+            });
+          } // End if
+        });
     })
 </script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <div> <!-- class ="pie-jumbotron" -->
-    <div class="jumbotron">
+    <div class="jumbotron" style="position: relative">
       <center>
         <h3> Applications for our Spring Robotics Competition 🤖 are now open!</h3>
         <a class="btn btn-primary" target="_blank" href="compete/rc-spring"> Learn More!</a>
       </center>
-    </div>
-
-    <div id="fall-row" class="rc-row vertical-align">
-  		<div class="text-col text-left">
-        <div class="home-page-text-descr">
-          <h1>Who Are We?</h1>
-        </div>
-        <hr class="golden-border">
-  			<div class="home-page-text-descr">
-  				<p>Pioneers in Engineering (PiE) promotes science, technology, engineering, and mathematics (STEM) education through an exciting, mentorship-based process. We strongly believe that no student should be denied a quality STEM education experience.</p>
-  			</div>
-        <div>
-        <center> <a class="btn btn-default" href="about/about-us/" style="font-size:16px" role="button">
-            Learn More!
-        </a> </center>
-        </div>
-  		</div>
-  		<div id="fall-image" class="image-col"></div>
-  	</div>
-
-    <div id="spring-row" class="rc-row vertical-align">
-  		<div class="text-col text-left">
-        <div class="home-page-text-descr">
-          <h1>Students</h1>
-        </div>
-        <hr class="blue-border">
-  			<div class="home-page-text-descr">
-  				<p>PiE provides a great way to get an awesome STEM robotics experience for your school. We provide an 8-week robotics competition in the Spring, complete with a robotics kit for $100 (subsidized by sponsors) and 2-3 mentors to support you. In fall, we host a reboot of the past spring’s competition. We also hold workshops, such as this year’s PiE On The Road.</p>
-  			</div>
-        <div>
-        <center>
-        <a class="btn btn-default" href="compete/rc-spring/" style="font-size:16px" role="button">
-            Learn More!
-        </a>
-        <a class="btn btn-default" href="compete/start-team/" style="font-size:16px" role="button">
-            Start a Team!
-        </a>
-        </center>
-        </div>
-  		</div>
-  		<div id="spring-image" class="image-col"></div>
-  	</div>
-
-    <div id="fall-row" class="rc-row vertical-align">
-  		<div class="text-col text-left">
-        <div class="home-page-text-descr">
-          <h1>Get Involved</h1>
-        </div>
-        <hr class="golden-border">
-  			<div class="home-page-text-descr">
-  				<p> PiE offers lots of opportunities for students and volunteers to get involved. Choose between designing the back-end of our robots, becoming a mentor for our students, acting as a judge for our competitions, and lots more! </p>
-  			</div>
-        <div>
-        <center>
-          <a class="btn btn-default" href="/get-involved/#projects" style="font-size:16px" role="button">
-              Projects
-          </a>
-          <a class="btn btn-default" href="/get-involved/" style="font-size:16px" role="button">
-              Learn More!
-          </a>
-          <a class="btn btn-default" href="/get-involved/become-mentor" style="font-size:16px" role="button">
-              Mentor (DeCal)
-          </a>
-        </center>
-        </div>
-  		</div>
-  		<div id="fall-image" class="image-col"></div>
-  	</div>
-
-    <div id="spring-row" class="rc-row vertical-align">
-  		<div class="text-col text-left">
-        <div class="home-page-text-descr">
-          <h1>Support Us</h1>
-        </div>
-        <hr class="blue-border">
-  			<div class="home-page-text-descr">
-  				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
-  			</div>
-        <div>
-        <center>
-        <a class="btn btn-default" href="../support-pie/donate.html" style="font-size:16px" role:"button">
-            How You Can Help
-        </a>
-        <a class="btn btn-default" href="../support-pie/sponsors.html" style="font-size:16px" role="button">
-            List of Sponsors
-        </a>
-        </center>
-        </div>
-  		</div>
-  		<div id="support-us-image" class="image-col"></div>
-  	</div>
-
-  </div>
-
-  <br/>
-   <div class="row" id="pie-description"> <!-- First Row of Images, meant for immediate description of what PiE is/does -->
-    <div class="col-sm-4">
-      <h2>Competition</h2>
-      <img src="assets/images/comp.JPG">
-      <p>Bringing high school students together to challenge themselves in new ways through robotics</p>
-    </div>
-
-    <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
-    <div class="col-sm-4">
-      <h2>Outreach</h2>
-      <img src="assets/images/prepbot.jpg">
-      <p>Connecting mentors to Bay Area high school students through PIE PREP and promoting STEM awareness throughout the community</p>
-    </div>
-
-    <!-- <div class="vertical-border visible-lg-inline-block visible-md-inline-block"></div> -->
-    <div class="col-sm-4">
-      <h2>Development</h2>
-
-      <img src="assets/images/solderingSquare.jpg">
-      <p>Developing our own software and hardware to give students the best experience for $100 per team</p>
-    </div>
-  </div>
-
-  <div class="row" id="stats"> <!-- Second Row, meant to demonstrate the impact that PiE has had on the Bay Area/Berkeley -->
-    <hr class="horizontal-border">
-    <h2>Pioneers in Engineering has served more than</h2>
-    <h2><strong>30</strong> Schools • <strong>700</strong> High School Students • <strong>350</strong> Berkeley Students</h2>
-    <!-- <img src="assets/images/sprocket.png" id="sprocket"> -->
-  </div>
-
-
-  <div class="row" id="news"> <!-- Third Row, meant for more specific information that is not needed by all visitors (i.e. Schedule, Blog) -->
-    <hr class="horizontal-border">
-
-    <div class="col-md-5">
-      <h2>Schedule</h2>
-      {% include schedule.html %}
-    </div>
-
-  </div>
-
-</div>
-
-<!--
-<style>
-section {
-    display: block;
-    background-color: #f2f2f2;
-}
-</style>
-  <div class="row" id="about"> <!- Second Row, About Section that navigates to about page
-    <section id="grey">
-      <h2> About Us </h2>
+      </div>
+    <section>
+        <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-about"></div>
+      		<div class="text-col text-left">
+                <div class="home-page-text-descr">
+                  <h1>Who Are We?</h1>
+                </div>
+                <hr class="golden-border">
+          			<div class="home-page-text-descr">
+          				<p>Pioneers in Engineering (PiE) promotes STEM education
+                            through an exciting, mentorship-based process.
+                            We strongly believe that no student should be
+                            denied a quality educational experience.</p>
+          			</div>
+                <div class="button-holder">
+                    <a class="btn btn-homepage-white section-button" href="about/about-us/" role="button">
+                        Learn More!
+                    </a>
+                </div>
+      		</div>
+      		<div id="fall-image" class="image-col"></div>
+      	</div>
     </section>
-  </div>
--->
+
+    <section>
+        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-students"></div>
+      		<div class="text-col text-left">
+                <div class="home-page-text-descr">
+                  <h1>Students</h1>
+                </div>
+                <hr class="blue-border">
+          			<div class="home-page-text-descr">
+                        Are you in high school? Compete in our 8-week Spring robotics competition! For only $100,
+                        your team will receive a robotics kit and 2-3 mentors for support.
+                        We also host a Fall reboot of the past Spring’s competition, as well
+                        as workshops such as PiE On The Road.
+                        <!-- original text
+          				<p>PiE provides a great way to get an awesome STEM robotics experience for your school. We provide an 8-week robotics competition in the Spring, complete with a robotics kit for $100 (subsidized by sponsors) and 2-3 mentors to support you. In fall, we host a reboot of the past spring’s competition. We also hold workshops, such as this year’s PiE On The Road.</p>
+                        -->
+                    </div>
+                <div class="button-holder">
+                    <a class="btn btn-homepage-black section-button" href="compete/rc-spring/" role="button">
+                        Spring Comp
+                    </a>
+                    <a class="btn btn-homepage-black section-button" href="compete/start-team/" role="button">
+                        Start a Team!
+                    </a>
+                </div>
+      		</div>
+      		<div id="spring-image" class="image-col"></div>
+      	</div>
+    </section>
+
+
