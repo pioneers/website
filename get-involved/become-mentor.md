@@ -1,25 +1,82 @@
 ---
 layout: markdown
+<<<<<<< HEAD
+hero-message: Pioneers in Engineering Robotics Mentoring DeCal
+hero-image: url(../assets/images/stock-images/mentor.jpg)
+=======
 hero-message: Become a Mentor
 hero-image: url(/assets/images/stock-images/mentor.jpg)
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
 ---
 
-# Become a Mentor
-If you are a UC Berkeley or SFSU student, you can be a great PiE mentor! Mentors are required to take our [DeCal](http://decal.berkeley.edu/courses/96) (2 units, P/NP) and mentor their teams for at least two hours per week.  Mentors are currently needed for the Robotics Competition during the Spring.
+# Inspire high school students through STEM
 
-# Who is a Mentor?
-A Pioneers in Engineering mentor for the Robotics Competition guides a team of local high school students through the design and build process of a robot that will compete in an eight-week long, exciting competition season. Our mentors are mostly UC Berkeley students, but we also have mentors from the City College of SF and other volunteers in the community.
+Become a mentor for a high school robotics team. Be a role model for local students as you guide them in building a robot for PiE's Robotics Competition. Through our class, you'll learn what you need to know to be a mentor and help build the robot.
 
-# Why Mentor for PiE
-1. Opportunity to learn more about robotics, mechanical design, and electrical design
-2. Gain first-hand experience in teaching and hands-on engineering
-3. Inspire high school students to pursue science and technical fields in higher education
-4. Make an impact on the local community
-5. Earn units in our DeCal class
+Find out more at our info sessions:
+<!--[eventually to be hyperlinked to our FB events]-->
+<div class="row">
+<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
+  <div class="card-block">
+    <h4 class="card-title">Infosession #1</h4>
+    <p class="card-text">Monday 1/22 6:30 - 7:30 PM</p>
+    <a class="btn btn-default" href="https://www.facebook.com/events/707604659436031/" role="button">FB Event &raquo;</a>
+  </div>
+</div>
+<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
+  <div class="card-block">
+    <h4 class="card-title">Infosession #2</h4>
+    <p class="card-text">Thursday 1/25 6:30 - 7:30 PM</p>
+    <a class="btn btn-default" href="https://www.facebook.com/events/1556969284393724/" role="button">FB Event &raquo;</a>
+  </div>
+</div>
+</div>
+
+#### First Week of Class
+<ul>
+    <li>Monday 1/29 6:30 - 7:30 pm, 220 Jacobs Hall</li>
+    <li>Thursday 2/1 6:30 - 7:30, 210 Jacobs Hall</li>
+</ul>
+
+If you miss the first week of class and would like to join, {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
+
+
+<div class="hidden-md hidden-lg">
+    <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
+    <img alt="image of winners" src="/assets/images/stock-images/winners_edit.JPG" style="width: 100%">
+</div>
+
+<div class="row vertical-align hidden-xs hidden-sm">
+    <div class="col-md-6">
+        <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
+    </div>
+    <div class="col-md-6">
+        <img alt="image of winners" src="/assets/images/stock-images/winners_edit.JPG" style="width: 100%">
+    </div>
+</div>
+
+# What will you learn?
+
+1. How to guide high school students in the robotics competition
+2. How to work with the robotics kit
+3. How analyze and breakdown the competition
+4. How to inspire high school students through STEM
+
+# Details
+- Enroll in our [DeCal class](https://decal.berkeley.edu/courses/4373) for 2 units, P/NP
+- Choose to attend section on either (not both):
+    - Monday 6:30 PM - 8:30, 220 Jacobs Hall
+    - Thursday 6:30 - 8:30, 210 Jacobs Hall
+	- First week of class: Monday 1/29 OR Thursday 2/1
+- Meet with your team for two hours each week during our 8-week competition season
+- Come to PiE Robotics Competition events at UC Berkeley on select Saturdays
+
+
+# What does mentoring look like?
 
 <div class="row vertical-align">
     <div class="col-md-6">
-        <h2>What Mentors Say</h2>
+        <!--<h2>What Mentors Say</h2>-->
         <blockquote>
             "I learned loads about robot design and . . . general engineering principles that I wouldn't have otherwise."
             <small>Christian Pedersen, 1st year, Electrical Engineering and Computer Science</small>
@@ -33,9 +90,14 @@ A Pioneers in Engineering mentor for the Robotics Competition guides a team of l
             <small>Jessica Miller, 2nd year, Electrical Engineering and Computer Science</small>
         </blockquote>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 hidden-sm hidden-xs">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zQPqf-cxs0A" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
         </div>
+    </div>
+</div>
+<div class="visible-sm visible-xs">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IQ-xtgo2VG4" allowfullscreen></iframe>
     </div>
 </div>

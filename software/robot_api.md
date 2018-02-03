@@ -478,7 +478,7 @@ def teleop_main():
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
 ~~~
-<p style="text-align: right"><a href="/assets/student-resources/quickstart.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
+<p style="text-align: right"><a href="/assets/student-resources/sample_template.py"><i class="fa fa-download" aria-hidden="true"></i> Download sample code</a></p>
 </div>
 
 <br>

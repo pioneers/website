@@ -31,13 +31,13 @@ The PiE Foundation is led by a board of current and former PiE members.
 <div markdown="1">
 #### Board Members
 * Xiao-Yu Fu
-* Vanathi Ganesh
+* Andy Wong
 * Ryan Julian
 * Nikita Kitaev
 * Daniel Lee
-* Allen Li
+* Aravind Kumuraguru
 * William Li
-* Robert Luan
+* Julie Lum
 * Vivien Nguyen
 * Dennis Wai
 * Alan Zhang

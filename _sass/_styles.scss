@@ -45,20 +45,16 @@
      text-align: center;
  }
 
-.center-ver-parent {
-  position: relative;
+.seventy-p {
+  width: 70%;
 }
 
-.center-ver-child {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.seventy-five-p {
+  width: 70%;
 }
 
-.center-ver-text {
-  height: 100px;
-  line-height: 100px;
-  white-space: nowrap;
+.eighty-p {
+  width: 80%;
 }
 
 .white-bkg {
@@ -93,6 +89,10 @@
   background-color: darken($pie-blue, 10%);
 }
 
+.center-text {
+  text-align: center;
+}
+
 .pie-jumbotron{
   @extend .jumbotron;
   p {
@@ -117,6 +117,9 @@
     color: #ffffff;
   }
   .container {
+    position: relative;
+  }
+  .container-fluid {
     position: relative;
   }
 }
@@ -1075,7 +1078,7 @@ nav[data-toggle='toc'] .nav .nav {
 }
 
 /* site map */
-ul{
+.sitemap ul{
   list-style-type: none;
 }
 

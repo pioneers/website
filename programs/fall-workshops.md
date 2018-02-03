@@ -3,6 +3,20 @@ layout: markdown
 hero-image: url(/assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
+<<<<<<< HEAD
+<div class="jumbotron">
+  <center>
+    <h3> Our Fall 2017 workshops are over! See you next year~ </h3>
+  </center>
+</div>
+<div class="row">
+    <div class="col-md-9">
+        <blockquote>
+            Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?
+        </blockquote>
+
+        <strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+=======
 <div class="row">
     <div class="col-md-6 hidden-xs">
         <a target="_blank" href="/assets/events/POTR_Flyer_Julie_Revision.jpg
@@ -11,6 +25,7 @@ hero-message: PiE on the Road
     <div class="col-md-6">
         <h2>Are you interested in learning about gears as you test your skills in design? What if the opportunity was brought directly to you?</h2>
         <p><strong>PiE on the Road</strong> is a traveling workshop developed by Pioneers in Engineering and hosted at local high schools to bring a new STEM experience to a high school near you.
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
 
         <ul>
             <li>Our workshop focuses on a <strong><span class="blue-text">hands-on exploration of gears and how we utilize them with our custom gear kit</span></strong>. We’ll be exploring topics such as torque, gear ratios, and designing a car to move as far possible under constraints.
@@ -22,7 +37,17 @@ hero-message: PiE on the Road
             <li>Students must register to attend. Should registration fill, we will place students on a waitlist in case a seat opens.
             </li>
         </ul>
+<<<<<<< HEAD
+    </div>
+    <div class="col-md-3">
+        <br>
+        <a target="_blank" alt="PiE On The Road Flyer" href="/assets/events/POTR_Flyer_Julie_Revision.jpg">
+            <img src="/assets/events/POTR_Flyer_Julie_Revision.jpg" width="200px">
+        </a>
+        <br>
+=======
         </p>
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
     </div>
 </div>
 
@@ -45,7 +70,7 @@ hero-message: PiE on the Road
     </div>
     <div class="col-sm-6">
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
-            This event is over! Thanks for coming.
+            This event is over! <br> Thanks for coming.
         </a></h2>
     </div>
 </div>
@@ -67,7 +92,7 @@ hero-message: PiE on the Road
     </div>
     <div class="col-sm-6">
         <h2><a class="btn btn-default" style="font-size:16px" role="button">
-            This event is over! Thanks for coming.
+            This event is over! <br> Thanks for coming.
         </a></h2>
     </div>
 </div>
@@ -80,7 +105,7 @@ hero-message: PiE on the Road
         <p><strong>Location:</strong><br>
         Pinole Valley High School<br>
         2900 Pinole Valley Rd, Pinole, CA 94564<br>
-        Classroom to be announced
+        Classroom: Portable Room 28 - <a href="https://docs.google.com/a/pioneers.berkeley.edu/document/d/1WIeyiYD_IZJLqhH_7qTDkAs5yhf9x1yE4c5xO7Ya_p8/edit?usp=sharing">Directions</a>
         </p>
         <p><strong>Time: </strong><br>
         Saturday, November 18, 2017<br>
@@ -88,12 +113,9 @@ hero-message: PiE on the Road
         </p>
     </div>
     <div class="col-sm-6">
-        <h2><a class="btn btn-default" style="font-size:16px" href="https://www.cognitoforms.com/PioneersInEngineering/PiEOnTheRoadWorkshop" role="button">
-            Register for Pinole Valley workshop &raquo;
+        <h2><a class="btn btn-default" style="font-size:16px" role="button">
+            This event is over! <br> Thanks for coming.
         </a></h2>
-        <p>
-        <strong>Pinole Valley Registration Deadline: Thursday, November 16, 2017 Midnight</strong>
-        </p>
     </div>
 </div>
 </div>
@@ -162,6 +184,9 @@ No, please make your own arrangements for transportation. We recommending carpoo
 
 No, please eat lunch beforehand.
 
+<<<<<<< HEAD
+**More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
+=======
 **Can I get a copy of your laser cutter templates?**
 
 Yes! The adobe illustrator files are available here:
@@ -180,3 +205,4 @@ Yes! The adobe illustrator files are available here:
 </div>
 
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
+>>>>>>> 05ce92abaa600637f0f1e52956e02f96ec661b3b
