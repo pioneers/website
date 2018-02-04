@@ -7,13 +7,12 @@
 - Gallery
 - Site footer
 - Page content
-- Sponsor page
 - Home Page
 - Support PiE
 - Program Pages
 - Posts
 - Cognito Forms
-- Sponsors page (why is this duplicated??)
+- Sponsors page
 - Start a team
 - Projects table
 - Software
@@ -119,6 +118,27 @@
   .container {
     position: relative;
   }
+}
+
+.hero-unit-main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  box-sizing: content-box;
+  h1 {
+    color: #ffffff;
+    font-size: 68px;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 0.5em;
+  }
+  .container {
+    position: relative;
+  }
+  padding-bottom: 100px;
 }
 
 @media (min-width: $screen-md-min) {
@@ -378,7 +398,7 @@ Does not work on round things. */
  */
 
 .site-footer {
-  margin-top: 35px;
+  /* margin-top: 35px; */
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit;
 
@@ -455,13 +475,6 @@ Does not work on round things. */
 }
 
 /**
- * Sponsor Page - Scott and Christian
- */
-#sponsor-top{
-  margin-left: $spacing-unit/2;
-}
-
-/**
  * Home Page
  */
 #title {
@@ -479,6 +492,19 @@ Does not work on round things. */
   #small-title {
       visibility:visible;
   }
+}
+
+.animated-stats {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;margin-top:20px;
+  margin-bottom:50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:.5em;
+  font-weight:400;
 }
 
 .horizontal-border {
@@ -905,6 +931,10 @@ border-color: lighten($pie-blue, 5%);
       height: auto;
     }
   }
+}
+
+#sponsor-top{
+  margin-left: $spacing-unit/2;
 }
 
 
