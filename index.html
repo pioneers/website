@@ -1,16 +1,18 @@
 ---
 layout: main
-hero-message: <span id="animate1" style="font-weight:600">PIONEERS <span id="pkmn">IN</span> ENGINEERING</span><br><span style="font-size:.5em; font-weight:400" id="animate2">Bringing STEM education to the Bay Area</span><div id="animate-info" style="margin-top:20px; font-size:.5em; font-weight:400"><div style="margin-bottom:20px;">Pioneers in Engineering has served more than</div><span class="animate-num" data-num="30">0</span> Schools • <span class="animate-num" data-num="700">0</span> High School Students • <span class="animate-num" data-num="350">0</span> Berkeley Students</div>
+hero-message: 
 title: Pioneers in Engineering
 ---
 <script type="text/javascript">
     //Set image to fill screen
     $(".hero-unit").css("height", "-webkit-fill-available");
+
     //Animations below
-    $("#animate1").hide().css("opacity", 0).show()
-    $("#animate2").hide().css("opacity", 0).show()
+    $("#animate1").css("opacity", 0).show()
+    $("#animate2").css("opacity", 0).show()
     $("#animate-info").hide()
     $(".animate-num").css("font-weight", "800")
+
     toThreePlaces = function(num) {
       //Returns a string with at least three characters from a num
       if(num.toString().length < 3) {
@@ -18,6 +20,7 @@ title: Pioneers in Engineering
       }
       return num
     }
+
     increment = function(obj, num, last, waitTime) {
       $(obj).html(toThreePlaces(num));
       if (num < last) {
@@ -26,6 +29,7 @@ title: Pioneers in Engineering
         }, waitTime)
       }
     }
+
     $(document).ready(function() {
         setTimeout(function(){
             $("#animate1").animate({
@@ -134,4 +138,54 @@ title: Pioneers in Engineering
       	</div>
     </section>
 
+    <section>
+        <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-get-involved"></div>
+      		<div class="text-col text-left">
+                <div class="home-page-text-descr">
+                  <h1>Get Involved</h1>
+                </div>
+                <hr class="golden-border">
+          			<div class="home-page-text-descr">
+          				<p> Excited to help? You could be the next to design the back-end of our robots,
+                            mentor our students, judge our competitions, and lots more! </p>
+          			</div>
+                <div class="button-holder">
+                  <a class="btn btn-homepage-white section-button" href="/get-involved/" role="button">
+                      Get Involved
+                  </a>
+                  <a class="btn btn-homepage-white section-button" href="/get-involved/become-mentor" role="button">
+                      Mentor (DeCal)
+                  </a>
+                </div>
+      		</div>
+      		<div id="fall-image" class="image-col"></div>
+      	</div>
+    </section>
 
+    <section>
+        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset" id="main-support-us"></div>
+      		<div class="text-col text-left">
+                <div class="home-page-text-descr">
+                  <h1>Support Us</h1>
+                </div>
+                <hr class="blue-border">
+          			<div class="home-page-text-descr">
+          				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
+          			</div>
+                <div class="button-holder">
+                    <a class="btn btn-homepage-black section-button" href="../support-pie/donate.html" role:"button">
+                        How You Can Help
+                    </a>
+                    <a class="btn btn-homepage-black section-button" href="../support-pie/sponsors.html" role="button">
+                        List of Sponsors
+                    </a>
+                </div>
+      		</div>
+      		<div id="support-us-image" class="image-col"></div>
+      	</div>
+    </section>
+
+  </div>
+</div>
