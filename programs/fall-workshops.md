@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/workshops/justin-demo-cropped.jpg)
+hero-image: url(/assets/images/workshops/justin-demo-cropped.jpg)
 hero-message: PiE on the Road
 ---
 <div class="jumbotron">
@@ -168,5 +168,22 @@ No, please make your own arrangements for transportation. We recommending carpoo
 **Will lunch be provided?**
 
 No, please eat lunch beforehand.
+
+**Can I get a copy of your laser cutter templates?**
+
+Yes! The adobe illustrator files are available here:
+
+<div class="row">
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/gear_model.ai">gear model <i class="fa fa-download"></i></a>
+            </li>
+            <li class="list-group-item">
+                <a href="/assets/events/pie_on_the_road/box_model.ai">box model <i class="fa fa-download"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 **More questions? Contact us at <mailto:education@pioneers.berkeley.edu>.**
