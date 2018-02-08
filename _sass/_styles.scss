@@ -488,7 +488,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #title {
       display:none;
   }
@@ -1097,9 +1097,6 @@ nav[data-toggle='toc'] .nav .nav {
   }
 .highlight {
 	background:#EEE;
-}
-
-.dropdown-menu {
 }
 
 .vertical-center {
