@@ -31,18 +31,62 @@ hero-message: Get Involved!
     })
 </script>
 
-<div class="container">
-    <!-- mini nav -->
-    <ul>
-        <li><a href="#why-join-pie">Why Join PiE?</a></li>
-        <li><a href="#member">Membership</a></li>
-        <li><a href="#mentor">Mentor</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#faq">FAQ</a></li>
+<!-- mini nav -->
+<div class="get-involved-navbar">
+    <ul class="stripped-ulist">
+        <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
+        <li class="navbar-item"><a href="#member">Membership</a></li>
+        <li class="navbar-item"><a href="#mentor">Mentor</a></li>
+        <li class="navbar-item"><a href="#projects">Projects</a></li>
+        <li class="navbar-item"><a href="#volunteer">Volunteer</a></li>
+        <li class="navbar-item"><a href="#faq">FAQ</a></li>
     </ul>
+</div>
+
+<div style="clear:both;"></div>
+
+<div class="container">
 
     <!-- TODO: Staff Benefits -->
+
+    <!-- Become a Member -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Member</h1>
+        <div class="transparent-offset" id="member"></div>
+    </div>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+      <div class="container">
+    		<table class="table table-striped table-hover ">
+    			<thead>
+    				<tr>
+    					<th>Worksession</th>
+    					<th>Time</th>
+              <th>Location</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Wednesday</td>
+    					<td>7 - 9 pm</td>
+    					<td>O'Brien 212 (Annoucements), then O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+    				</tr>
+    				<tr>
+    					<td>Saturday</td>
+    					<td>1 - 3 pm</td>
+    					<td>O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+            </tr>
+    			</tbody>
+    		</table>
+    	</div>
+    <div style="text-align: center">
+        <a id="join-now-button" class="btn btn-homepage-black" href="/get-involved/forms">Join Now</a>
+        <a id="mailing-list-button" class="btn btn-homepage-black"
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
+            Mailing List
+        </a>
+    </div>
+
+    <hr>
 
     <!-- Why Join PIE -->
     <div style="position: relative">
@@ -123,44 +167,6 @@ hero-message: Get Involved!
 
     <hr>
 
-    <!-- Become a Member -->
-    <div style="position: relative">
-        <h1 style="text-align: center">Become a Member</h1>
-        <div class="transparent-offset" id="member"></div>
-    </div>
-    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
-      <div class="container">
-    		<table class="table table-striped table-hover ">
-    			<thead>
-    				<tr>
-    					<th>Worksession</th>
-    					<th>Time</th>
-              <th>Location</th>
-    				</tr>
-    			</thead>
-    			<tbody>
-    				<tr>
-    					<td>Wednesday</td>
-    					<td>7 - 9 pm</td>
-    					<td>O'Brien 212 (Annoucements), then O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
-    				</tr>
-    				<tr>
-    					<td>Saturday</td>
-    					<td>1 - 3 pm</td>
-    					<td>O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
-            </tr>
-    			</tbody>
-    		</table>
-    	</div>
-    <div style="text-align: center">
-        <a class="btn btn-homepage-black"
-            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
-            Join Mailing List
-        </a>
-        <a class="btn btn-homepage-black" href="/get-involved/forms">Member Official Forms</a>
-    </div>
-    <hr>
-
     <!-- PiE Staff Roles -->
     <div class="row">
         <div class="pie-jumbotron" style="margin: 0">
@@ -213,9 +219,9 @@ hero-message: Get Involved!
     </div>
 
     <!-- Projects -->
-    
+
       <h2 class="sub-heading" style="margin-bottom: 20px">Projects</h2>
-     
+
           {% for department in site.data.project_departments %}
           	<h2 style="text-align: center">{{ department.name }}</h2>
 			<hr>
@@ -254,7 +260,7 @@ hero-message: Get Involved!
 			</div>
 	      {% endfor %}
       </div>
-    
+
     <hr>
 
     <!-- Volunteer -->

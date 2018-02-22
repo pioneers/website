@@ -24,10 +24,43 @@
 /*
  * Commonly used styles
  */
+
+.stripped-ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.navbar-item {
+    float: left;
+}
+
+.navbar-item:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.navbar-item>a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+#join-now-button {
+    color: white;
+    background-color: $pie-gold;
+}
+
+#mailing-list-button {
+    color: white;
+    background-color: $pie-blue;
+}
 .navbar-text-style {
     font-family: "arial";
 }
-
 
  /* offset class for links to sections on pages */
 .transparent-offset {
@@ -498,10 +531,10 @@ Does not work on round things. */
 }
 
 .animated-stats {
-  position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
   margin-right: auto;margin-top:20px;
   margin-bottom:50px;
   margin-left: auto;
