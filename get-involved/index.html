@@ -34,8 +34,8 @@ hero-message: Get Involved!
 <!-- mini nav -->
 <div class="get-involved-navbar">
     <ul class="stripped-ulist">
-        <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
         <li class="navbar-item"><a href="#member">Membership</a></li>
+        <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
         <li class="navbar-item"><a href="#mentor">Mentor</a></li>
         <li class="navbar-item"><a href="#projects">Projects</a></li>
         <li class="navbar-item"><a href="#volunteer">Volunteer</a></li>
@@ -219,8 +219,10 @@ hero-message: Get Involved!
     </div>
 
     <!-- Projects -->
-
-      <h2 class="sub-heading" style="margin-bottom: 20px">Projects</h2>
+      <div style="position: relative">
+          <h1 style="text-align: center">Projects</h1>
+          <div class="transparent-offset" id="projects"></div>
+      </div>
 
           {% for department in site.data.project_departments %}
           	<h2 style="text-align: center">{{ department.name }}</h2>
