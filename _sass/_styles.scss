@@ -24,10 +24,32 @@
 /*
  * Commonly used styles
  */
+
+.stripped-ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(211, 211, 211, .25);
+    text-align: center;
+}
+
+.navbar-item {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.navbar-item:hover {
+    background-color: rgba(211, 211, 211, .13);
+}
+
+.navbar-item>a {
+    text-decoration: none;
+}
+
 .navbar-text-style {
     font-family: "arial";
 }
-
 
  /* offset class for links to sections on pages */
 .transparent-offset {
@@ -498,10 +520,10 @@ Does not work on round things. */
 }
 
 .animated-stats {
-  position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
   margin-right: auto;margin-top:20px;
   margin-bottom:50px;
   margin-left: auto;
