@@ -30,22 +30,20 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(211, 211, 211, .25);
+    text-align: center;
 }
 
 .navbar-item {
-    float: left;
+    display: inline-block;
+    padding: 14px 16px;
 }
 
 .navbar-item:hover {
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgba(211, 211, 211, .13);
 }
 
 .navbar-item>a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-
     text-decoration: none;
 }
 
