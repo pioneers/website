@@ -7,6 +7,7 @@
 - Gallery
 - Site footer
 - Page content
+- Nav Bar
 - Home Page
 - Support PiE
 - Program Pages
@@ -526,7 +527,7 @@ Does not work on round things. */
 }
 
 /**
- * Home Page
+ * Nav Bar
  */
 #title {
   display:inline;
@@ -543,6 +544,17 @@ Does not work on round things. */
   #small-title {
       visibility:visible;
   }
+}
+
+/**
+ * Home Page
+ */
+.homepage-pioneers-in-engineering {
+  @media (max-width: 400px) {
+    font-size: .7em;
+  }
+  font-size: .8em;
+  font-weight: 600;
 }
 
 .animated-stats {
