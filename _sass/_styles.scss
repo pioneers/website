@@ -146,26 +146,6 @@
   }
 }
 
-.hero-unit-about-us {
-  @extend .jumbotron; // for consistent padding, responsiveness
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  text-align: center;
-  margin-bottom: 0px;
-  h1,
-  h2 {
-    color: #ffffff;
-  }
-  .container {
-    position: relative;
-  }
-  .container-fluid {
-    position: relative;
-  }
-}
-
 .hero-unit-main {
   background-size: cover;
   background-position: center;
