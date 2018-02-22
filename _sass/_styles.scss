@@ -123,6 +123,26 @@
   }
 }
 
+.hero-unit-about-us {
+  @extend .jumbotron; // for consistent padding, responsiveness
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  h1,
+  h2 {
+    color: #ffffff;
+  }
+  .container {
+    position: relative;
+  }
+  .container-fluid {
+    position: relative;
+  }
+}
+
 .hero-unit-main {
   background-size: cover;
   background-position: center;
@@ -1078,7 +1098,7 @@ border-color: lighten($pie-blue, 5%);
 
 .api-hero{
   @extend .hero-unit;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   padding: 80px 0 80px 0;
   height: 250px;
   h1 {
