@@ -33,17 +33,56 @@ hero-message: Get Involved!
 
 <div class="container">
     <!-- mini nav -->
-    <ul>
-        <li><a href="#why-join-pie">Why Join PiE?</a></li>
-        <li><a href="#member">Membership</a></li>
-        <li><a href="#mentor">Mentor</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#faq">FAQ</a></li>
-    </ul>
+    <div class="get-involved-navbar">
+        <ul class="stripped-ulist">
+            <li class="navbar-item"><a href="#member">Membership</a></li>
+            <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
+            <li class="navbar-item"><a href="#mentor">Mentor</a></li>
+            <li class="navbar-item"><a href="#projects">Projects</a></li>
+            <li class="navbar-item"><a href="#volunteer">Volunteer</a></li>
+            <li class="navbar-item"><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
 
-    <!-- TODO: Staff Benefits -->
+    <!-- Become a Member -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Member</h1>
+        <div class="transparent-offset" id="member"></div>
+    </div>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+      <div class="container">
+    		<table class="table table-striped table-hover ">
+    			<thead>
+    				<tr>
+    					<th>Worksession Time</th>
+              <th>Location</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Wednesday 7 - 9 PM</td>
+    					<td>O'Brien 212 (Annoucements), then O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+    				</tr>
+    				<tr>
+    					<td>Saturday 1 - 3 PM</td>
+    					<td>O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+            </tr>
+    			</tbody>
+    		</table>
+    	</div>
+    <div style="text-align: center">
+        <a class="btn btn-info" href="/get-involved/forms">Join Now</a>
+        <a class="btn btn-default"
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
+            Mailing List
+        </a>
+    </div>
 
+<<<<<<< HEAD
+=======
+    <hr>
+
+>>>>>>> 1cf6d6620945865d8648e244ae31aab518386967
     <!-- Why Join PIE -->
     <div style="position: relative">
         <h1 style="text-align: center">Why Join Pie?</h1>
@@ -123,6 +162,7 @@ hero-message: Get Involved!
 
     <hr>
 
+<<<<<<< HEAD
     <!-- Become a Member -->
     <div style="position: relative">
         <h1 style="text-align: center">Become a Member</h1>
@@ -190,6 +230,8 @@ hero-message: Get Involved!
         </div>
     </div>
 
+=======
+>>>>>>> 1cf6d6620945865d8648e244ae31aab518386967
     <!-- Mentor -->
     <div style="position: relative">
         <h1 style="text-align: center">Become a Mentor</h1>
@@ -199,7 +241,7 @@ hero-message: Get Involved!
             <div class="text-col text-left" style="text-align: center">
                 <div class="pie-jumbotron" style="margin: 0">
                     <p>Interested in participating in PiE's mission by becoming a mentor and role model for a team of high school students? PiE RC DeCal, offered every spring, offers just that!<p>
-                    <ul>
+                    <ul style="list-style-type: none">
                         <li>* Learn robotics</li>
                         <li>* Teach and bond with a team of passionate high school students</li>
                         <li>* Earn units</li>
@@ -213,33 +255,73 @@ hero-message: Get Involved!
     </div>
 
     <!-- Projects -->
-    <div style="position: relative">
-        <h1 style="text-align: center">Projects</h1>
-        <div class="transparent-offset" id="projects"></div>
-    </div>
-    <div class="container">
-      {% for department in site.data.project_departments %}
-        <h2 style="text-align: center">{{ department.name }}</h2>
-        {% for project in site.data.projects%}
-          {% if project.department == department.name %}
-            <div class="pie-jumbotron">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <h3 style="text-align: center">{{ project.project  }}</h3>
-                  {% if project.department == 'Kit Engineering Projects' %}
-                  <h4 style="text-align: center">{{ project.subdepartment  }}</h3>
-                  {% endif %}
+      <div style="position: relative">
+          <h1 style="text-align: center">Projects</h1>
+          <div class="transparent-offset" id="projects"></div>
+      </div>
+          <!-- PiE Staff Roles -->
+          <div class="row">
+              <div class="pie-jumbotron" style="margin: 0">
+                  <div class="row">
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Engineering</h3>
+                          <p>Mechanical, Electrical, Software</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Programs</h3>
+                          <p>Game Design, Events, Schools</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Outreach</h3>
+                          <p>Mentorship, Workshops, Metrics</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Operations</h3>
+                          <p>Business, Web Applications, Staff</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          {% for department in site.data.project_departments %}
+          	<h2 style="text-align: center">{{ department.name }}</h2>
+			<hr>
+			 <div class="staff-images">
+          	{% for project in site.data.projects%}
+				{% if project.department == department.name %}
+          	  		<div class="staff-member card" style="margin-bottom: 20px">
+            <!--<div class="staff-image">
+              <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
+                <img class="img-scaled-wh" src="/assets/images/team/staff_photos/{{ member.picture }}" alt="">
+              </a>
+            </div>-->
+            		<div class="staff-description" style="padding: 10px">
+              		<h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ project.project }}</h4>
+              <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> {% if project.department == 'Kit Engineering Projects' %} {{ project.subdepartment  }} {% endif %} {% if project.manager %} <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> PM: {{ project.manager }} {% endif %} </h5></h5>
+            </div>
+            <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">Learn more</a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">{{ project.project }}</h5>
                 </div>
-                <div class="col-xs-12 col-sm-8">
-                  {% if project.manager %}<h4>PM: {{ project.manager  }}</h4>{% endif %}
+                <div class="modal-body">
                   <p>{{ project.description }}</p>
                 </div>
               </div>
             </div>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </div>
+          </div>
+	          {% endif %}
+	        {% endfor %}
+			</div>
+	      {% endfor %}
+      </div>
+
     <hr>
 
     <!-- Volunteer -->

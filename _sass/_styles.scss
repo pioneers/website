@@ -7,13 +7,13 @@
 - Gallery
 - Site footer
 - Page content
-- Sponsor page
+- Nav Bar
 - Home Page
 - Support PiE
 - Program Pages
 - Posts
 - Cognito Forms
-- Sponsors page (why is this duplicated??)
+- Sponsors page
 - Start a team
 - Projects table
 - Software
@@ -25,10 +25,32 @@
 /*
  * Commonly used styles
  */
+
+.stripped-ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(211, 211, 211, .25);
+    text-align: center;
+}
+
+.navbar-item {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.navbar-item:hover {
+    background-color: rgba(211, 211, 211, .13);
+}
+
+.navbar-item>a {
+    text-decoration: none;
+}
+
 .navbar-text-style {
     font-family: "arial";
 }
-
 
  /* offset class for links to sections on pages */
 .transparent-offset {
@@ -45,20 +67,16 @@
      text-align: center;
  }
 
-.center-ver-parent {
-  position: relative;
+.seventy-p {
+  width: 70%;
 }
 
-.center-ver-child {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.seventy-five-p {
+  width: 70%;
 }
 
-.center-ver-text {
-  height: 100px;
-  line-height: 100px;
-  white-space: nowrap;
+.eighty-p {
+  width: 80%;
 }
 
 .white-bkg {
@@ -93,6 +111,10 @@
   background-color: darken($pie-blue, 10%);
 }
 
+.center-text {
+  text-align: center;
+}
+
 .pie-jumbotron{
   @extend .jumbotron;
   p {
@@ -119,6 +141,30 @@
   .container {
     position: relative;
   }
+  .container-fluid {
+    position: relative;
+  }
+}
+
+.hero-unit-main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  box-sizing: content-box;
+  h1 {
+    color: #ffffff;
+    font-size: 68px;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 0.5em;
+  }
+  .container {
+    position: relative;
+  }
+  padding-bottom: 100px;
 }
 
 @media (min-width: $screen-md-min) {
@@ -204,7 +250,7 @@ Does not work on round things. */
   margin-bottom: $spacing-unit;
 }
 
-#about-us-heading {
+.about-us-heading {
   margin-top: $spacing-unit;
 }
 
@@ -222,6 +268,12 @@ Does not work on round things. */
   background-image: url(/assets/images/companyposter.jpg);
   background-color: rgba($pie-gold, 0.70);
 }
+
+#who-are-we-image {
+  background-image: url(/assets/images/retreat18.jpg);
+  background-color: rgba($pie-blue, 0.1);
+}
+
 
 .graphic-description {
   width: 80%;
@@ -378,7 +430,7 @@ Does not work on round things. */
  */
 
 .site-footer {
-  margin-top: 35px;
+  /* margin-top: 35px; */
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit;
 
@@ -455,14 +507,7 @@ Does not work on round things. */
 }
 
 /**
- * Sponsor Page - Scott and Christian
- */
-#sponsor-top{
-  margin-left: $spacing-unit/2;
-}
-
-/**
- * Home Page
+ * Nav Bar
  */
 #title {
   display:inline;
@@ -472,13 +517,37 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #title {
       display:none;
   }
   #small-title {
       visibility:visible;
   }
+}
+
+/**
+ * Home Page
+ */
+.homepage-pioneers-in-engineering {
+  @media (max-width: 400px) {
+    font-size: .7em;
+  }
+  font-size: .8em;
+  font-weight: 600;
+}
+
+.animated-stats {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;margin-top:20px;
+  margin-bottom:50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:.5em;
+  font-weight:400;
 }
 
 .horizontal-border {
@@ -907,6 +976,10 @@ border-color: lighten($pie-blue, 5%);
   }
 }
 
+#sponsor-top{
+  margin-left: $spacing-unit/2;
+}
+
 
 /**
 * Start a team
@@ -1039,7 +1112,7 @@ border-color: lighten($pie-blue, 5%);
 
 .api-hero{
   @extend .hero-unit;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   padding: 80px 0 80px 0;
   height: 250px;
   h1 {
@@ -1066,16 +1139,13 @@ nav[data-toggle='toc'] .nav .nav {
 	background:#EEE;
 }
 
-.dropdown-menu {
-}
-
 .vertical-center {
   position: relative;
   top: 8%;
 }
 
 /* site map */
-ul{
+.sitemap ul{
   list-style-type: none;
 }
 
