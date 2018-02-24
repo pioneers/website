@@ -2,202 +2,230 @@
     timestamp: 7/22/2017 15:55:56
     email: averalkandala@pioneers.berkeley.edu
     name: Averal Kandala
-    year: 2nd year? I graduate in 2020
+    year: '''20'
     major: EECS
     classes: CS 61AB, EE 16A, Physics 7B, Math 53,54
     short-bio: 'ECE hipster. Someone or the other made me PiE Sensors PM, so that''s cool. Likes memes, Initial D, JoJo, and OVO Sound in no particular order. I''m from SF, so I''m always down to complain about BART/Muni/Caltrain, if for whatever reason you want to do that. Likes engaging in unsolicited political discussions mostly to make people uncomfortable. Very loud when soldering, handle with care. Is the 3rd best at smash in PiE, and PROUDLY mains Roy, our boy. Watch them down tilts. '
-    misc-info: github.com/avekan33
+    misc-info: 
+        link: https://github.com/avekan33
+        text:
     picture: averal.jpg 
 -
     timestamp: 7/22/2017 16:18:48
     email: jessevalva@pioneers.berkeley.edu
     name: Jesse Valva
-    year: 'Vintage ''98'
+    year: '''20'
     major: Memeology and Mathology
     classes: CS61a, Math 54, Math 53, Agony, the bougois.
     short-bio: Former Head Referee. Swag master. Addicted to Overwatch.
-    misc-info: https://tinyurl.com/2fcpre6
-    picture: jesse.jpg 
+    misc-info: 
+        link: https://tinyurl.com/2fcpre6
+        text:
+    picture: jesse_valva.jpg 
 -
     timestamp: 7/22/2017 16:28:47
     email: alanzhang@pioneers.berkeley.edu
-    name: alan zhang
-    year: 3?
+    name: Alan Zhang
+    year: '''19'
     major: Computer Science
     classes: CS 61A/B/C, 70, 170; Math 110; literally every weeder class here :(
     short-bio: 'tbh I''m a pretty aight guy. I play ultimate frisbee and say stupid shit. '
-    misc-info: follow me on instagram @alankazhang
+    misc-info: 
+        link:
+        text: follow me on instagram @alankazhang
     picture: alan.jpg
 -
     timestamp: 7/22/2017 17:41:48
     email: nicholaswerblun@pioneers.berkeley.edu
     name: Nick Werblun
-    year: 4
+    year: '''18'
     major: EECS
     classes: CS61A/B, CS70, EE16A/B, SOCIOL130AC, SOCIOL126C, CS195
     short-bio: 'I''m from a small town in California, and I like electrons and robots'
-    misc-info: Italian food is the best kind of food
+    misc-info: 
+        link:
+        text: Italian food is the best kind of food
     picture: nick.jpg
 -
     timestamp: 7/22/2017 20:10:34
     email: seiyaono@pioneers.berkeley.edu
     name: Seiya Ono
-    year: 3rd
+    year: '''19'
     major: EECS
     classes: CS61ABC, CS70, EE16AB, MEC85, EE105
     short-bio: 'I''m a 20 year old, second generation Japanese boy that likes being stress free. I like EE stuff, mostly low level hardware. I''d like to be a computer architect or a microchip designer. I''m the head lab TA for EE16A, so that''s fun, since teaching has been a favorite past time of mine. In PiE I am the Hardware Coordinator, which means you can come ask me anything  you want to about hardware and I''ll do my best to answer your questions! As for hobbies, I''ve been doing karate for 14 years, play games casually with friends, and am basically down for any outdoor activity. '
-    misc-info: seiyaono.com
-    picture: pie-logo.jpg 
+    misc-info: 
+        link: https://seiyaono.com
+        text:
+    picture: Seiya.JPG
 -
     timestamp: 7/23/2017 13:38:00
     email: jameshulett@pioneers.berkeley.edu
     name: James Hulett
-    year: 3
+    year: '''19'
     major: EECS, Applied Math
     classes: "CS 170, 174, 188, 189, 270\nMath 110, 113, 128A\nAlso, lower divs."
     short-bio: "I TA for 70, in case you need someone to take out your frustrations with the class on :)\nI'm trying to get together a new group of people to play board games semi-regularly, since basically everyone else who used to graduated.\nI prefer to not write code.  Or HTML, for that matter."
-    misc-info: "How do you know polynomials are well educated?\n\nThey all have a degree."
+    misc-info: 
+        link:
+        text: "How do you know polynomials are well educated?\n\nThey all have a degree."
     picture: pie-logo.jpg 
 -
     timestamp: 7/24/2017 14:39:32
     email: brandonlee@pioneers.berkeley.edu
     name: Brandon Lee
-    year: Junior
+    year: '''19'
     major: EECS
     classes: CS61ABC, EE16AB, Math53/54, CS170, CS188
     short-bio: 'Hey, I''m Brandon! I grew up down in SoCal in Irvine, CA, and am now here studying Computer Science. I am a TA for CS61B, as well as PiE''s Director of Engineering for this upcoming year. In my free time I enjoy playing games of all sorts, but perhaps melee slightly more than other games. I also enjoying going out into the outdoors, whether it be to hike or snowboard or camp. Please feel free to come talk to me about CS, classes, or anything at all! '
-    misc-info: github.com/pioneers/piecentral
+    misc-info: 
+        link: https://github.com/pioneers/piecentral
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 7/25/2017 11:25:45
     email: nirajganesh@pioneers.berkeley.edu
     name: Niraj Ganesh
-    year: 2020 (Sophmore)
+    year: '''20'
     major: Material Science and Engineering
     classes: Math 53, Math 54, Engin 7, Physics 7B, Stats 2, Chem 1A/AL, Chem 1B
     short-bio: "The day I was born was glorious...jkjk, all serious:\n\nRobotics plays an important part of my life. I was in FLL for four years and in FRC for two years. I love being in PiE because I can give back to the community and build robots. "
-    misc-info: Still under construction
+    misc-info: 
+        link: #Still under construction
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 7/26/2017 2:23:07
     email: kevinma@pioneers.berkeley.edu
     name: Kevin Ma
-    year: Junior
+    year: '''19'
     major: EECS
     classes: CS 161, 168, 170, 186, 188
     short-bio: Current Dawn/UI Project Manager. Person probably in way too many things.
-    misc-info: https://github.com/kevinmasd
-    picture: pie-logo.jpg
+    misc-info: 
+        link: https://github.com/kevinmasd
+        text:
+    picture: kevin.jpg
 -
     timestamp: 8/5/2017 13:12:55
     email: jonathanlee@pioneers.berkeley.edu
     name: Jonathan Lee
-    year: 2020
-    major: Electrical Engineering and Computer Science
+    year: '''20'
+    major: EECS
     classes: CS 61A, CS 61B, EE 16A, EE 16B
     short-bio: Just a tech
-    misc-info: https://github.com/jonathan-j-lee
-    picture: pie-logo.jpg
+    misc-info: 
+        link: https://github.com/jonathan-j-lee
+        text:
+    picture: jonathan.jpg
 -
     timestamp: 8/14/2017 13:47:06
     email: scott.numamoto@pioneers.berkeley.edu
     name: Scott Numamoto
-    year: Junior
+    year: '''19'
     major: EECS
     classes: CS 170, IEOR 186, EDU 140AC, PiE DeCal, PiE PREP, CS61ABC
-    short-bio: 'Hi! I''m a junior EECS major from Irvine, CA. I like taking photos, exploring new foods, and bouldering.'
-    misc-info: scottnumamoto.com
-    picture: pie-logo.jpg
--
-    timestamp: 8/16/2017 14:18:57
-    email: jhgzhou@berkeley.edu
-    name: Sam Zhou
-    year: Junior
-    major: Computer Science
-    classes: "CS: 61A, 61B, 61C, 70, 161, 170\nStat: 133, 134\nAssortment of lower div maths and breadths"
-    short-bio: 'Hello! I''m Sam and I''ve been in PiE for about one year now. It''s hard for me to say exactly where I''m from since I''ve moved from China -> South Carolina -> NYC -> NYC -> NJ -> Upstate NY -> Upstate NY -> Upstate NY -> and now here to Berkeley! I enjoy cooking, hiking, and a healthy number of video games :) Also I spend a good amount of time teaching and love doing it so feel free to ask me about classes!'
+    short-bio: 'Hi! I''m a 2019 EECS major from Irvine, CA. I like taking photos, exploring new foods, and bouldering.'
     misc-info: 
-    picture: sam_zhou.jpg
+        link: https://scottnumamoto.com
+        text:
+    picture: scott.jpg
 -
     timestamp: 8/16/2017 14:51:58
     email: hongjun1202@berkeley.edu
     name: Hong Jun Jeon
-    year: Junior
+    year: '''19'
     major: EECS
     classes: CS61A/B/C, CS70, EE16A/B, Math53, Math54, Math110, CS170, CS188, CS189, EE126
     short-bio: 'I''m Hong. I enjoy watching the NBA and playing basketball as well. I am also actively involved in AI Robotics research and hope to pursue a PhD in ML/AI. If you are down to ball or are one of the few CS students not joining industry after graduation, feel free to reach out. '
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 8/16/2017 16:24:52
     email: brosejohnstone@pioneers.berkeley.edu
     name: Brose Johnstone
-    year: Junior
+    year: '''19'
     major: CS
     classes: CS 61ABC
     short-bio: 'Hello. I like programming. I use LaTeX to write documentation, because it''s cool.'
-    misc-info: 'github.com/baby-bell'
+    misc-info: 
+        link: 'https://github.com/baby-bell'
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 8/16/2017 22:02:55
     email: yejinkwon@pioneers.berkeley.edu
     name: Angela Kwon
-    year: Junior
+    year: '''19'
     major: Applied Math
     classes: 54, 16A, 61A, 61B, 70, Cog Sci 1, Ling 100, Data8
     short-bio: 'AKA Yejin, Angles, Ang, or Angie. Avid Bruno Mars fan. Likes to groove to anything that''s groovy. Uses phrases like poppin'' . Believes in the power of education. Wants to spend every day laughing, learning with purpose and taking care of myself and those around me. Loves to smile, loves to eat. '
-    misc-info: n/a
-    picture: pie-logo.jpg 
+    misc-info: 
+        link: #n/a
+        text:
+    picture: Angela.jpg 
 -
     timestamp: 8/19/2017 15:05:23
     email: oka@berkeley.edu
     name: Margo Oka
-    year: Junior
+    year: '''19'
     major: Math
     classes: CS61ABC, CS70, CS370, Math110, History 124A, Political Science 144
     short-bio: 'I enjoy reading about philosophy and try very hard to ascribe to optimistic nihilism though sometimes the pessimism will come through. I really like cats. Originally I was (and still am) a math major that''s taken a very long, interesting detour into computer science. I also like knitting and gardening. Follow @meow_boy_jeff on instagram'
-    misc-info: https://www.youtube.com/watch?v=6oCWv-0r9fQ
+    misc-info: 
+        link: https://www.youtube.com/watch?v=6oCWv-0r9fQ
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 8/19/2017 15:23:03
     email: grantemmendorfer@pioneers.berkeley.edu
     name: Grant Emmendorfer
-    year: 2018
+    year: '''18'
     major: ME
     classes: 'italian (pasta making and hand gestures, but not plumbing), subsisting (also commonly known as sugar consumption), Tupac Shakur DeCal, Fluids (a representation of tears), Thermo (not thermos) (learned I''m the 1), Models x2 (studied and aspired), data structure (the only thing I''ve ever dated), 61 trilogy (rip in pieces), Math (with numbers) (lower div 53 and 54, upper div variable variable variable greek greek), 中文十Y（台湾头号！！）。。。'
     short-bio: something something something enjinuuring wooooo, pi = 1, g = 10, g = also me, knitting，reading，most music， sports，and more。
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 8/19/2017 15:52:44
     email: bdai@berkeley.edu
     name: Bob Dai
-    year: Junior
+    year: '''19'
     major: Computer Science
     classes: CS 61A, 61B, 61C, 70, 170, 188
     short-bio: 'From a scale of Cheeseboard to Chez Panisse I''m a McNugget'
-    misc-info: nah fam
+    misc-info: 
+        link: #nah fam
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 8/21/2017 21:31:50
     email: chadwakamiya@pioneers.berkeley.edu
     name: Chad Wakamiya
-    year: 2020
+    year: '''20'
     major: IEOR
     classes: Math 1B, Chem 1A, IEOR 66, CE 11, Math 53, Math 54, Engin 7, Physics 7A
     short-bio: 'Hi! I''m from San Ramon, a town just 20 miles away from Berkeley. If you have any questions about IEOR or the mechanical side of PiE Robotics please feel free to ask me! '
     misc-info: 
+        link: 
+        text:
     picture: chad.jpg 
 -
     timestamp: 8/23/2017 17:27:53
     email: wxiong@berkeley.edu
     name: David Xiong
-    year: Sophomore
+    year: '''20'
     major: L&S Computer Science
     classes: CS61A, CS61B, CS61C, CS70
     short-bio: 'Sometimes I write code, produce electronic music, and hold long introspective conversations with potted plants. I also think computers are pretty cool, so there''s that.'
-    misc-info: http://weidavidxiong.com/
-    picture: pie-logo.jpg
+    misc-info: 
+        link: http://weidavidxiong.com/
+        text:
+    picture: david.jpg
 -
     timestamp: 8/29/2017 19:47:38
     email: julielum@pieoneers.berkeley.edu
@@ -206,48 +234,58 @@
     major: MEB & EEP
     classes: Math 1A/1B, Chem 1A, Bio 1B, Econ 1 (?)
     short-bio: I like adventure time and hiking!
-    misc-info: nah
+    misc-info: 
+        link: #nah
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/20/2017 3:55:37
     email: lilybhattacharjee@pioneers.berkeley.edu
     name: Lily Bhattacharjee
-    year: 2021
+    year: '''21'
     major: EECS
     classes: CS 61A, EE 16A, Math 53
     short-bio: 'Besides studying and sleeping (which are pretty much staples of any college student''s schedule), Lily enjoys writing, reading / watching / listening to anything sci-fi ("Doctor Who" and "Welcome to Night Vale"!) or horror, and binge-watching anime (hit her up if you want to talk about character analyses or simply wax poetic about shows like "Haikyuu!!", "Yuri!!! on Ice", or "Steins;Gate"). She frequently takes spontaneous walks around campus to unwind, while humming (maybe singing, too) Imagine Dragons or movie soundtracks. Her lifelong dreams are to install floor-to-ceiling whiteboards in her bedroom and to eventually adopt a cat.'
-    misc-info: "Personal website: http://lilybhattacharjee5.github.io/personal-website/home-page.html\n\nGithub: https://github.com/lilybhattacharjee5"
-    picture: pie-logo.jpg 
+    misc-info: 
+        link: http://lilybhattacharjee5.github.io/personal-website/home-page.html #"Personal website: http://lilybhattacharjee5.github.io/personal-website/home-page.html\n\nGithub: https://github.com/lilybhattacharjee5"
+        text:
+    picture: lily.jpg 
 -
     timestamp: 9/20/2017 21:24:12
     email: youqichen@pioneers.berkeley.edu
     name: Youqi Chen
-    year: freshman
+    year: '''21'
     major: Undecided
     classes: taking ESPM 50AC, STAT 20, EPS C82, NESTD 20
     short-bio: 'My name is Youqi Chen. I''m from China, and this is my first semester here at the US. I love hiking and dance, and I always spend a lot of my spare time writing and watching interesting videos. Really curious about what engineering is!'
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/21/2017 17:52:14
     email: calvchoi@berkeley.edu
     name: Calvin Choi
-    year: 4th 
+    year: '''18'
     major: Mechanical Engineering
     classes: ME 130, ME 135, ME C180, ME 163
     short-bio: I am a mechanical engineering student interested in design and controls. PIE has been a great learning experience for me here at UC Berkeley. I hope to continue to learn in this organization until I graduate.
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/22/2017 13:04:26
     email: shixuanli@pioneers.berkeley.edu
     name: Wayne Li
-    year: 2020
+    year: '''20'
     major: IEOR & EECS
     classes: CS 61A/B; EE16A/B; 
     short-bio: If you know me, you know me.
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: Wayne.jpg
 -
     timestamp: 9/22/2017 13:17:06
     email: kirstennguyen@pioneers.berkeley.edu
@@ -257,107 +295,129 @@
     classes: Chem 1A/1AL/3B/BL, Math 10A/10B, CS 61A
     short-bio: 'Socal native from Orange County here!  The most indecisive person you''ll ever met, but for sure interested in science/education and  always down to chat/eat/stress out over life together!  XD'
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/22/2017 13:54:44
     email: jehan@berkeley.edu
     name: Jehan Yang
-    year: Junior
+    year: '''19'
     major: Mechanical Engineering
     classes: MEC85, ME40, ME132, E45, EE16A, CS61A, CS61B
     short-bio: I wanted to be a musician!
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/22/2017 14:25:07
     email: rahultimate@berkeley.edu
     name: Rahul Tirumalareddy
-    year: Sophomore
+    year: '''19'
     major: Computer Science
     classes: Sociology 3AC, Astronomy C10, Nutritional Science 10, CS61A, CS61B, Music 29, Math 54, currently taking CS70, EE16A, Telugu 1A
     short-bio: "Hi everyone,\nMy name is Rahul and I'm a sophomore at Cal. I joined PiE to meet new people and learn new things.\nIn my spare time, of which I have none, I like to meet up with friends, play Pokemon Showdown, or watch anime."
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/22/2017 16:39:46
     email: andrewwan@pioneers.berkeley.edu
     name: Andrew Wan
-    year: Freshman
+    year: '''21'
     major: CS
     classes: Taking CS 61A, Math 54, HistArt 41, AsianStudies 10
     short-bio: I like computer science.
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: Andrew_wan.jpg
 -
     timestamp: 9/22/2017 21:49:10
     email: srlam323@berkeley.edu
     name: Sebastian Lam
-    year: Freshman
+    year: '''21'
     major: Nuclear Engineering
     classes: 'I''m a freshman so i''m taking: Math 54, E7, Physics 7A, and IB 35AC'
     short-bio: Love listening to rock music, playing league of legends, and building random science projects!
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: sebastian.png
 -
     timestamp: 9/23/2017 0:53:14
     email: arnav.raha@berkeley.edu
     name: Arnav Raha
-    year: 2021
+    year: '''21'
     major: BioE
     classes: taking BioE 10, Math 53, Chem 3A
     short-bio: I think dinosaurs are cool.
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/23/2017 1:21:50
     email: jessicalau@pioneers.berkeley.edu
     name: Jessica Au
-    year: Freshman 
+    year: '''21' 
     major: IEOR
     classes: Logic at community college 
     short-bio: I like to make bad jokes/puns! You might find yourself laughing at how poorly thought out they are! 
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/23/2017 10:06:22
     email: arjunsridhar@pioneers.berkeley.edu
-    name: Arjun
-    year: Sridhar
+    name: Arjun Sridhar
+    year: '''19'
     major: EECS
     classes: "CS170, CS188, CS186, EE120, EECS151\nCurrently Taking: CS189, EE106A, CS168"
     short-bio: This my 3rd year in PiE. I am passionate about robotics, self-driving cars, and tech and enjoy spending my time watching YouTube and playing basketball. 
-    misc-info: https://github.com/ArjunSridhar1
-    picture: pie-logo.jpg 
+    misc-info: 
+        link: https://github.com/ArjunSridhar1
+        text:
+    picture: arjun.JPG 
 -
     timestamp: 9/23/2017 13:16:30
     email: wuxiaohua1011@berkeley.edu
     name: Michael Wu
-    year: Class of 2021
+    year: '''21'
     major: Intended Computer Science
     classes: "Project-Led The Way Computer Science\nAP Computer Science\nAstronomy 9 Data Simulation with Python"
     short-bio: I like to code. During my free time, I like to cook, hike, and play badminton
-    misc-info: https://github.com/wuxiaohua1011
-    picture: pie-logo.jpg
+    misc-info: 
+        link: https://github.com/wuxiaohua1011
+        text:
+    picture: michael_wu.jpg
 -
     timestamp: 9/23/2017 13:31:49
     email: renelee@pioneers.berkeley.edu
     name: Rene Lee
-    year: 2
+    year: '''20'
     major: Computer Science Intended
     classes: CS 61A, CS 61B, EE16A, Math 54
     short-bio: 'Hi! I''m Rene and I''m a second year :) This is my first semester in PiE.'
     misc-info: 
-    picture: pie-logo.jpg 
+        link: 
+        text:
+    picture: pie-logo.jpg
 -
     timestamp: 9/23/2017 14:28:45
     email: rene_gamino012@berkeley.edu
     name: Rene Gamino Jr
-    year: Sophomore
+    year: '''19'
     major: Intended B.A. in Computer Science, perhaps sociology later.
     classes: CS 61A, 61B, & C8.
     short-bio: Latino and LGBTQ sophomore in UC Berkeley. Born and raised in SoCal. A majority of species are parasites; I happen to be one.
-    misc-info: github - renegamino012 ; staff writer - https://ircberkeley.wordpress.com/
-    picture: pie-logo.jpg
+    misc-info: 
+        link: https://github.com/renegamino012 #github - renegamino012 ; staff writer - https://ircberkeley.wordpress.com/
+        text:
+    picture: rene_gamino.jpg 
 -
     timestamp: 9/23/2017 16:59:11
     email: jhgzhou@berkeley.edu
@@ -365,116 +425,140 @@
     year: 3
     major: Computer Science
     classes: CS 61A, B, C, CS70, CS170, CS161, EE16A, Stat 133, Stat 134, Math 53, Math 54
-    short-bio: 'I''ve moved from China -> South Carolina -> NYC -> NYC -> NJ -> Upstate NY -> Upstate NY -> Upstate NY -> and now here in Berkeley! Things I enjoy include: trying new foods, taking nice hikes, any games - board or video, and cooking slightly above mediocre dishes for friends and family.'
+    short-bio: 'I''ve moved from China -> South Carolina -> NYC -> NYC -> NJ -> Upstate NY -> Upstate NY -> Upstate NY -> and now here in Berkeley! Things I enjoy include: trying new foods, taking nice hikes, any games - board or video, and cooking slightly above mediocre dishes for friends and family.' #'Hello! I''m Sam and I''ve been in PiE for about one year now. It''s hard for me to say exactly where I''m from since I''ve moved from China -> South Carolina -> NYC -> NYC -> NJ -> Upstate NY -> Upstate NY -> Upstate NY -> and now here to Berkeley! I enjoy cooking, hiking, and a healthy number of video games :) Also I spend a good amount of time teaching and love doing it so feel free to ask me about classes!'
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/23/2017 19:45:43
     email: matthewjlee@berkeley.edu
     name: Max Lee
-    year: 1
+    year: '''21'
     major: Mechanical Engineering
     classes: E25
     short-bio: 'I have been active with PiE for the past six years (competing three years for the Lawrenc Hall of Science and volunteering at competitions for three). I also had the honor of being a PiE Alumni Scholarship finalist. PiE kick started my passion for robotics, but I have always loved tinkering and building. I love to run, although I haven''t found the time to since coming to Berkeley. My other interests include magic, origami, and speedcubing. '
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: max.jpg
 -
     timestamp: 9/23/2017 23:15:20
     email: yi-fanchien@pioneers.berkeley.edu
     name: Kevin Chien
-    year: 2020
+    year: '''20'
     major: EECS
     classes: CS61A, B, C (currently), 70 (currently), Math 54, 53, EE 16A
     short-bio: 'Hi, I''m Kevin, and I''m PiE Web PM. I was in Web and Dawn last year. Outside of PiE and academics, I like to spend time learning about God and growing in my faith; I''m part of Klesis Christian Fellowship, and with PiE, it''s one of my most cherished communities I''ve harvested here at Berkeley.'
-    misc-info: kevinchien.me
-    picture: pie-logo.jpg
+    misc-info: 
+        link: https://kevinchien.me
+        text:
+    picture: kevin_chien.jpg
 -
     timestamp: 9/23/2017 23:36:13
     email: jeanneykeo@pioneers.berkeley.edu
     name: Jeanney Keo
-    year: 1st
+    year: '''21'
     major: Undeclared
     classes: Currently enrolled in Math 1A, Chem 3A, Geography 50AC, and BioE 10
     short-bio: My love for robots continues to grow exponentially as does my love for kiwis, cute animals, ironic humor, and memes 
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/24/2017 17:37:43
     email: jamesfong@pioneers.berkeley.edu
     name: James Fong
-    year: Sophomore
+    year: '''20'
     major: Computer Science
     classes: Computer Science 61A/61B, African American Studies 27AC
     short-bio: 'I believe that every mistake is a learning opportunity. That''s why I code mainly in C++: I always end up learning something! I love computer science because I feel it gets at the heart of applying logic and mathematics toward real-world applications, possibly uncovering fundamental secrets about reality itself... and also because it lets me make video games. As for stuff beyond programming, I enjoy spending time with my family or playing with friends online. If anything, I want to be a good example to others—hopefully not in a "what not to do" kind of way.'
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/25/2017 0:13:14
     email: t.chiang@berkeley.edu
     name: Tiffany Chiang
-    year: 3rd
+    year: '''19'
     major: Computer Science
     classes: CS170
     short-bio: 'If you like to watch people draw/watercolor/build buildings/dance come find me!  We can bond over things I don''t understand but would love to learn.'
-    misc-info: https://github.com/tingtingchiang
+    misc-info: 
+        link: https://github.com/tingtingchiang
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/25/2017 11:43:06
     email: welty025@berkeley.edu
     name: Alex Welty
-    year: Sophomore
+    year: '''20'
     major: Math and Computer Science
     classes: CS 61A, CS 61B, Math 113, EE 16A
     short-bio: 'I''m really interested in algorithm development and solving interesting problems!'
-    misc-info: github.com/EnnFour
+    misc-info: 
+        link: https://github.com/EnnFour
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/25/2017 22:21:52
     email: ashwarya_srini@berkeley.edu
     name: Ashwarya Srinivas
-    year: Second
+    year: '''20'
     major: Cognitive Science
     classes: CS61A, CS61B
     short-bio: 'Hi! I''m Ashwarya, and I recently joined the Mech team for PiE. I became interested in robotics through my high school''s Vex robotics team, in which I served as a programmer and mechanic. In my free time, I enjoy reading fiction and mystery novels, coding, solving logic puzzles, and answering Buzzfeed quizzes.'
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: ashwarya.jpg
 -
     timestamp: 9/27/2017 19:23:58
     email: virajbk@berkeley.edu
     name: Viraj
-    year: 2021
+    year: '''21'
     major: Comp Sci
     classes: CS61A, Math1A, Physics7A
     short-bio: 'I''ve been part of my school''s robotics club since middle school and I liked the coding aspect of it.'
     misc-info: 
-    picture: pie-logo.jpg
+        link: 
+        text:
+    picture: viraj.jpg
 -
     timestamp: 9/27/2017 19:53:25
     email: aliyakusumo@pioneers.berkeley.edu
     name: Aliya Kusumo
-    year: First year
+    year: '''21'
     major: Mechanical Engineering
     classes: E7, Malay/I 1A, Physics 7A, E25
     short-bio: 'Hi my name''s Aliya, and I''m from Fresno, CA. I''m into robotics, tennis, binge-watching TV shows, and eating to my heart''s content. '
     misc-info: 
+        link: 
+        text:
     picture: pie-logo.jpg 
 -
     timestamp: 9/30/2017 13:50:44
     email: charlesfriesen@pioneers.berkeley.edu
     name: Charlie Friesen
-    year: 2018
+    year: '''18'
     major: Mechanical Engineering
     classes: See the ME flowchart; Greek 1, 2, 100, 101
     short-bio: I have a lot of nicknames.  If you are interested in learning about some of them come join GDC/come talk to me whenever you want
     misc-info: 
+        link: 
+        text:
     picture: charlie.jpg 
 -
     timestamp: 9/30/2017 13:51:11
     email: karenylee@berkeley.edu
     name: Karen Lee
-    year: Freshman
+    year: '''21'
     major: Cognitive Science
     classes: CS61A, Drugs and the Brain, Italian Culture (in English), Comparative Literature R1B
     short-bio: 'I enjoy binge-watching Jeopardy and obnoxiously cheering on the US National Soccer Team. When I''m not internally dying, I like eating and sleeping. '
-    misc-info: https://www.youtube.com/watch?v=DzALK9gvrpw
+    misc-info: 
+        link: https://www.youtube.com/watch?v=DzALK9gvrpw
+        text:
     picture: pie-logo.jpg 
