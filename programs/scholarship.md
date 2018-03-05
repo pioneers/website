@@ -10,11 +10,7 @@ The scholarship committee will review each application holistically, taking into
 
 <br>
 
-<div class="alert alert-info" role="alert">The 2018 PiE Alumni Scholarship season hasn't begun yet. Please come back in the beginning of 2018 for updates!</div>
-
-<br>
-
-## 2017 Scholarship Schedule
+## 2018 Scholarship Schedule
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -25,23 +21,23 @@ The scholarship committee will review each application holistically, taking into
   <tbody>
     <tr>
       <td>Application release</td>
-      <td>March 4, 2017</td>
+      <td>March 10, 2018</td>
     </tr>
     <tr>
       <td>Workshop</td>
-      <td>March 11, 2017 (at Kickoff/Game Day)</td>
+      <td>March 10, 2018 (at Kickoff/Game Day)</td>
     </tr>
     <tr>
       <td>Applications due</td>
-      <td>April 15, 2017</td>
+      <td>April 7, 2018</td>
     </tr>
     <tr>
       <td>Interviews*</td>
-      <td>April 29, 2017 (at PiE Competition)</td>
+      <td>April 28, 2018 (at PiE Competition)</td>
     </tr>
     <tr>
       <td>Recipients announced</td>
-      <td>April 30, 2017 (at PiE Competition)</td>
+      <td>April 29, 2018 (at PiE Competition)</td>
     </tr>
   </tbody>
 </table>
@@ -95,6 +91,12 @@ The following documents are provided for your convenience.
       <td>Lionel Wilson High School</td>
       <td>University of California, Merced</td>
       <td>2016</td>
+    </tr>
+    <tr>
+      <td>Javier Fuentes</td>
+      <td>Aspire California Prepatory</td>
+      <td>University of California, Davis</td>
+      <td>2017</td>
     </tr>
   </tbody>
 </table>
