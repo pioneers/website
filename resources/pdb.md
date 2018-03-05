@@ -1,3 +1,7 @@
+---
+layout: markdown
+---
+
 Power Distribution Board (PDB)
 =========
 

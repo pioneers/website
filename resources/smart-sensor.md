@@ -1,26 +1,32 @@
+---
+layout: markdown
+---
+
 Smart Sensor
 ==========
 
 #SmartSensor
+
 <img src="/uploads/default/original/1X/ee7dbea01e4edbb7cadbe9ac013e54ee096f361f.jpg" width="300"height = 300">
+
 A multipurpose board that interfaces with a line-following array, potentiometers, and limit switches.
 
 As an interface with various sensors, the Smart Sensor Board connects the Arduino Pro Micro to a five-pin screw terminal. One Smart Sensor Board board can connect to up to three sensors, provided they are of the same type and require only one I/O line. 
 
 ---
+
 ##The Sensors
 
 ### List of Available Sensors
+
 ##### Limit Switch
 
 A Limit Switch is a button. It is a passive component, so it requires a [pull up network](#pullUp). The level acts as a button to connect the two terminals. 
 
-
-<img src="http://www.scoob.net/media/catalog/product/cache/1/thumbnail/500x/bfcca050e79a610d89c2b8c9089348e0/l/i/limit-switch01.png"width="200" height="200">
+<img src="http://www.scoob.net/media/catalog/product/cache/1/thumbnail/500x/bfcca050e79a610d89c2b8c9089348e0/l/i/limit-switch01.png" width="200" height="200">
 
 ##### Potentiometer
 
-A Potentiometer is a variable resistor.That means that by turning  the knob, the resistance between two terminals changes. There are three terminals because the knob divides the overall resistance of the potentiometer.  It is a passive component, so it requires a [pull up network](#pullUp). 
 
 <img src="http://www.conrad.de/medias/global/ce/4000_4999/4500/4520/4528/452824_BB_00_FB.EPS_1000.jpg" width="200" height="200">
 
@@ -40,12 +46,13 @@ Passive means that it does not require dedicated power, and runs off [pull up ne
 
 A jumper looks like this:
 
-<img src="http://i.imgur.com/rRmn19J.jpg" width=100 height = 100>
+<img src="http://i.imgur.com/rRmn19J.jpg" width=100 height=100>
 
 ### What is a Pull Up Network? <a name="pullUp"></a>
 
 A Pull Up Network is a part of a circuit that pull up the voltage at a node to a "High" Voltage so the Arduino can read the input as a Voltage.
-http://www.seattlerobotics.org/encoder/mar97/basics1.gif
+
+![](http://www.seattlerobotics.org/encoder/mar97/basics1.gif)
 
 ---
 
@@ -60,5 +67,6 @@ Examples:
 <img src="http://i.imgur.com/o2dXvvP.jpg" width="600" height="450">
 
 ####Screw Terminal:
+
 ![screw terminal](http://i.imgur.com/gwrf49H.jpg)
 For the screw terminal: going from right to left: 5V, A1, A2, A3, GND.

@@ -1,3 +1,7 @@
+---
+layout: markdown
+---
+
 Motor Controller (Yogi Bear)
 ==========
 

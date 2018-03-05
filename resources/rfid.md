@@ -1,3 +1,7 @@
+---
+layout: markdown
+---
+
 RFID Sensor
 ======
 
