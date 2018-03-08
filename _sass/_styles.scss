@@ -256,24 +256,33 @@ Does not work on round things. */
 
 #fall-image {
   background-image: url(/assets/images/about-us/fall.jpg);
-  background-color: rgba($pie-blue, .70);
+  background-color: rgba($pie-blue, 0.30);
 }
 
 #spring-image {
   background-image: url(/assets/images/about-us/spring.jpg);
-  background-color: rgba($pie-gold, 0.70);
+  background-color: rgba($pie-gold, 0.50);
+}
+
+#programs-image {
+  background-image: url(/assets/images/stock-images/scholarship.jpg);
+  background-color: rgba($pie-blue, 0.50);
+}
+
+#get-involved-image {
+  background-image: url(/assets/images/pie-expo.jpg);
+  background-color: rgba($pie-gold, 0.50);
 }
 
 #support-us-image {
   background-image: url(/assets/images/companyposter.jpg);
-  background-color: rgba($pie-gold, 0.70);
+  background-color: rgba($pie-blue, 0.50);
 }
 
 #who-are-we-image {
   background-image: url(/assets/images/stock-images/retreat-sp18-team.jpg);
-  background-color: rgba($pie-blue, 0.2);
+  background-color: rgba($pie-blue, 0.50);
 }
-
 
 .graphic-description {
   width: 80%;

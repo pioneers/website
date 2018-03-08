@@ -3,6 +3,26 @@ layout: markdown
 hero-image: url(/assets/images/stock-images/prep.jpg)
 hero-message: Past Programs
 ---
+# Fall 2017 Workshops
+
+
+<div class="row">
+  <div class="col-md-12" markdown="1">
+## PiE On the Road
+  PiE on the Road was a traveling workshop focusing on the hands-on exploration of gears and how they're utilized. We explored topics such as torque, gear ratios, and designing a car to move as far possible under constraints. Over the course of the Fall semester, we hosted workshops at Pinole Valley High school, Coliseum College Prep Academy, and Hayward High school.
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+    </div>
+  <div class="col-md-6">
+    <img src="/assets/events/hayward_photos/hayward1.jpg" style="width: 450px; height: 254px;"/>
+  </div>
+  <div class="col-md-3">
+  </div>
+ </div>
+
 # Fall 2016 Workshops
 
 
