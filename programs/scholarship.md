@@ -46,21 +46,15 @@ The scholarship committee will review each application holistically, taking into
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
-## Applications are closed!
-Thanks for showing interest in our scholarship program! Unfortunately applications are closed, but will be open in Spring of 2018. See you then!
-
-<!--
 Please use the online web application to submit your scholarship application.
 <center>
   <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
 </center>
---->
 
 ### Resources
 The following documents are provided for your convenience.
 
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2017 Scholarship Application Summary</a>
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2017 Scholarship Workshop</a>
+* <a href="{{ '/assets/scholarship/2018_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Summary</a>
 
 ## Past Scholars
 
