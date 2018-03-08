@@ -70,7 +70,7 @@ The following documents are provided for your convenience.
       <th>Name</th>
       <th>High School</th>
       <th>College</th>
-      <th>Year</th>
+      <th>Award Year</th>
     </tr>
   </thead>
   <tbody>
@@ -94,7 +94,7 @@ The following documents are provided for your convenience.
     </tr>
     <tr>
       <td>Javier Fuentes</td>
-      <td>Aspire California Prepatory</td>
+      <td>Aspire California Preparatory</td>
       <td>University of California, Davis</td>
       <td>2017</td>
     </tr>
