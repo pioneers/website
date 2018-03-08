@@ -52,7 +52,10 @@
     font-family: "arial";
 }
 
- /* offset class for links to sections on pages */
+ /* offset class for links to sections on pages, so nav is skipped */
+ /* HOW TO USE: must be in an element with style="position: relative"
+  * Put it before the element you want to scroll to: the anchor element
+  */
 .transparent-offset {
     position: absolute;
     z-index:-1;
