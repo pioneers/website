@@ -33,7 +33,7 @@ Find out more at our info sessions:
     <li>Thursday 2/1 6:30 - 7:30, 210 Jacobs Hall</li>
 </ul>
 
-If you miss the first week of class and would like to join, {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
+If you miss the first week of class and would like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
 
 
 <div class="hidden-md hidden-lg">

@@ -60,6 +60,7 @@ title: Pioneers in Engineering
             event.preventDefault();
 
             // Store hash
+            ;
             var hash = this.hash;
             var scrollToPosition = $(hash).offset().top;
             // Using jQuery's animate() method to add smooth page scroll
@@ -69,12 +70,13 @@ title: Pioneers in Engineering
             }, 800, function(){
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
+
               // Force back to end of animation
             });
           } // End if
         });
     })
-</script>
+    </script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <!--
@@ -104,7 +106,7 @@ title: Pioneers in Engineering
     </div>
   </div>
   -->
-  <section>
+  <section id = "main-about">
       <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
           <div class="transparent-offset" id="main-about"></div>
         <div class="text-col text-left">
@@ -124,7 +126,7 @@ title: Pioneers in Engineering
                   </a>
               </div>
         </div>
-        <div id="fall-image" class="image-col"></div>
+        <div id="who-are-we-image" class="image-col"></div>
       </div>
     </section>
 
@@ -158,9 +160,9 @@ title: Pioneers in Engineering
       	</div>
     </section>
 
-    <section>
+    <section id="main-get-involved">
         <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
-            <div class="transparent-offset" id="main-get-involved"></div>
+            <div class="transparent-offset"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Get Involved</h1>
@@ -183,7 +185,7 @@ title: Pioneers in Engineering
       	</div>
     </section>
 
-    <section>
+    <section id = "main-support-us">
         <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
             <div class="transparent-offset" id="main-support-us"></div>
       		<div class="text-col text-left">
@@ -195,10 +197,10 @@ title: Pioneers in Engineering
           				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
           			</div>
                 <div class="button-holder">
-                    <a class="btn btn-homepage-black section-button" href="../support-pie/donate.html" role:"button">
+                    <a class="btn btn-homepage-black section-button" href="../support-pie/" role:"button">
                         How You Can Help
                     </a>
-                    <a class="btn btn-homepage-black section-button" href="../support-pie/sponsors.html" role="button">
+                    <a class="btn btn-homepage-black section-button" href="../support-pie/#sponsors" role="button">
                         List of Sponsors
                     </a>
                 </div>
