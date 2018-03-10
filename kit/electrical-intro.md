@@ -4,13 +4,13 @@ hero-image: url(/assets/images/about-us/work-in-progress.jpg)
 hero-message: Kit Resources
 ---
 
-#The PiE Electrical System
+# The PiE Electrical System
 
 <img src="/assets/kit-resources/Naming-Guide-2018.png" alt="Naming Guide" width="100%">
 
 ---
 
-###Base Kit <a name="BaseKit"></a>
+### Base Kit <a name="BaseKit"></a>
 
 Our base kit provides the minimal required electrical components to build a minimally driving robot. It includes:
 

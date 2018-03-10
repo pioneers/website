@@ -11,17 +11,17 @@ Servo Controllers
 
 The servo controller board powers and controls up to 2 [**Servo Motors**](#servo). 
 
-####Block Diagram:
+#### Block Diagram:
 
 ![block diagram](https://github.com/pioneers/SmartSensors/blob/master/Boards/ServoController/block_diag.png?raw=true)
 
-####Details:
+#### Details:
 
 Servo motors require a relatively large current compared to the current supplied by an Arduino. External power (5V and 1A) is required. Power comes from an ATX connector. Servo motors are useful where precise and controlled rotation is necessary. For example, they would be suitable to control the arms of a robot.
 
 ---
 
-##Servo <a name = "servo"></a>
+## Servo <a name = "servo"></a>
 
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/29b399489f1c1059971ded9bce1a38a6719890fa.png" width="200" height="250">
 
@@ -29,7 +29,7 @@ Servo motors are normal electric motors which incorporate sensor feedback to pro
 
 ---
 
-##Wiring
+## Wiring
 
 <img src="http://i.imgur.com/tom9h4u.jpg" width="300">
 
