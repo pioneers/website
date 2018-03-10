@@ -60,6 +60,7 @@ title: Pioneers in Engineering
             event.preventDefault();
 
             // Store hash
+            ;
             var hash = this.hash;
             var scrollToPosition = $(hash).offset().top;
             // Using jQuery's animate() method to add smooth page scroll
@@ -69,12 +70,13 @@ title: Pioneers in Engineering
             }, 800, function(){
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
+
               // Force back to end of animation
             });
           } // End if
         });
     })
-</script>
+    </script>
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
   <!--
@@ -104,8 +106,8 @@ title: Pioneers in Engineering
     </div>
   </div>
   -->
-  <section>
-      <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
+  <section id = "main-about">
+      <div id="blue-row" class="rc-row vertical-align" style="position: relative;">
           <div class="transparent-offset" id="main-about"></div>
         <div class="text-col text-left">
               <div class="home-page-text-descr">
@@ -120,7 +122,7 @@ title: Pioneers in Engineering
               </div>
               <div class="button-holder">
                   <a class="btn btn-homepage-white section-button" href="about/" role="button">
-                      Learn More!
+                      About Us
                   </a>
               </div>
         </div>
@@ -129,7 +131,7 @@ title: Pioneers in Engineering
     </section>
 
     <section>
-        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+        <div id="gold-row" class="rc-row vertical-align" style="position: relative;">
             <div class="transparent-offset" id="main-students"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
@@ -154,13 +156,39 @@ title: Pioneers in Engineering
                     </a>
                 </div>
       		</div>
-      		<div id="spring-image" class="image-col"></div>
+      		<div id="students-image" class="image-col"></div>
       	</div>
     </section>
 
-    <section>
-        <div id="fall-row" class="rc-row vertical-align" style="position: relative;">
-            <div class="transparent-offset" id="main-get-involved"></div>
+    <section id="main-programs">
+        <div id="blue-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset"></div>
+      		<div class="text-col text-left">
+                <div class="home-page-text-descr">
+                  <h1>Programs</h1>
+                </div>
+                <hr class="golden-border">
+          			<div class="home-page-text-descr">
+                  <p>
+                    Apart from competition, learn how PiE can provide for high school students, whether through a college scholarship for RC paticipants or fun educational opportunities!
+                  </p>  
+                </div>
+                <div class="button-holder">
+                  <a class="btn btn-homepage-white section-button" href="/programs/scholarship" role="button">
+                      RC Scholarship
+                  </a>
+                  <a class="btn btn-homepage-white section-button" href="/programs/past-programs" role="button">
+                      Past Programs
+                  </a>
+                </div>
+      		</div>
+      		<div id="programs-image" class="image-col"></div>
+      	</div>
+    </section>
+
+    <section id="main-get-involved">
+        <div id="gold-row" class="rc-row vertical-align" style="position: relative;">
+            <div class="transparent-offset"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
                   <h1>Get Involved</h1>
@@ -171,20 +199,20 @@ title: Pioneers in Engineering
                             mentor our students, judge our competitions, and lots more! </p>
           			</div>
                 <div class="button-holder">
-                  <a class="btn btn-homepage-white section-button" href="/get-involved/" role="button">
+                  <a class="btn btn-homepage-black section-button" href="/get-involved/" role="button">
                       Get Involved
                   </a>
-                  <a class="btn btn-homepage-white section-button" href="/get-involved/become-mentor" role="button">
+                  <a class="btn btn-homepage-black section-button" href="/get-involved/become-mentor" role="button">
                       Mentor (DeCal)
                   </a>
                 </div>
       		</div>
-      		<div id="fall-image" class="image-col"></div> 
+      		<div id="get-involved-image" class="image-col"></div>
       	</div>
     </section>
 
-    <section>
-        <div id="spring-row" class="rc-row vertical-align" style="position: relative;">
+    <section id = "main-support-us">
+        <div id="blue-row" class="rc-row vertical-align" style="position: relative;">
             <div class="transparent-offset" id="main-support-us"></div>
       		<div class="text-col text-left">
                 <div class="home-page-text-descr">
@@ -195,10 +223,10 @@ title: Pioneers in Engineering
           				<p>PiE could use your support to provide a better experience for our students. Find out how you can help, or become a sponsor.</p>
           			</div>
                 <div class="button-holder">
-                    <a class="btn btn-homepage-black section-button" href="../support-pie/donate.html" role:"button">
+                    <a class="btn btn-homepage-white section-button" href="../support-pie/" role:"button">
                         How You Can Help
                     </a>
-                    <a class="btn btn-homepage-black section-button" href="../support-pie/sponsors.html" role="button">
+                    <a class="btn btn-homepage-white section-button" href="../support-pie/#sponsors" role="button">
                         List of Sponsors
                     </a>
                 </div>
