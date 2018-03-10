@@ -23,15 +23,15 @@ The Pioneers in Engineering API (Application Program Interface) is a library of 
 <br>
 <h1>Robot Class</h1>
 
-<h2 data-toc-text="Robot.get_value" markdown="1">Robot.get_value(device, param)</h2>
+<h2 data-toc-text="Robot.get_value" markdown="1">Robot.get_value(device_id, param)</h2>
 
-The `get_value` function returns a value associated with the `device` and `parameter` specified.
+The `get_value` function returns a value associated with the `device_id` and `parameter` specified.
 
-`device` <span style="font-variant: small-caps"> string </span> - Identifies which sensor or controller will be read. This string is defined by the user in Dawn
+`device_id` <span style="font-variant: small-caps"> string </span> - the ID that identifies which sensor or controller will be read
 
 `param` <span style="font-variant: small-caps">string</span> - Identifies which setting on the specified sensor or controller will be read. Possible `param` values depend on the specified `device`
 
-This function is useful for checking the state of certain parts of your robot while it is driving. For example, calling this function with a **Limit Switch**’s name and “`switch0`” then we would get the value `True` if the first Limit Switch was pressed down and `False` if it was not. Possible devices include:
+This function is useful for checking the state of certain parts of your robot while it is driving. For example, calling this function with a **Limit Switch**’s ID and “`switch0`” then we would get the value `True` if the first Limit Switch was pressed down and `False` if it was not. Possible devices include:
 
 - **Limit Switch**
 - **Line Follower**
@@ -42,11 +42,9 @@ This function is useful for checking the state of certain parts of your robot wh
 - **RFID**
 
 
-<h2 data-toc-text="Robot.get_value (limit switch)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">limit switch</span></h2>
+<h2 data-toc-text="Robot.get_value (limit switch)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">limit switch</span></h2>
 
-Returns a value associated with the device and `parameter` specified.
-
-The `device` being specified is a **Limit Switch**.
+Returns a value associated with the `device_id` and `parameter` specified.
 
 `parameters` for a **Limit Switch**:
 
@@ -59,11 +57,11 @@ The parameters for a **Limit Switch** describe which of the three switches is be
 **Sample Usage:** 
 
 ~~~python
-#returns whether or not switch0 is pressed on limit switch controller named “limit_switch0”
-Robot.get_value("limit_switch0", "switch0") 
+#returns whether or not switch0 is pressed on limit switch controller with id limit_switch_id
+Robot.get_value(limit_switch_id, "switch0") 
 ~~~
 
-<h2 data-toc-text="Robot.get_value (line follower)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">line follower</span></h2>
+<h2 data-toc-text="Robot.get_value (line follower)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">line follower</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -81,10 +79,10 @@ The `parameters` for a **Line Follower** describe how much light is being reflec
 
 ~~~python
 #returns how much light is seen from the center sensor on the line follower named “line_follower0”
-Robot.get_value("line_follower0", "center")
+Robot.get_value(line_follower0, "center")
 ~~~
 
-<h2 data-toc-text="Robot.get_value (potentiometer)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">potentiometer</span></h2>
+<h2 data-toc-text="Robot.get_value (potentiometer)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">potentiometer</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -102,10 +100,10 @@ The `parameters` for a **Potentiometer** describe what angle each potentiometer 
 
 ~~~python
 #returns the angle of pot0 on the potentiometer controller named “potentiometer_clock”
-Robot.get_value("potentiometer_clock", "pot0") 
+Robot.get_value(potentiometer_clock, "pot0") 
 ~~~
 
-<h2 data-toc-text="Robot.get_value (servo)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">servo</span></h2>
+<h2 data-toc-text="Robot.get_value (servo)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">servo</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -122,11 +120,11 @@ The `parameters` for a Servo describes what angle the servo has turned to. It re
 
 ~~~python
 #returns the angle servo0 is set to on the servo controller named “servo_arm”
-Robot.get_value("servo_arm", "servo0")
+Robot.get_value(servo_arm, "servo0")
 ~~~
 
 
-<h2 data-toc-text="Robot.get_value (yogibear)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">yogibear</span></h2>
+<h2 data-toc-text="Robot.get_value (yogibear)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">yogibear</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -148,10 +146,10 @@ The `parameters` for a **YogiBear** can be split into 2 categories:
 
 ~~~python
 #returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value("yogibear_left", "enc_pos") 
+Robot.get_value(yogibear_left, "enc_pos") 
 ~~~
 
-<h2 data-toc-text="Robot.get_value (RFID)">Robot.get_value(device_name, param) <span style="font-variant: small-caps">rfid</span></h2>
+<h2 data-toc-text="Robot.get_value (RFID)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">rfid</span></h2>
 
 Returns a value associated with the `device` and `parameter` specified.
 
@@ -167,11 +165,11 @@ The `parameters` for an **RFID** describe what tag is found near the RFID. If a 
 **Sample Usage:**
 
 ~~~python
-#returns the value of the RFID tag read
-Robot.get_value("rfid", "id") 
+#returns the number of encoder ticks the yogibear named “yogibear_left” has read
+Robot.get_value(yogibear_left, "enc_pos")
 ~~~
 
-<h2 data-toc-text="Robot.set_value">Robot.set_value(device_name, param, value)</h2>
+<h2 data-toc-text="Robot.set_value">Robot.set_value(device_id, param, value)</h2>
 Sets a parameter on a device using the specified value
   
 `device` <span style="font-variant:small-caps">string</span> - identifies which sensor or controller will be set. This string is defined by the user in Dawn
@@ -186,7 +184,7 @@ This function is useful for changing the state of certain parts of your robot wh
 - **Servo**
 - **YogiBear**
 
-<h2 data-toc-text="Robot.set_value (yogibear)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">yogibear</span></h2>
+<h2 data-toc-text="Robot.set_value (yogibear)">Robot.set_value(device_id, param, value) <span style="font-variant: small-caps">yogibear</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -210,10 +208,10 @@ The `device` being specified is a **YogiBear**
 
 ~~~python
 #sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
-Robot.set_value("yogibear_left", "duty_cycle", 1) 
+Robot.set_value(yogibear_left, "duty_cycle", 1) 
 ~~~
 
-<h2 data-toc-text="Robot.set_value (servo)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">servo</span></h2>
+<h2 data-toc-text="Robot.set_value (servo)">Robot.set_value(device_id, param, value) <span style="font-variant: small-caps">servo</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -230,10 +228,10 @@ Changing values for the **Servo** spins the servo to an angle based on the value
 
 ~~~python
 #sets servo0 on the servo controller named “servo_arm” to be at its maximum position
-Robot.set_value("servo_arm", "servo0", 1) 
+Robot.set_value(servo_arm, "servo0", 1) 
 ~~~
 
-<h2 data-toc-text="Robot.set_value (team flag)">Robot.set_value(device_name, param, value) <span style="font-variant: small-caps">team flag</span></h2>
+<h2 data-toc-text="Robot.set_value (team flag)">Robot.set_value(device_id, param, value) <span style="font-variant: small-caps">team flag</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
 
@@ -252,7 +250,7 @@ Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached
 
 ~~~python
 #sets the second LED of the team flag to on
-Robot.set_value("team_flag", "led2", True) 
+Robot.set_value(team_flag, "led2", True) 
 ~~~
 
 
