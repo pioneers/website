@@ -9,7 +9,7 @@ Drive Trains
 
 The purpose of a drive train is to **provide a base** for the robot and **move the robot** around the game field.  A drive train’s effectiveness depends on multiple factors including the meta (common strategy) of the competition and how the mobility is intended to impact the given team’s strategy. 
 
-<img src="/uploads/default/original/1X/7b065219cdd1b6f975fc49170f75f9a04c1ed1b0.png" width="274" height="216">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/7b065219cdd1b6f975fc49170f75f9a04c1ed1b0.png" width="274" height="216">
 
 Fig. 1 A Basic Drive Train
 
@@ -27,13 +27,13 @@ In most cases with wheels, high traction is prefered but again that depends on t
 ### Types of Vex Wheels
 
 Standard Wheels 
-![Standard Vex Wheels](#)
+<img src="https://www.vexrobotics.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/7/276-1497.jpg" width="100" height="100">
 
 Omni Wheels
-![Omni Wheels](#)
+<img src="https://www.vexrobotics.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/7/276-3526-plastic-insert.jpg" width="100" height="100">
 
 Mecanum Wheels
-![Mecanum Wheels](#)
+<img src="https://www.vexrobotics.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/1/217-2587.jpg" width="100" height="100">
 
 [Vex Store](http://www.vexrobotics.com/edr-wheels.html)
 
@@ -55,11 +55,11 @@ Gearing involves choosing the **optimal power to speed ratio** for your robot’
 
 The base kit provides pieces and instructions to build a four-wheel robot with regular 4’ wheels. However, we encourage each team to innovate and build alternative drive train designs. A six-wheel drive train instruction manual is provided to help teams begin their exploration of other designs. 
 
-<img src="/uploads/default/original/1X/b7ff96b201cd064300d9808ba07507d9ff2ebef6.png" width="274" height="216">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/b7ff96b201cd064300d9808ba07507d9ff2ebef6.png" width="274" height="216">
 
 4-Wheel Drive Train (Base Kit)
 
-<img src="/uploads/default/original/1X/79182e130f4875452e6df8c4f4af19ee21548b7f.png" width="274" height="216">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/79182e130f4875452e6df8c4f4af19ee21548b7f.png" width="274" height="216">
 
 6-Wheel Drive Train
 
@@ -72,15 +72,15 @@ In addition to the designs provided above, advanced designs can be created using
 
 Mecanum Holonomic Drive
 
-![Mecanum Holonomic Drive](#)
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/808c599d64e4d75d1218354984b5d541af1c90a8.png" width="100" height="100">
 
 Omni-wheel H-Drive
 
-![Omni-wheel H-Drive](#)
+<img src="https://forum.pierobotics.org/uploads/default/original/1X/28cbf296bf7624e1e482c64896714cf660a9d01a.png" width="100" height="100">
 
 Omni-wheel X-Drive
 
-![Omni-wheel X-Drive](#)
+<img src="https://www.vexforum.com/index.php/attachment/57129a66c4c91_meme.jpg" width="100" height="100">
 
 Fig. 4 Advanced Drive Train Designs
 

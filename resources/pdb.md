@@ -20,7 +20,7 @@ The PDB (short for Power Distribuition Board) is the main board that safely mana
 The PDB takes in a supply of 12 volts from the battery, then diverges into two sections. The 12 volt section, for motors, and the 5 volt section, for other boards/servos/etc. There are also fuses and a circuit breaker which act as another layer of protection against frying components. Fuses are designed to break if they experience too much current, so the connection to your parts will be severed. The circuit breaker acts as nothing more than a switch, however it will turn itself off should the current become too large. 
 
 ### Schematic:
-<img src="/uploads/default/original/1X/57d2f72030048d34e2cecb19aa409024608ca6bb.png" width="800" height="496">
+<img src="https://discourse.pierobotics.org/uploads/default/optimized/1X/57d2f72030048d34e2cecb19aa409024608ca6bb_1_800x496.png" width="800" height="496">
 
 ### Battery Connection
 * Battery power wire goes to female XT-60 connector
@@ -63,7 +63,7 @@ The system also has protection to guard against the effects of rapid changes in 
 **To use this system, the main power connector of the battery must also be connected.**
 ###Schematic:
 
-<img src="/uploads/default/original/1X/85564002aefcf5576f16ff5ad5fe6810bc28f2c3.png" width="556" height="474">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/85564002aefcf5576f16ff5ad5fe6810bc28f2c3.png" width="556" height="474">
 ###Voltage Display
 * Shows the current voltage of your battery. It displays total Voltage and cycles through voltage of each individual cell.
 ####Arduino Pro Micro
@@ -71,7 +71,7 @@ The system also has protection to guard against the effects of rapid changes in 
 
 
 ####Block Diagram of How it Works:
-<img src="/uploads/default/original/1X/b68f55c49a63ca4045c528dde7bd6ff1157d5177.png" width="500" height="315">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/b68f55c49a63ca4045c528dde7bd6ff1157d5177.png" width="500" height="315">
 
 
 ## Wiring <a name="wiring"></a>
