@@ -1,7 +1,130 @@
+/* TABLE OF CONTENTS
+
+- Commonly used styles
+- Hero Unit
+- Team page
+- About Us
+- Gallery
+- Site footer
+- Page content
+- Nav Bar
+- Home Page
+- Support PiE
+- Program Pages
+- Posts
+- Cognito Forms
+- Sponsors page
+- Start a team
+- Projects table
+- Software
+- Sitemap
+- Horizontal scrolling
+
+*/
+
 /*
  * Commonly used styles
  */
 
+.stripped-ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(211, 211, 211, .25);
+    text-align: center;
+}
+
+.navbar-item {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.navbar-item:hover {
+    background-color: rgba(211, 211, 211, .13);
+}
+
+.navbar-item>a {
+    text-decoration: none;
+}
+
+.navbar-text-style {
+    font-family: "arial";
+}
+
+ /* offset class for links to sections on pages, so nav is skipped */
+ /* HOW TO USE: must be in an element with style="position: relative"
+  * Put it before the element you want to scroll to: the anchor element
+  */
+.transparent-offset {
+    position: absolute;
+    z-index:-1;
+    top:-50px;
+    width: 50px;
+    height:50px;
+    background-color: red;
+    opacity: 0;
+}
+
+ .button-holder {
+     text-align: center;
+ }
+
+.seventy-p {
+  width: 70%;
+}
+
+.seventy-five-p {
+  width: 70%;
+}
+
+.eighty-p {
+  width: 80%;
+}
+
+.white-bkg {
+  background-color: white;
+  color: white;
+}
+
+.grey-bkg {
+  background-color:i #f2f2f2;
+  color: white;
+}
+
+.blue-bkg {
+  background-color: $pie-blue;
+  color: white;
+}
+
+.gold-bkg {
+  background-color: $pie-gold;
+  color: white;
+}
+
+.blue-text {
+  color: $pie-blue;
+}
+
+.gold-text {
+  color: $pie-gold;
+}
+
+.darker-blue-bkg {
+  background-color: darken($pie-blue, 10%);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.pie-jumbotron{
+  @extend .jumbotron;
+  p {
+    font-size: $jumbotron-font-size/1.5;
+  }
+  padding: 10px;
+}
 
 /**
  * Hero unit
@@ -21,6 +144,30 @@
   .container {
     position: relative;
   }
+  .container-fluid {
+    position: relative;
+  }
+}
+
+.hero-unit-main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  box-sizing: content-box;
+  h1 {
+    color: #ffffff;
+    font-size: 68px;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 0.5em;
+  }
+  .container {
+    position: relative;
+  }
+  padding-bottom: 100px;
 }
 
 @media (min-width: $screen-md-min) {
@@ -59,13 +206,11 @@ Does not work on round things. */
 }
 
 .staff-member {
-  text-align: center;
-  padding: 30px 30px 5px;
   .staff-image {
     width: 200px;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
-    margin: 0 auto 10px;
+    margin: auto;
     img {
       background-color: white;
       position: relative;
@@ -108,18 +253,33 @@ Does not work on round things. */
   margin-bottom: $spacing-unit;
 }
 
-#about-us-heading {
+.about-us-heading {
   margin-top: $spacing-unit;
 }
 
-#fall-image {
-  background-image: url(../assets/images/about-us/fall.jpg);
-  background-color: rgba($pie-blue, .70);
+#who-are-we-image {
+  background-image: url(/assets/images/gallery-photos/retreat-2015-3.jpg);
+  background-color: rgba($pie-blue, 0.50);
 }
 
-#spring-image {
-  background-image: url(../assets/images/about-us/spring.jpg);
-  background-color: rgba($pie-gold, 0.70);
+#students-image {
+  background-image: url(/assets/images/about-us/work-in-progress.jpg);
+  background-color: rgba($pie-gold, 0.50);
+}
+
+#programs-image {
+  background-image: url(/assets/images/stock-images/scholarship.jpg);
+  background-color: rgba($pie-blue, 0.50);
+}
+
+#get-involved-image {
+  background-image: url(/assets/images/pie-expo.jpg);
+  background-color: rgba($pie-gold, 0.50);
+}
+
+#support-us-image {
+  background-image: url(/assets/images/stock-images/cal_big_give.jpg);
+  background-color: rgba($pie-blue, 0.10);
 }
 
 .graphic-description {
@@ -134,12 +294,12 @@ Does not work on round things. */
   }
 }
 
-#fall-row {
+#blue-row {
   background-color: $pie-blue;
   color: white;
 }
 
-#spring-row {
+#gold-row {
   background-color: $pie-gold;
   flex-direction: row-reverse;
 }
@@ -217,59 +377,59 @@ Does not work on round things. */
 }
 
 #spring-events-2016 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2016-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2016-h.jpg);
   background-position: 0 60%;
 }
 
 #staff-events-2016 {
-  background-image: url(../assets/images/gallery-photos/staff-events-2016-h.jpg);
+  background-image: url(/assets/images/gallery-photos/staff-events-2016-h.jpg);
   background-position: 0 45%;
 }
 
 #fall-competition-2015 {
-  background-image: url(../assets/images/gallery-photos/fall-comp-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-comp-2015-h.jpg);
   background-position: 0 70%;
 }
 
 #spring-competition-2015 {
-  background-image: url(../assets/images/gallery-photos/spring-comp-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-comp-2015-h.jpg);
   background-position: 0 50%;
 }
 
 #retreat-2015 {
-  background-image: url(../assets/images/gallery-photos/retreat-2015-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2015-h.jpg);
 }
 
 #fall-events-2014 {
-  background-image: url(../assets/images/gallery-photos/fall-events-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-events-2014-h.jpg);
   background-position: 0 70%;
 }
 
 /*
 #spring-competition-2014 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2014-h.jpg);
   background-position: 0 50%;
 }
 */
 
 /*
 #retreat-2014 {
-  background-image: url(../assets/images/gallery-photos/retreat-2014-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2014-h.jpg);
 }
 */
 
 #fall-events-2013 {
-  background-image: url(../assets/images/gallery-photos/fall-events-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/fall-events-2013-h.jpg);
   background-position: 0 40%;
 }
 
 #spring-events-2013 {
-  background-image: url(../assets/images/gallery-photos/spring-events-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/spring-events-2013-h.jpg);
   background-position: 0 50%;
 }
 
 #retreat-2013 {
-  background-image: url(../assets/images/gallery-photos/retreat-2013-h.jpg);
+  background-image: url(/assets/images/gallery-photos/retreat-2013-h.jpg);
 }
 
 /**
@@ -277,7 +437,7 @@ Does not work on round things. */
  */
 
 .site-footer {
-  margin-top: 35px;
+  /* margin-top: 35px; */
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit;
 
@@ -354,14 +514,7 @@ Does not work on round things. */
 }
 
 /**
- * Sponsor Page - Scott and Christian
- */
-#sponsor-top{
-  margin-left: $spacing-unit/2;
-}
-
-/**
- * Home Page - Scott and Christian
+ * Nav Bar
  */
 #title {
   display:inline;
@@ -371,7 +524,7 @@ Does not work on round things. */
   visibility:hidden;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 1000px) {
   #title {
       display:none;
   }
@@ -380,12 +533,28 @@ Does not work on round things. */
   }
 }
 
-#announcements{
-  @extend .jumbotron;
-  p {
-    font-size: $jumbotron-font-size/1.5;
+/**
+ * Home Page
+ */
+.homepage-pioneers-in-engineering {
+  @media (max-width: 400px) {
+    font-size: .7em;
   }
-  padding: 10px;
+  font-size: .8em;
+  font-weight: 600;
+}
+
+.animated-stats {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;margin-top:20px;
+  margin-bottom:50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:.5em;
+  font-weight:400;
 }
 
 .horizontal-border {
@@ -405,8 +574,8 @@ Does not work on round things. */
 }
 
 .home {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  /*margin: 0 auto;*/
   h2 {
     text-align: center;
     margin-bottom: $spacing-unit *2/3;
@@ -471,6 +640,71 @@ Does not work on round things. */
   margin: 2%;
 }
 
+.href-unstyled {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-homepage-white {
+  color: white;
+  background: rgba(0,0,0,0);
+  border: 1px solid white;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  &:visited {
+    color: white;
+  }
+}
+
+.btn-homepage-black {
+  color: black;
+  background: rgba(0,0,0,0);
+  border: 1px solid black;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.section-button {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 7px 15px 7px;
+}
+
+.blue-border {
+  display: block;
+  border-color: $pie-blue;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.golden-border {
+ display: block;
+ border-color: $pie-gold;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: 75px;
+ margin-right: 75px;
+ border-style: inset;
+ border-width: 1px;
+}
+
+.home-page-text-descr {
+ width: 80%;
+ padding: floor($grid-gutter-width / 2);
+ margin: 0 auto;
+ font-size: 13pt;
+}
+
 /**
  * Support PiE - Christian and Scott
  */
@@ -512,14 +746,6 @@ Does not work on round things. */
   font-size: 10rem;
   text-align: center;
   margin: 15px;
-  color: $pie-gold;
-}
-
-.blue-title {
-  color: $pie-blue;
-}
-
-.gold-title {
   color: $pie-gold;
 }
 
@@ -568,7 +794,7 @@ Does not work on round things. */
   .timeline-arrow {
     flex: 1 1 auto;
     height: $timeline-height;
-    line-height: $timeline-height/3; 
+    line-height: $timeline-height/3;
     background-color: $arrow-active-color;
     text-align: center;
     //padding-top: $timeline-height/4;
@@ -621,8 +847,7 @@ Does not work on round things. */
     }
   }
 
-  .twoline-timeline-arrow {
-	  @extend .timeline-arrow;
+  .twoline {
 	  padding-top: $timeline-height/6;
 	  padding-bottom: $timeline-height/6;
   }
@@ -758,6 +983,10 @@ border-color: lighten($pie-blue, 5%);
   }
 }
 
+#sponsor-top{
+  margin-left: $spacing-unit/2;
+}
+
 
 /**
 * Start a team
@@ -857,11 +1086,15 @@ border-color: lighten($pie-blue, 5%);
 	padding: 0 0 10px 0;
 }
 
+/**
+ *  Software
+ */
+
 #software-banner {
 	background-color: $pie-blue;
 	display: flex;
-	padding-top: 50px; 
-	padding-bottom: 50px; 
+	padding-top: 50px;
+	padding-bottom: 50px;
 	align-items: baseline;
 	flex-wrap: wrap;
 	flex-flow: row wrap;
@@ -886,7 +1119,7 @@ border-color: lighten($pie-blue, 5%);
 
 .api-hero{
   @extend .hero-unit;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   padding: 80px 0 80px 0;
   height: 250px;
   h1 {
@@ -913,5 +1146,52 @@ nav[data-toggle='toc'] .nav .nav {
 	background:#EEE;
 }
 
-.dropdown-menu {
+.vertical-center {
+  position: relative;
+  top: 8%;
+}
+
+/* site map */
+.sitemap ul{
+  list-style-type: none;
+}
+
+.sitemap-footer {
+  background-color: $pie-blue;
+  padding-top: 10px;
+  padding-right: 2.5px;
+}
+.sitemap {
+  color: white;
+  text-decoration: none;
+  padding-top: 2.5px;
+  padding-right: 2.5px;
+}
+
+.sitemap:hover{
+  color: $pie-gold;
+  text-decoration: none;
+}
+
+.sitemap-header {
+  background-color: $pie-blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* styles for horizontal scrolling */
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
+}
+
+.navbar-text.sitemap a{
+  margin: 0;
 }

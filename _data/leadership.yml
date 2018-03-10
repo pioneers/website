@@ -1,19 +1,24 @@
-- name: Andy Wong
+- name: Vivien Nguyen
   title: Director
-  picture: andy.jpg
+  picture: vivien.jpg
+  short-bio: Third year CS major
 
-- name: Suzy Huang
-  title: Business Operations Director
-  picture: suzy.jpg
+- name: Briana Niu
+  title: Director of Business
+  picture: briana.jpg
+  short-bio: Fourth year IEOR major
 
-- name: Grant Emmendorfer
-  title: Programs Director
-  picture: grant.jpg
+- name: Alan Zhang
+  title: Director of Programs
+  picture: alan.jpg
+  short-bio: Third year math major
 
-- name: Aravind Kumaraguru
-  title: Engineering Director
-  picture: aravind.jpg
+- name: Brandon Lee
+  title: Director of Engineering
+  picture: brandon.jpg
+  short-bio: Third year EECS major
 
-- name: Wing Chuen Lam
-  title: Operations Director
-  picture: wing.jpg
+- name: Scott Numamoto
+  title: Director of Education
+  picture: scott.jpg
+  short-bio: Third year EECS major

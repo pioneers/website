@@ -1,6 +1,6 @@
 ---
 layout: markdown
-hero-image: url(../assets/images/stock-images/scholarship.jpg)
+hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 # Pioneers in Engineering Alumni Scholarship
@@ -10,13 +10,7 @@ The scholarship committee will review each application holistically, taking into
 
 <br>
 
-<!--
-<div class="alert alert-info" role="alert">The 2017 PiE Alumni Scholarship season hasn't begun yet. Please come back in the beginning of 2017 for updates!</div>
-
-<br>
--->
-
-## Scholarship Schedule
+## 2018 Scholarship Schedule
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -27,23 +21,23 @@ The scholarship committee will review each application holistically, taking into
   <tbody>
     <tr>
       <td>Application release</td>
-      <td>March 4, 2017</td>
+      <td>March 10, 2018</td>
     </tr>
     <tr>
       <td>Workshop</td>
-      <td>March 11, 2017 (at Kickoff/Game Day)</td>
+      <td>March 10, 2018 (at Kickoff/Game Day)</td>
     </tr>
     <tr>
       <td>Applications due</td>
-      <td>April 15, 2017</td>
+      <td>April 7, 2018</td>
     </tr>
     <tr>
       <td>Interviews*</td>
-      <td>April 29, 2017 (at PiE Competition)</td>
+      <td>April 28, 2018 (at PiE Competition)</td>
     </tr>
     <tr>
       <td>Recipients announced</td>
-      <td>April 30, 2017 (at PiE Competition)</td>
+      <td>April 29, 2018 (at PiE Competition)</td>
     </tr>
   </tbody>
 </table>
@@ -52,7 +46,6 @@ The scholarship committee will review each application holistically, taking into
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
-## Apply!
 Please use the online web application to submit your scholarship application.
 <center>
   <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
@@ -61,8 +54,7 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents are provided for your convenience.
 
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_application_summary.pdf' | prepend: site.baseurl }}">2017 Scholarship Application Summary</a>
-* <a href="{{ '/assets/scholarship/2017_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2017 Scholarship Workshop</a>
+* <a href="{{ '/assets/scholarship/2018_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Summary</a>
 
 ## Past Scholars
 
@@ -72,7 +64,7 @@ The following documents are provided for your convenience.
       <th>Name</th>
       <th>High School</th>
       <th>College</th>
-      <th>Year</th>
+      <th>Award Year</th>
     </tr>
   </thead>
   <tbody>
@@ -93,6 +85,12 @@ The following documents are provided for your convenience.
       <td>Lionel Wilson High School</td>
       <td>University of California, Merced</td>
       <td>2016</td>
+    </tr>
+    <tr>
+      <td>Javier Fuentes</td>
+      <td>Aspire California Preparatory</td>
+      <td>University of California, Davis</td>
+      <td>2017</td>
     </tr>
   </tbody>
 </table>

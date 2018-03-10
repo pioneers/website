@@ -1,87 +1,51 @@
-- name: Vivien Nguyen
-  project: Website
-  picture: vivien.jpg
-
-- name: Seiya Ono
-  project: Smart Sensor
-  picture: seiya.jpg
-
-- name: Bob Dai
-  project: Runtime
-  picture: bob.jpg
-
-- name: Stanley Liu
-  project: Yogi Bear
-  picture: stanley.jpg
-
-- name: Krystyn Neisess
-  project: Sourcing
-  picture: krystyn.jpg
-
-- name: Yizhe Liu
-  project: Field Control
-  picture: yizhe.jpg
-
 - name: Kevin Ma
-  project: Dawn, Staff Recruiting
+  project: "Dawn"
   picture: kevin.jpg
 
-- name: Karthik Shamugam
-  project: Hibike
-  picture: karthik.jpg
-
-- name: Griff Potrock
-  project: Hardware Ops
-  picture: griffin.jpg
-
-- name: Tobin Holcomb
-  project: PiEDB
-  picture: tobin.jpg
-
 - name: Arjun Sridhar
-  project: DevOps
+  project: Dawn
   picture: arjun.jpg
 
-- name: Jehan Yang
-  project: Mechanical Kit, Actuated Field, MDC
-  picture: jehan.jpg
+- name: Jonathan Lee
+  project: DevOps
+  picture: jonathan.jpg
 
-- name: Alan Zhang
-  project: GDC, GIC, Fall Comp
-  picture: alan.jpg
-
-- name: Jenny Wong
-  project: GDC
-  picture: jenny.jpg
-
-- name: James Hulett
-  project: Kit Extension Web Apps
-  picture: james.jpg
-
-- name: Jiana Huang
-  project: Worksession Plugin
-  picture: jiana.jpg
-
-- name: Briana Niu
-  project: Staff Recruiting
-  picture: briana.jpg
-
-- name: Christian Ramiro
-  project: Staff Retention
-  picture: christian.jpg
-
-- name: Sarah Zhou
-  project: Staff Retention
-  picture: sarah.jpg
-
-- name: Clancy Lee
+- name: Angela Kwon
   project: E.D.You
-  picture: clancy.jpg
+  picture: angela.jpg
 
-- name: Rachel Ieda
-  project: PiE Academy
-  picture: rachel.jpg
+- name: Charlie Friesen
+  project: GDC
+  picture: charlie.jpg
 
-- name: Grant Emmendorfer
-  project: LHS Trebuchet
-  picture: grant.jpg
+- name: Jesse Valva
+  project: GIC
+  picture: jesse_valva.jpg
+
+- name: Tiffany Chiang
+  project: "Hibike + Runtime"
+  picture: tiffany.jpg
+
+- name: Chad Wakamiya
+  project: Mechanical Kit
+  picture: chad.jpg
+
+- name: Miyuki Weldon
+  project: Mechanical Kit
+  picture: miyuki.jpg
+
+- name: Averal Kandela
+  project: PiE Sens
+  picture: averal.jpg
+
+- name: Nick Werblun
+  project: PiEDB
+  picture: nick.jpg
+
+- name: Sam Zhou
+  project: "Shepherd (Field Control)"
+  picture: sam_zhou.jpg
+
+- name: Kevin Chien
+  project: "Website, Web Apps"
+  picture: kevin_chien.jpg

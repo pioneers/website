@@ -5,25 +5,49 @@
 
   <body>
 
+
     {% include header.html %}
 
-    <div class="hero-unit tall" id="homepage-banner" style="background-image: {{ page.hero-image }}">
+    <div class="hero-unit-main" id="homepage-banner" style="background-image: {{ page.hero-image }}; background-attachment: fixed;">
       <div class="fade-overlay"></div>
-      <div class="container">
+      <div class="container vertical-center">
+        <div style="height: 150px"></div>
         <h1>
-          {{ page.hero-message }}
+          <span id="animate1" class="homepage-pioneers-in-engineering">
+            PIONEERS <span id="pkmn">IN</span> ENGINEERING
+          </span>
+          <br>
+          <span style="font-size:.5em; font-weight:400; line-height: 1.1" id="animate2">
+            Bringing STEM education to the Bay Area
+          </span>
+          <div style="position: relative;">
+              <!-- below div is for spacing the container surrounding it, before animation start -->
+              <div class="animated-stats" style=" z-index : 0; opacity: 0;">
+                <div style="margin-bottom: 20px; line-height: 1.1">
+                  Pioneers in Engineering has served more than
+                </div>
+                <span>30 Schools • 700 High School Students • 350 Berkeley Students</span>s
+              </div>
+            <!-- below div is the one that actually appears -->
+            <div id="animate-info" class="animated-stats" style="z-index : 10">
+              <div style="margin-bottom: 20px; line-height: 1.1">
+                Pioneers in Engineering has served more than
+              </div>
+              <span class="animate-num" data-num="30">0</span> Schools • <span class="animate-num" data-num="700">0</span> High School Students • <span class="animate-num" data-num="350">0</span> Berkeley Students
+            </div>
+          </div>
         </h1>
-        {% if page.hero-button %}
-        <center><a href="{{page.hero-button-url}}" class="btn btn-primary btn-lg">{{page.hero-button}}</a></center>
-        {% endif %}
+        <div style="height: 200px"></div>
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container"> -->
+	
       {{ content }}
-    </div>
+    <!-- </div> -->
 
     {% include footer.html %}
+    {% include sitemap.html %}
 
   </body>
 

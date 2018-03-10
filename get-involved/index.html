@@ -1,0 +1,401 @@
+---
+layout: default
+hero-image: url(/assets/images/stock-images/pie-staff.jpg)
+hero-message: Get Involved!
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling for links to '#' id'd sections
+        $('a[href^="#"]').on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            var scrollToPosition = $(hash).offset().top;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              'scrollTop': scrollToPosition
+            }, 800, function(){
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              // Force back to end of animation
+            });
+          } // End if
+        });
+    })
+</script>
+
+<div class="container">
+    <!-- mini nav -->
+    <div class="get-involved-navbar">
+        <ul class="stripped-ulist">
+            <li class="navbar-item"><a href="#member">Membership</a></li>
+            <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
+            <li class="navbar-item"><a href="#mentor">Mentor</a></li>
+            <li class="navbar-item"><a href="#projects">Projects</a></li>
+            <li class="navbar-item"><a href="#volunteer">Volunteer</a></li>
+            <li class="navbar-item"><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+
+    <!-- Become a Member -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Member</h1>
+        <div class="transparent-offset" id="member"></div>
+    </div>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+      <div class="container">
+    		<table class="table table-striped table-hover ">
+    			<thead>
+    				<tr>
+    					<th>Worksession Time</th>
+              <th>Location</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Wednesday 7 - 9 PM</td>
+    					<td>O'Brien 212 (Annoucements), then O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+    				</tr>
+    				<tr>
+    					<td>Saturday 1 - 3 PM</td>
+    					<td>O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+            </tr>
+    			</tbody>
+    		</table>
+    	</div>
+    <div style="text-align: center">
+        <a class="btn btn-info" href="/get-involved/forms">Join Now</a>
+        <a class="btn btn-default"
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
+            Mailing List
+        </a>
+    </div>
+    <hr>
+    <!-- Why Join PIE -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Why Join Pie?</h1>
+        <div class="transparent-offset" id="why-join-pie"></div>
+    </div>
+
+    <div class="pie-jumbotron button-holder">
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="gold-text">Professional Development</h2>
+            <img src="/assets/images/why_join_pie/prof_dev.png" style="width: 80px; margin: 10px; display: block; float: left" />
+            <p>
+                Learn hands-on engineering, coding, and finance skills all the while making important connections with industry professionals and experienced UC Berkeley students.
+            </p>
+            <h2 class="blue-text">Community</h2>
+            <img src="/assets/images/why_join_pie/community.png" style="width: 80px; margin: 0; display: block; float: right" />
+            <p>
+                PiE is an organization of peers, a collection of friends, and a found family. From biannual retreats to spontaneous dinner outings, we've always got comething fun to do.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img src="/assets/images/why_join_pie/logo_transparent.png" class="hidden-xs hidden-sm hidden-md" style="width: 100%; display: block; margin-left: auto; margin-right: auto; position: relative; top: 45px;" />
+            <img src="/assets/images/why_join_pie/logo_transparent.png" class="visible-md" style="width: 100%; display: block; margin-left: auto; margin-right: auto; position: relative; top: 100px;" />
+        </div>
+        <div class="col-md-4">
+            <h2 class="blue-text">Resources</h2>
+            <p>
+                We have the tools, the space, and the brainpower for you to do great things. Whether you need a workbench or a helping hand, we've got it.
+                <img src="/assets/images/why_join_pie/resources.png" style="width: 80px; margin: 10px; display: block; float: right" />
+            </p>
+            <h2 class="gold-text">Outreach</h2>
+            <img src="/assets/images/why_join_pie/outreach.png" style="width: 80px; margin: 15px; display: block; float: left" />
+            <p>
+                PiE has served over 30 schools and 700 students in the Bay Area. We believe STEM education should be fun and acessible. Join us in our mission to lead, educate, and inspire.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_pie_staff.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Many former PiE staff have research positions or are in grad school; many others have had internships or now work at top companies.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_project_manager.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Learn about project management. Get feedback on and experice at making real products for real people.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_games.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Got a new board game to try out? Need a ranked 5's team? Kayaking? PiE staff have diverse recreational interests.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_design_lessons.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Design lessons for high school students. Teach fellow staff how to do cool things. We are designers, leaders, and Pioneers.
+            </p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/why_join_pie/col_clubroom.png" style="height: 100px; display: block; margin-left: auto; margin-right: auto;" />
+            <p style="text-align: center">
+                Our clubroom, 101 O'Brien, is the 3rd largest student organization space on campus. We have places to study, work on projects, and chill between classes.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <a class="btn btn-homepage-black"
+        href="/assets/faq/fall-infosession-2016.pdf">
+        Fall Infosession Slides
+    </a>
+    </div>
+
+    <hr>
+    <!-- Become a Member -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Member</h1>
+        <div class="transparent-offset" id="member"></div>
+    </div>
+    <p>Want to help out? Here at PiE, we don't have an application process. Rather, we firmly believe that any UC Berkeley student who is interested in our club has something to offer, whether community-wise, project-wise, or anything else that we can't think of ourselves! Simply fill out the forms or come check out worksession and we'll get you started!<p>
+      <div class="container">
+    		<table class="table table-striped table-hover ">
+    			<thead>
+    				<tr>
+    					<th>Worksession</th>
+    					<th>Time</th>
+              <th>Location</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td>Wednesday</td>
+    					<td>7 - 9 pm</td>
+    					<td>O'Brien 212 (Annoucements), then O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+    				</tr>
+    				<tr>
+    					<td>Saturday</td>
+    					<td>1 - 3 pm</td>
+    					<td>O'Brien 101 or O'Brien Breezeway 2nd Floor (depending on team)</td>
+            </tr>
+    			</tbody>
+    		</table>
+    	</div>
+    <div style="text-align: center">
+        <a class="btn btn-homepage-black"
+            href="https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform">
+            Join Mailing List
+        </a>
+        <a class="btn btn-homepage-black" href="/get-involved/forms">Member Official Forms</a>
+    </div>
+    <hr>
+
+    <!-- PiE Staff Roles -->
+    <div class="row">
+        <div class="pie-jumbotron" style="margin: 0">
+            <h2 align="center">PiE Staff Roles</h2>
+            <div class="row">
+                <div class="col-sm-3" style="text-align: center">
+                    <h3>Engineering</h3>
+                    <p>Mechanical, Electrical, Software</p>
+                </div>
+                <div class="col-sm-3" style="text-align: center">
+                    <h3>Programs</h3>
+                    <p>Game Design, Events, Schools</p>
+                </div>
+                <div class="col-sm-3" style="text-align: center">
+                    <h3>Outreach</h3>
+                    <p>Mentorship, Workshops, Metrics</p>
+                </div>
+                <div class="col-sm-3" style="text-align: center">
+                    <h3>Operations</h3>
+                    <p>Business, Web Applications, Staff</p>
+                </div>
+            </div>
+            <div style="text-align: center">
+                <a class="btn btn-primary" href="#projects">See full list of projects!</a>
+                <a class="btn btn-info" href="#faq">Click here for FAQ!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mentor -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Become a Mentor</h1>
+        <div class="transparent-offset" id="mentor"></div>
+        <div id="gold-row" class="rc-row vertical-align" style="background-color: #e6e6e6">
+            <div id="spring-image" class="image-col"></div>
+            <div class="text-col text-left" style="text-align: center">
+                <div class="pie-jumbotron" style="margin: 0">
+                    <p>Interested in participating in PiE's mission by becoming a mentor and role model for a team of high school students? PiE RC DeCal, offered every spring, offers just that!<p>
+                    <ul style="list-style-type: none">
+                        <li>* Learn robotics</li>
+                        <li>* Teach and bond with a team of passionate high school students</li>
+                        <li>* Earn units</li>
+                        <li>* Satisfy teaching experience requirements</li>
+                        <li>* Tons of fun!</li>
+                    </ul>
+                    <a class="btn btn-primary" href="/get-involved/become-mentor">More about Mentoring</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+      <div style="position: relative">
+          <h1 style="text-align: center">Projects</h1>
+          <div class="transparent-offset" id="projects"></div>
+      </div>
+          <!-- PiE Staff Roles -->
+          <div class="row">
+              <div class="pie-jumbotron" style="margin: 0">
+                  <div class="row">
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Engineering</h3>
+                          <p>Mechanical, Electrical, Software</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Programs</h3>
+                          <p>Game Design, Events, Schools</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Outreach</h3>
+                          <p>Mentorship, Workshops, Metrics</p>
+                      </div>
+                      <div class="col-sm-3" style="text-align: center">
+                          <h3>Operations</h3>
+                          <p>Business, Web Applications, Staff</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          {% for department in site.data.project_departments %}
+          	<h2 style="text-align: center">{{ department.name }}</h2>
+			<hr>
+			 <div class="staff-images">
+          	{% for project in site.data.projects%}
+				{% if project.department == department.name %}
+          	  		<div class="staff-member card" style="margin-bottom: 20px">
+            <!--<div class="staff-image">
+              <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
+                <img class="img-scaled-wh" src="/assets/images/team/staff_photos/{{ member.picture }}" alt="">
+              </a>
+            </div>-->
+            		<div class="staff-description" style="padding: 10px">
+              		<h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ project.project }}</h4>
+              <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> {% if project.department == 'Kit Engineering Projects' %} {{ project.subdepartment  }} {% endif %} {% if project.manager %} <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> PM: {{ project.manager }} {% endif %} </h5></h5>
+            </div>
+            <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">Learn more</a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">{{ project.project }}</h5>
+                </div>
+                <div class="modal-body">
+                  <p>{{ project.description }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+	          {% endif %}
+	        {% endfor %}
+			</div>
+	      {% endfor %}
+      </div>
+
+    <hr>
+
+    <!-- Volunteer -->
+    <div style="position: relative">
+        <h1 style="text-align: center">Volunteer</h1>
+        <div class="transparent-offset" id="volunteer"></div>
+    </div>
+    <div class="container">
+        <p>
+            We are looking for professors and industry professionals to volunteer at our events. You can help us by being a judge at our Design Reviews and/or Final Competition.
+        </p>
+        <p>
+            Please contact us at <a href="partnerships@pioneers.berkeley.edu"> presentationerships@pioneers.berkeley.edu</a>
+        </p>
+
+    <!--   <div class="panel panel-info">
+        <div class="panel-heading">
+          The 2013 Robotics Competition season is now over.
+        </div>
+        <div class="panel-body">
+          Thank you to all of the judges for their help with the 2013 Design Reviews and Fall Competition!  We are always looking for judges for next year's Design Reviews and Fall Competition, so please do not hesitate. Contact us at {% email partnerships@pioneers.berkeley.edu %}!
+        </div>
+      </div>
+     -->
+    <div class="row">
+        <div id="design-review-judge" class="col-sm-6">
+            <h2>Design Review Judge</h2>
+            <p>
+                We require each high school team to give a presentation to a panel of professors and industry professionals during the first few weeks of the competition season. The purpose of the reviews is to encourage high school students to present their ideas and to receive feedback on their design.
+            </p>
+        </div>
+        <div id="final-comp-judge" class="col-sm-6">
+            <h2>Final Competition Judge</h2>
+            <p>
+                At Final Competition, teams can earn awards for superior mechanical, electrical, and software robot design. We invite professors and industry professionals to judge these designs and decide on an award winner in each category.
+            </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- FAQ -->
+    <div style="position: relative">
+        <h1 style="text-align: center">FAQ</h1>
+        <div class="transparent-offset" id="faq"></div>
+    </div>
+    <div class="container">
+        {% for qa in site.data.faq %}
+            <div>
+                <h3 style="cursor: pointer;" data-toggle="collapse" data-target="#collapse{{ forloop.index }}">
+                    + <i>{{ qa.question }}</i>
+                </h3>
+            </div>
+            <p class="collapse" id="collapse{{ forloop.index }}">{{ qa.answer }}</p>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+<!--
+Are you interested in joining the more than 80 active staff members of PiE? We currently have [over 20 different projects](../get-involved/faq.html#projects) for you to get involved in. Pioneers in Engineering is an excellent way to get involved in outreach through engineering - your work in PiE will reach hundreds of Bay Area high school students. Our organization is entirely student run and depends on the efforts and contributions of students like you.
+
+
+If you’re looking to get involved, or just want more information about us, shoot an email to <a href="mailto:recruiting@pioneers.berkeley.edu">recruiting@pioneers.berkeley.edu</a> or fill out [this interest form](https://docs.google.com/forms/d/1Yiyzjsyio_bC4FRvGLdYg7EoBzHKdJ4ZJYyrRlnuTOM/viewform) to join our mailing list! You can also drop by our weekly work sessions - catch us in the 3rd Floor O’Brien Breezeway (the glass hallway between McLaughlin and O’Brien) on Wednesdays from 7-9 PM and Saturdays from 1-3 PM, starting September 12.
+
+
+[Check out some frequently asked questions about joining PiE staff!](../get-involved/faq.html)
+
+[<img class="img-responsive" src="{{ '/assets/images/join-staff/whyjoinpie.png' | prepend: site.baseurl }}">]({{ '/assets/images/join-staff/whyjoinpie.png' | prepend: site.baseurl }}){:target="_blank"}
+-->
+
+<!-- other student groups, make new page?
+<h1>Other Student Groups on Campus</h1>
+
+Berkeley has lots of other student groups related to engineering or community outreach - here’s a small selection below!
+
+<h1>Robotics@Berkeley</h1>
+Robotics@Berkeley is a student group committed to lowering the barriers to starting robotics projects and joining the robotics community at Cal. They strive to create a financial, social, and informational hub for undergraduate roboticists at UC Berkeley by:
+
+1. Providing monetary, informational, and administrative support for students’ robotics-related projects and competition teams,
+2. Collecting and publicizing information about and opportunities in UC Berkeley’s robotics-related student groups and research labs, and
+3. Organizing socially and intellectually engaging events for roboticists of all ages, majors, and interests.
+
+You can check out more about their group on their website [here](https://rab.berkeley.edu), along with a list of other robotics organizations they list [here](https://rab.berkeley.edu/related/clubs).
+-->

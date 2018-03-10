@@ -1,9 +1,9 @@
 - name: Xiao Yu Fu
-  title: Founder | Univ. of Michigan
+  title: Founder | Univ. of Calgary
   picture: xiao.jpg
 
 - name: Matthew Chang
-  title: MyLikes
+  title: Amazon
   picture: mattchang.jpg
 
 - name: Amy Fu
@@ -11,11 +11,11 @@
   picture: amy.jpg
 
 - name: Samuel Fung
-  title: E.ON Climate and Renewables
+  title: ThinkTank
   picture: sam.jpg
 
 - name: Vanathi Ganesh
-  title: Advisor | Qualcomm
+  title: Advisor | Microsoft
   picture: vanathi.jpg
 
 - name: Humphrey Hu
@@ -27,7 +27,7 @@
   picture: doug.jpg
 
 - name: Ryan Julian
-  title: Advisor | Google
+  title: Advisor | University of Southern California
   picture: ryan.jpg
 
 - name: Huda Khayrallah
@@ -39,15 +39,15 @@
   picture: nikita.jpg
 
 - name: William Li
-  title: Advisor | Ninjacourses
+  title: Advisor | Sparks
   picture: wli.jpg
 
 - name: Allen Li
-  title: Advisor | Asana
+  title: Advisor | Facebook
   picture: ali.jpg
 
 - name: Winston Long
-  title: Advisor | Kravin
+  title: Advisor
   picture: winston.jpg
 
 - name: Robert Luan
@@ -59,15 +59,15 @@
   picture: peter.jpg
 
 - name: Jared Porter
-  title: UC Berkeley
+  title: Phasespace
   picture: jared.jpg
 
 - name: Dennis Wai
-  title: Advisor | UC Berkeley
+  title: Advisor | Jet Propulsion Laboratory
   picture: dennis.jpg
 
 - name: John Wang
-  title: Univ. of Michigan
+  title: May Mobility
   picture: john.jpg
 
 - name: Or Weizman
@@ -77,3 +77,11 @@
 - name: Baladitya Yellapragada
   title: UC Berkeley
   picture: aditya.jpg
+
+- name: Daniel Lee
+  title: Advisor | Google
+  picture: daniel.jpg
+
+- name: Tomoya Ogura
+  title: Advisor | Captricity
+  picture: tommy.jpg

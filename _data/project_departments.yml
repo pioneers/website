@@ -1,0 +1,10 @@
+- department:
+  name: 'Kit Engineering Projects'
+- department:
+  name: 'Programs Projects'
+- department:
+  name: 'Education & Outreach Projects'
+# - department: 
+#   name: 'Staff Operations Projects'
+- department: 
+  name: 'Web Operations Projects'
