@@ -84,8 +84,8 @@ def teleop_setup():
 
 def teleop_main():
     if Gamepad.get_value("joystick_right_y") > 0.5:
-        Robot.set_value(left_motor, "duty_cycle", -1.0)
-        Robot.set_value(right_motor, "duty_cycle", -1.0)
+        Robot.set_value(left_motor, "duty_cycle", -0.5)
+        Robot.set_value(right_motor, "duty_cycle", -0.5)
     else:
         Robot.set_value(left_motor, "duty_cycle", 0)
         Robot.set_value(right_motor, "duty_cycle", 0)
