@@ -1,14 +1,17 @@
 ---
 layout: markdown
+hero-image: url(/assets/images/about-us/work-in-progress.jpg)
+hero-message: Kit Resources
 ---
 
-# Resources
+# Kit Resources
+
+
+[Electrical Introduction](electrical-intro.html)
 
 [Batteries and Charging](battery.html)
 
 [Drive Trains](drive-train.html)
-
-[Electrical Introduction](electrical-intro.html)
 
 [Motor Controller (Yogi Bear)](motor-controller.html)
 

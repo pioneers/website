@@ -1,5 +1,7 @@
 ---
 layout: markdown
+hero-image: url(/assets/images/about-us/work-in-progress.jpg)
+hero-message: Kit Resources
 ---
 
 Battery & Charging Guideline
