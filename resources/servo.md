@@ -7,7 +7,7 @@ Servo Controllers
 
 #Servo Controller
 
-<img src="/uploads/default/original/1X/9121465f2aa6d72c5bb0547071a47c69e7657929.jpg" width="300" height="300">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/9121465f2aa6d72c5bb0547071a47c69e7657929.jpg" width="300" height="300">
 
 The servo controller board powers and controls up to 2 [**Servo Motors**](#servo). 
 
@@ -23,7 +23,7 @@ Servo motors require a relatively large current compared to the current supplied
 
 ##Servo <a name = "servo"></a>
 
-<img src="/uploads/default/original/1X/29b399489f1c1059971ded9bce1a38a6719890fa.png" width="200" height="250">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/29b399489f1c1059971ded9bce1a38a6719890fa.png" width="200" height="250">
 
 Servo motors are normal electric motors which incorporate sensor feedback to provide controllers with position information (i.e. turn angle). This critical feature distinguishes servo motors from normal motors, as servos allow users to control how much they turn while motors are just turned on and off and rotate (depends on motor). Servo is commonly used for angle precise operations such as arm and door actuation, whereas motors are used for simpler movement
 
