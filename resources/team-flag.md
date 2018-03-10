@@ -2,12 +2,9 @@
 layout: markdown
 ---
 
-Team Flag
-========
-
 #Team Flag
 
-<img src="https://forum.pierobotics.org/uploads/default/optimized/1X/629ff7823befd8ebc3753d8bb03967c45364ba7e_1_325x300.jpg" width="325" height="300">
+<img src="https://discourse.pierobotics.org/uploads/default/optimized/1X/629ff7823befd8ebc3753d8bb03967c45364ba7e_1_325x300.jpg" width="325" height="300">
 
 The Team Flag is used for indicating robot status and alliance. The center dome will light up either Blue or Yellow during the competition to indicate robot on Blue or Gold alliance. The Team Flag also has 4 red programmable LEDs that can be used to indicate the status of the robot in student code.
 

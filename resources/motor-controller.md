@@ -1,10 +1,10 @@
 ---
 layout: markdown
 ---
+
 Motor Controller (Yogi Bear)
 ==========
 
-# Motor Controller
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/16669bbd4a295e770a0910f575382924339387c3.jpg" width="400" height="300">
 
 A YogiBear is a motor controller included in all kits. Its sole purpose is to communicate with the motor and provide the ability to drive it as well as to receive information from it. The YogiBear provides direct drive through PWM inputs as well as more complex closed loop drive through a PID loop. In addition to this, the YogiBear is connected to an encoder which provides information about how fast the motor is spinning and how far it has spun. The YogiBear also has an internal safety feature called Current Limiting as well as three LEDs which provide information about the state of the motor.

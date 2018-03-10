@@ -5,8 +5,6 @@ layout: markdown
 Servo Controllers
 =========
 
-#Servo Controller
-
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/9121465f2aa6d72c5bb0547071a47c69e7657929.jpg" width="300" height="300">
 
 The servo controller board powers and controls up to 2 [**Servo Motors**](#servo). 

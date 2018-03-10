@@ -2,9 +2,6 @@
 layout: markdown
 ---
 
-The PiE Electrical System
-=============
-
 #The PiE Electrical System
 
 ![names](http://i.imgur.com/80K7t9A.png)

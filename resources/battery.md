@@ -5,8 +5,6 @@ layout: markdown
 Battery & Charging Guideline
 ============
 
-#Battery
-
 ![battery](https://hobbyking.com/media/catalog/product/cache/1/image/565x414/9df78eab33525d08d6e5fb8d27136e95/legacy/catalog/t2200-2-20.jpg)
 
 The battery is a 12V Lithium Phosphate, 3-Cell battery. Battery voltage and individual cell voltage must fall within a certain range in order to operate safely. Cell voltages can not exceed 4.2V, and cannot dip below 3.3V each, meaning overall, the battery must remain in the range of 10-12.6V.  
