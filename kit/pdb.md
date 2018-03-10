@@ -17,7 +17,7 @@ The PDB (short for Power Distribuition Board) is the main board that safely mana
 [Wiring Diagram](#wiring)
 
 
-##PDB <a name="PDB"></a>
+## PDB <a name="PDB"></a>
 ---
 The PDB takes in a supply of 12 volts from the battery, then diverges into two sections. The 12 volt section, for motors, and the 5 volt section, for other boards/servos/etc. There are also fuses and a circuit breaker which act as another layer of protection against frying components. Fuses are designed to break if they experience too much current, so the connection to your parts will be severed. The circuit breaker acts as nothing more than a switch, however it will turn itself off should the current become too large. 
 
@@ -28,11 +28,11 @@ The PDB takes in a supply of 12 volts from the battery, then diverges into two s
 * Battery power wire goes to female XT-60 connector
 * Battery Cell Balance Wire goes to the female MTA connector. This plug is what gives the battery buzzer the information it needs to determine your battery voltage.
 
-###Circuit Breaker<a name ="circuitbreaker"></a>
+### Circuit Breaker<a name ="circuitbreaker"></a>
 * Acts as the "on off" switch for your robot. The red button turns it off, by breaking the circuit. The yellow switch turns it on. 
 * The circuit breaker will automatically turn off should too much current run through it.
 
-###Power Rail
+### Power Rail
 **12 V Rail**
 
 * The so-called 12V rail is directly connected to the Battery through the Circuit Breaker, and is not regulated.  The 12V rail is designed to be the primary source of power for large loads, such as motor controllers.
@@ -72,7 +72,7 @@ The system also has protection to guard against the effects of rapid changes in 
 * Acts as the "brain" for the battery buzzer.
 
 
-####Block Diagram of How it Works:
+#### Block Diagram of How it Works:
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/b68f55c49a63ca4045c528dde7bd6ff1157d5177.png" width="500" height="315">
 
 

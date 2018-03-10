@@ -4,7 +4,7 @@ hero-image: url(/assets/images/about-us/work-in-progress.jpg)
 hero-message: Kit Resources
 ---
 
-#RFID Sensor
+# RFID Sensor
 
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/654c9af1a80c62048f2e38d5c66c7992c8658fa6.jpg" width="340" height="300">
 

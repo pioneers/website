@@ -7,7 +7,7 @@ hero-message: Kit Resources
 Smart Sensor
 ==========
 
-#SmartSensor
+# SmartSensor
 
 <img src="https://discourse.pierobotics.org/uploads/default/original/1X/ee7dbea01e4edbb7cadbe9ac013e54ee096f361f.jpg" width="300"height = 300">
 
@@ -17,7 +17,7 @@ As an interface with various sensors, the Smart Sensor Board connects the Arduin
 
 ---
 
-##The Sensors
+## The Sensors
 
 ### List of Available Sensors
 
@@ -68,7 +68,7 @@ Active Sensor-interface setup:
 Examples:
 <img src="http://i.imgur.com/o2dXvvP.jpg" width="600" height="450">
 
-####Screw Terminal:
+#### Screw Terminal:
 
 ![screw terminal](http://i.imgur.com/gwrf49H.jpg)
 For the screw terminal: going from right to left: 5V, A1, A2, A3, GND.

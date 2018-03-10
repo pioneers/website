@@ -4,7 +4,7 @@ hero-message: Kit Resources
 layout: markdown
 ---
 
-#Team Flag
+# Team Flag
 
 <img src="https://discourse.pierobotics.org/uploads/default/optimized/1X/629ff7823befd8ebc3753d8bb03967c45364ba7e_1_325x300.jpg" width="325" height="300">
 
@@ -12,7 +12,7 @@ The Team Flag is used for indicating robot status and alliance. The center dome 
 
 ---
 
-##Using the status LED
+## Using the status LED
 
 The simplest implementation of the status LED is to toggle LED on or off when a specified sensor returns value over or under a threshold. You can implement this functionality on your student code by checking sensor value and setting LED to be High or Low depending on a threshold value. Other suggested use cases are:
 
