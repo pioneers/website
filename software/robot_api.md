@@ -57,7 +57,7 @@ The parameters for a **Limit Switch** describe which of the three switches is be
 **Sample Usage:** 
 
 ~~~python
-#returns whether or not switch0 is pressed on limit switch controller named “limit_switch0”
+#returns whether or not switch0 is pressed on limit switch controller with id limit_switch_id
 Robot.get_value(limit_switch_id, "switch0") 
 ~~~
 
