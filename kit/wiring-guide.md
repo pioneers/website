@@ -11,6 +11,8 @@ You can use the 2018 [Wiring Guide](/assets/kit-resources/Updated-Naming-Guide.p
 
 <img src="/assets/kit-resources/Wiring-Guide-2018.png" alt="Wiring Guide" width="100%">
 
-<img src="/assets/kit-resources/Naming-Guide-2018.png" alt="Naming Guide" width="100%">
+<img src="/assets/kit-resources/updated-naming-guide-0.png" alt="Naming Guide" width="100%">
+<img src="/assets/kit-resources/updated-naming-guide-1.png" alt="Naming Guide" width="100%">
+<img src="/assets/kit-resources/updated-naming-guide-2.png" alt="Naming Guide" width="100%">
 
 
