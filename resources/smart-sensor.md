@@ -7,7 +7,7 @@ Smart Sensor
 
 #SmartSensor
 
-<img src="/uploads/default/original/1X/ee7dbea01e4edbb7cadbe9ac013e54ee096f361f.jpg" width="300"height = 300">
+<img src="https://discourse.pierobotics.org/uploads/default/original/1X/ee7dbea01e4edbb7cadbe9ac013e54ee096f361f.jpg" width="300"height = 300">
 
 A multipurpose board that interfaces with a line-following array, potentiometers, and limit switches.
 
