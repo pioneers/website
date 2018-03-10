@@ -52,7 +52,10 @@
     font-family: "arial";
 }
 
- /* offset class for links to sections on pages */
+ /* offset class for links to sections on pages, so nav is skipped */
+ /* HOW TO USE: must be in an element with style="position: relative"
+  * Put it before the element you want to scroll to: the anchor element
+  */
 .transparent-offset {
     position: absolute;
     z-index:-1;
@@ -254,26 +257,30 @@ Does not work on round things. */
   margin-top: $spacing-unit;
 }
 
-#fall-image {
-  background-image: url(/assets/images/about-us/fall.jpg);
-  background-color: rgba($pie-blue, .70);
+#who-are-we-image {
+  background-image: url(/assets/images/gallery-photos/retreat-2015-3.jpg);
+  background-color: rgba($pie-blue, 0.50);
 }
 
-#spring-image {
-  background-image: url(/assets/images/about-us/spring.jpg);
-  background-color: rgba($pie-gold, 0.70);
+#students-image {
+  background-image: url(/assets/images/about-us/work-in-progress.jpg);
+  background-color: rgba($pie-gold, 0.50);
+}
+
+#programs-image {
+  background-image: url(/assets/images/stock-images/scholarship.jpg);
+  background-color: rgba($pie-blue, 0.50);
+}
+
+#get-involved-image {
+  background-image: url(/assets/images/pie-expo.jpg);
+  background-color: rgba($pie-gold, 0.50);
 }
 
 #support-us-image {
-  background-image: url(/assets/images/companyposter.jpg);
-  background-color: rgba($pie-gold, 0.70);
+  background-image: url(/assets/images/stock-images/cal_big_give.jpg);
+  background-color: rgba($pie-blue, 0.10);
 }
-
-#who-are-we-image {
-  background-image: url(/assets/images/retreat18.jpg);
-  background-color: rgba($pie-blue, 0.1);
-}
-
 
 .graphic-description {
   width: 80%;
@@ -287,12 +294,12 @@ Does not work on round things. */
   }
 }
 
-#fall-row {
+#blue-row {
   background-color: $pie-blue;
   color: white;
 }
 
-#spring-row {
+#gold-row {
   background-color: $pie-gold;
   flex-direction: row-reverse;
 }
