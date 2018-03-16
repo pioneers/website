@@ -35,7 +35,6 @@ This function is useful for checking the state of certain parts of your robot wh
 
 - **Limit Switch**
 - **Line Follower**
-- **Potentiometer**
 - **Team Flag**
 - **Servo**
 - **YogiBear**
@@ -80,27 +79,6 @@ The `parameters` for a **Line Follower** describe how much light is being reflec
 ~~~python
 #returns how much light is seen from the center sensor on the line follower named “line_follower0”
 Robot.get_value(line_follower_id, "center")
-~~~
-
-<h2 data-toc-text="Robot.get_value (potentiometer)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">potentiometer</span></h2>
-
-Returns a value associated with the `device` and `parameter` specified.
-
-The `device` being specified is a **Potentiometer**.
-
-`parameters` for a **Potentiometer**:
-
-- `"pot0"`
-- `"pot1"`
-- `"pot2"`
-
-The `parameters` for a **Potentiometer** describe what angle each potentiometer has been rotated to. It returns a <span style="font-variant: small-caps">float</span> value between 0 and 1 where the decimal returned represents what percentage of 360° it has rotated through.
-
-**Sample Usage:**
-
-~~~python
-#returns the angle of pot0 on the potentiometer controller
-Robot.get_value(potentiometer_id, "pot0") 
 ~~~
 
 <h2 data-toc-text="Robot.get_value (servo)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">servo</span></h2>
@@ -529,8 +507,6 @@ def teleop_main():
 **paramameters (params)** Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
 
 **PID** Short for Proporitional Integral Differntial. Process for maintaining a sensor value. Similar to cruise control.
-
-**potentiometer** Device that delivers information to the robot. Potentiometers are like protractors and report angular displacement
 
 **RFID**  Short for Radio Frequency Identification. A technology that allows passive (unpowered) devices to communicate data wirelessly using radio waves
 
