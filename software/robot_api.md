@@ -79,7 +79,7 @@ The `parameters` for a **Line Follower** describe how much light is being reflec
 
 ~~~python
 #returns how much light is seen from the center sensor on the line follower named “line_follower0”
-Robot.get_value(line_follower0, "center")
+Robot.get_value(line_follower_id, "center")
 ~~~
 
 <h2 data-toc-text="Robot.get_value (potentiometer)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">potentiometer</span></h2>
@@ -99,8 +99,8 @@ The `parameters` for a **Potentiometer** describe what angle each potentiometer 
 **Sample Usage:**
 
 ~~~python
-#returns the angle of pot0 on the potentiometer controller named “potentiometer_clock”
-Robot.get_value(potentiometer_clock, "pot0") 
+#returns the angle of pot0 on the potentiometer controller
+Robot.get_value(potentiometer_id, "pot0") 
 ~~~
 
 <h2 data-toc-text="Robot.get_value (servo)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">servo</span></h2>
@@ -119,8 +119,8 @@ The `parameters` for a Servo describes what angle the servo has turned to. It re
 **Sample Usage:**
 
 ~~~python
-#returns the angle servo0 is set to on the servo controller named “servo_arm”
-Robot.get_value(servo_arm, "servo0")
+#returns the angle servo0 is set to on the servo controller 
+Robot.get_value(servo_id, "servo0")
 ~~~
 
 
@@ -145,8 +145,8 @@ The `parameters` for a **YogiBear** can be split into 2 categories:
 **Sample Usage:**
 
 ~~~python
-#returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value(yogibear_left, "enc_pos") 
+#returns the number of encoder ticks the yogibear has read
+Robot.get_value(yogibear_left_id, "enc_pos") 
 ~~~
 
 <h2 data-toc-text="Robot.get_value (RFID)">Robot.get_value(device_id, param) <span style="font-variant: small-caps">rfid</span></h2>
@@ -165,8 +165,11 @@ The `parameters` for an **RFID** describe what tag is found near the RFID. If a 
 **Sample Usage:**
 
 ~~~python
-#returns the number of encoder ticks the yogibear named “yogibear_left” has read
-Robot.get_value(yogibear_left, "enc_pos")
+#returns whether an RFID tag is present
+Robot.get_value(rfid_id, "tag_detect")
+
+#returns whether the ID of the current RFID tag
+Robot.get_value(rfid_id, "id")
 ~~~
 
 <h2 data-toc-text="Robot.set_value">Robot.set_value(device_id, param, value)</h2>
@@ -190,9 +193,21 @@ Sets a `parameter` on a `device` using the specified `value`
 
 The `device` being specified is a **YogiBear**
 
-`parameters` and valid `values` for a **YogiBear:**
+The primary `parameter` and valid `values` for a **YogiBear**:
 
 - `"duty_cycle"` <span style="font-variant: small-caps">float</span> - from -1 to 1
+
+**Primary Control** is handled through the `“duty_cycle”` `parameter`. The `value` passed in tells the motor which direction it should spin and with how much power. The larger the absolute value of the input, the more power the motor tries to output. Also, the two signs of the value, negative or positive, indicate the two directions a motor can spin.
+
+**Sample Usage:**
+
+~~~python
+#sets the yogibear to drive the motor at maximum power in the clockwise direction
+Robot.set_value(yogibear_left_id, "duty_cycle", 1) 
+~~~
+
+Additional `parameters` and valid `values` for a **YogiBear**:
+
 - `"pid_pos_setpoint"` <span style="font-variant: small-caps">float</span>
 - `“pid_pos_kp”` <span style="font-variant: small-caps">float</span> - greater than 0
 - `“pid_pos_ki”` <span style="font-variant: small-caps">float</span> - greater than 0
@@ -200,16 +215,13 @@ The `device` being specified is a **YogiBear**
 - `“current_thresh”` <span style="font-variant: small-caps">float</span> - reasonably from 2 to 10
 - `“enc_pos”` <span style="font-variant: small-caps">integer</span> - 0
 
-**Primary Control** is handled through the `“duty_cycle”` `parameter`. The `value` passed in tells the motor which direction it should spin and with how much power. The larger the absolute value of the input, the more power the motor tries to output. Also, the two signs of the value, negative or positive, indicate the two directions a motor can spin.
+**Additional Features** of the **YogiBear** include the ability to utilize PID control. PID is a closed loop control scheme which uses three factors - `kp`, `ki`, and `kd` - to try and move the motors an exact distance, the specified setpoint. The values of the factors are defaulted to 1, 0, and 0 respectively but can be changed and optimized. 
 
-**Additional Features** of the **YogiBear** include the ability to utilize PID control. PID is a closed loop control scheme which uses three factors - `kp`, `ki`, and `kd` - to try and move the motors an exact distance, the specified setpoint. The values of the factors are defaulted to 1, 0, and 0 respectively but can be changed and optimized. The setpoint is in terms of encoder ticks and not distance, so a conversion is necessary to use this feature. In conjunction with the PID controls, `“enc_pos”` can be written to with the value 0 in order to reset the encoder that keeps track of position. It might prove useful to reset the encoder before attempting to drive the robot using PID controls so that the setpoint can be based off of a consistent and known value. The `“current_thresh”` `parameter` is used to set the current threshold that the motor must cross before it enters a Current Limiting state (see **YogiBear** spec for more details). This should be an appropriate value for your motor that will prevent it from being damaged due to overheating. It is defaulted to 3.5 Amps.
+The setpoint is in terms of encoder ticks and not distance, so a conversion is necessary to use this feature. 
 
-**Sample Usage:**
+In conjunction with the PID controls, `“enc_pos”` can be written to with the value 0 in order to reset the encoder that keeps track of position. It might prove useful to reset the encoder before attempting to drive the robot using PID controls so that the setpoint can be based off of a consistent and known value. 
 
-~~~python
-#sets the yogibear named “yogibear_left” to drive the motor at maximum power in the clockwise direction
-Robot.set_value(yogibear_left, "duty_cycle", 1) 
-~~~
+The `“current_thresh”` `parameter` is used to set the current threshold that the motor must cross before it enters a Current Limiting state (see **YogiBear** spec for more details). This should be an appropriate value for your motor that will prevent it from being damaged due to overheating. It is defaulted to 3.5 Amps.
 
 <h2 data-toc-text="Robot.set_value (servo)">Robot.set_value(device_id, param, value) <span style="font-variant: small-caps">servo</span></h2>
 
@@ -227,10 +239,11 @@ Changing values for the **Servo** spins the servo to an angle based on the value
 **Sample Usage:**
 
 ~~~python
-#sets servo0 on the servo controller named “servo_arm” to be at its maximum position
-Robot.set_value(servo_arm, "servo0", 1) 
+#sets servo0 on the servo controller to be at its maximum position
+Robot.set_value(servo_arm_id, "servo0", 1) 
 ~~~
 
+<!-- Removed for the 2018 competition
 <h2 data-toc-text="Robot.set_value (team flag)">Robot.set_value(device_id, param, value) <span style="font-variant: small-caps">team flag</span></h2>
 
 Sets a `parameter` on a `device` using the specified `value` 
@@ -252,6 +265,7 @@ Changing values for the **Team Flag** turns on or off any of the 4 LEDs attached
 #sets the second LED of the team flag to on
 Robot.set_value(team_flag, "led2", True) 
 ~~~
+-->
 
 
 <h2 data-toc-text="Robot.run">Robot.run(async_function, *args)</h2>
@@ -528,7 +542,7 @@ def teleop_main():
 
 **tag** Small component that can be read with the RFID reader
 
-**team flag** Device that indicates your team during official competition. Has 4 small controllable LEDs
+**team flag** Device that indicates your team during official competition.
 
 **teleoperated (teleop)**  Period during the game in which robots are controlled by human input via controllers
 
