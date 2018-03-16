@@ -35,7 +35,6 @@ This function is useful for checking the state of certain parts of your robot wh
 
 - **Limit Switch**
 - **Line Follower**
-- **Team Flag**
 - **Servo**
 - **YogiBear**
 - **RFID**
@@ -161,7 +160,6 @@ Sets a parameter on a device using the specified value
 
 This function is useful for changing the state of certain parts of your robot while it is driving. For example, calling this function with a **YogiBear**’s name, the parameter `“duty_cycle”`, and the value -1, then the motor attached to the **YogiBear** would spin backwards at full power. Possible devices include:
 
-- **Team Flag**
 - **Servo**
 - **YogiBear**
 
