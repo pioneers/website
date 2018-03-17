@@ -26,3 +26,5 @@ hero-message: Kit Resources
 [Team Flag](team-flag.html)
 
 [Wiring Guide](wiring-guide.html)
+
+[Kit Extension Catalog](Kit-Extension-Catalog-2018.pdf)
