@@ -149,6 +149,43 @@ Robot.get_value(rfid_id, "tag_detect")
 Robot.get_value(rfid_id, "id")
 ~~~
 
+
+<h2 data-toc-text="Robot.decode_message (num)">Robot.decode_message(num)</h2>
+
+Attempts to decode an integer, `num`, using the 8 software challenge functions. Returns whether the attempt was successful.
+
+`num` <span style="font-variant:small-caps">int</span> - a number, usually obtained from an RFID tag
+
+To always successfully decode `num` and return `True`, all 8 software challenge functions must be correctly implemented. On success, Dawn will display the decoded message next to its corresponding power-up within peripherals. See the game manual for more information on power-ups.
+
+If any of the 8 software challenge functions were not written correctly, `decode_message` may fail to decode `num` and return `False`. The robot will not receive a power-up. To get feedback on which of the 8 challenge functions failed, see [Piazza](forum.pierobotics.org) for the autograder.
+
+Students can check if their 8 software challenge functions were written correctly without an RFID sensor using **only** the following values for `num`:
+
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+
+**Sample Usage:**
+
+~~~python
+#Example 1
+#See RFID section for how to use RFID sensors
+rfid_number = Robot.get_value(rfid_id, "id")
+
+#Attempt to decode the number obtained from an RFID
+rfid_result = Robot.decode_message(rfid_number)
+print("Attempt was successful: ", rfid_result)
+
+#Example 2
+#Test the 8 software challenges
+test_result = Robot.decode_message(3)
+print("Attempt was successful: ", test_result)
+~~~
+
 <h2 data-toc-text="Robot.set_value">Robot.set_value(device_id, param, value)</h2>
 Sets a parameter on a device using the specified value
   
