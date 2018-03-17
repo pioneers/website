@@ -55,6 +55,7 @@ Please use the online web application to submit your scholarship application.
 The following documents are provided for your convenience.
 
 * <a href="{{ '/assets/scholarship/2018_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Summary</a>
+* <a href="{{ '/assets/scholarship/2018_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Workshop Slides</a>
 
 ## Past Scholars
 
