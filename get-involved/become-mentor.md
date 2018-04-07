@@ -65,7 +65,7 @@ If you miss the first week of class and would like to join, email {% email rcdec
 	- First week of class: Monday 1/29 OR Thursday 2/1
 - Meet with your team for two hours each week during our 8-week competition season
 - Come to PiE Robotics Competition events at UC Berkeley on select Saturdays
-
+- Help students at worksessions at O'Brien Hall Breezeway 2nd Floor [<a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">map</a>]
 
 # What does mentoring look like?
 
