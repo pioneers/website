@@ -3,6 +3,9 @@ layout: markdown
 hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
+
+<div class="alert alert-info" role="alert">The deadline has been extended to April 18th!</div>
+
 # Pioneers in Engineering Alumni Scholarship
 Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our fourth annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
 
@@ -29,7 +32,7 @@ The scholarship committee will review each application holistically, taking into
     </tr>
     <tr>
       <td>Applications due</td>
-      <td>April 7, 2018</td>
+      <td>April 18, 2018</td>
     </tr>
     <tr>
       <td>Interviews*</td>
