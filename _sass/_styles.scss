@@ -49,7 +49,7 @@
 }
 
 .navbar-text-style {
-    font-family: "arial";
+    /*font-family: "arial";*/
 }
 
  /* offset class for links to sections on pages, so nav is skipped */
@@ -522,6 +522,7 @@ Does not work on round things. */
 
 #small-title {
   visibility:hidden;
+  display:inline;
 }
 
 @media (max-width: 1000px) {
