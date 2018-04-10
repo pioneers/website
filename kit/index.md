@@ -27,4 +27,4 @@ hero-message: Kit Resources
 
 [Wiring Guide](wiring-guide.html)
 
-[Kit Extension Catalog](Kit-Extension-Catalog-2018.pdf)
+[Kit Extension Catalog](https://docs.google.com/document/d/1Llnx0ldOo-r-51PEDz2imRzjfTISgMRTKgIGkeTYiJE/)
