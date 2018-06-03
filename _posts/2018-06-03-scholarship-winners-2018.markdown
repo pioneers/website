@@ -6,6 +6,8 @@ tags: [2018, alumni, scholarship]
 author: Winston Long
 ---
 
+<img src="{{site.baseurl}}/assets/images/blog/scholarship_2018.jpg">
+
 This year marks the 5th anniversary of the PiE Alumni Scholarship! This award is presented to a high school senior in recognition of their dedication to PiE’s goals of higher level education and outreach to the community.  The following are the PiE 2018 Alumni Scholarship finalists for the $2000 award.
 
 #### Esmeralda Topete
