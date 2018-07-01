@@ -1,5 +1,8 @@
-FROM ruby:2.5.1-alpine
+FROM ruby:2.5.1
 MAINTAINER Scott Numamoto <scott.numamoto@pioneers.berkeley.edu>
+
+# Install bundler for dependency management
+RUN apt-get update -qq && apt-get install -y build-essential
 
 # Add the enclosing dir to the image at /srv/jekyll
 ADD . /srv/jekyll
@@ -8,13 +11,13 @@ ADD . /srv/jekyll
 WORKDIR /srv/jekyll
 
 # Install dependencies
-CMD bundle install
+RUN bundle install
 
 # Build the website
-CMD bundle exec jekyll build
+RUN bundle exec jekyll build
 
 # Expose port 4000, the port Jekyll exposes by default
 EXPOSE 4000
 
 # Serve the website when we run the image
-ENTRYPOINT ["bundle exec jekyll serve"]
+CMD bundle exec jekyll serve
