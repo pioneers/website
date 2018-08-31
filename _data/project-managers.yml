@@ -1,51 +1,19 @@
-- name: Kevin Ma
-  project: "Dawn"
-  picture: kevin.jpg
-
-- name: Arjun Sridhar
-  project: Dawn
-  picture: arjun.jpg
-
-- name: Jonathan Lee
-  project: DevOps
-  picture: jonathan.jpg
-
 - name: Angela Kwon
   project: E.D.You
   picture: angela.jpg
-
-- name: Charlie Friesen
-  project: GDC
-  picture: charlie.jpg
 
 - name: Jesse Valva
   project: GIC
   picture: jesse_valva.jpg
 
-- name: Tiffany Chiang
-  project: "Hibike + Runtime"
-  picture: tiffany.jpg
-
-- name: Chad Wakamiya
-  project: Mechanical Kit
-  picture: chad.jpg
-
 - name: Miyuki Weldon
   project: Mechanical Kit
   picture: miyuki.jpg
-
-- name: Averal Kandela
-  project: PiE Sens
-  picture: averal.jpg
-
-- name: Nick Werblun
-  project: PiEDB
-  picture: nick.jpg
 
 - name: Sam Zhou
   project: "Shepherd (Field Control)"
   picture: sam_zhou.jpg
 
-- name: Kevin Chien
-  project: "Website, Web Apps"
-  picture: kevin_chien.jpg
+- name: Jerome Wei
+  project: Web Ops
+  picture: jw.jpg

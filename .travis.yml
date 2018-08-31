@@ -5,7 +5,7 @@ rvm:
 script: 
   - bundle exec jekyll build
 # If we want to check our website too, uncomment the line below
-# - ./script/htmlproofer.sh
+# - ./_script/htmlproofer.sh
 
 env:
   global:

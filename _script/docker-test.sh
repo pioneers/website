@@ -3,7 +3,7 @@
 # Package the current website into a Docker image
 docker build -t pie-website .;
 
-# This is not meant to be run from within script/ but rather the website dir
+# This is not meant to be run from within _script/ but rather the website dir
 
 # Serve the website by running the image we just built
 # This is not meant for debugging problems, but rather identifying problems.
