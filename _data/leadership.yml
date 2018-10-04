@@ -1,24 +1,25 @@
-- name: Vivien Nguyen
+- name: Jesse Valva
   title: Director
-  picture: vivien.jpg
-  short-bio: Third year CS major
+  picture: jesse_valva.jpg
+  short-bio: ''
 
-- name: Briana Niu
-  title: Director of Business
-  picture: briana.jpg
-  short-bio: Fourth year IEOR major
-
-- name: Alan Zhang
-  title: Director of Programs
-  picture: alan.jpg
-  short-bio: Third year math major
-
-- name: Brandon Lee
-  title: Director of Engineering
-  picture: brandon.jpg
-  short-bio: Third year EECS major
-
-- name: Scott Numamoto
+- name: Julie Lum
   title: Director of Education
-  picture: scott.jpg
-  short-bio: Third year EECS major
+  picture: pie-logo.jpg
+  short-bio: ''
+
+- name: Chad Wakamiya
+  title: Director of Programs
+  picture: chad.jpg
+  short-bio: ''
+
+- name: Jonathan Lee
+  title: Director of Engineering (EECS)
+  picture: jonathan.jpg 
+  short-bio: ''
+
+- name: Miyuki Weldon
+  title: Director of Engineering (Mechanical)
+  picture: miyuki.jpg
+  short-bio: 
+
