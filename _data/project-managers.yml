@@ -65,6 +65,6 @@
     timestamp: 10/6/2018 13:48:18
     name: Adilet Pazylkarim	
     project: PiEDB	
-    description: 'PiEDB is part of PiE Electrical Team, which works with Power Distribution Board (PDB). PDB is relatively simple circuits board, that performs two main functions: power distribution and battery cell voltage display. The reason why PDB has entire team dedicated to it, is difficulty of power electronics. Currently, we mostly focused on optimisation of PDB's design, derived by previous iterations of our team.' 	
+    description: 'PiEDB is part of PiE Electrical Team, which works with Power Distribution Board (PDB). PDB is relatively simple circuits board, that performs two main functions: power distribution and battery cell voltage display. The reason why PDB has entire team dedicated to it, is difficulty of power electronics. Currently, we mostly focused on optimisation of PDB''s design, derived by previous iterations of our team.' 	
     bio: 'Just a circuits guy from Central Asia. There are only three virtues in this world: family, friends, and horse meat.'
     photo: adilet.png
