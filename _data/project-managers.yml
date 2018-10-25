@@ -45,7 +45,7 @@
     name: Jerome Wei
     project: Web
     description: We maintain the PiE website and run other web app projects.
-    bio: 'I''m an intented CS major. I enjoy computer stuff and being cynical'
+    bio: 'I''m an intented CS major. I like computer stuff and cynicism'
     photo: jerome.png
 -
     timestamp: 9/26/2018 22:00:40
@@ -54,6 +54,20 @@
     description: 'Game Design Committee is exactly as it sounds -- we design the game for PiE''s annual robotics competition. As essentially the backbone of PiE, what we design determines what many of the other projects work on throughout the year. We strive to create a fair, challenging, but fun game for students that will be fun for staff to work on as well!'
     bio: I once faked an admission letter to Hamburger University. Feel free to talk to me about Guy Fieri, chicken nuggets, and memes.
     photo: Karen_Lee.jpg
+-
+    timestamp: 10/14/2018 23:31:02
+    name: Aliya Kusumo
+    project: Game Implementation Committee
+    description: Design and make the robotics competition field and source its elements
+    bio: Second year Mechanical Engineering student interested in design, efficient layouts, and traveling
+    photo: aliya.jpg
+-
+    timestamp: 10/16/2018 19:34:34
+    name: Lawrence Chen
+    project: Dawn
+    description: Dawn is a cross-platform frontend for the PiE robotics control system. It is the application students will see and use when programming and testing their robots. It is written with web technologies and packaged via Electron.
+    bio: I'm a 3rd-year EECS and Data Science major hailing from Stockton, California. In my free time, I like to work hard.
+    photo: lawrence.jpg
 -
     timestamp: 9/30/2018 17:06:09
     name: Steven Lu
