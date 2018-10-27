@@ -17,15 +17,6 @@
     bio: Proficient in stackoverflow oriented programming. Wrote a few front-end projects in high school. (Sort of) proficient in python. Know a little bit of swift, java, and javascript.
     misc-info: https://ziyaointl.com
 -
-    timestamp: 9/19/2018 19:41:09
-    name: Kunal Gupta
-    email: kunal.gupta@berkeley.edu
-    year: 3
-    major: Data Science, Minor in CS 
-    classes: cs61a, cs61b, cs70, math53, math 54, stat140,  cs188, data100 
-    bio: Lived in 4 countries, 7 cities, love playing tennis.
-    misc-info: GitHub - KernelG
--
     timestamp: 9/19/2018 19:41:27
     name: Jialin Li
     email: j.li98@berkeley.edu
@@ -166,7 +157,7 @@
     email: dixuncui@berkeley.edu
     year: 1
     major: Mechanical Engineering
-    classes: math 1a, e25, com lit 60ac, english r1b
+    classes: 'Current: math 1a, e25, com lit 60ac, english r1b'
     bio: "-enjoys playing the guitar and piano\n-does soccer and swimming\n-want to help high school kids get robotics opportunities because my high school couldn't afford them\n-huge Toronto Maple Leafs fan\n"
     misc-info: 
 -
@@ -303,4 +294,31 @@
     major: Bioengineering
     classes: 
     bio: 
+    misc-info: 
+-
+    timestamp: 10/1/2018 17:04:52
+    name: Jesse Valva
+    email: jessevalva@pioneers.berkeley.edu
+    year: 3
+    major: Applied Math
+    classes: Math 128A, 110, 53, 54, 55, CS 61A, Stat 133, 134, 135
+    bio: I study applied math because I enjoy knowing a variety of spooky sounding words and phrases such as Gaussian quadrature, polynomial interpolation, the Jacobian, Jordon canonical form, probability density function, and many more. When not learning spooky words, I am pretty good at playing Super Smash Brothers Melee (2nd best in PiE to be exact). I am a recovering Mountain Dew addict and I have an insane sweet tooth. I also have a wicked strong sense of humor. Point being, I am never sarcastic.
+    misc-info: 
+-
+    timestamp: 10/1/2018 20:27:06
+    name: Julie Lum
+    email: julielum@pioneers.berkeley.edu
+    year: 3
+    major: MEB/EEP
+    classes: 'nobody takes my classes :''('
+    bio: I like anime 
+    misc-info: 
+-
+    timestamp: 10/1/2018 20:59:20
+    name: Albert Wen
+    email: albertwen@pioneers.berkeley.edu
+    year: 1
+    major: Mechanical Engineering
+    classes: Math 53, Engineering 7, Physics 7A
+    bio: 'I''m excited to work with others and spread STEM education with PiE. '
     misc-info: 
