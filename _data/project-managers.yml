@@ -45,7 +45,7 @@
     name: Jerome Wei
     project: Web
     description: We maintain the PiE website and run other web app projects.
-    bio: 'I''m an intented CS major. I enjoy computer stuff and being cynical'
+    bio: 'I''m an intented CS major. I like computer stuff and cynicism'
     photo: jerome.png
 -
     timestamp: 9/26/2018 22:00:40
@@ -55,9 +55,30 @@
     bio: I once faked an admission letter to Hamburger University. Feel free to talk to me about Guy Fieri, chicken nuggets, and memes.
     photo: Karen_Lee.jpg
 -
+    timestamp: 10/14/2018 23:31:02
+    name: Aliya Kusumo
+    project: Game Implementation Committee
+    description: Design and make the robotics competition field and source its elements
+    bio: Second year Mechanical Engineering student interested in design, efficient layouts, and traveling
+    photo: aliya.jpg
+-
+    timestamp: 10/16/2018 19:34:34
+    name: Lawrence Chen
+    project: Dawn
+    description: Dawn is a cross-platform frontend for the PiE robotics control system. It is the application students will see and use when programming and testing their robots. It is written with web technologies and packaged via Electron.
+    bio: I'm a 3rd-year EECS and Data Science major hailing from Stockton, California. In my free time, I like to work hard.
+    photo: lawrence.jpg
+-
     timestamp: 9/30/2018 17:06:09
     name: Steven Lu
     project: PieSens
     description: PieSens is one of the 2 electrical teams in PiE. We design and make most of the boards that go onto the robots, such as motor controllers and other boards that interface with various sensors.
     bio: 'Hi! I''m a second year EECS major. I enjoy doing puzzles, travelling, and playing the clarinet. Writing bios is not on the list of things I enjoy.'
     photo: Steven_Lu.jpg
+-
+    timestamp: 10/6/2018 13:48:18
+    name: Adilet Pazylkarim	
+    project: PiEDB	
+    description: 'PiEDB is part of PiE Electrical Team, which works with Power Distribution Board (PDB). PDB is relatively simple circuits board, that performs two main functions: power distribution and battery cell voltage display. The reason why PDB has entire team dedicated to it, is difficulty of power electronics. Currently, we mostly focused on optimisation of PDB''s design, derived by previous iterations of our team.' 	
+    bio: 'Just a circuits guy from Central Asia. There are only three virtues in this world: family, friends, and horse meat.'
+    photo: adilet.png
