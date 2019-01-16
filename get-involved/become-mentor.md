@@ -14,14 +14,14 @@ Find out more at our info sessions:
 <div class="card col-sm-4" style="width: 20rem; padding: 10px;">
   <div class="card-block">
     <h4 class="card-title">Infosession #1</h4>
-    <p class="card-text">Monday 1/22 6:30 - 7:30 PM</p>
+    <p class="card-text">Jan 29, Tuesday 6:30 - 7:30 (Free PiE!)</p>
     <a class="btn btn-default" href="https://www.facebook.com/events/707604659436031/" role="button">FB Event &raquo;</a>
   </div>
 </div>
 <div class="card col-sm-4" style="width: 20rem; padding: 10px;">
   <div class="card-block">
     <h4 class="card-title">Infosession #2</h4>
-    <p class="card-text">Thursday 1/25 6:30 - 7:30 PM</p>
+    <p class="card-text">Feb 1, Friday 6:30 - 7:30 (Free PiE!)</p>
     <a class="btn btn-default" href="https://www.facebook.com/events/1556969284393724/" role="button">FB Event &raquo;</a>
   </div>
 </div>
@@ -29,8 +29,8 @@ Find out more at our info sessions:
 
 #### First Week of Class
 <ul>
-    <li>Monday 1/29 6:30 - 7:30 pm, 220 Jacobs Hall</li>
-    <li>Thursday 2/1 6:30 - 7:30, 210 Jacobs Hall</li>
+    <li>Tuesday Feb 4th, Jacobs 10C</li>
+    <li>Friday Feb 8th, Jacobs 10C</li>
 </ul>
 
 If you miss the first week of class and would like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
