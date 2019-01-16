@@ -15,14 +15,14 @@ Find out more at our info sessions:
   <div class="card-block">
     <h4 class="card-title">Infosession #1</h4>
     <p class="card-text">Jan 29, Tuesday 6:30 - 7:30 (Free PiE!)</p>
-    <a class="btn btn-default" href="https://www.facebook.com/events/707604659436031/" role="button">FB Event &raquo;</a>
+    <a class="btn btn-default" href="https://www.facebook.com/events/382502775891086/" role="button">FB Event &raquo;</a>
   </div>
 </div>
 <div class="card col-sm-4" style="width: 20rem; padding: 10px;">
   <div class="card-block">
     <h4 class="card-title">Infosession #2</h4>
     <p class="card-text">Feb 1, Friday 6:30 - 7:30 (Free PiE!)</p>
-    <a class="btn btn-default" href="https://www.facebook.com/events/1556969284393724/" role="button">FB Event &raquo;</a>
+    <a class="btn btn-default" href="https://www.facebook.com/events/224278265149195/" role="button">FB Event &raquo;</a>
   </div>
 </div>
 </div>
