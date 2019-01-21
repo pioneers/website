@@ -245,11 +245,6 @@ hero-message: Get Involved!
           	{% for project in site.data.projects%}
 				{% if project.department == department.name %}
           	  		<div class="staff-member card" style="margin-bottom: 20px">
-            <!--<div class="staff-image">
-              <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
-                <img class="img-scaled-wh" src="/assets/images/team/staff_photos/{{ member.picture }}" alt="">
-              </a>
-            </div>-->
             		<div class="staff-description" style="padding: 10px">
               		<h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ project.project }}</h4>
               <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> {% if project.department == 'Kit Engineering Projects' %} {{ project.subdepartment  }} {% endif %} {% if project.manager %} <h5 class="card-text" style="margin-top: 0; margin-bottom: 7px"> PM: {{ project.manager }} {% endif %} </h5></h5>
@@ -276,7 +271,6 @@ hero-message: Get Involved!
 			</div>
 	      {% endfor %}
       </div>
-
     <hr>
 
     <!-- Volunteer -->
@@ -292,15 +286,6 @@ hero-message: Get Involved!
             Please contact us at <a href="partnerships@pioneers.berkeley.edu"> presentationerships@pioneers.berkeley.edu</a>
         </p>
 
-    <!--   <div class="panel panel-info">
-        <div class="panel-heading">
-          The 2013 Robotics Competition season is now over.
-        </div>
-        <div class="panel-body">
-          Thank you to all of the judges for their help with the 2013 Design Reviews and Fall Competition!  We are always looking for judges for next year's Design Reviews and Fall Competition, so please do not hesitate. Contact us at {% email partnerships@pioneers.berkeley.edu %}!
-        </div>
-      </div>
-     -->
     <div class="row">
         <div id="design-review-judge" class="col-sm-6">
             <h2>Design Review Judge</h2>
