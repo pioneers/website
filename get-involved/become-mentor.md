@@ -28,6 +28,7 @@ Find out more at our info sessions:
 </div>
 
 ## No Experience Required, All Majors Welcome
+
 <div class="row">
   <div class="col-sm-6">
     <h3>What will you learn?</h3>
@@ -43,8 +44,8 @@ Find out more at our info sessions:
       <li>
         Choose to attend section on either (not both):
         <ul>
-          <li>Monday 6:30PM - 8:30, 220 Jacobs Hall</li>
-          <li>Thursday 6:30PM - 8:30, 210 Jacobs Hall</li>
+          <li>Tuesday 6:30 PM - 8:30, 10C Jacobs Hall</li>
+          <li>Friday 6:30 - 8:30, 10C Jacobs Hall</li>
         </ul>
       </li>
       <li>Meet with your team for two hours each week during our 9-week competition.</li>
@@ -54,8 +55,7 @@ Find out more at our info sessions:
     </ul>
     <h3>First Week of Class</h3>
     <ul>
-        <li>Tuesday Feb 4th, Jacobs 10C</li>
-        <li>Friday Feb 8th, Jacobs 10C</li>
+        <li>Tuesday 2/5 OR Friday 2/8</li>
     </ul>
     <p>
       If you miss the first week of class and would still like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
