@@ -9,70 +9,67 @@ hero-image: url(../assets/images/stock-images/mentor.jpg)
 Become a mentor for a high school robotics team. Be a role model for local students as you guide them in building a robot for PiE's Robotics Competition. Through our class, you'll learn what you need to know to be a mentor and help build the robot.
 
 Find out more at our info sessions:
-<!--[eventually to be hyperlinked to our FB events]-->
+
+<div class="row" style="padding-left: 2rem">
+  <div class="card col-sm-3" style="padding-bottom: 1.5rem">
+    <div class="card-block">
+      <h4 class="card-title">Infosession #1</h4>
+      <p class="card-text">Jan 29, Tuesday 6:30 - 7:30 (Free pie!)</p>
+      <a class="btn btn-default" href="https://www.facebook.com/events/382502775891086/" role="button">FB Event &raquo;</a>
+    </div>
+  </div>
+  <div class="card col-sm-3" style="padding-bottom: 1.5rem">
+    <div class="card-block">
+      <h4 class="card-title">Infosession #2</h4>
+      <p class="card-text">Feb 1, Friday 6:30 - 7:30 (Free pie!)</p>
+      <a class="btn btn-default" href="https://www.facebook.com/events/224278265149195/" role="button">FB Event &raquo;</a>
+    </div>
+  </div>
+</div>
+
+## No Experience Required, All Majors Welcome
 <div class="row">
-<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
-  <div class="card-block">
-    <h4 class="card-title">Infosession #1</h4>
-    <p class="card-text">Jan 29, Tuesday 6:30 - 7:30 (Free PiE!)</p>
-    <a class="btn btn-default" href="https://www.facebook.com/events/382502775891086/" role="button">FB Event &raquo;</a>
+  <div class="col-sm-6">
+    <h3>What will you learn?</h3>
+    <ol>
+      <li>How to guide high school students in the robotics competition</li>
+      <li>How to work with the robotics kit</li>
+      <li>How to analyze and breakdown the competition</li>
+      <li>How to inspire high school students through STEM</li>
+    </ol>
+    <h3>Details</h3>
+    <ul>
+      <li>Enroll in our <a href="https://decal.berkeley.edu/courses/4373">DeCal class</a> for 2 units, P/NP.</li>
+      <li>
+        Choose to attend section on either (not both):
+        <ul>
+          <li>Monday 6:30PM - 8:30, 220 Jacobs Hall</li>
+          <li>Thursday 6:30PM - 8:30, 210 Jacobs Hall</li>
+        </ul>
+      </li>
+      <li>Meet with your team for two hours each week during our 9-week competition.</li>
+      <li>Come to PiE Robotics Competition events at UC Berkeley on select Saturdays.</li>
+      <li>Help students at worksessions at <a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">O'Brien Hall Breezeway</a> (2nd floor).</li>
+      <li>Check out our <a href="https://docs.google.com/document/d/1cbWVz2xjL9mtoVFXnzqwgnxDbcro8nSOMF84phj1cbc/edit?usp=sharing">syllabus</a>.</li>
+    </ul>
+    <h3>First Week of Class</h3>
+    <ul>
+        <li>Tuesday Feb 4th, Jacobs 10C</li>
+        <li>Friday Feb 8th, Jacobs 10C</li>
+    </ul>
+    <p>
+      If you miss the first week of class and would still like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
+    </p>
   </div>
-</div>
-<div class="card col-sm-4" style="width: 20rem; padding: 10px;">
-  <div class="card-block">
-    <h4 class="card-title">Infosession #2</h4>
-    <p class="card-text">Feb 1, Friday 6:30 - 7:30 (Free PiE!)</p>
-    <a class="btn btn-default" href="https://www.facebook.com/events/224278265149195/" role="button">FB Event &raquo;</a>
-  </div>
-</div>
-</div>
-
-#### First Week of Class
-<ul>
-    <li>Tuesday Feb 4th, Jacobs 10C</li>
-    <li>Friday Feb 8th, Jacobs 10C</li>
-</ul>
-
-If you miss the first week of class and would like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
-
-
-<div class="hidden-md hidden-lg">
-    <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
+  <div class="col-sm-6">
     <img alt="image of winners" src="/assets/images/stock-images/winners_edit.JPG" style="width: 100%">
+  </div>
 </div>
 
-<div class="row vertical-align hidden-xs hidden-sm">
-    <div class="col-md-6">
-        <h2><strong>No Experience Required, All Majors Welcome</strong></h2>
-    </div>
-    <div class="col-md-6">
-        <img alt="image of winners" src="/assets/images/stock-images/winners_edit.JPG" style="width: 100%">
-    </div>
-</div>
-
-# What will you learn?
-
-1. How to guide high school students in the robotics competition
-2. How to work with the robotics kit
-3. How analyze and breakdown the competition
-4. How to inspire high school students through STEM
-
-# Details
-- Enroll in our [DeCal class](https://decal.berkeley.edu/courses/4373) for 2 units, P/NP
-- Choose to attend section on either (not both):
-    - Monday 6:30 PM - 8:30, 220 Jacobs Hall
-    - Thursday 6:30 - 8:30, 210 Jacobs Hall
-	- First week of class: Monday 1/29 OR Thursday 2/1
-- Meet with your team for two hours each week during our 8-week competition season
-- Come to PiE Robotics Competition events at UC Berkeley on select Saturdays
-- Help students at worksessions at O'Brien Hall Breezeway 2nd Floor [<a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">map</a>]
-- Checkout our [Syllabus](https://docs.google.com/document/d/1cbWVz2xjL9mtoVFXnzqwgnxDbcro8nSOMF84phj1cbc/edit?usp=sharing)
-
-# What does mentoring look like?
+## What does mentoring look like?
 
 <div class="row vertical-align">
     <div class="col-md-6">
-        <!--<h2>What Mentors Say</h2>-->
         <blockquote>
             "I learned loads about robot design and . . . general engineering principles that I wouldn't have otherwise."
             <small>Christian Pedersen, 1st year, Electrical Engineering and Computer Science</small>
