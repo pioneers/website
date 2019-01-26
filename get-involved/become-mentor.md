@@ -51,7 +51,7 @@ Find out more at our info sessions:
       <li>Meet with your team for two hours each week during our 9-week competition.</li>
       <li>Come to PiE Robotics Competition events at UC Berkeley on select Saturdays.</li>
       <li>Help students at worksessions at <a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">O'Brien Hall Breezeway</a> (2nd floor).</li>
-      <li>Check out our <a href="https://docs.google.com/document/d/1cbWVz2xjL9mtoVFXnzqwgnxDbcro8nSOMF84phj1cbc/edit?usp=sharing">syllabus</a>.</li>
+      <li>Check out our <a href="https://docs.google.com/document/d/1p0TWwn2yrgdO1w7TuOoNMK6Z8fGAJEYbcwae-VACi5Q/edit?usp=drivesdk">syllabus</a>.</li>
     </ul>
     <h3>First Week of Class</h3>
     <ul>
