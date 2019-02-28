@@ -60,23 +60,21 @@ hero-message: PiE Robotics Competition
     $(".final-comp-info").html(finalcompInfo);
 
     // Assign onArrowClick function to each arrow
-    $("#kickoff-arrow").click(function(e) {
+
+    $("#game-day-arrow").click(function(e) {
       onArrowClick(0);
     });
-    $("#game-day-arrow").click(function(e) {
+    $("#dr-arrow").click(function(e) {
       onArrowClick(1);
     });
-    $("#dr-arrow").click(function(e) {
+    $("#exhibition-arrow").click(function(e) {
       onArrowClick(2);
     });
-    $("#exhibition-arrow").click(function(e) {
+    $("#scrimmage-arrow").click(function(e) {
       onArrowClick(3);
     });
-    $("#scrimmage-arrow").click(function(e) {
-      onArrowClick(4);
-    });
     $("#final-comp-arrow").click(function(e) {
-      onArrowClick(5);
+      onArrowClick(4);
     });
   });
 </script>
@@ -121,25 +119,16 @@ hero-message: PiE Robotics Competition
   <div class="row">
     <div id="timeline">
       <ul id="timeline-arrows" class="hidden-md hidden-sm">
-        <li id="kickoff-arrow" class="timeline-arrow">Kickoff</li>
-        <li id="game-day-arrow" class="inactive-timeline-arrow twoline">Game<br/>Day</li>
-        <li id="dr-arrow" class="inactive-timeline-arrow twoline">Design<br/>Reviews</li>
+        <li id="game-day-arrow" class="inactive-timeline-arrow">Game Day</li>
+        <li id="dr-arrow" class="inactive-timeline-arrow">Design Reviews</li>
         <li id="exhibition-arrow" class="inactive-timeline-arrow">Exhibition</li>
         <li id="scrimmage-arrow" class="inactive-timeline-arrow">Scrimmage</li>
-				<li id="final-comp-arrow" class="inactive-timeline-arrow twoline">Final<br>Competition</li>
+				<li id="final-comp-arrow" class="inactive-timeline-arrow">Final Competition</li>
       </ul>
 
       <ul id="timeline-arrow-descriptions" class="hidden-md hidden-sm">
-        <li id="kickoff-arrow-description" class="container"  style="display: block;">
-        <div class="row">
-        <div class="kickoff-description col-lg-6">
-        </div>
-        <div class="kickoff-info col-lg-6">
-        </div>
-        </div>
-
-        </li>
-        <li id="game-day-arrow-description" class="container">
+        
+        <li id="game-day-arrow-description" class="container"  style="display: block;">
         <div class="row">
         <div class="game-day-description col-lg-6">
         </div>
@@ -185,8 +174,7 @@ hero-message: PiE Robotics Competition
 
       <div class="hidden-lg container-fluid">
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#kickoff" data-toggle="tab" aria-expanded="false">Kickoff</a>
-          <li class=""><a href="#game-day" data-toggle="tab" aria-expanded="false">GD</a></li>
+          <li class="active"><a href="#game-day" data-toggle="tab" aria-expanded="false">GD</a></li>
           <li class=""><a href="#dr" data-toggle="tab" aria-expanded="false">DR</a></li>
           <li class=""><a href="#exhibition" data-toggle="tab" aria-expanded="false">Exhibition</a></li>
           <li class=""><a href="#scrimmage" data-toggle="tab" aria-expanded="false">Scrimmage</a></li>
@@ -194,11 +182,6 @@ hero-message: PiE Robotics Competition
         </ul>
 
         <div class="tab-content">
-          <div class="tab-pane fade active in" id="kickoff">
-            <h1 class="blue-text">Kickoff</h1>
-            <div class="kickoff-info"></div>
-            <div class="kickoff-description"></div>
-          </div>
 
           <div class="tab-pane fade in" id="game-day">
             <h1 class="blue-text">Game Day</h1>
