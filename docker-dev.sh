@@ -1,25 +1,21 @@
 #! /usr/bin/env bash
-docker run -i --rm -p 4000:4000 -v "$PWD:/srv/jekyll" numascott/jekylldev:latest serve --incremental
 
-# Breaking it down
+CONTAINER_NAME="website"
 
-# docker run ... numascott/jekylldev:latest
-# create a container from the latest numascott/jekyll image
-# https://hub.docker.com/r/numascott/jekylldev/
+# Check to see if the container is running. If so, stop it.
+CONTAINER_RUNNING=`docker ps --quiet --filter NAME=$CONTAINER_NAME | wc -l`
+if [ "$CONTAINER_RUNNING" -eq "1" ]
+then
+  echo "Stopping $CONTAINER_NAME"
+  docker stop $CONTAINER_NAME
+fi
 
-# -i
-# Use interactive mode so that the output from jekyll is displayed
+# Build the docker image, specifying the tag for easy reference elsewhere
+docker build -t $CONTAINER_NAME:latest .
 
-# --rm
-# After exiting, delete the stopped container to keep our Docker space clean
+# Run the container based on the latest image.
+docker run --detach --rm --name $CONTAINER_NAME -p 4000:4000 $CONTAINER_NAME:latest
 
-# 4000:4000
-# Map port 4000 inside the Docker container to port 4000 inside our computer
-
-# -v "$PWD:/srv/jekyll"
-# Allow the current folder of PWD be accessible inside the Docker container
-# inside the folder /srv/jekyll. The quotes are necessary to address folder
-# names that contain characters such as spaces.
-
-# The files inside the container will change as you change them in the current
-# folder
+# Useful helptext here.
+echo "To view logs, run docker logs -f $CONTAINER_NAME"
+echo "To stop the container, run docker stop $CONTAINER_NAME"

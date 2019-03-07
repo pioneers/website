@@ -11,7 +11,7 @@ The scholarship committee will review each application holistically, taking into
 
 <br>
 
-## 2018 Scholarship Schedule
+## 2019 Scholarship Schedule
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -22,23 +22,23 @@ The scholarship committee will review each application holistically, taking into
   <tbody>
     <tr>
       <td>Application release</td>
-      <td>March 10, 2018</td>
+      <td>March 9, 2019</td>
     </tr>
     <tr>
       <td>Workshop</td>
-      <td>March 10, 2018 (at Kickoff/Game Day)</td>
+      <td>March 9, 2019</td>
     </tr>
     <tr>
       <td>Applications due</td>
-      <td>April 18, 2018</td>
+      <td>April 20, 2019</td>
     </tr>
     <tr>
       <td>Interviews*</td>
-      <td>April 28, 2018 (at PiE Competition)</td>
+      <td>May 4th, 2019 (at PiE Competition)</td>
     </tr>
     <tr>
       <td>Recipients announced</td>
-      <td>April 29, 2018 (at PiE Competition)</td>
+      <td>May 5th, 2019 (at PiE Competition)</td>
     </tr>
   </tbody>
 </table>
@@ -47,6 +47,9 @@ The scholarship committee will review each application holistically, taking into
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
+Application will be available on March 9th!
+
+<!--
 Please use the online web application to submit your scholarship application.
 <center>
   <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
@@ -55,8 +58,8 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents are provided for your convenience.
 
-* <a href="{{ '/assets/scholarship/2018_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Summary</a>
-* <a href="{{ '/assets/scholarship/2018_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2018 Scholarship Application Workshop Slides</a>
+* <a href="{{ '/assets/scholarship/2019_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2019 Scholarship Application Summary</a>
+-->
 
 ## Past Scholars
 
@@ -93,6 +96,12 @@ The following documents are provided for your convenience.
       <td>Aspire California Preparatory</td>
       <td>University of California, Davis</td>
       <td>2017</td>
+    </tr>
+    <tr>
+      <td>Esmeralda Topete</td>
+      <td>Middle College High School</td>
+      <td>University of California, Santa Cruz</td>
+      <td>2018</td>
     </tr>
   </tbody>
 </table>
