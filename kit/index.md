@@ -13,7 +13,7 @@ hero-message: Kit Resources
 
 [Drive Trains](drive-train.html)
 
-[Motor Controller (Yogi Bear)](motor-controller.html)
+[Motor Controller (Polar Bear)](motor-controller.html)
 
 [Power Distribution Board (PDB)](pdb.html)
 
@@ -27,4 +27,4 @@ hero-message: Kit Resources
 
 [Wiring Guide](wiring-guide.html)
 
-[Kit Extension Catalog](https://docs.google.com/document/d/1Llnx0ldOo-r-51PEDz2imRzjfTISgMRTKgIGkeTYiJE/)
+[Kit Extension Catalog](https://docs.google.com/presentation/d/11_QThy6_WG0nsCUcr4E0yW7D5_6KAQxBAgb2qbUVB3A/edit#slide=id.p)
