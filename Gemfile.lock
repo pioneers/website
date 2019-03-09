@@ -59,8 +59,6 @@ GEM
     minitest (5.11.3)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.1-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
     parallel (1.13.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
