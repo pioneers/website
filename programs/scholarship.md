@@ -49,7 +49,6 @@ Applicants must be current or past PiE participants in their last year of high s
 
 Application will be available on March 9th!
 
-<!--
 Please use the online web application to submit your scholarship application.
 <center>
   <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
@@ -59,7 +58,7 @@ Please use the online web application to submit your scholarship application.
 The following documents are provided for your convenience.
 
 * <a href="{{ '/assets/scholarship/2019_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2019 Scholarship Application Summary</a>
--->
+* <a href="{{ '/assets/scholarship/2019_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2019 Scholarship Workshop Slides</a>
 
 ## Past Scholars
 
