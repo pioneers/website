@@ -59,8 +59,13 @@ GEM
     minitest (5.11.3)
     nokogiri (1.10.2)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
     parallel (1.17.0)
     pathutil (0.16.2)
+=======
+    parallel (1.13.0)
+    pathutil (0.16.1)
+>>>>>>> b5acc55020ec4bb1d3d0ee449b0bb0ec9abef07b
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
