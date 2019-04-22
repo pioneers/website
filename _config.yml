@@ -2,7 +2,7 @@
 title: Pioneers in Engineering
 email: leadership@pioneers.berkeley.edu
 copyright: >
-  © Pioneers in Engineering Foundation 2018.
+  © Pioneers in Engineering Foundation 2019.
 license: >
   This work is licensed under a
   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
@@ -15,7 +15,7 @@ facebook_username: pierobotics
 youtube_username: pierobotics
 instagram_username: pierobotics
 host: 0.0.0.0
-sponsors: /assets/sponsors/SponsorshipLevels15-16.pdf
+sponsors: /assets/sponsors/sponsorship-packet_2018-2019.pdf
 
 # Build settings
 markdown: kramdown
