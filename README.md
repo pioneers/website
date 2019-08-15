@@ -8,7 +8,7 @@ You can make a fork of this repo and host a development instance of your propose
 
 Note that if you do this, take care to:
 
-* Add a [robots.txt](http://www.robotstxt.org/robotstxt.html) to prevent Google from indexing your site. The first example provided in the link will suffice
+* Add a [robots.txt](http://www.robotstxt.org/robotstxt.html) to prevent Google from indexing your site. The first example provided in the link will suffice 
 * Change two variables in `_config.yml`
 
 ```

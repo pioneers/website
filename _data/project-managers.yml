@@ -1,51 +1,84 @@
-- name: Kevin Ma
-  project: "Dawn"
-  picture: kevin.jpg
-
-- name: Arjun Sridhar
-  project: Dawn
-  picture: arjun.jpg
-
-- name: Jonathan Lee
-  project: DevOps
-  picture: jonathan.jpg
-
-- name: Angela Kwon
-  project: E.D.You
-  picture: angela.jpg
-
-- name: Charlie Friesen
-  project: GDC
-  picture: charlie.jpg
-
-- name: Jesse Valva
-  project: GIC
-  picture: jesse_valva.jpg
-
-- name: Tiffany Chiang
-  project: "Hibike + Runtime"
-  picture: tiffany.jpg
-
-- name: Chad Wakamiya
-  project: Mechanical Kit
-  picture: chad.jpg
-
-- name: Miyuki Weldon
-  project: Mechanical Kit
-  picture: miyuki.jpg
-
-- name: Averal Kandela
-  project: PiE Sens
-  picture: averal.jpg
-
-- name: Nick Werblun
-  project: PiEDB
-  picture: nick.jpg
-
-- name: Sam Zhou
-  project: "Shepherd (Field Control)"
-  picture: sam_zhou.jpg
-
-- name: Kevin Chien
-  project: "Website, Web Apps"
-  picture: kevin_chien.jpg
+-
+    timestamp: 9/19/2018 22:23:57
+    name: James Hulett
+    project: Education
+    description: Education is the project that works directly with the high school students, through workshops in the fall and training mentors in the spring.
+    bio: 'I''m the chief table architect of 101, so if you want to complain about how dumb the table arrangement is while someone cackles maniacally, you can just find me.  If you''re more interested in reading self-referential bios that contain exactly three hundred two characters, I can also help you with that.'
+    photo: James_Hulett.jpg
+-
+    timestamp: 9/22/2018 16:14:52
+    name: Matthew Harrigan
+    project: Shepherd
+    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through shepherd, so if we don’t have our stuff together, nothing is going to work.'
+    bio: "I am a second year EECS major, and my favorite class so far has been CS61B. I like video/board games, hiking, and skiing.\nRobots are fun too :)"
+    photo: Matthew_Harrigan.png
+-
+    timestamp: 9/23/2018 20:22:42
+    name: Charles Hong
+    project: Shepherd
+    description: Shepherd is the field control software that serves as the conductor of PiE competitions. On a high level, it interfaces with different sources of information, processes it at a central location, and sends commands back to wherever is necessary. These sources of information include field elements such as the scoreboard, sensors, user inputs, and the robots themselves. Shepherd also encompasses student and staff UIs, through which each match at the final competition is started and run, and the scoreboard.
+    bio: 'Hi! I''m a second year EECS major. Things I enjoy include esports, teaching, and Shepherd''s pie. Things I don''t enjoy include writing bios.'
+    photo: Charles_Hong.jpg
+-
+    timestamp: 9/26/2018 19:19:35
+    name: Ryan Searcy
+    project: Mechanical Team
+    description: We design and prototype parts for the robots and for other projects in PiE
+    bio: I am a second year EECS major and on my downtime I like to dance
+    photo: Ryan_Searcy.jpeg
+-
+    timestamp: 9/26/2018 19:20:09
+    name: Jessica Au
+    project: Mechanical
+    description: Designing and prototyping cool robot parts!!! 
+    bio: 2nd Year, IEOR 
+    photo: Jessica_Au.jpg
+-
+    timestamp: 9/26/2018 19:21:15
+    name: Brose Johnstone
+    project: Infrastructure
+    description: Software tools to improve the lives of PiE staff
+    bio: Hello! I am a 4th year CS student from San Francisco. I enjoy collecting fountain pens. I have been in PiE for a few years; previously, I worked on Robot Runtime.
+    photo: Brose.jpg
+-
+    timestamp: 9/26/2018 20:12:14
+    name: Jerome Wei
+    project: Web
+    description: We maintain the PiE website and run other web app projects.
+    bio: 'I''m an intented CS major. I like computer stuff and cynicism'
+    photo: jerome.png
+-
+    timestamp: 9/26/2018 22:00:40
+    name: Karen Lee
+    project: Game Design Committee
+    description: 'Game Design Committee is exactly as it sounds -- we design the game for PiE''s annual robotics competition. As essentially the backbone of PiE, what we design determines what many of the other projects work on throughout the year. We strive to create a fair, challenging, but fun game for students that will be fun for staff to work on as well!'
+    bio: I once faked an admission letter to Hamburger University. Feel free to talk to me about Guy Fieri, chicken nuggets, and memes.
+    photo: Karen_Lee.jpg
+-
+    timestamp: 10/14/2018 23:31:02
+    name: Aliya Kusumo
+    project: Game Implementation Committee
+    description: Design and make the robotics competition field and source its elements
+    bio: Second year Mechanical Engineering student interested in design, efficient layouts, and traveling
+    photo: aliya.jpg
+-
+    timestamp: 10/16/2018 19:34:34
+    name: Lawrence Chen
+    project: Dawn
+    description: Dawn is a cross-platform frontend for the PiE robotics control system. It is the application students will see and use when programming and testing their robots. It is written with web technologies and packaged via Electron.
+    bio: I'm a 3rd-year EECS and Data Science major hailing from Stockton, California. In my free time, I like to work hard.
+    photo: lawrence.jpg
+-
+    timestamp: 9/30/2018 17:06:09
+    name: Steven Lu
+    project: PieSens
+    description: PieSens is one of the 2 electrical teams in PiE. We design and make most of the boards that go onto the robots, such as motor controllers and other boards that interface with various sensors.
+    bio: 'Hi! I''m a second year EECS major. I enjoy doing puzzles, travelling, and playing the clarinet. Writing bios is not on the list of things I enjoy.'
+    photo: Steven_Lu.jpg
+-
+    timestamp: 10/6/2018 13:48:18
+    name: Adilet Pazylkarim	
+    project: PiEDB	
+    description: 'PiEDB is part of PiE Electrical Team, which works with Power Distribution Board (PDB). PDB is relatively simple circuits board, that performs two main functions: power distribution and battery cell voltage display. The reason why PDB has entire team dedicated to it, is difficulty of power electronics. Currently, we mostly focused on optimisation of PDB''s design, derived by previous iterations of our team.' 	
+    bio: 'Just a circuits guy from Central Asia. There are only three virtues in this world: family, friends, and horse meat.'
+    photo: adilet.png

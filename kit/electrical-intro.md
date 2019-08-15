@@ -20,7 +20,7 @@ A Lithium-Polymer battery that has a voltage of ~11.2 Volts during regular use. 
 * [Power Distribution Board](pdb.html)
 Distributes power from Battery to rest of robot
 
-* Beaglebone Black (BBB)
+* [Raspberry Pi](https://www.raspberrypi.org/) (rpi)
 Brain of the Robot; an on board computer
 
 * [Motor Controller](motor-controller.html)
@@ -28,9 +28,6 @@ Controls the motors on the robot
 
 * [Team Flag](team-flag.html)
 Displays team information
-
-* Wifi Dongle
-Connects to a wifi network
 
 ---
 
@@ -49,5 +46,5 @@ Relays RFID information to students
 
 ## [Wiring](wiring-guide.html)<a name = "wiring"></a>
 
-<img src="/assets/kit-resources/Wiring-Guide-2018.png" alt="Wiring Guide" width="100%">
+<iframe src="/kit/wiring-guide-spring-2019.pdf" alt="Wiring Guide" style="width: 100%; min-height: 1000px;">
 

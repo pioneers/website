@@ -1,5 +1,5 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(43, 61, 98, 0.95)">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(43, 61, 98, 1)">
+  <div class="container-fluid" style="user-select: none; -moz-user-select: none; -webkit-user-select: none;">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -10,9 +10,9 @@
       </button>
       <div style="float:left;"> <!-- Makes sure the title doesn't go all the way right -->
         <a href = '/'>
-          <img style="width:50px;" src="{{"/titleicon.png" | prepend: site.baseurl }}">
+          <img style="padding-top: 10px; padding-right:10px; margin-left: 10px; width:45px;" src="{{"/assets/images/logo-border-20px-v3.png" | prepend: site.baseurl }}">
         </a>
-        <a style="float:right;" class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}"> <!-- Makes the title right of the icon, default is otherwise -->
+        <a style="float:right; padding: 14.5px 0px; margin-left: 5px;" class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}"> <!-- Makes the title right of the icon, default is otherwise -->
           <!-- <img alt="Brand" src="http://pioneers.allen.li/graphics/general/logos/Logo_vectorized.svg"> -->
           <div id="title">Pioneers in Engineering</div>
           <div id="small-title">PiE</div>
@@ -23,12 +23,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/#main-about" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>ABOUT US</b></a></li>
-        <li><a href="/#main-students" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>STUDENTS</b></a></li>
-        <li><a href="/#main-get-involved" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>GET INVOLVED</b></a></li>
-        <li><a href="/#main-support-us" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>SUPPORT US</b></a></li>
-        <li><a href="/gallery" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>GALLERY</b></a></li>
-        <li><a href="/blog" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>BLOG</b></a></li>
+        <li><a href="/#main-about" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>About Us</b></a></li>
+        <li><a href="/#main-students" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Students</b></a></li>
+        <li><a href="/compete/rc-spring/" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Competition</b></a></li>
+        <li><a href="/#main-get-involved" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Get Involved</b></a></li>
+        <li><a href="/#main-support-us" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Support Us</b></a></li>
+        <li><a href="/gallery" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Gallery</b></a></li>
+        <li><a href="/blog" class="navbar-text-style navbar-text sitemap" style="margin: 0;"><b>Blog</b></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 

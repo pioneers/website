@@ -6,20 +6,22 @@ hero-message: PiE Robotics Competition
 <script>
   $(document).ready(function() {
     // Write the description text once, here
-    var kickoffInfo = "<h2>Date: March 10th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
+    var kickoffInfo = "<h2>Date: March 2nd<br>Time: 9am-5pm (Check-In at 8am)</h2>";
     var kickoffDescription = "<br> Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.<br>"
 
     // START comments starting here were originally links for kickoffDescription.
     //<br><a href=\"https://www.cognitoforms.com/PioneersInEngineering/_2017PioneersInEngineeringStudentRegistration\" target=\"_blank\"><i class=\"fa fa-file-text\" style=\"padding:4px\" aria-hidden=\"true\"></i>Student Registration Form - fill this out before arriving!</a><br><br><a href=\"https://drive.google.com/open?id=1MoaL3NaAaSmlQ9cg5p7v-z6rS-E&usp=sharing\"  target=\"_blank\"><i class=\"fa fa-map-marker\" aria-hidden=\"true\" style=\"padding:4px\"></i>View map of event locations</a><br><br><a href=\"/assets/events/KickoffItinerary.pdf\" target=\"_blank\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"padding:4px\"></i>View PDF of event itinerary</a>";
     // END comment
 
-    var gamedayInfo = "<h2>Date: March 17th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
-    var gamedayDescription = "<br>Game Day takes place one week after Kickoff and introduces the game for the PiE Competition Season. It starts with a logistical presentation followed by a presentation by the Game Design Committee. Teams spend the rest of the day brainstorming their approach to the game, attending workshops, examining the game field, and more.";
-    var drInfo = "<h2>Date: Saturday 3/31<br>Time: 9am - 2pm</h2>";
+    var gamedayInfo = "<h2>Date: Saturday March 9th<br>Time: 9am-5pm (Check-In at 8am)<br>Place: UC Berkeley – Sibley Auditorium</h2>";
+    var gamedayDescription = "<br>The combined version of Kickoff and Game Day! We will complete the activities of both events in one jam packed day. We’ll start with a presentation from the Director, the Head Referee, and the Dean of Berkeley’s College of Engineering! After you’ll meet your mentors, get your robot, and learn about the game.";
+    var drInfo = "<h2>Date: Saturday, March 23rd<br>Time: 9am - 2pm</h2>";
     var drDescription = "<br>Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals. It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.";
-    var scrimmageInfo = "<h2>Date: April 14th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
+    var exInfo = "<h2>Date: April 6th<br>Time: 9am-5pm</h2>";
+    var exDescription = "Exhibition is the first opportunity for all PiE teams to come and test out their robot on a real field with other robots for competition. It is a chance to get your robot running, see how your robot will perform, and figure out if you need to make any tweaks.";
+    var scrimmageInfo = "<h2>Date: April 20th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
     var scrimmageDescription = "<br>Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
-    var finalcompInfo = "<h2>Date: April 28th-29th <br> Time: 8am-4pm on Saturday, 8am-5pm on Sunday</h2>";
+    var finalcompInfo = "<h2>Date: May 4th-5th <br> Time: 9am-5pm on Saturday and Sunday</h2>";
     var finalcompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
 
     // Show the respective description and change arrow style on click
@@ -29,14 +31,14 @@ hero-message: PiE Robotics Competition
 
       $(arrowDescriptions[elementIndex]).show();
       $(arrowHeads[elementIndex]).attr('class', 'timeline-arrow');
-			if (elementIndex === 1 || elementIndex === 2 || elementIndex == 4) {
+			if (elementIndex === 1 || elementIndex === 2 || elementIndex == 5) {
 				$(arrowHeads[elementIndex]).attr('class', 'timeline-arrow twoline');
 			}
       for (var i = 0; i < arrowDescriptions.length; i++) {
         if (i !== elementIndex) {
           $(arrowDescriptions[i]).hide();
           $(arrowHeads[i]).attr('class', 'inactive-timeline-arrow');
-					if (i === 1 || i === 2 || i === 4) {
+					if (i === 1 || i === 2 || i === 5) {
 						$(arrowHeads[i]).attr('class', 'inactive-timeline-arrow twoline');
 					}
         }
@@ -44,25 +46,26 @@ hero-message: PiE Robotics Competition
     };
 
     // Fill in the description text in the HTML
-    $(".kickoff-description").html(kickoffDescription);
-    $(".kickoff-info").html(kickoffInfo);
     $(".game-day-description").html(gamedayDescription);
     $(".game-day-info").html(gamedayInfo);
     $(".dr-description").html(drDescription);
     $(".dr-info").html(drInfo);
+    $(".exhibition-description").html(exDescription);
+    $(".exhibition-info").html(exInfo);
     $(".scrimmage-description").html(scrimmageDescription);
     $(".scrimmage-info").html(scrimmageInfo);
     $(".final-comp-description").html(finalcompDescription);
     $(".final-comp-info").html(finalcompInfo);
 
     // Assign onArrowClick function to each arrow
-    $("#kickoff-arrow").click(function(e) {
+
+    $("#game-day-arrow").click(function(e) {
       onArrowClick(0);
     });
-    $("#game-day-arrow").click(function(e) {
+    $("#dr-arrow").click(function(e) {
       onArrowClick(1);
     });
-    $("#dr-arrow").click(function(e) {
+    $("#exhibition-arrow").click(function(e) {
       onArrowClick(2);
     });
     $("#scrimmage-arrow").click(function(e) {
@@ -75,139 +78,132 @@ hero-message: PiE Robotics Competition
 </script>
 
 <div class="container rc-spring">
-  
+
   <!-- RESOURCES -->
   <div class="row">
     <div class="pie-jumbotron" style="margin: 0">
-      <h2 align="center">RESOURCES FOR STUDENTS</h2>
+      <h2 style="text-align: center;">RESOURCES FOR STUDENTS</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h3>Kit Guides and Software</h3>
           <p>Download Dawn and Runtime software, view documents and guides, and check for updates.</p>
           <a class="btn btn-primary" href="/software" role="button" target="_blank">Visit software hub</a>
           <a class="btn btn-primary" href="/kit" role="button" target="_blank">Visit kit hub</a>
           <h3>Piazza</h3>
-          <p>Ask questions and get answers! Discuss various competition aspects or just come chat.</p>
-          <a class="btn btn-info" href="https://forum.pierobotics.org" target="_blank" role="button">Visit the forums</a>
+          <p>Ask questions and get answers! Discuss various competition aspects or just come chat. Access code: pie</p>
+          <a class="btn btn-info" href="http://forum.pierobotics.org" target="_blank" role="button">Visit the forums</a>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h3>Worksessions</h3>
           <p>Sign up for worksessions 24 hours in advance! Having debug issues? Need some more build time or tools? Come on out!</p>
           <a class="btn btn-info" href="https://worksessions.pierobotics.org" target="_blank" role="button">Sign up for worksession</a>
-          <h3>Calendar</h3>
-          <p>View the entire season's calendar. You can add this to your own Google Calendar!</p>
-          <a class="btn btn-primary" href="https://calendar.google.com/calendar/b/2?cid=cGlvbmVlcnMuYmVya2VsZXkuZWR1X2RmdDY4ZWpiMWhmMTQ2aDltcGRhcmI4dTg4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">View Google Calendar</a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Timeline -->
+  <div style="text-align: center">
+    <h1 style="text-align: center">2019 Spring Comp applications are now closed.</h1>
+  </div>
+
+  <hr>
+
   <div class="row text-center">
     <h2 class="blue-text">The Timeline</h2>
   </div>
   <div class="row">
     <div id="timeline">
-      <!-- big pretty arrows for big screens -->
-      <ul id="timeline-arrows" class="hidden-xs hidden-sm">
-        <li id="kickoff-arrow" class="timeline-arrow">Kickoff</li>
-        <li id="game-day-arrow" class="inactive-timeline-arrow twoline">Game<br/>Day</li>
-				<li id="dr-arrow" class="inactive-timeline-arrow twoline">Design<br/>Reviews</li>
+      <ul id="timeline-arrows" class="hidden-md hidden-sm">
+        <li id="game-day-arrow" class="inactive-timeline-arrow">GameOff</li>
+        <li id="dr-arrow" class="inactive-timeline-arrow">Design Reviews</li>
+        <li id="exhibition-arrow" class="inactive-timeline-arrow">Exhibition</li>
         <li id="scrimmage-arrow" class="inactive-timeline-arrow">Scrimmage</li>
-				<li id="final-comp-arrow" class="inactive-timeline-arrow twoline">Final<br>Competition</li>
+				<li id="final-comp-arrow" class="inactive-timeline-arrow">Final Competition</li>
       </ul>
 
-      <!-- block descriptions below arrows -->
-      <ul id="timeline-arrow-descriptions" class="hidden-xs hidden-sm">
-          <!-- Put Kickoff description in JS above -->
-        <li id="kickoff-arrow-description" class="container"  style="display: block;">
+      <ul id="timeline-arrow-descriptions" class="hidden-md hidden-sm">
+        
+        <li id="game-day-arrow-description" class="container"  style="display: block;">
         <div class="row">
-        <div class="kickoff-description col-md-6">
+        <div class="game-day-description col-lg-6">
         </div>
-        <div class="kickoff-info col-md-6">
-        </div>
-        </div>
-
-          <!-- Put Gameday description in JS above -->
-        </li>
-        <li id="game-day-arrow-description" class="container">
-        <div class="row">
-        <div class="game-day-description col-md-6">
-        </div>
-        <div class="game-day-info col-md-6">
+        <div class="game-day-info col-lg-6">
         </div>
         </div>
         </li>
-          <!-- Put DR description in JS above -->
         <li id="dr-arrow-description" class="container">
         <div class="row">
-        <div class="dr-description col-md-6">
+        <div class="dr-description col-lg-6">
         </div>
-        <div class="dr-info col-md-6">
+        <div class="dr-info col-lg-6">
         </div>
         </div>
         </li>
-          <!-- Put Scrimmage description in JS above -->
+
+        <li id="exhibition-arrow-description" class="container">
+          <div class="row">
+          <div class="exhibition-description col-lg-6">
+          </div>
+          <div class="exhibition-info col-lg-6">
+          </div>
+          </div>
+          </li>
+
         <li id="scrimmage-arrow-description" class="container">
         <div class="row">
-        <div class="scrimmage-description col-md-6">
+        <div class="scrimmage-description col-lg-6">
         </div>
-        <div class="scrimmage-info col-md-6">
+        <div class="scrimmage-info col-lg-6">
         </div>
         </div>
         </li>
-          <!-- Put Final Competition description in JS above -->
         <li id="final-comp-arrow-description" class="container">
         <div class="row">
-        <div class="final-comp-description col-md-6">
+        <div class="final-comp-description col-lg-6">
         </div>
-        <div class="final-comp-info col-md-6">
+        <div class="final-comp-info col-lg-6">
         </div>
         </div>
         </li>
       </ul>
 
-      <!-- tabbed switching for small screens -->
-      <div class="hidden-md hidden-lg container-fluid">
+      <div class="hidden-lg container-fluid">
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#kickoff" data-toggle="tab" aria-expanded="false">Kickoff</a>
-          <li class=""><a href="#game-day" data-toggle="tab" aria-expanded="false">GD</a></li>
+          <li class="active"><a href="#game-day" data-toggle="tab" aria-expanded="true">GD</a></li>
           <li class=""><a href="#dr" data-toggle="tab" aria-expanded="false">DR</a></li>
+          <li class=""><a href="#exhibition" data-toggle="tab" aria-expanded="false">Exhibition</a></li>
           <li class=""><a href="#scrimmage" data-toggle="tab" aria-expanded="false">Scrimmage</a></li>
           <li class=""><a href="#final-comp" data-toggle="tab" aria-expanded="false">FC</a></li>
         </ul>
 
         <div class="tab-content">
-          <div class="tab-pane fade active in" id="kickoff">
-            <h1 class="blue-text">Kickoff</h1>
-            <!-- Put Game Day description in JS above -->
-            <div class="kickoff-info"></div>
-            <div class="kickoff-description"></div>
-          </div>
 
           <div class="tab-pane fade in" id="game-day">
-            <h1 class="blue-text">Game Day</h1>
+            <h1 class="blue-text">GameOff</h1>
             <div class="game-day-info"></div>
             <div class="game-day-description"></div>
           </div>
 
           <div class="tab-pane fade in" id="dr">
             <h1 class="blue-text">Design Reviews</h1>
-            <!-- Put Game Day description in JS above -->
             <div class="dr-info"></div>
             <div class="dr-description"></div>
+          </div>
+          
+          <div class="tab-pane fade in" id="exhibition">
+            <h1 class="blue-text">Exhibition</h1>
+            <div class="exhibition-info"></div>
+            <div class="exhibition-description"></div>
           </div>
 
           <div class="tab-pane fade in" id="scrimmage">
             <h1 class="blue-text">Scrimmage</h1>
-            <!-- Put Game Day description in JS above -->
             <div class="scrimmage-info"></div>
             <div class="scrimmage-description"></div>
           </div>
 
           <div class="tab-pane fade in" id="final-comp">
             <h1 class="blue-text">Final Competition</h1>
-            <!-- Put Game Day description in JS above -->
             <div class="final-comp-info"></div>
             <div class="final-comp-description"></div>
           </div>
@@ -215,8 +211,7 @@ hero-message: PiE Robotics Competition
       </div>
     </div>
   </div>
-
-  <!-- The Competition row -->
+<!--
   <div class="container rc-spring">
    <div class="row text-center">
     <h2 class="blue-text"> This Year's Competition </h2>
@@ -233,7 +228,8 @@ hero-message: PiE Robotics Competition
       <h3>New Software Challenge</h3>
     </div>
   </div>
-  <hr class="horizontal-border"></hr>
+-->
+
   <!-- How It Works row -->
   <div class="row text-center">
     <h2 class="gold-text"> How It Works </h2>
