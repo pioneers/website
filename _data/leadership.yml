@@ -1,25 +1,30 @@
-- name: Jesse Valva
+- name: Karen Lee
   title: Director
-  picture: jesse_valva.jpg
+  picture: karen_lee.png
   short-bio: ''
 
-- name: Julie Lum
+- name: Jessica Au
+  title: Director of Corporate & Public Relations
+  picture: Jessica_Au.jpg
+  short-bio: ''
+  
+- name: Kirsten Nguyen 
   title: Director of Education
-  picture: julie.png
+  picture: kirsten_nguyen.png
   short-bio: ''
 
-- name: Chad Wakamiya
+- name: Jeanney Keo
   title: Director of Programs
-  picture: chad.jpg
+  picture: jeanney_keo.jpg
   short-bio: ''
 
-- name: Jonathan Lee
-  title: Director of Engineering (EECS)
-  picture: jonathan.jpg 
+- name: Charles Hong
+  title: Director of Engineering (Software)
+  picture: Charles_Hong.jpg 
   short-bio: ''
 
-- name: Miyuki Weldon
-  title: Director of Engineering (Mechanical)
-  picture: miyuki.jpg
-  short-bio: 
+- name: Steven Lu
+  title: Director of Engineering (Hardware)
+  picture: Steven_Lu.jpg
+  short-bio: ''
 
