@@ -10,6 +10,7 @@ before_install:
 
 script: 
   - bundle exec jekyll build
+  - docker build -t website:latest .
 # If we want to check our website too, uncomment the line below
 # - ./_script/htmlproofer.sh
 
