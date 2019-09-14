@@ -1,0 +1,92 @@
+---
+-
+    Timestamp: 9/4/2019 20:54:13
+    Name: Ben Liao
+    Project: Hibike/Runtime
+    Project Description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
+    Short Bio:: 'Hey guys! I''m a sophomore studying EECS and/or ME, and I grew up here in the Bay. I want to go into clean energy and clean transportation in the future. In my spare time, I like speedcubing, learning about astronomy, taking pictures, and making tutorials. I''m in the Yali''s in Sutarja Dai for a couple hours every day, you can come find me there, I''m down to chat about anything!'
+    Picture: Ben_Liao.jpg
+-
+    Timestamp: 9/5/2019 17:27:25
+    Name: Jesse Valva
+    Project: Atlas
+    Project Description: Join in on tasks like field construction and being a referee. The highlights of Game Implementation are the ease of joining and the large impact we cause. All you need to bring is time to invest and we’ll get you working on projects that are fundamental to the competition. Your handiwork will even be displayed and used by all the high school students.
+    Short Bio:: "I am the second best melee player in PiE. I don't actually live in 101 ok. My snapchat name is a nickname from my freshman year of high school. I think I study math but I'm not even sure anymore. I hope to graduate in 2020.\n\nI built the brown stained table in 101. I feel cool thanks for asking. "
+    Picture: Jesse_Valva.jpg
+-
+    Timestamp: 9/6/2019 7:18:15
+    Name: Ashley Byrne
+    Project: Education
+    Project Description: Education focuses on teaching workshops at events for students and teaching a DeCal for mentors in the Spring! We also have a fall project called PRB (Pie on the Road), where we make a smaller robot kit and bring it out to non-pie schools to spark interest in PiE or robotics in general. Our workshops vary from technical workshops like PiE API and Game Management to non-technical workshops like the Diversity workshop. DeCal is probably our biggest time commitment, as we run weekly classes and work on improving our curriculum. Education is a great project for learning about all the aspects in PiE and really connecting with the students and mentors!
+    Short Bio:: 'I''m a sophomore and an intended Psychology major. I joined PiE last year, and I was also a PiE student in high school (Go PV!). I enjoy playing video games, watching anime, and I have way too many stuffed animals. '
+    Picture: Ashley_Byrne.jpg
+-
+    Timestamp: 9/6/2019 18:12:53
+    Name: Rafael Ostrea
+    Project: DevOps
+    Project Description: 'DevOps maintains things behind the scenes to help keep them working properly, like setting up the config files for the Raspberry Pi''s and automating their connection to their routers upon start-up, for example.'
+    Short Bio:: 'I''m a sophomore from the Philippines who enjoys reading and playing video games like Fire Emblem Three Houses and Smash Bros. Ultimate. My current CS interests include Artificial Intelligence and Video Game Development (and how they go hand in hand in making escort missions all the more fun for us players)!'
+    Picture: Rafael_Ostrea.jpg
+-
+    Timestamp: 9/7/2019 10:12:25
+    Name: Lizhi (Gary) Yang
+    Project: PieSens
+    Project Description: At PieSens, we design, build and maintain actuator controls and sensors for the robot ranging from motor control boards to distance sensor boards. Skills we teach include embedded programming, PCB design (Eagle) and others.
+    Short Bio:: I am a sophomore in EECS interested in Robotics and CS in general. Feel free to shoot me any questions on Facebook @GaryYang2000 :)
+    Picture: Gary_Yang.jpg
+-
+    Timestamp: 9/7/2019 14:09:52
+    Name: Kaitlyn Chan
+    Project: PiE Sens
+    Project Description: PiE Sens is one of the two projects in PiE Electrical. Members of the team go through an iterative design process to put together our electrical system. The staff goes through a brainstorming phase to collect ideas on what sensors are required for the game. Then, the sensors are prototyped and then translated into a PCB (Printed Circuit Board). We teach the staff how to use industry level PCB software to route our boards before having our sponsors send us the completed boards. We then manufacture the boards in house to test and revise.
+    Short Bio:: I am currently a sophomore in EECS. I like robots, cats, and anime. Feel free to email me at kaitlynjchan@berkeley.edu with any questions! :)
+    Picture: Kaitlyn_Chan.jpg
+-
+    Timestamp: 9/7/2019 15:01:43
+    Name: Karen Darken
+    Project: Dawn
+    Project Description: Dawn is an application that allows students to program and monitor their robots.
+    Short Bio:: 'Hi, I''m Karen! I''m a 4th year CS major. I enjoy breakfast, dancing, and looking at other people''s dogs. '
+    Picture: Karen_Darken.jpg
+-
+    Timestamp: 9/7/2019 15:02:01
+    Name: Matthew Guo
+    Project: Dawn
+    Project Description: Dawn is a front-end desktop application that allows high school students to program their robots as well as view their statuses.
+    Short Bio:: 'Hi there! My name’s Matthew, and I’m a second year CS major from the Bay Area. When I’m not fostering Dawn''s culture, I like to spend my time drawing, making video games, and perfecting my (really bad) New Zealand accent. Fun fact about me: I can lick my elbow.'
+    Picture: Matthew_Guo.jpg
+-
+    Timestamp: 9/8/2019 21:53:50
+    Name: Ryan Koh
+    Project: Shepherd
+    Project Description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
+    Short Bio:: 'Hi, I''m a sophomore majoring in Computer Science! I came for the free pie, stayed for the fun times. Programming and robots are cool too I guess.'
+    Picture: Ryan_Koh.jpg
+-
+    Timestamp: 9/8/2019 22:00:25
+    Name: Gregory Jerian
+    Project: DevOps
+    Project Description: Our DevOps team is responsible for the infrastructure that all other projects are based around. Here, you’ll learn and utilize, first hand, industry standard tools and systems. Gain experience working with a GNU/Linux development environment, shell scripting, CI (continuous integration), and more!
+    Short Bio:: 'I''m Greg, and I wear the freshest clothes, eat at the chillest restaurants and hang out with the hottest dudes'
+    Picture: Gregory_Jerian.jpg
+-
+    Timestamp: 9/8/2019 22:06:43
+    Name: Sophia Li
+    Project: Mechanical
+    Project Description: Here in mechanical we design and produce many parts that may be used for the robots. Join us for a fun and hands on experience!
+    Short Bio:: I also know a large amount about house plants. I have a stuffed sloth named Kenneth
+    Picture: Sophia_Li.jpg
+-
+    Timestamp: 9/8/2019 23:26:06
+    Name: Kevin Zhu
+    Project: Infrastructure
+    Project Description: Infrastructure is focused on helping other projects and doing some of their projects. Infrastructure is also involved in maintaining and developing the website. The projects in infrastructure are focused on coding, but range from web development to writing scripts in various languages.
+    Short Bio:: Hello, I am a sophomore majoring in computer science. In my free time I enjoy watching and playing basketball. Feel free to contact me at kevin_zhu@berkeley.edu
+    Picture: Kevin_Zhu.jpg
+-
+    Timestamp: 9/8/2019 23:42:11
+    Name: Albert Wen
+    Project: Mechanical
+    Project Description: I oversee the in-house and outsourced manufacturing of the parts for the PiE base kit.
+    Short Bio:: "I am a sophomore Mechanical Engineering major with an EECS minor. I am also doing research in printed batteries at the printed electronics lab in Cory Hall. \nWhere exactly is this lab? 420 Cory. You'll get to know it throughout the year. \nI can offer help with some of the Mechanical Engineering curriculum, so please give me a shout-out if you get stuck. \nIf you like being chaotic, I might be the right person for you.\nMy name on Slack as of now is @Onesie. \nI look forward to working with you! "
+    Picture: Albert_Wen.jpg
