@@ -4,14 +4,14 @@
     project: Hibike/Runtime
     description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
     bio:: 'Hey guys! I''m a sophomore studying EECS and/or ME, and I grew up here in the Bay. I want to go into clean energy and clean transportation in the future. In my spare time, I like speedcubing, learning about astronomy, taking photos, and making tutorials. I''m in the Yali''s in Sutarja Dai for a couple hours every day, you can come find me there, I''m down to chat about anything!'
-    photo: Ben_Liao.jpg
+    photo: Ben_Liao.JPG
 -
     timestamp: 9/5/2019 17:27:25
     name: Jesse Valva
     project: Atlas
     description: Join in on tasks like field construction and being a referee. The highlights of Game Implementation are the ease of joining and the large impact we cause. All you need to bring is time to invest and we’ll get you working on projects that are fundamental to the competition. Your handiwork will even be displayed and used by all the high school students.
     bio:: "I am the second best melee player in PiE. I don't actually live in 101 ok. My snapchat name is a nickname from my freshman year of high school. I think I study math but I'm not even sure anymore. I hope to graduate in 2020.\n\nI built the brown stained table in 101. I feel cool thanks for asking. "
-    photo: Jesse_Valva.jpg
+    photo: jesse_valva.jpg
 -
     timestamp: 9/6/2019 7:18:15
     name: Ashley Byrne
@@ -25,7 +25,7 @@
     project: DevOps
     description: 'DevOps maintains things behind the scenes to help keep them working properly, like setting up the config files for the Raspberry Pi''s and automating their connection to their routers upon start-up, for example.'
     bio:: 'I''m a sophomore from the Philippines who enjoys reading and playing video games like Fire Emblem Three Houses and Smash Bros. Ultimate. My current CS interests include Artificial Intelligence and Video Game Development (and how they go hand in hand in making escort missions all the more fun for us players)!'
-    photo: Rafael_Ostrea.jpg
+    photo: Rafael_Ostrea.JPG
 -
     timestamp: 9/7/2019 10:12:25
     name: Lizhi (Gary) Yang
@@ -39,7 +39,7 @@
     project: PiE Sens
     description: PiE Sens is one of the two projects in PiE Electrical. Members of the team go through an iterative design process to put together our electrical system. The staff goes through a brainstorming phase to collect ideas on what sensors are required for the game. Then, the sensors are prototyped and then translated into a PCB (Printed Circuit Board). We teach the staff how to use industry level PCB software to route our boards before having our sponsors send us the completed boards. We then manufacture the boards in house to test and revise.
     bio:: I am currently a sophomore in EECS. I like robots, cats, and anime. Feel free to email me at kaitlynjchan@berkeley.edu with any questions! :)
-    photo: Kaitlyn_Chan.jpg
+    photo: Kaitlyn_Chan.JPG
 -
     timestamp: 9/7/2019 15:01:43
     name: Karen Darken
@@ -60,14 +60,14 @@
     project: Shepherd
     description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
     bio:: 'Hi, I''m a sophomore majoring in Computer Science! I came for the free pie, stayed for the fun times. Programming and robots are cool too I guess.'
-    photo: Ryan_Koh.jpg
+    photo: Ryan_Koh.JPG
 -
     timestamp: 9/8/2019 22:00:25
     name: Gregory Jerian
     project: DevOps
     description: Our DevOps team is responsible for the infrastructure that all other projects are based around. Here, you’ll learn and utilize, first hand, industry standard tools and systems. Gain experience working with a GNU/Linux development environment, shell scripting, CI (continuous integration), and more!
     bio:: 'I''m Greg, and I wear the freshest clothes, eat at the chillest restaurants and hang out with the hottest dudes'
-    photo: Gregory_Jerian.jpg
+    photo: Gregory_Jerian.JPG
 -
     timestamp: 9/8/2019 22:06:43
     name: Sophia Li
