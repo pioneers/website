@@ -1,0 +1,15 @@
+# Sample usage:
+#
+# events_by_week:
+#   - name: Welcome Week
+#     events:
+#       - name: 189 HW Party
+#         location: Soda Hall 1st Floor
+#         start: 2019-10-10T11:00:00
+#         end: 2019-10-10T23:00:00
+#         description: Give up
+#         calendar: https://www.eecs189.org/
+#         map: https://www.eecs189.org/
+
+active: false
+events_by_week: []
