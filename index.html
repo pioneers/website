@@ -77,39 +77,14 @@ title: Pioneers in Engineering
         });
     })
     </script>
-  <div class ="pie-jumbotron center-text" style="margin-bottom:0; padding-bottom:30px">
-    <h2>We're recruiting now for the 2019-2020 school year&mdash;check out our events.</h2>
-    <a class="btn btn-info" target="_blank" href="get-involved/#fall-recruiting" role="button" style="margin-top:15px">Join PiE Staff</a>
-  </div>
+  {% if site.data.recruiting.active %}
+    <div class ="pie-jumbotron center-text" style="margin-bottom:0; padding-bottom:30px">
+      <h2>We're recruiting now for the 2019-2020 school year&mdash;check out our events.</h2>
+      <a class="btn btn-info" target="_blank" href="get-involved/#fall-recruiting" role="button" style="margin-top:15px">Join PiE Staff</a>
+    </div>
+  {% endif %}
 <script src="assets/javascripts/banner.js"></script>
 <div class="home">
-  <!--
-  <div class ="pie-jumbotron center-text">
-    <h2>ANNOUNCEMENTS</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Get Involved</h3>
-        <div class="row">
-          <div class="col-sm-6">
-            <h4>Join PiE Staff</h4>
-            <p>Looking for an engineering outreach club to join for the spring semester? Learn about what PiE does and the work you can do here.</p>
-            <a class="btn btn-primary" target="_blank" href="get-involved/" role="button">Join PiE Staff</a>
-          </div>
-          <div class="col-sm-6">
-              <h4>Become a Mentor</h4>
-              <p>Looking for a DeCal that combines learning robotics with a fun teaching experience to high school students? Check out the PiE RC DeCal.</p>
-              <a class="btn btn-info" target="_blank" href="get-involved/become-mentor.html" role="button">DeCal Mentors</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h3>PiE Spring Robotics Competition</h3>
-        <p>Our capstone robotics competition for Bay Area high school students, 10th year in the running. Learn more about the competition, the timeline, and resources for students.</p>
-        <a class="btn btn-primary" target="_blank" href="compete/rc-spring.html" role="button">2018 Spring Robotics Competition</a>
-      </div>
-    </div>
-  </div>
-  -->
   <section id = "main-about">
       <div id="blue-row" class="rc-row vertical-align" style="position: relative;">
           <div class="transparent-offset" id="main-about"></div>
@@ -180,7 +155,7 @@ title: Pioneers in Engineering
           			<div class="home-page-text-descr">
                   <p>
                     Apart from competition, learn how PiE can provide for high school students, whether through a college scholarship for RC paticipants or fun educational opportunities!
-                  </p>  
+                  </p>
                 </div>
                 <div class="button-holder">
                   <a class="btn btn-homepage-white section-button" href="/programs/scholarship" role="button">

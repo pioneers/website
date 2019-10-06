@@ -35,7 +35,9 @@ hero-message: Get Involved!
     <!-- mini nav -->
     <div class="get-involved-navbar">
         <ul class="stripped-ulist">
-            <li class="navbar-item"><a href="#fall-recruiting">Fall Recruiting</a></li>
+            {% if site.data.recruiting.active %}
+                <li class="navbar-item"><a href="#fall-recruiting">Fall Recruiting</a></li>
+            {% endif %}
             <li class="navbar-item"><a href="#member">Membership</a></li>
             <li class="navbar-item"><a href="#why-join-pie">Why Join PiE?</a></li>
             <li class="navbar-item"><a href="#mentor">Mentor</a></li>
@@ -46,175 +48,60 @@ hero-message: Get Involved!
     </div>
 
     <!-- Fall Recruiting -->
-    <div style="position: relative">
-        <h1 style="text-align: center">Join Us for Fall 2019 Recruiting!</h1>
+    {% if site.data.recruiting.active %}
+      <div style="position: relative">
+        <h1 style="text-align: center">Join us for Fall 2019 recruiting!</h1>
         <div class="transparent-offset" id="fall-recruiting"></div>
-    </div>
-    <p>We've got a great lineup of events ready to welcome you (back) to Berkeley. Come to an infosession to find out what we're all about, then pick and choose from our "welcome week" of socials, where you'll get a chance to mingle with leadership, project managers, and other PiE members as you enjoy free snacks and other activities. Finally, decide which project team you want to help out with at Project Expo. We believe that everyone can find a place to contribute in PiE, regardless of year or major, so don't hesitate to come out! You'll also be able to find us tabling at <a href="https://lead.berkeley.edu/calapalooza/">Calapalooza</a> and regularly on Sproul.</br></br><a href="https://calendar.google.com/calendar/embed?src=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com&ctz=America%2FLos_Angeles">Add our Google calendar</a> (plus sign on the bottom right)<br /><br /><a href = "https://www.facebook.com/pg/pierobotics/events">Check out our events on Facebook</a><p>
-	<div style="text-align: center">
-        	<a class="btn btn-info" href="/get-involved/forms">Join Now</a>
-    	</div>
+      </div>
+      <p>
+        We've got a great lineup of events ready to welcome you (back) to Berkeley.
+        Come to an infosession to find out what we're all about, then pick and choose from our "welcome week" of socials, where you'll get a chance to mingle with leadership, project managers, and other PiE members as you enjoy free snacks and other activities.
+        Finally, decide which project team you want to help out with at Project Expo.
+        We believe that everyone can find a place to contribute in PiE, regardless of year or major, so don't hesitate to come out!
+        You'll also be able to find us tabling at <a href="https://lead.berkeley.edu/calapalooza/">Calapalooza</a> and regularly on Sproul.
+      </p>
+      <p>
+        <a href="https://calendar.google.com/calendar/embed?src=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com&ctz=America%2FLos_Angeles">Add our Google calendar</a> (plus sign on the bottom right)
+      </p>
       <div class="container">
-        <h2 style="text-align: center">Week 1: Infosessions</h2>
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th style="width:25%">Event</th>
-                        <th>Location</th>
-                        <th style="width:18%">Time</th>
-                        <th style="width:40%">Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Infosession 1</td>
-                        <td>104 Barrows [<a href="https://www.google.com/maps/place/Barrows+Hall/@37.8710624,-122.258644,17.89z/data=!4m5!3m4!1s0x80857c25938066c3:0x73f82f3646d8e0bd!8m2!3d37.8703452!4d-122.2581044">map</a>]</td>
-                        <td>
-                            Tuesday 9/3, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmRtam1xbW0wbHFrZW1sOGdpODJjN3ZncGsgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&amp;tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-			    <br />
-			    [<a href = "https://www.facebook.com/events/536256930465186">Facebook event</a>]	
-                        </td>
-                        <td>
-                            Come learn about what being part of PiE is all about! This is our infosession on the South side of campus.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Infosession 2</td>
-                        <td>310 Soda [<a href="https://www.google.com/maps/place/EECS+Computer+Science+Division+Soda+Hall/@37.8727165,-122.262557,16.49z/data=!4m5!3m4!1s0x80857c23cec17a61:0xd6e1f085d0308711!8m2!3d37.875614!4d-122.2587139">map</a>]</td>
-                        <td>
-                            Thursday 9/5, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NnNqb3EycGpkY3VsN21pZzFvbnFmbDA2MjkgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&amp;tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-			    <br />
-			    [<a href = "https://www.facebook.com/events/373731599982776">Facebook event</a>]
-                        </td>
-                        <td>
-                            This is our infosession on the North side of campus.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2 style="text-align: center; padding-top: 15px">Week 2: Welcome Week</h2>
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th style="width:25%">Event</th>
-                        <th>Location</th>
-                        <th style="width:18%">Time</th>
-                        <th style="width:40%">Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>DIY Cookies</td>
-                        <td>320 Soda [<a href="https://www.google.com/maps/place/EECS+Computer+Science+Division+Soda+Hall/@37.8727165,-122.262557,16.49z/data=!4m5!3m4!1s0x80857c23cec17a61:0xd6e1f085d0308711!8m2!3d37.875614!4d-122.2587139">map</a>]</td>
-                        <td>
-                            Monday 9/9, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWdxYnNyMjRkMWNqZWlnOWNla2hwNmZydXIgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                            <br />
-			    [<a href = "https://www.facebook.com/events/487414218721974">Facebook event</a>]
-		        </td>
-                        <td>
-                            Get to know the club as you frost and design your own cookies!
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Grape Juice and Cheese Reception</td>
-                        <td>320 Soda [<a href="https://www.google.com/maps/place/EECS+Computer+Science+Division+Soda+Hall/@37.8727165,-122.262557,16.49z/data=!4m5!3m4!1s0x80857c23cec17a61:0xd6e1f085d0308711!8m2!3d37.875614!4d-122.2587139">map</a>]</td>
-                        <td>
-                            Tuesday 9/10, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NG0yYXI4djUyaDNkbjkwcHRyZWpxNXZnMWogcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-			    <br />
-			    [<a href = "https://www.facebook.com/events/2393396450873371">Facebook event</a>]
-                        </td>
-                        <td>
-                            Meet the cheese connoisseurs of PiE as you sample their selection of cheeses and crackers, paired with the finest of (non-alcoholic) grape beverages.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday Worksession</td>
-                        <td><a href="#member">See below</a></td>
-                        <td>
-                            Wednesday 9/11, 7 - 9 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGkydmFoMmZ1ZHUycnVrZGw0czRxbms2cnAgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                        </td>
-                        <td>
-                            While not recommended for new recruits, you're welcome to check out one of our regular twice-a-week worksessions as we prepare for a busy year ahead. There won't be much for you to do, but you'll be able to get a glimpse at the daily life of a PiE member and check out our club rooms.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Boba Night</td>
-                        <td>521 Cory [<a href="https://www.google.com/maps/place/Electrical+Engineering+%26+Computer+Sciences+-+Cory+Hall/@37.8724705,-122.2623792,16.45z/data=!4m5!3m4!1s0x80857c2397ba3b69:0x71ac05e6d31fe54d!8m2!3d37.8752128!4d-122.257515">map</a>]</td>
-                        <td>
-                            Thursday 9/12, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MmdwbGR0ZDR0dWxpZWIyaWg3c2JnbzdhcmsgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                            <br />
-			    [<a href = "https://www.facebook.com/events/1611984862271423">Facebook event</a>]
-			</td>
-                        <td>
-			    <!-- It's free real estate -->
-                            It's free boba. See you there!
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Ice Cream and Game Night</td>
-                        <td>521 Cory [<a href="https://www.google.com/maps/place/Electrical+Engineering+%26+Computer+Sciences+-+Cory+Hall/@37.8724705,-122.2623792,16.45z/data=!4m5!3m4!1s0x80857c2397ba3b69:0x71ac05e6d31fe54d!8m2!3d37.8752128!4d-122.257515">map</a>]</td>
-                        <td>
-                            Friday 9/13, 7 - 8:30 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NjVzNmtwdW8yZ2NtbGpzbTYyZjI5dmlqZnAgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                            <br />
-			    [<a href = "https://www.facebook.com/events/2857521744323047">Facebook event</a>]
-			</td>
-                        <td>
-                            Choose from our large selection of board games or jump into a game of Smash as you enjoy your ice cream.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2 style="text-align: center; padding-top: 15px">Week 3: Project Expo</h2>
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th style="width:25%">Event</th>
-                        <th>Location</th>
-                        <th style="width:18%">Time</th>
-                        <th style="width:40%">Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Project Expo 1</td>
-                        <td>
-                            101 O'Brien and O'Brien Breezeway 2nd floor [<a href="https://www.google.com/maps/d/viewer?mid=1oVx7EYV75dEXgJSlpPmbfQ2R_dWQ26iI&ll=37.874551694807685%2C-122.2592228994057&z=18">map</a>]<br />
-                        </td>
-                        <td>
-                            Wednesday 9/18, 7 - 9 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NnMybjZuNTFwNXJrMmtkZ3Z1NG1ib2M1bGwgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                            <br />
-			    [<a href = "https://www.facebook.com/events/2334442576884991">Facebook event</a>]
-			</td>
-                        <td>
-                            Hear from our PMs as they advertise each of our wide range of <a href="#projects">projects</a>, then join up with one of them.
-                        </td>
-                    </tr>                    
-                    <tr>
-                        <td>Project Expo 2</td>
-                        <td>
-                            101 O'Brien and O'Brien Breezeway 2nd floor [<a href="https://www.google.com/maps/d/viewer?mid=1oVx7EYV75dEXgJSlpPmbfQ2R_dWQ26iI&ll=37.874551694807685%2C-122.2592228994057&z=18">map</a>]<br />
-                        </td>
-                        <td>
-                            Saturday 9/21, 1 - 3 PM<br />
-                            [<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDZ1ODczamt2dDVvN2E3MWthYjYyZzZlNjYgcGlvbmVlcnMuYmVya2VsZXkuZWR1XzR2ZHRucXZ0dDVobGNuYzU0bjdpNTJlbjg4QGc&tmsrc=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com">add to calendar</a>]
-                            <br />
-			    [<a href = "https://www.facebook.com/events/970765209931002">Facebook event</a>]
-			</td>
-                        <td>
-                             Both Project Expos are the same.
-                        </td>
-                    </tr>                    
-                </tbody>
-            </table>
-        </div>
+        {% for week in site.data.recruiting.events_by_week %}
+          <h2 style="text-align: center">Week {{ forloop.index }}{% if week.name %}: {{ week.name }}{% endif %}</h2>
+          <table class="table table-striped table-hover">
+            <thead>
+              <th style="width:25%">Event</th>
+              <th>Location</th>
+              <th style="width:18%">Time</th>
+              <th style="width:40%">Description</th>
+            </thead>
+            <tbody>
+              {% for event in week.events %}
+                <tr>
+                  <td>{{ event.name }}</td>
+                  <td>
+                    {{ event.location }}
+                    {% if event.map %}
+                      [<a target="_blank" href="{{ event.map }}">map</a>]
+                    {% endif %}
+                  </td>
+                  <td>
+                    {{ event.start | date: '%A %m/%d, %l %p' }} - {{ event.end | date: '%l' }}
+                    {% if event.calendar %}
+                      [<a target="_blank" href="{{ event.calendar }}">add to calendar</a>]
+                    {% endif %}
+                  </td>
+                  <td>{{ event.description | default: "No description yet" }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% else %}
+          <p>
+            There are no recruiting events at this time.
+            However, we are always looking for new staff!
+          </p>
+        {% endfor %}
+      </div>
+    {% endif %}
 
     <!-- Become a Member -->
     <div style="position: relative">
@@ -243,8 +130,7 @@ hero-message: Get Involved!
     					<td>
                             101 O'Brien or O'Brien Breezeway 2nd Floor (depending on team)
                             [<a href="https://www.google.com/maps/d/viewer?mid=1oVx7EYV75dEXgJSlpPmbfQ2R_dWQ26iI&ll=37.874551694807685%2C-122.2592228994057&z=18">map</a>]
-<!--                             [<a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">map</a>]
- -->                        </td>
+                        </td>
                     </tr>
     			</tbody>
     		</table>
