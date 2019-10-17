@@ -70,7 +70,7 @@ hero-message: About Us
 		            </a> -->
 		           	<img class="img-scaled-wh card-img-top staff-image" src="/assets/images/team/{{ member.picture }}" alt="">
 		            <div class="staff-description" style="padding: 10px">
-		              <h4 class="card-text" style="margin-bottom:0">{{ member.name }}</h4>
+		              <h4 class="card-text" style="margin-bottom:0"><a href="#" data-toggle="modal" data-target="#modal1{{ forloop.index }}">{{ member.name }}</a></h4>
 		              <h5 class="card-text" style="font-style:italic;margin-top:3px;">{{ member.title }}</h5>
 		              <!--<p class="card-text classes" style="word-wrap:normal">
 		                {{ member.short-bio }}
@@ -79,7 +79,23 @@ hero-message: About Us
 		            </div>
 		          </div>
 
-		          <!-- Modal -->
+		          <!-- Modal #1: Leadership -->
+							<div class="modal fade" id="modal1{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">{{ member.name }}</h5>
+										</div>
+										<div class="modal-body">
+											<p>{{member.title}}</p>
+											{% if member.bio %}
+											<h5>Bio</h5>
+											<p>{{ member.bio }} </p>
+											{% endif %}
+										</div>
+									</div>
+								</div>
+							</div>
 		          <!-- <div class="modal fade" id="modal{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		            <div class="modal-dialog" role="document">
 		              <div class="modal-content">
@@ -105,13 +121,31 @@ hero-message: About Us
 		              	<img class="img-scaled-wh" src="/assets/images/team/{{ member.photo }}" alt="">
 		              </div>
 		              <div class="staff-description" style="padding: 10px">
-		                <h4 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.name }}</h4>
+		                <h4 class="card-text" style="margin-top: 0; margin-bottom: 7px"><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}">{{ member.name }}</a></h4>
 		                <h5 class="card-text" style="font-style:italic;margin-top:3px;">{{ member.project }}</h5>
 		              </div>
 		            </div>
-		            {% endfor %}
-		        </div>
 
+								<!-- Modal #2: Project Managers -->
+								<div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">{{ member.name }}</h5>
+											</div>
+											<div class="modal-body">
+												<h5>Team Description</h5>
+												<p>{{member.description}}</p>
+												{% if member.bio %}
+												<h5>Bio</h5>
+												<p>{{ member.bio }} </p>
+												{% endif %}
+											</div>
+										</div>
+									</div>
+								</div>
+								{% endfor %}
+		        </div>
 		        <hr>
 
 		        <!-- All Staff And Bios -->
@@ -120,7 +154,7 @@ hero-message: About Us
 		            {% for member in site.data.staff-bio %}
 		            <div class="staff-member card" style="margin-bottom: 20px">
 		              <!--<div class="staff-image">
-		                <a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" >
+		                <a href="#" data-toggle="modal" data-target="#modal3{{ forloop.index }}" >
 		                  <img class="img-scaled-wh" src="/assets/images/team/staff_photos/{{ member.picture }}" alt="">
 		                </a>
 		              </div>-->
@@ -129,19 +163,19 @@ hero-message: About Us
 										<h5 class="card-text" style="margin-top: 0; margin-bottom: 7px">{{ member.major }}</h5>
 										<!--TODO: include {{ member.year }} with suffix-->
 		              </div>
-		              <div><a href="#" data-toggle="modal" data-target="#modal2{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">More about me</a>
+		              <div><a href="#" data-toggle="modal" data-target="#modal3{{ forloop.index }}" style="margin-bottom:10px;margin-right:10px;float:right">More about me</a>
 		              </div>
 		            </div>
 
-		            <!-- Modal -->
-		            <div class="modal fade" id="modal2{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		            <!-- Modal #3: Staff -->
+		            <div class="modal fade" id="modal3{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		              <div class="modal-dialog" role="document">
 		                <div class="modal-content">
 		                  <div class="modal-header">
 		                    <h5 class="modal-title">{{ member.name }}</h5>
 		                  </div>
 		                  <div class="modal-body">
-		                    <p>{{member.short-bio}}</p>
+		                    <p>{{member.bio}}</p>
 		                    {% if member.misc-info %}
 		                    <h5>Misc Info / Links</h5>
 		                    <p>{{ member.misc-info}} </p>

@@ -9,77 +9,135 @@ hero-message: Gallery
 
 <div class="container-fluid">
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a>
+    <li class="active"><a href="#2019" data-toggle="tab" aria-expanded="false">2019</a>
+    <li class=""><a href="#2018" data-toggle="tab" aria-expanded="false">2018</a></li>
+    <li class=""><a href="#2017" data-toggle="tab" aria-expanded="false">2017</a></li>
+    <li class=""><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a></li>
     <li class=""><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
     <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
     <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane fade active in" id="2016">
 
-      <div id="spring-events-2016" class="heading-image">
+    <div class="tab-pane fade active in" id="2019">
+
+        <div id="spring-events-2019" class="heading-image">
+          <h1 class="heading-title">Spring Events</h1>
+          <p class="heading-description">Hello World</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+        <div id="staff-events-2019" class="heading-image">
+          <h1 class="heading-title">Staff Events</h1>
+          <p class="heading-description">PiE staff just want to have fun.</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+    </div>
+
+    <div class="tab-pane fade in" id="2018">
+
+        <div id="spring-events-2018" class="heading-image">
+          <h1 class="heading-title">Spring Events</h1>
+          <p class="heading-description">Hi there</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+        <div id="staff-events-2018" class="heading-image">
+          <h1 class="heading-title">Staff Events</h1>
+          <p class="heading-description">PiE</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+    </div>
+
+    <div class="tab-pane fade in" id="2017">
+
+        <div id="spring-events-2017" class="heading-image">
+          <h1 class="heading-title">Spring Events</h1>
+          <p class="heading-description">Wow</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+        <div id="staff-events-2017" class="heading-image">
+          <h1 class="heading-title">Staff Events</h1>
+          <p class="heading-description">:)</p>
+        </div>
+
+          <div class="gallery">
+          </div>
+
+    </div>
+
+    <div class="tab-pane fade in" id="2016">
+
+        <div id="spring-events-2016" class="heading-image">
           <h1 class="heading-title">Spring Events</h1>
           <p class="heading-description">We had a ball (pit)!</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="spring-events-2016-1.jpg" img_caption="Students check-in as PiE kicks off it's 8th year!" gallery="2016-spring-events"%}
-          {% include gallery-image.html img_url= "spring-events-2016-2.jpg" img_caption="High school seniors attend the scholarship workshop" gallery="2016-spring-events"%}
-          {% include gallery-image.html img_url= "spring-events-2016-3.jpg" img_caption="Metal parts, assemble! Students work with their mentor to put together their kit." gallery="2016-spring-events"%}
-          {% include gallery-image.html img_url= "spring-events-2016-4.jpg" img_caption="This is serious business. No, really." gallery="2016-spring-events"%}
-          {% include gallery-image.html img_url= "spring-events-2016-5.jpg" img_caption="Every team needs a hype man!" gallery="spring-events-2016"%}
-          {% include gallery-image.html img_url= "spring-events-2016-6.jpg" img_caption="How many PiE staff members does it take to fish tennis balls out of a ball pit? Apparently, a lot." gallery="2016-spring-events"%}
-          {% include gallery-image.html img_url= "spring-events-2016-7.jpg" img_caption="Ohana means family, and family means PiE staff." gallery="2016-spring-events"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-sp-events-2016 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="spring-events-2016" %}
+            {% endfor %}
+          </div>
 
         <div id="staff-events-2016" class="heading-image">
           <h1 class="heading-title">Staff Events</h1>
           <p class="heading-description">PiE staff just want to have fun.</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="staff-events-2016-1.jpg" img_caption="Enjoying some quality time in Tahoe." gallery="2016-staff-events"%}
-          {% include gallery-image.html img_url="staff-events-2016-2.jpg" img_caption="DIY sushi night!" gallery="2016-staff-events"%}
-          {% include gallery-image.html img_url="staff-events-2016-3.jpg" img_caption="PiE staff dresses up and buckles down for our end of the year banquet." gallery="2016-staff-events"%}
-          {% include gallery-image.html img_url="staff-events-2016-4.jpg" img_caption="There's a new leadership team in town." gallery="2016-staff-events"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-staff-events-2016 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="staff-events-2016" %}
+            {% endfor %}
+          </div>
+
+    </div>
 
 
-      </div>
     <div class="tab-pane fade in" id="2015">
 
-      <div id="spring-competition-2015" class="heading-image">
+        <div id="spring-competition-2015" class="heading-image">
           <h1 class="heading-title">Spring Competition</h1>
           <p class="heading-description">Building cool stuff</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="spring-comp-2015-3.jpg" img_caption="Students working on their robot." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-8.jpg" img_caption="Some last minute work." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-3.jpg" img_caption="Check out the arena!" gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-4.jpg" img_caption="Ready, set..." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-6.jpg" img_caption="And the crowd goes wild." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-7.jpg" img_caption="[insert caption]" gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-2.jpg" img_caption="The PiE team, gone mad after many long hours." gallery="2015-spring-comp"%}
-          {% include gallery-image.html img_url= "spring-comp-2015-5.jpg" img_caption="Students celebrating their success." gallery="2015-spring-comp"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-sp-comp-2015 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="spring-competition-2015" %}
+            {% endfor %}
+          </div>
 
         <div id="fall-competition-2015" class="heading-image">
           <h1 class="heading-title">Fall Competition</h1>
           <p class="heading-description">Like Spring Competition, but in the Fall!</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="fall-comp-2015-1.jpg" img_caption="Kicking off the competition in the foyer of the Hearst Memorial Mining Building." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-2.jpg" img_caption="The PiE team at work." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-5.jpg" img_caption="Don't mess up, don't mess up..." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-4.jpg" img_caption="Though she be but little, she is fierce." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-3.jpg" img_caption="Unleash the robots!" gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-8.jpg" img_caption="Check out our rotating table." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-7.jpg" img_caption="Students observing their hard work." gallery="2015-fall-comp"%}
-          {% include gallery-image.html img_url="fall-comp-2015-6.jpg" img_caption="Foul!" gallery="2015-fall-comp"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-fa-comp-2015 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="fall-competition-2015" %}
+            {% endfor %}
+          </div>
 
 
         <div id="retreat-2015" class="heading-image">
@@ -87,19 +145,15 @@ hero-message: Gallery
           <p class="heading-description">Check out what the PiE team does outside of building robots</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="retreat-2015-1.jpg" img_caption="An amazing view." gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-2.jpg" img_caption="Leadership makes cookies." gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-3.jpg" img_caption="Hello, Sprocket!" gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-4.jpg" img_caption="One big family." gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-5.jpg" img_caption="What are you looking at?" gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-6.jpg" img_caption="Games." gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-8.jpg" img_caption="More games!" gallery="2015-retreat"%}
-          {% include gallery-image.html img_url="retreat-2015-7.jpg" img_caption="PiE takes on the outdoors." gallery="2015-retreat"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-retreat-2015 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="retreat-2015" %}
+            {% endfor %}
+          </div>
 
       </div>
-
 
 
       <div class="tab-pane fade in" id="2014">
@@ -109,63 +163,61 @@ hero-message: Gallery
           <p class="heading-description">What we were up to in the Fall</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="fall-events-2014-1.jpg" img_caption="Our little friend." gallery="2014-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2014-2.jpg" img_caption="LHS field trip!" gallery="2014-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2014-3.jpg" img_caption="Mentorship at work." gallery="2014-fall-events"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-fa-events-2014 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="fall-events-2014" %}
+            {% endfor %}
+          </div>
 
       </div>
 
+
       <div class="tab-pane fade in" id="2013">
 
-      <div id="spring-events-2013" class="heading-image">
+        <div id="spring-events-2013" class="heading-image">
           <h1 class="heading-title">Spring Events</h1>
           <p class="heading-description">What we do in the Spring</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="spring-events-2013-1.jpg" img_caption="Long hours of soldering at E-Production." gallery="2013-spring-events"%}
-          {% include gallery-image.html img_url="spring-events-2013-2.jpg" img_caption="Building." gallery="2013-spring-events"%}
-          {% include gallery-image.html img_url="spring-events-2013-3.jpg" img_caption="More building!" gallery="2013-spring-events"%}
-          {% include gallery-image.html img_url="spring-events-2013-4.jpg" img_caption="Worksession in O'Brien." gallery="2013-spring-events"%}
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-sp-events-2013 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="spring-events-2013" %}
+            {% endfor %}
+          </div>
 
         <div id="fall-events-2013" class="heading-image">
           <h1 class="heading-title">Fall Events</h1>
           <p class="heading-description">What we're up to in the Fall</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="fall-events-2013-1.jpg" img_caption="PiE Prep at local high schools." gallery="2013-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2013-2.jpg" img_caption="Bring STEM education to the Bay!" gallery="2013-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2013-4.jpg" img_caption="Each lesson has hands-on activities." gallery="2013-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2013-3.jpg" img_caption="Hour of code." gallery="2013-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2013-5.jpg" img_caption="Starting them young." gallery="2013-fall-events"%}
-          {% include gallery-image.html img_url="fall-events-2013-6.jpg" img_caption="PiE members teaching kids." gallery="2013-fall-events"%}
-        </div>
-
-
+          <div class="gallery">
+            {% for picture in site.data.gallery-fa-events-2013 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="fall-events-2013" %}
+            {% endfor %}
+          </div>
 
         <div id="retreat-2013" class="heading-image">
           <h1 class="heading-title">Retreat</h1>
           <p class="heading-description">Work hard, play hard</p>
         </div>
 
-        <div class="gallery">
-          {% include gallery-image.html img_url="retreat-2013-1.jpg" img_caption="Food. So much food." gallery="2013-retreat"%}
-          {% include gallery-image.html img_url="retreat-2013-2.jpg" img_caption="Skiing in Tahoe!" gallery="2013-retreat"%}
-          {% include gallery-image.html img_url="retreat-2013-3.jpg" img_caption="Gather round for a story." gallery="2013-retreat"%}
-          {% include gallery-image.html img_url="retreat-2013-4.jpg" img_caption="It's a long bus ride back to Berkeley." gallery="2013-retreat"%}
-
-        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-retreat-2013 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="retreat-2013" %}
+            {% endfor %}
+          </div>
 
       </div>
 
-
   </div>
-
-
 
 </div>
 
