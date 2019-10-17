@@ -1,324 +1,336 @@
 -
-    timestamp: 9/19/2018 19:37:14
-    name: Rafael Ostrea
-    email: rs4ostrea@berkeley.edu
-    year: 1
-    major: Intended Computer Science (L&S)
-    classes: Data 8
-    bio: I grew up in the Philippines and lived there for 15 years
-    misc-info: 
--
-    timestamp: 9/19/2018 19:39:46
-    name: Mark Zhang
-    email: ziyaoz@berkeley.edu
-    year: 1
+    timestamp: 10/2/2019 20:17:46
+    name: Kexin Zhu
+    pronouns: She series
     major: CS
-    classes: 
-    bio: Proficient in stackoverflow oriented programming. Wrote a few front-end projects in high school. (Sort of) proficient in python. Know a little bit of swift, java, and javascript.
-    misc-info: https://ziyaointl.com
+    year: Freshman
+    bio: pineapple and pizza are mutually exclusive
+    email:
 -
-    timestamp: 9/19/2018 19:41:27
-    name: Jialin Li
-    email: j.li98@berkeley.edu
-    year: 2
-    major: CS
-    classes: CS 61A, CS 61B, CS 70, Math 54
-    bio: 
-    misc-info: 
+    timestamp: 10/2/2019 20:21:53
+    name: Ahllain Santos
+    pronouns: she/her
+    major: public health and data science
+    year: Freshman
+    bio: I like to play badminton and I love working with little kids. I like to create websites and try different ethnic foods!
+    email:
 -
-    timestamp: 9/19/2018 19:44:02
-    name: Ryan Koh
-    email: ryan_koh@berkeley.edu
-    year: 1
-    major: Intended Computer Science
-    classes: Currently in CS61A, EE16A, IB35AC, LS C60T
-    bio: 'I like food and Netflix and idk, that''s it lol.'
-    misc-info: N/A
+    timestamp: 10/2/2019 20:58:17
+    name: Jeffrey Wu
+    pronouns: He/Him/His
+    major: Intended CS
+    year: Freshman
+    bio: 'Hello, my name is Jeffrey Wu. I''m planning to study computer science, and maybe, double major with economics. '
+    email:
 -
-    timestamp: 9/19/2018 23:37:25
-    name: Lizhi Yang
-    email: lizhiyang@pioneers.berkeley.edu
-    year: 1
-    major: EECS
-    classes: CS61A EE16A Math53 
-    bio: Love sci-fi, love reading, love building EE stuff
-    misc-info: Follow me on Facebook! Same as my name
+    timestamp: 10/2/2019 21:02:20
+    name: Helen Zhao Chen
+    pronouns: She, her, hers
+    major: Bio somewhere
+    year: Freshman
+    bio: uwu
+    email:
 -
-    timestamp: 9/22/2018 15:17:38
-    name: Seiya
-    email: seiyaono@pioneers.berkeley.edu
-    year: 4
-    major: ee
-    classes: ee105, ee120, cs162, ee143, ee130, ee147, eecs151
-    bio: Follow me on twitter @onibrow
-    misc-info: seiyaono.com
+    timestamp: 10/2/2019 21:02:52
+    name: Samarth Goel
+    pronouns: He/Him/His
+    major: CS + Haas
+    year: Freshman
+    bio: 'Hi! I''m a freshman studying Computer Science, Data Science, and Business Administration. In addition to PiE, I''m part of the Cal Band, AFX Dance, and Berkeley Solar Car. '
+    email:
 -
-    timestamp: 9/22/2018 21:20:31
-    name: Armen Phelps
-    email: armenphelps@pioneers.berkeley.edu
-    year: 1
-    major: Intended MCB, considering CS
-    classes: Currently taking MATH 10A, and CHEM 1A/1AL
-    bio: 'I love spending time with my friends, playing board/card games, and going out to eat. Can''t wait to learn more about CS in PiE!'
-    misc-info: 
--
-    timestamp: 9/26/2018 19:13:42
-    name: Kevin Gao
-    email: kevingao@pioneers.berkeley.edu
-    year: 1
-    major: EECS
-    classes: CS 61A, CS 70
-    bio: 
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:00
-    name: Victor Huang
-    email: vkhuang@berkeley.edu
-    year: 4
-    major: cs
-    classes: 61abc, 70, 170, 168, 162, 188, 162
-    bio: im a weeb and I go to the gym
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:16
-    name: Kunal Gupta
-    email: kunal.gupta@berkeley.edu
-    year: 3
-    major: Data Science, Minor Computer Science 
-    classes: math1b, cs61a, cs61b, cs70, math53, math54, data100, stat140, cs188
-    bio: Lived in four countries, like to play tennis and soccer
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:24
-    name: Matthew Xie
-    email: mkxie@berkeley.edu
-    year: 2
-    major: Computer Science
-    classes: CS 61a, CS 61b, CS 70, Data 100, Data 8, EE 16a, EE 16b
-    bio: 
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:27
-    name: Michael Aydin
-    email: michaelaydin@berkeley.edu
-    year: 3
-    major: Computer Science
-    classes: 
-    bio: I like to stay active.
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:44
-    name: Ben Liao
-    email: benliao1@berkeley.edu
-    year: 1
-    major: Undeclared Engineering
-    classes: (1st semester)
-    bio: "I did robotics in high school (Botball), and I wanted to keep up my involvement in high school robotics programs. So I'm here!\nSome interests I have: All kinds of engineering / real-world problem-solving (that's why I'm Undeclared Engineering), astronomy, speedcubing, and making tutorials / documentary-style videos."
-    misc-info: 
--
-    timestamp: 9/26/2018 19:15:56
-    name: Matthew Wang
-    email:  matthew.wang@berkeley.edu
-    year: 2
+    timestamp: 10/2/2019 22:02:55
+    name: Bryant La
+    pronouns: he/him/his
     major: Mechanical Engineering
-    classes: Math 53/54, CS 61A/B, EE 16A, Physics 7A/7B, E 25/26, ME 85
-    bio: I like playing Ping Pong.
-    misc-info: 
+    year: Sophomore
+    bio: "Bryant lived a fairly ordinary life, but that all changed one night when, while walking home from the cinema, he witnessed his own parents being murdered in front of his very eyes. From then on, he swore he would protect his city and its citizens so no one would have to suffer as he did. He would save his city. \n\nHowever, he recognized that, as a man, he was flesh and blood: he could be ignored, he could be destroyed; but as a symbol... as a symbol he could be incorruptible, he could be everlasting. To do that, he had to become someone else. He had to become something else.\n\nBut then he got accepted into Berkeley, so he scrapped those plans and now he's studying engineering."
+    email:
 -
-    timestamp: 9/26/2018 19:16:08
-    name: Bob Dai
-    email: bodai@pioneers.berkeley.edu
-    year: 4
-    major: Computer Science
-    classes: Most CS classes
-    bio: 'On a scale from Cheeseboard to Chez Panisse, I''m a McNugget'
-    misc-info: 
+    timestamp: 10/2/2019 22:15:47
+    name: Aryaman Jhunjhunwala
+    pronouns: He/Him/His
+    major: EECS
+    year: Freshman
+    bio: " Hi\nMy name is Aryaman. I'm from London. In my free time I love to go sailing and climbing. I also love building stuff and I'm always switching between wacky robotics projects. Can't wait to meet all of you and have a great competition."
+    email:
 -
-    timestamp: 9/26/2018 19:16:23
-    name: Xavier Balladarez
-    email: xserena@berkeley.edu
-    year: 1
-    major: Electrical Engineering and Computer Science
-    classes: CS61A, MATH1B, EDUC186AC
-    bio: 'I''m from San Diego but live in Tijuana, Mexico. I am passionate about robotics and education and am the director of a non-profit in Tijuana that fulfills the same. I also have 13 dogs amongst many other pets.'
-    misc-info: https://www.gofundme.com/starting-robotics-teams-in-tijuana
+    timestamp: 10/2/2019 22:18:52
+    name: Jennessa Ma
+    pronouns: She/her/hers
+    major: Intended CS
+    year: Freshman
+    bio: 'Hi! I''m Jennessa and I''m really into learning everything that has to do with computer science and robotics :) '
+    email:
 -
-    timestamp: 9/26/2018 19:16:23
-    name: Michael Wu
-    email: wuxiaohua1011@berkeley.edu
-    year: 2
-    major: CS
-    classes: 61A, 61B, 
-    bio: "Hello, I am a current undergraduate student pursuing a degree in Computer Science at UC Berkeley. Besides being all nerdy, or a.k.a being an engineer who is able to solve problems you didn't know you had in ways you can't understand, I have a lot of other hobbies.\n\n1. I love to cook, especially good, traditional, shanghainese cuisine\n\n2. I play badminton, although not competitively, as in being in the national team, but I deem myself decently good. So definitely hit me up.\n\n3. I like to go out on hikes, adventures\n\n4. A lot others, feel free to email me"
-    misc-info: https://wuxiaohua1011.github.io/
--
-    timestamp: 9/26/2018 19:16:25
-    name: Dixun Cui
-    email: dixuncui@berkeley.edu
-    year: 1
+    timestamp: 10/2/2019 22:27:13
+    name: Colin Leung
+    pronouns: he/him/his
     major: Mechanical Engineering
-    classes: 'Current: math 1a, e25, com lit 60ac, english r1b'
-    bio: "-enjoys playing the guitar and piano\n-does soccer and swimming\n-want to help high school kids get robotics opportunities because my high school couldn't afford them\n-huge Toronto Maple Leafs fan\n"
-    misc-info: 
+    year: Freshman
+    bio: "please check out and subscribe to my youtube channel because I post yummy dessert recipes :)\nhttps://www.youtube.com/c/COLINary"
+    email:
 -
-    timestamp: 9/26/2018 19:16:26
+    timestamp: 10/2/2019 22:35:51
+    name: Ashley Zhang
+    pronouns: she/her
+    major: Electrical Engineering & Computer Sciences
+    year: Sophomore
+    bio: 'Ashley Zhang is a second-year EECS major from the Bay Area. When she''s not debugging a CS project, she enjoys drawing and playing jugger.'
+    email:
+-
+    timestamp: 10/3/2019 11:55:55
     name: Chad Wakamiya
-    email: chadwakamiya@berkeley.edu
-    year: 3
+    pronouns: He/Him
     major: IEOR
-    classes: IEOR 160,162,173,172,165
-    bio: 'Hi, my name is Chad. I''m from San Ramon, CA. I like bearded dragons and anything orange. '
-    misc-info: 
+    year: Senior
+    bio: 'Hi! I''m been a part of PiE for all 4 years at Cal. I''ve worked on a variety of projects in PiE including mechanical, programs, and CPR (the data analytics team). Feel free to reach out to me about IEOR or any of the PiE projects I''ve worked on!'
+    email: chadwakamiya@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:16:38
-    name: Alan Zhang
-    email: alanzhang@pioneers.berkeley.edu
-    year: 4
-    major: CS + Ling
-    classes: eh
-    bio: I like dogspotting, running, frisbee, and eating.
-    misc-info: follow me on instagram @alankazhang
+    timestamp: 10/3/2019 12:16:42
+    name: Claire Gantan
+    pronouns: she/her/hers
+    major: EECS
+    year: Freshman
+    bio: 'Hi I''m Claire! I''m super passionate about making sure everyone has an equal opportunity to learn about STEM, and I love doing robotics!'
+    email: clairegantan@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:17:20
-    name: Vivien Nguyen
-    email: viviennguyen@pioneers.berkeley.edu
-    year: 4
+    timestamp: 10/3/2019 15:11:19
+    name: Kyle Zhang
+    pronouns: He
+    major: Computer
+    year: Freshman
+    bio: 'Hi, I''m Kyle Zhang. 👍'
+    email: kylezhang@pioneers.berkeley.edu
+-
+    timestamp: 10/3/2019 21:22:56
+    name: Sophia Li
+    pronouns: She/her
+    major: Toxicology
+    year: Junior
+    bio: I am mech. Ask me questions about anything
+    email: sophiali@pioneers.berkeley.edu
+-
+    timestamp: 10/4/2019 11:47:45
+    name: Karen Lee
+    pronouns: She/Her
+    major: Cognitive Science
+    year: Junior
+    bio: 'I''m Karen, a Cognitive Science major and Linguistics minor from San Leandro. I don''t know much about engineering, but somehow I''m still in this club. If you like Club Penguin or Guy Fieri, come talk to me or send me memes'
+    email: karenlee@pioneers.berkeley.edu
+-
+    timestamp: 10/4/2019 17:57:06
+    name: Charles Wang
+    pronouns: He/Him
     major: Computer Science
-    classes: most common CS classes, CS 184 (!!!)
-    bio: 'Hello! I''m a 4th year CS major from Irvine, CA. I really like Computer Graphics, potatoes, and PiE~'
-    misc-info: https://viviehn.github.io
+    year: Freshman
+    bio: "Hi! My name is Charles, and I'm a freshman here at UC Berkeley. I'm currently a member of Shepherd (baa baa)\n A little bit about me:\n- I'm from Boston, MA (east coast gang)\n- I play tennis and frisbee!\n- I'm part of AFX dance (yuh)\nI'm really excited to be a part of PiE this year! Let's get it :)"
+    email: charleswang@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:17:31
-    name: Kevin Lu
-    email: kevinllu@berkeley.edu
-    year: 1
-    major: CS *intended*
-    classes: I am taking cs61a, ee16a, geog40, africam 27ac
-    bio: 'I love muddin''. (Margo wrote that). I am pretty into music - hip hop, r&b, indie, experimental, psych rock, etc. etc. - and anime so talk to me about it thatd be cool (OuO)'
-    misc-info: 
+    timestamp: 10/4/2019 18:40:37
+    name: Stephen Wang
+    pronouns: He, Him, His
+    major: EECS
+    year: Freshman
+    bio: I am a freshman here at Cal who is currently majoring in EECS. I am from the San Bernardino area and I am very excited to be a member of PiE and acquire more related experience in programming.
+    email: stephenwang@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:18:53
-    name: Claire Ko
-    email: mengweiko@pioneers.berkeley.edu
-    year: 2
-    major: Engineering Mathematics and Statistics
-    classes: Too many
-    bio: I am a second year majoring in EMS and minoring in EECS. I love puns and coffee.
-    misc-info: 
--
-    timestamp: 9/26/2018 19:20:29
-    name: Michael Aydin
-    email: michaelaydin@berkeley.edu
-    year: 3
+    timestamp: 10/4/2019 21:51:58
+    name: Ruslana Yurtyn
+    pronouns: she/her/hers
     major: Computer Science
-    classes: 
-    bio: I like to stay active.
-    misc-info: 
+    year: Freshman
+    bio: 'Hi I''m Rusy and I''m super excited to be in PIE this semester! I''m a fan of memes, books, and napping. I''m allergic to cats but I love them with my whole heart so I just think I''ve been cursed...'
+    email: ruslanayurtyn@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:20:39
-    name: Ben Wefers
-    email: bwefers@berkeley.edu
-    year: 2
-    major: Mechanical Engineering
-    classes: Statics
-    bio: I play soccer and enjoy modeling in Solidworks
-    misc-info: 
+    timestamp: 10/5/2019 10:35:30
+    name: Andy Wang
+    pronouns: he/his/him
+    major: Data Science intended
+    year: Freshman
+    bio: Nothing is more difficult, and therefore more precious, than to be able to decide.
+    email: zeanwang@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 19:21:48
-    name: Scott Numamoto
-    email: scott.numamoto@pioneers.berkeley.edu
-    year: 4
-    major: EECS - tbh just CS
-    classes: PiE DeCal (2015 fall), PiE DeCal (spring)
-    bio: 'Hi - I''m Scott. I''m from SoCal. I like bouldering and film photography. I''ve gone around in teams like weeb dev, education, infrastructure, and event planning.'
-    misc-info: "http://github.com/scottnuma\nhttps://scottnumamoto.com"
+    timestamp: 10/5/2019 11:58:07
+    name: David Zhang
+    pronouns: he/his/him
+    major: CS
+    year: Freshman
+    bio: https://davarco.github.io
+    email: davidwzhang@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 20:13:59
-    name: Andrew Wan
-    email: andrewwanx10@pioneers.berkeley.edu
-    year: 2
+    timestamp: 10/5/2019 13:23:49
+    name: Maxime Berenshteyn
+    pronouns: he/him/his
     major: Computer Science
-    classes: 
-    bio: 
-    misc-info: 
+    year: Sophomore
+    bio: 'Hello! I''m Maxime, a sophomore CS student working on Runtime. '
+    email: maximeberenshteyn@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 21:57:43
-    name: Steve Cao
-    email: stevecao@berkeley.edu
-    year: 2
+    timestamp: 10/5/2019 13:24:38
+    name: Nathan Kelsh
+    pronouns: He/Him/His
     major: Computer Science
-    classes: CS 61A, CS 61B, Econ 1, UGBA 10, Math 54
-    bio: Strive for greatness
-    misc-info: 
+    year: Freshman
+    bio: /
+    email: nathankelsh@pioneers.berkeley.edu
 -
-    timestamp: 9/26/2018 23:58:38
-    name: Jeanney Keo
-    email: jeanneykeo@pioneers.berkeley.edu
-    year: 2
-    major: geography & society and environment
-    classes: why
-    bio: 'henlo im jeanney, i really like earth and memes/vines and i will probably lose way too much sleep over pie for no good reason. i was headref during the 2018 competition and as i continued the legacy i hope my successor is able to make me and all the predecessors proud (^,: #savethebees #savethetrees'
-    misc-info: 'follow my ig: @jeanneyhd'
+    timestamp: 10/5/2019 13:25:34
+    name: Daniel Molina
+    pronouns: He/him/his
+    major: EECS
+    year: Sophomore
+    bio: 'Yo if any of y''all are huge DC Comics fans or like Dragon Ball or My Hero Academia then hit me up! Ask me about "Updog"!'
+    email: danielmolina@pioneers.berkeley.edu
 -
-    timestamp: 9/27/2018 0:25:50
-    name: Julie Tran
-    email: julietran@pioneers.berkeley.edu
-    year: 2
+    timestamp: 10/5/2019 13:26:47
+    name: Boyang Li
+    pronouns: He/Him/His
+    major: Math/CS
+    year: Freshman
+    bio: 'hi i''m boyang ;)'
+    email: boyangli@pioneers.berkeley.edu
+-
+    timestamp: 10/5/2019 13:27:13
+    name: Asim Biswal
+    pronouns: He/Him/His
+    major: EECS
+    year: Freshman
+    bio: ¯\_(ツ)_/¯
+    email: asimbiswal@pioneers.berkeley.edu
+-
+    timestamp: 10/5/2019 13:30:43
+    name: Maverick Yilong Zhang
+    pronouns: Him/He
+    major: Math and Computer Science
+    year: Freshman
+    bio: 'I''m a new student at Berkeley. I enjoy robotics and math. I also enjoy playing card games.'
+    email: maverickzhang@pioneers.berkeley.edu
+-
+    timestamp: 10/5/2019 13:41:19
+    name: Saurabh Narain
+    pronouns: He/Him/His
     major: Computer Science
-    classes: CS 61A, CS 61B, Data 8; currently taking CS 61C and CS 70
-    bio: I’m a second-year CS major from San Diego.  When I’m not busy catching up on weeks (or sometimes months) of CS lectures, I enjoy taking naps, cooking, and listening to R&B/trap music.  This is my first semester in PiE!
-    misc-info: 
+    year: Freshman
+    bio: 'Hey, my name is Saurabh! I am very excited to be joining PiE as a freshman. I''ve been interested in robotics and programming ever since I was a child, and I believe that PiE will allow me to build on my interests in unforgettable ways.'
+    email: saurabhnarain@pioneers.berkeley.edu
 -
-    timestamp: 9/27/2018 13:33:16
-    name: Kirsten Nguyen
-    email: kirstennguyen@berkeley.edu
-    year: 3
-    major: MCB + Edu minor
-    classes: CS61A/B
-    bio: 'I''m from Orange County and miss the sun :( I''m into eating sugar and making new friends--hmu if you wanna talk!'
-    misc-info: 
--
-    timestamp: 9/28/2018 11:47:21
+    timestamp: 10/5/2019 18:29:07
     name: Jonathan Lee
+    pronouns: he/him
+    major: EECS
+    year: Senior
+    bio: Give up
     email: jonathanlee@pioneers.berkeley.edu
-    year: 3
+-
+    timestamp: 10/6/2019 14:32:21
+    name: Xavier Balladarez
+    pronouns: He/him/his
     major: Electrical Engineering and Computer Science
-    classes: CS 170, EE 120, CS 161, CS 188
-    bio: My interests include robotics, infosec, and geocaching.
-    misc-info: https://github.com/jonathan-j-lee
+    year: Sophomore
+    bio: 'I am passionate about technology and education. As the director of Tijuana Robótica, a non-profit in Mexico focused on the growth of STEM education access and technologies through robotics, I make a contribution to my community to the continuous development of scientists, engineers and leaders. With a research team at CiTRIS Labs here at Berkeley, we''re studying lizards and replicating their motion through robotics. I love robots and enjoy cooking! PiE is a perfect combination of all.'
+    email: xavierballadarez@pioneers.berkeley.edu
 -
-    timestamp: 9/28/2018 22:01:04
-    name: Alice Mo
-    email: alicemo@berkeley.edu
-    year: 2
-    major: Bioengineering
-    classes: 
-    bio: 
-    misc-info: 
--
-    timestamp: 10/1/2018 17:04:52
-    name: Jesse Valva
-    email: jessevalva@pioneers.berkeley.edu
-    year: 3
-    major: Applied Math
-    classes: Math 128A, 110, 53, 54, 55, CS 61A, Stat 133, 134, 135
-    bio: I study applied math because I enjoy knowing a variety of spooky sounding words and phrases such as Gaussian quadrature, polynomial interpolation, the Jacobian, Jordon canonical form, probability density function, and many more. When not learning spooky words, I am pretty good at playing Super Smash Brothers Melee (2nd best in PiE to be exact). I am a recovering Mountain Dew addict and I have an insane sweet tooth. I also have a wicked strong sense of humor. Point being, I am never sarcastic.
-    misc-info: 
--
-    timestamp: 10/1/2018 20:27:06
-    name: Julie Lum
-    email: julielum@pioneers.berkeley.edu
-    year: 3
-    major: MEB/EEP
-    classes: 'nobody takes my classes :''('
-    bio: I like anime 
-    misc-info: 
--
-    timestamp: 10/1/2018 20:59:20
-    name: Albert Wen
-    email: albertwen@pioneers.berkeley.edu
-    year: 1
+    timestamp: 10/6/2019 21:02:43
+    name: Tijmen Sep
+    pronouns: He/him/his
     major: Mechanical Engineering
-    classes: Math 53, Engineering 7, Physics 7A
-    bio: 'I''m excited to work with others and spread STEM education with PiE. '
-    misc-info: 
+    year: Freshman
+    bio: I enjoy building cool stuff and dancing!
+    email: tijmensep@pioneers.berkeley.edu
+-
+    timestamp: 10/7/2019 1:46:04
+    name: Austin Ralleta
+    pronouns: he/him
+    major: EECS
+    year: Sophomore
+    bio: 'Hi, I''m a 2nd year EECS major from the Bay Area. If you like tennis, NBA, NFL, or comics (especially DC Comics), let''s talk!'
+    email: austinralleta@pioneers.berkeley.edu
+-
+    timestamp: 10/11/2019 14:32:11
+    name: Justin Shih
+    pronouns: He/him/his
+    major: Data Science
+    year: Freshman
+    bio: 'I''m a freshman studying data science and looking to double in economics, but I also really enjoy robotics and hope to help spread my passion for this subject to other students.'
+    email: justinshih@pioneers.berkeley.edu
+-
+    timestamp: 10/11/2019 23:59:23
+    name: Erica Zhu
+    pronouns: she/her/hers
+    major: Intended Data Science
+    year: Sophomore
+    bio: '@youeatsowell - stan Ateez & X1'
+    email: ericazhu@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 12:27:30
+    name: Ruohan (Richard) Yan
+    pronouns: He/him/his
+    major: EECS
+    year: Freshman
+    bio: yeet
+    email: ruohanyan@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 13:26:42
+    name: zhaoji li
+    pronouns: Alex
+    major: mechanical engineering
+    year: Junior
+    bio: I would like to different kinds of skills
+    email: alexli@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 13:27:21
+    name: Michelle Cheung
+    pronouns: She/her/hers
+    major: Computer Science
+    year: Freshman
+    bio: Born and raised in San Francisco. Excited to be on the Mech team this year! I love music, boba, and sci-fi movies/tv shows.
+    email: michellecheung@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 13:28:08
+    name: Kevin Rubio
+    pronouns: He/His/Him
+    major: Bioengineering
+    year: Sophomore
+    bio: 'I''m from the Central Valley and I''m passionate about BioTech. I like to swim, dance, and binge comedies.'
+    email: kevinrubio@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 13:29:12
+    name: Tiffany Luong
+    pronouns: her/she
+    major: Civil Engineer
+    year: Sophomore
+    bio: A civil engineer sophomore from the 626
+    email: tiffanyluong@pioneers.berkeley.edu
+-
+    timestamp: 10/12/2019 13:35:38
+    name: Caitlyn Lee
+    pronouns: she/her/hers
+    major: Mechanical Engineering
+    year: Senior
+    bio: Hello!
+    email: caitlynlee@pioneers.berkeley.edu
+-
+    timestamp: 10/14/2019 18:06:53
+    name: Norman Chao
+    pronouns: He/Him/His
+    major: Data Science Major & CS Minor :3
+    year: Senior
+    bio: 'Hiya! I''m into video games, cooking, exploring the city, going on spontaneous mini-trips, and watching anime/reading manga! If you''re ever interested in hanging out, hit me up on Facebook/Slack/email me at chao(dot)norman(at)berkeley.edu and we can play some games together (I own a switch and a bunch of games on steam!), or maybe we can go on a short trip out of town (I can also drive you to Costco/safeway heh), or if you''re feeling really spicy we can anime and chill (quite literally though.... unless???.... just kidding :3). I live on Southside and spend a lot of time either at home chilling or at mainstacks when I have a serious deadline the next day, but if you do see me on campus don''t be afraid to say hi! :^)'
+    email: normanchao@pioneers.berkeley.edu
+-
+    timestamp: 10/16/2019 17:12:40
+    name: Calvin Pham
+    pronouns: He/him/his
+    major: Intended Computer Science
+    year: Sophomore
+    bio:  I like computer science!
+    email: calvinpham@pioneers.berkeley.edu
+-
+    timestamp: 10/16/2019 17:30:44
+    name: Kai Chen
+    pronouns: She/Her/Hers
+    major: Economics & Data Science
+    year: Junior
+    bio: Hello, I’m Kai! This is my first semester at PiE and I’m excited to be a part of the Infrastructure Team! A random fact about me is that I am from Connecticut!
+    email: kailunchen@pioneers.berkeley.edu
