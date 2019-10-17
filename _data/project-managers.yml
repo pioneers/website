@@ -59,8 +59,15 @@
     name: Ryan Koh
     project: Shepherd
     description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
-    bio:: 'Hi, I''m a sophomore majoring in Computer Science! I came for the free pie, stayed for the fun times. Programming and robots are cool too I guess.'
+    bio: 'Hi, I''m a sophomore majoring in Computer Science! I came for the free pie, stayed for the fun times. Programming and robots are cool too I guess.'
     photo: Ryan_Koh.JPG
+-
+    timestamp: 9/22/2018 16:14:52
+    name: Matthew Harrigan
+    project: Shepherd
+    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through shepherd, so if we don’t have our stuff together, nothing is going to work.'
+    bio: "I am a second year EECS major, and my favorite class so far has been CS61B. I like video/board games, hiking, and skiing.\nRobots are fun too :)"
+    photo: Matthew_Harrigan.png
 -
     timestamp: 9/8/2019 22:00:25
     name: Gregory Jerian
