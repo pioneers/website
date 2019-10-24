@@ -9,10 +9,7 @@ hero-message: Gallery
 
 <div class="container-fluid">
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#2019" data-toggle="tab" aria-expanded="false">2019</a>
-    <li class=""><a href="#2018" data-toggle="tab" aria-expanded="false">2018</a></li>
-    <li class=""><a href="#2017" data-toggle="tab" aria-expanded="false">2017</a></li>
-    <li class=""><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a></li>
+    <li class="active"><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a>
     <li class=""><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
     <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
     <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
@@ -20,73 +17,12 @@ hero-message: Gallery
 
   <div class="tab-content">
 
-    <div class="tab-pane fade active in" id="2019">
-
-        <div id="spring-events-2019" class="heading-image">
-          <h1 class="heading-title">Spring Events</h1>
-          <p class="heading-description">Hello World</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-        <div id="staff-events-2019" class="heading-image">
-          <h1 class="heading-title">Staff Events</h1>
-          <p class="heading-description">PiE staff just want to have fun.</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-    </div>
-
-    <div class="tab-pane fade in" id="2018">
-
-        <div id="spring-events-2018" class="heading-image">
-          <h1 class="heading-title">Spring Events</h1>
-          <p class="heading-description">Hi there</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-        <div id="staff-events-2018" class="heading-image">
-          <h1 class="heading-title">Staff Events</h1>
-          <p class="heading-description">PiE</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-    </div>
-
-    <div class="tab-pane fade in" id="2017">
-
-        <div id="spring-events-2017" class="heading-image">
-          <h1 class="heading-title">Spring Events</h1>
-          <p class="heading-description">Wow</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-        <div id="staff-events-2017" class="heading-image">
-          <h1 class="heading-title">Staff Events</h1>
-          <p class="heading-description">:)</p>
-        </div>
-
-          <div class="gallery">
-          </div>
-
-    </div>
-
-    <div class="tab-pane fade in" id="2016">
+    <div class="tab-pane fade active in" id="2016">
 
         <div id="spring-events-2016" class="heading-image">
           <h1 class="heading-title">Spring Events</h1>
           <p class="heading-description">We had a ball (pit)!</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-sp-events-2016 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -99,7 +35,6 @@ hero-message: Gallery
           <h1 class="heading-title">Staff Events</h1>
           <p class="heading-description">PiE staff just want to have fun.</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-staff-events-2016 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -117,7 +52,6 @@ hero-message: Gallery
           <h1 class="heading-title">Spring Competition</h1>
           <p class="heading-description">Building cool stuff</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-sp-comp-2015 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -130,7 +64,6 @@ hero-message: Gallery
           <h1 class="heading-title">Fall Competition</h1>
           <p class="heading-description">Like Spring Competition, but in the Fall!</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-fa-comp-2015 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -144,7 +77,6 @@ hero-message: Gallery
           <h1 class="heading-title">Retreat</h1>
           <p class="heading-description">Check out what the PiE team does outside of building robots</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-retreat-2015 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -162,7 +94,6 @@ hero-message: Gallery
           <h1 class="heading-title">Fall Events</h1>
           <p class="heading-description">What we were up to in the Fall</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-fa-events-2014 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -180,7 +111,6 @@ hero-message: Gallery
           <h1 class="heading-title">Spring Events</h1>
           <p class="heading-description">What we do in the Spring</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-sp-events-2013 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -193,7 +123,6 @@ hero-message: Gallery
           <h1 class="heading-title">Fall Events</h1>
           <p class="heading-description">What we're up to in the Fall</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-fa-events-2013 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
@@ -206,7 +135,6 @@ hero-message: Gallery
           <h1 class="heading-title">Retreat</h1>
           <p class="heading-description">Work hard, play hard</p>
         </div>
-
           <div class="gallery">
             {% for picture in site.data.gallery-retreat-2013 %}
               {% capture url %}{{ picture.url }}{% endcapture %}
