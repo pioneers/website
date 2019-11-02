@@ -9,7 +9,8 @@ hero-message: Gallery
 
 <div class="container-fluid">
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a>
+    <li class="active"><a href="#2019" data-toggle="tab" aria-expanded="false">2019</a>
+    <li class=""><a href="#2016" data-toggle="tab" aria-expanded="false">2016</a></li>
     <li class=""><a href="#2015" data-toggle="tab" aria-expanded="false">2015</a></li>
     <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false">2014</a></li>
     <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false">2013</a></li>
@@ -17,7 +18,23 @@ hero-message: Gallery
 
   <div class="tab-content">
 
-    <div class="tab-pane fade active in" id="2016">
+    <div class="tab-pane fade active in" id="2019">
+
+        <div id="fall-competition-2019" class="heading-image">
+          <h1 class="heading-title">Fall Comp</h1>
+          <p class="heading-description">PiE staff just want to have fun.</p>
+        </div>
+          <div class="gallery">
+            {% for picture in site.data.gallery-fa-comp-2019 %}
+              {% capture url %}{{ picture.url }}{% endcapture %}
+              {% capture caption %}{{ picture.caption }}{% endcapture %}
+              {% include gallery-image.html img_url=url img_caption=caption gallery="fall-competition-2019" %}
+            {% endfor %}
+          </div>
+
+    </div>
+
+    <div class="tab-pane fade in" id="2016">
 
         <div id="spring-events-2016" class="heading-image">
           <h1 class="heading-title">Spring Events</h1>
