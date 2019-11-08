@@ -1,0 +1,35 @@
+- name: Kickoff
+  date: March 7th
+  time: 9am-5pm (check-in at 8am)
+  location: UC Berkeley - Sibley Auditorium
+  description:
+    Kick off the season with PiE!
+    We will complete the activities of both events in one jam packed day.
+    We’ll start with a presentation from the Director, the Head Referee, and the keynote speaker!
+    After you’ll meet your mentors, get your robot, and learn about the game.
+- name: Design Review
+  date: March 21st
+  time: 9am-2pm
+  description:
+    Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals.
+    It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.
+- name: Exhibition
+  date: April 4th
+  time: 9am-5pm
+  description:
+    Exhibition is the first opportunity for all PiE teams to come and test out their robot on a real field with other robots for competition.
+    It is a chance to get your robot running, see how your robot will perform, and figure out if you need to make any tweaks.
+- name: Scrimmage
+  date: April 25th
+  time: 9am-5pm (check-in at 8am)
+  description:
+    Scrimmage is the second to last event in the RC season.
+    It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures.
+    Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.
+- name: Final Comp
+  date: May 2nd-3rd
+  time: 9am-5pm on Saturday and Sunday
+  description:
+    Final Competition is the last event of the season!
+    Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket.
+    Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.
