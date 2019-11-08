@@ -9,19 +9,15 @@ hero-message: PiE Robotics Competition
     var kickoffInfo = "<h2>Date: March 2nd<br>Time: 9am-5pm (Check-In at 8am)</h2>";
     var kickoffDescription = "<br> Kickoff is the first event of the official PiE season. After a keynote speech, teams are given their robot kit for the season and meet their mentors. Teams should leave with a driving robot base. Kickoff also features a Parent/Teacher meeting and a scholarship workshop.<br>"
 
-    // START comments starting here were originally links for kickoffDescription.
-    //<br><a href=\"https://www.cognitoforms.com/PioneersInEngineering/_2017PioneersInEngineeringStudentRegistration\" target=\"_blank\"><i class=\"fa fa-file-text\" style=\"padding:4px\" aria-hidden=\"true\"></i>Student Registration Form - fill this out before arriving!</a><br><br><a href=\"https://drive.google.com/open?id=1MoaL3NaAaSmlQ9cg5p7v-z6rS-E&usp=sharing\"  target=\"_blank\"><i class=\"fa fa-map-marker\" aria-hidden=\"true\" style=\"padding:4px\"></i>View map of event locations</a><br><br><a href=\"/assets/events/KickoffItinerary.pdf\" target=\"_blank\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"padding:4px\"></i>View PDF of event itinerary</a>";
-    // END comment
-
-    var gamedayInfo = "<h2>Date: Saturday March 9th<br>Time: 9am-5pm (Check-In at 8am)<br>Place: UC Berkeley – Sibley Auditorium</h2>";
-    var gamedayDescription = "<br>The combined version of Kickoff and Game Day! We will complete the activities of both events in one jam packed day. We’ll start with a presentation from the Director, the Head Referee, and the Dean of Berkeley’s College of Engineering! After you’ll meet your mentors, get your robot, and learn about the game.";
-    var drInfo = "<h2>Date: Saturday, March 23rd<br>Time: 9am - 2pm</h2>";
+    var gamedayInfo = "<h2>Date: Saturday March 7th<br>Time: 9am-5pm (Check-In at 8am)<br>Place: UC Berkeley – Sibley Auditorium</h2>";
+    var gamedayDescription = "<br>Kick off the season with PiE! We will complete the activities of both events in one jam packed day. We’ll start with a presentation from the Director, the Head Referee, and the keynote speaker! After you’ll meet your mentors, get your robot, and learn about the game.";
+    var drInfo = "<h2>Date: Saturday, March 21st<br>Time: 9am - 2pm</h2>";
     var drDescription = "<br>Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals. It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.";
-    var exInfo = "<h2>Date: April 6th<br>Time: 9am-5pm</h2>";
-    var exDescription = "Exhibition is the first opportunity for all PiE teams to come and test out their robot on a real field with other robots for competition. It is a chance to get your robot running, see how your robot will perform, and figure out if you need to make any tweaks.";
-    var scrimmageInfo = "<h2>Date: April 20th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
+    var exInfo = "<h2>Date: April 4th<br>Time: 9am-5pm</h2>";
+    var exDescription = "<br>Exhibition is the first opportunity for all PiE teams to come and test out their robot on a real field with other robots for competition. It is a chance to get your robot running, see how your robot will perform, and figure out if you need to make any tweaks.";
+    var scrimmageInfo = "<h2>Date: April 25th<br>Time: 9am-5pm (Check-In at 8am)</h2>";
     var scrimmageDescription = "<br>Scrimmage is the second to last event in the RC season. It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures. Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.";
-    var finalcompInfo = "<h2>Date: May 4th-5th <br> Time: 9am-5pm on Saturday and Sunday</h2>";
+    var finalcompInfo = "<h2>Date: May 2nd-3rd <br> Time: 9am-5pm on Saturday and Sunday</h2>";
     var finalcompDescription = "<br>Final Competition is the last event of the season! Professors, alumni, and industry professionals serve as judges in various categories as teams participate in qualification matches, alliance selection, and finally, the elimination bracket. Awards are given during the closing ceremony for engineering professionalism, mechanical design, software excellence, and the bracket winners.";
 
     // Show the respective description and change arrow style on click
@@ -31,14 +27,14 @@ hero-message: PiE Robotics Competition
 
       $(arrowDescriptions[elementIndex]).show();
       $(arrowHeads[elementIndex]).attr('class', 'timeline-arrow');
-			if (elementIndex === 1 || elementIndex === 2 || elementIndex == 5) {
+			if (elementIndex == 5) {
 				$(arrowHeads[elementIndex]).attr('class', 'timeline-arrow twoline');
 			}
       for (var i = 0; i < arrowDescriptions.length; i++) {
         if (i !== elementIndex) {
           $(arrowDescriptions[i]).hide();
           $(arrowHeads[i]).attr('class', 'inactive-timeline-arrow');
-					if (i === 1 || i === 2 || i === 5) {
+					if (i === 5) {
 						$(arrowHeads[i]).attr('class', 'inactive-timeline-arrow twoline');
 					}
         }
@@ -103,7 +99,8 @@ hero-message: PiE Robotics Competition
   </div>
 
   <div style="text-align: center">
-    <h1 style="text-align: center">2019 Spring Comp applications are now closed.</h1>
+    <h1 style="text-align: center">2020 Spring Robotics Competition Applications are now OPEN!</h1>
+    <a class="btn btn-info" href="https://docs.google.com/forms/d/e/1FAIpQLScB1EAaBBccEFOuwCgME51ozDA7k9_nHCCqLh7kZM0wIBtcug/viewform" target="_blank" role="button">RSVP Form</a>
   </div>
 
   <hr>
@@ -114,7 +111,7 @@ hero-message: PiE Robotics Competition
   <div class="row">
     <div id="timeline">
       <ul id="timeline-arrows" class="hidden-md hidden-sm">
-        <li id="game-day-arrow" class="inactive-timeline-arrow">GameOff</li>
+        <li id="game-day-arrow" class="inactive-timeline-arrow">Kickoff</li>
         <li id="dr-arrow" class="inactive-timeline-arrow">Design Reviews</li>
         <li id="exhibition-arrow" class="inactive-timeline-arrow">Exhibition</li>
         <li id="scrimmage-arrow" class="inactive-timeline-arrow">Scrimmage</li>
@@ -122,24 +119,23 @@ hero-message: PiE Robotics Competition
       </ul>
 
       <ul id="timeline-arrow-descriptions" class="hidden-md hidden-sm">
-        
-        <li id="game-day-arrow-description" class="container"  style="display: block;">
-        <div class="row">
-        <div class="game-day-description col-lg-6">
-        </div>
-        <div class="game-day-info col-lg-6">
-        </div>
-        </div>
-        </li>
-        <li id="dr-arrow-description" class="container">
-        <div class="row">
-        <div class="dr-description col-lg-6">
-        </div>
-        <div class="dr-info col-lg-6">
-        </div>
-        </div>
-        </li>
 
+        <li id="game-day-arrow-description" class="container"  style="display: block;">
+          <div class="row">
+          <div class="game-day-description col-lg-6">
+          </div>
+          <div class="game-day-info col-lg-6">
+          </div>
+          </div>
+          </li>
+        <li id="dr-arrow-description" class="container">
+          <div class="row">
+          <div class="dr-description col-lg-6">
+          </div>
+          <div class="dr-info col-lg-6">
+          </div>
+          </div>
+          </li>
         <li id="exhibition-arrow-description" class="container">
           <div class="row">
           <div class="exhibition-description col-lg-6">
@@ -148,23 +144,22 @@ hero-message: PiE Robotics Competition
           </div>
           </div>
           </li>
-
         <li id="scrimmage-arrow-description" class="container">
-        <div class="row">
-        <div class="scrimmage-description col-lg-6">
-        </div>
-        <div class="scrimmage-info col-lg-6">
-        </div>
-        </div>
-        </li>
+          <div class="row">
+          <div class="scrimmage-description col-lg-6">
+          </div>
+          <div class="scrimmage-info col-lg-6">
+          </div>
+          </div>
+          </li>
         <li id="final-comp-arrow-description" class="container">
-        <div class="row">
-        <div class="final-comp-description col-lg-6">
-        </div>
-        <div class="final-comp-info col-lg-6">
-        </div>
-        </div>
-        </li>
+          <div class="row">
+          <div class="final-comp-description col-lg-6">
+          </div>
+          <div class="final-comp-info col-lg-6">
+          </div>
+          </div>
+          </li>
       </ul>
 
       <div class="hidden-lg container-fluid">
@@ -189,7 +184,7 @@ hero-message: PiE Robotics Competition
             <div class="dr-info"></div>
             <div class="dr-description"></div>
           </div>
-          
+
           <div class="tab-pane fade in" id="exhibition">
             <h1 class="blue-text">Exhibition</h1>
             <div class="exhibition-info"></div>
