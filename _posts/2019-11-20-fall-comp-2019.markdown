@@ -1,0 +1,33 @@
+---
+layout: post
+title: Fall Competition 2019!
+date: 2019-11-20 12:00:00,
+tags: [2019, fall, competition]
+author: Jose Valera and Emme Spero
+---
+
+<img src="{{site.baseurl}}/assets/images/blog/fallcomp_2019_banner.jpg">
+
+Excitement and rivalry filled the Hearst Memorial Mining Building as over 65 students from 12 different high schools participated in our 5th annual Pioneers in Engineering Fall Competition on October 19th. Fall Competition is a chance for new students to gain experience and learn new skills. Students got a second chance to play Spring Competition’s game: Sugar Blast!
+
+PiE and SWE (Society of Women Engineers), collaborated to host this year’s Diversity Workshop and Student Panel. SWE members discussed challenges women and women of color face in STEM. Students were divided into groups and discussed the importance of a respectful and diverse work environment. Additionally, students’ teamwork was challenged through a team-building activity. Students were also able to discuss meaningful topics in diversity with each other and with the esteemed student panelists, Siddharth Gupta (SWE member), Malvika Singhal (SWE member), Tiana Kidd (SWE member), Juan Rosales (PiE Staff), Michelle Cheung (PiE Staff), Colin Leung (PiE Staff), and Karen Darken (PiE Staff).
+<br />
+
+<img src="{{site.baseurl}}/assets/images/blog/2019-fall-people.png">
+Siddharth Gupta, 2021;
+Malvika Singhal, 2020;
+Tiana Kidd, 2020;
+Juan Rosales, 2022;
+Karen Darken, 2020;
+Michelle Cheung, 2023;
+Colin Leung, 2023;
+<br />
+<br />
+
+During the qualification matches, students looked focused and determined to win. Alexander from ACLC felt confident in his robot and team. It was Alexander’s first time being in a robotics competition, and he exclaimed, “I definitely want to win!” In a surprise upset, ACLC beat Albany, the first seed from Spring Competition, earning ACLC the number one place going into elimination rounds. In an interview, team members from ACLC cited a change in strategy, an increase in excited members, and improvements to their grabbing mechanism as the reasons for their improvement. Pinole has also significantly improved from the last competition. Previously, they’ve had issues with their gear mechanism. However, they’ve used fall competition to teach rookie members and fix their problems, becoming stronger than ever. Another team, LPS Richmond, was aiming to win. A new member of the team expressed her excitement for her first competition.  Leslie and Yanet, members of LPS Richmond, mentioned that their strategy for winning is having exceptional teamwork. Emily from El Cerrito said her team is focused on having a good time and learning new skills.
+<br /> <br />
+<img src="{{site.baseurl}}/assets/images/blog/fall-comp-2019-9.JPG"><br /><br />
+As elimination rounds approached, four alliances were formed. Alliance 1 (ACLC, Middle College, Skyline) faced Alliance 4 (John Henry, Pinole, El Cerrito) in the first round, and Alliance 2 (Hayward, Albany, LPS) faced Alliance 3 (Miramonte, Hercules, OSA). Right before their elimination match, Hayward grew nervous because last year their robot malfunctioned, and they lost the match. Brandon from Hayward mentioned that this competition was going to be better and felt confident in his team’s ability. Skyline cited confidence in their alliance and said the trust between their alliance partners would carry them to victory. In an exciting wrap-up, alliance Albany, Hayward, and LPS defeated a coalition of ACLC, Middle College, and Skyline to win the Champion’s Award.
+<br /><br />
+<img src="{{site.baseurl}}/assets/images/blog/2019-fall-staff.png"><br /><br />
+As we wrapped up another great Fall Competition, we wanted to take a moment to thank the students, parents, and teachers from ACLC, Albany, El Cerrito, Hayward, Hercules, John Henry, LPS Richmond, Middle College, Miramonte, OSA, Pinole Valley, and Skyline for coming out for the competition today. We also wanted to thank SWE for helping us host our diversity panel and workshop, and our PiE staff for making this event possible.  
