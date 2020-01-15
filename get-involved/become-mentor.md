@@ -14,15 +14,17 @@ Find out more at our info sessions:
   <div class="card col-sm-3" style="padding-bottom: 1.5rem">
     <div class="card-block">
       <h4 class="card-title">Infosession #1</h4>
-      <p class="card-text">Jan 29, Tuesday 6:30 - 7:30 (Free pie!)</p>
-      <a class="btn btn-default" href="https://www.facebook.com/events/382502775891086/" role="button">FB Event &raquo;</a>
+      <p class="card-text">Jan 27, Monday 6:30 - 7:30</p>
+      <p class="card-text">Dwinelle 179</p>
+      <a class="btn btn-default" href="" role="button">FB Event &raquo;</a>
     </div>
   </div>
   <div class="card col-sm-3" style="padding-bottom: 1.5rem">
     <div class="card-block">
       <h4 class="card-title">Infosession #2</h4>
-      <p class="card-text">Feb 1, Friday 6:30 - 7:30 (Free pie!)</p>
-      <a class="btn btn-default" href="https://www.facebook.com/events/224278265149195/" role="button">FB Event &raquo;</a>
+      <p class="card-text">Jan 30, Friday 6:30 - 7:30</p>
+      <p class="card-text">145 McCone Hall</p>
+      <a class="btn btn-default" href="" role="button">FB Event &raquo;</a>
     </div>
   </div>
 </div>
@@ -40,22 +42,23 @@ Find out more at our info sessions:
     </ol>
     <h3>Details</h3>
     <ul>
-      <li>Enroll in our <a href="https://decal.berkeley.edu/courses/4373">DeCal class</a> for 2 units, P/NP.</li>
+      <li>Enroll in our <a href="https://decal.berkeley.edu/courses/5141">DeCal class</a> for 2 units, P/NP.</li>
       <li>
         Choose to attend section on either (not both):
         <ul>
-          <li>Tuesday 6:30 PM - 8:30, 10C Jacobs Hall</li>
-          <li>Friday 6:30 - 8:30, 10C Jacobs Hall</li>
+          <li>Monday 6 PM - 8, 210 Jacobs Hall</li>
+          <li>Thursday 6 PM - 8, 145 McCone Hall</li>
         </ul>
       </li>
       <li>Meet with your team for two hours each week during our 9-week competition.</li>
-      <li>Come to PiE Robotics Competition events at UC Berkeley on select Saturdays.</li>
+      <li>Come to PiE Robotics Competition events at UC Berkeley on <a href="https://pioneers.berkeley.edu/compete/rc-spring/">select weekend season events</a>.</li>
       <li>Help students at worksessions at <a href="https://www.google.com/maps/d/u/0/viewer?mid=1Sd6QurpSJK3xXEvOiISkWlKXj98&ll=37.87455169480766%2C-122.2592228994057&z=18">O'Brien Hall Breezeway</a> (2nd floor).</li>
-      <li>Check out our <a href="https://docs.google.com/document/d/1p0TWwn2yrgdO1w7TuOoNMK6Z8fGAJEYbcwae-VACi5Q/edit?usp=drivesdk">syllabus</a>.</li>
+      <li>Check out our <a href="https://docs.google.com/document/d/1TprTF415lVXg8ZEkkIEBUzwTvpPWK7E00RF75oQAB3E/edit?usp=sharing">syllabus</a>.</li>
+      <li>Grab the CCN by coming to an infosession or attending the first day of class.</li>
     </ul>
     <h3>First Week of Class</h3>
     <ul>
-        <li>Tuesday 2/5 OR Friday 2/8</li>
+        <li>Monday 2/3 OR Thursday 2/6</li>
     </ul>
     <p>
       If you miss the first week of class and would still like to join, email {% email rcdecal@pioneers.berkeley.edu %} or come talk to us at DeCal.
