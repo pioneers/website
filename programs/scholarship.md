@@ -4,8 +4,6 @@ hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 
-<div class="alert alert-info">The deadline for the Scholarship Application has been extended to April 23rd!</div>
-
 # Pioneers in Engineering Alumni Scholarship
 Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our fourth annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
 
@@ -13,51 +11,18 @@ The scholarship committee will review each application holistically, taking into
 
 <br>
 
-## 2019 Scholarship Schedule
-<table class="table table-striped table-hover">
-  <thead>
-    <tr>
-      <th>Event</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Application release</td>
-      <td>March 9, 2019</td>
-    </tr>
-    <tr>
-      <td>Workshop</td>
-      <td>March 9, 2019</td>
-    </tr>
-    <tr>
-      <td>Applications due</td>
-      <td>April 23, 2019</td>
-    </tr>
-    <tr>
-      <td>Interviews*</td>
-      <td>May 4th, 2019 (at PiE Competition)</td>
-    </tr>
-    <tr>
-      <td>Recipients announced</td>
-      <td>May 5th, 2019 (at PiE Competition)</td>
-    </tr>
-  </tbody>
-</table>
-**Interviews are by invitation only.*
+## 2020 Scholarship Schedule
+
+TBA
 
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
-Application will be available on March 9th!
+Application will be available on March 7th!
 
-Please use the online web application to submit your scholarship application.
-<center>
-  <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
-</center>
 
 ### Resources
-The following documents are provided for your convenience.
+The following documents from the 2019 season are provided for your convenience.
 
 * <a href="{{ '/assets/scholarship/2019_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2019 Scholarship Application Summary</a>
 * <a href="{{ '/assets/scholarship/2019_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2019 Scholarship Workshop Slides</a>
@@ -103,6 +68,12 @@ The following documents are provided for your convenience.
       <td>Middle College High School</td>
       <td>University of California, Santa Cruz</td>
       <td>2018</td>
+    </tr>
+    <tr>
+      <td>Cristian Garcia</td>
+      <td>John Henry High School</td>
+      <td>University of California, Santa Cruz</td>
+      <td>2019</td>
     </tr>
   </tbody>
 </table>
