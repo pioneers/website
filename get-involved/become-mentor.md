@@ -22,7 +22,7 @@ Find out more at our info sessions:
   <div class="card col-sm-3" style="padding-bottom: 1.5rem">
     <div class="card-block">
       <h4 class="card-title">Infosession #2</h4>
-      <p class="card-text">Jan 30, Friday 6:30 - 7:30</p>
+      <p class="card-text">Jan 30, Thursday 6:30 - 7:30</p>
       <p class="card-text">145 McCone Hall</p>
       <a class="btn btn-default" href="https://www.facebook.com/events/1250820188435552/" role="button">FB Event &raquo;</a>
     </div>
