@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.5.1
+  - 2.6.3
 
 # To use Bundler 2.0+, update bundler
 # per https://docs.travis-ci.com/user/languages/ruby/
