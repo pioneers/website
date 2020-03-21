@@ -20,7 +20,10 @@ The scholarship committee will review each application holistically, taking into
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
-Application will be available on March 7th!
+Please use the online web application to submit your scholarship application.
+<center>
+  <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
+</center>
 
 
 ### Resources
