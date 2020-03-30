@@ -15,7 +15,7 @@ The scholarship committee will review each application holistically, taking into
 
 * Application opens Saturday 3/7/2020
 * Application due Saturday 4/18/2020
-* Interviews with finalists - date to be announced
+* Interviews with finalists - Saturday 5/2/2020 and Sunday 5/3/2020
 
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
