@@ -1,0 +1,33 @@
+---
+layout: post
+title: Kickoff 2020
+date: 2020-03-18 12:00:00
+tags: [2020, kickoff, event, competition]
+author: Jennessa Ma and Claire Gantan
+---
+
+<img src="{{ site.baseurl }}/assets/images/blog/2020-kickoff/kit.jpg">
+<br>
+Our most recent Kickoff on March 7th marks the start of our 12th annual PiE robotics season!
+Though the weather was dreary, the excitement and energy of over a hundred high school students, PiE staff, and mentors brightened the day, setting the journey of building a robot off to a great start.
+During Kickoff, students had the opportunity to meet their mentors, gather a sense of the new game, participate in engaging workshops, and start the base of their robots.
+
+Our keynote speaker, Dan Garcia, kicked off our event with an inspiring speech that emphasized the importance of what PiE does: aiming to give every student access to STEM education.
+Garcia focused attention on the potential in each student starting out in PiE, as they each have the capability of creating large impacts in our future with their skills in engineering and computer science.
+PiE strives to follow this mission, as we also believe each and every one of our students can gain essential skills for life through robotics in addition to becoming more empowered, confident, and passionate about STEM.
+
+Following our keynote speaker, our 21 schools got to meet their mentors, some of which are also PiE staff, who they will be working with for the next eight weeks.
+With their mentors, they began working on their base kits and examined the game field after the big reveal of the game.  
+
+<img src="{{site.baseurl}}/assets/images/blog/2020-kickoff/workshop.jpg">
+
+With the enthusiasm and thrill of seeing the new game, the students headed to workshops that would prepare them with the skills they will use throughout the process of developing their robot for the competition.
+From electrical and programming to scholarship and game analysis, our staff created 8 different sessions that introduced students to different aspects that robotics entails as well as hands-on experience.
+After a few workshops, our students were able to apply these skills through revisiting the game field to plan strategies, building their base efficiently, and coordinating their teams to specific parts of the robot.
+
+<img src="{{site.baseurl}}/assets/images/blog/2020-kickoff/mech.jpg">
+
+This year’s game was intended to be: *Not Munch Time!*
+However, due to recent events related to COVID-19, we have changed our competition season to be completely remote.
+Though the spring season started with a few speed bumps, our dedicated PiE staff is determined to continue to give students a valuable experience and an introduction to what robotics is.
+We now have software, mechanical, and game design challenges, as well as a final competition where PiE staff and industry professionals will judge our student’s designs and crown the winners!
