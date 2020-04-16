@@ -4,6 +4,8 @@ hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 
+<div class="alert alert-info">The deadline for the Scholarship Application has been extended to April 22nd!</div>
+
 # Pioneers in Engineering Alumni Scholarship
 Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our seventh annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
 
@@ -14,7 +16,7 @@ The scholarship committee will review each application holistically, taking into
 ## 2020 Scholarship Schedule
 
 * Application opens Saturday 3/7/2020
-* Application due Saturday 4/18/2020
+* Application due Saturday 4/22/2020
 * Interviews with finalists - Saturday 5/2/2020 and Sunday 5/3/2020
 
 [Sign up for our 2020 Alumni Scholarship mailing list](https://mailchi.mp/dcaa341332d7/scholarship-2020) to receive the latest announcements.
