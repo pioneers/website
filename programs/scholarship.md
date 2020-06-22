@@ -4,8 +4,6 @@ hero-image: url(/assets/images/stock-images/scholarship.jpg)
 hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 
-<div class="alert alert-info">The deadline for the Scholarship Application has been extended to April 22nd!</div>
-
 # Pioneers in Engineering Alumni Scholarship
 Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our seventh annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
 
@@ -19,16 +17,10 @@ The scholarship committee will review each application holistically, taking into
 * Application due Saturday 4/22/2020
 * Interviews with finalists - Saturday 5/2/2020 and Sunday 5/3/2020
 
-[Sign up for our 2020 Alumni Scholarship mailing list](https://mailchi.mp/dcaa341332d7/scholarship-2020) to receive the latest announcements.
-
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
 Please use the online web application to submit your scholarship application.
-<center>
-  <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
-</center>
-
 
 ### Resources
 The following documents from the 2020 season are provided for your convenience.
@@ -83,6 +75,12 @@ The following documents from the 2020 season are provided for your convenience.
       <td>John Henry High School</td>
       <td>University of California, Santa Cruz</td>
       <td>2019</td>
+    </tr>
+    <tr>
+      <td>Tiffany Lum</td>
+      <td>Hercules High School</td>
+      <td>University of California, Berkeley</td>
+      <td>2020</td>
     </tr>
   </tbody>
 </table>
