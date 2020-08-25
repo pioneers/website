@@ -64,7 +64,7 @@ hero-message: Get Involved!
       </p>
       <div class="container">
         {% for week in site.data.recruiting.events_by_week %}
-          <h2 style="text-align: center">Week {{ forloop.index }}{% if week.name %}[: {{ week.name }}]{% endif %}</h2>
+          <h2 style="text-align: center">Week {{ forloop.index }}{% if week.name %}: {{ week.name }}{% endif %}</h2>
           <table class="table table-striped table-hover">
             <thead>
               <th style="width:20%">Event</th>
