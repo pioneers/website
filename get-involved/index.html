@@ -55,10 +55,9 @@ hero-message: Get Involved!
       </div>
       <p>
         We've got a great lineup of events ready to welcome you (back) to Berkeley.
-        Come to an infosession to find out what we're all about, then pick and choose from our "welcome week" of socials, where you'll get a chance to mingle with leadership, project managers, and other PiE members as you enjoy free snacks and other activities.
-        Finally, decide which project team you want to help out with at Project Expo.
+        Come to an infosession to find out what we're all about, then decide which project team you want to help out with at Project Expo.
         We believe that everyone can find a place to contribute in PiE, regardless of year or major, so don't hesitate to come out!
-        You'll also be able to find us tabling at <a href="https://lead.berkeley.edu/calapalooza/">Calapalooza</a> and regularly on Sproul.
+        You'll also be able to find us tabling at <a href="https://lead.berkeley.edu/calapalooza/">Calapalooza</a> online.
       </p>
       <p>
         <a href="https://calendar.google.com/calendar/embed?src=pioneers.berkeley.edu_4vdtnqvtt5hlcnc54n7i52en88%40group.calendar.google.com&ctz=America%2FLos_Angeles">Add our Google calendar</a> (plus sign on the bottom right)
@@ -78,7 +77,7 @@ hero-message: Get Involved!
                 <tr>
                   <td>{{ event.name }}</td>
                   <td>
-                    <a target="_blank" href="{{ event.location }}">{{ event.location }}</a>
+                    <a target="_blank" href="{{ event.link }}">{{ event.link }}</a>
                     {% if event.map %}
                       [<a target="_blank" href="{{ event.map }}">map</a>]
                     {% endif %}
