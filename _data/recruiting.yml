@@ -14,26 +14,26 @@
 active: true
 events_by_week:
   - name: Welcome Week
-     events:
-       - name: "Infosession #1"
-         location: tinyurl.com/pieinfosession
-         start: 2020-8-31T7:00:00
-         end: 2020-8-31T8:30:00
-         description:  Come learn about what being part of PiE is all about!
-       - name: "Infosession #2"
-         location: tinyurl.com/pieinfosession
-         start: 2020-9-3T7:00:00
-         end: 2020-9-3T8:30:00
-         description:  Come learn about what being part of PiE is all about!
+    events:
+      - name: "Infosession #1"
+        location: tinyurl.com/pieinfosession
+        start: 2020-8-31T7:00:00
+        end: 2020-8-31T8:30:00
+        description:  Come learn about what being part of PiE is all about!
+      - name: "Infosession #2"
+        location: tinyurl.com/pieinfosession
+        start: 2020-9-3T7:00:00
+        end: 2020-9-3T8:30:00
+        description:  Come learn about what being part of PiE is all about!
   - name: Week 2
-     events:
-       - name: "Infosession #3"
-         location: tinyurl.com/pieinfosession
-         start: 2020-9-8T7:00:00
-         end: 2020-9-8T8:30:00
-         description:  Come learn about what being part of PiE is all about!
-       - name: "Infosession #2"
-         location: tinyurl.com/pieinfosession
-         start: 2020-9-11T3:00:00
-         end: 2020-9-11T4:30:00
-         description:  Come learn about what being part of PiE is all about!
+    events:
+      - name: "Infosession #3"
+        location: tinyurl.com/pieinfosession
+        start: 2020-9-8T7:00:00
+        end: 2020-9-8T8:30:00
+        description:  Come learn about what being part of PiE is all about!
+      - name: "Infosession #2"
+        location: tinyurl.com/pieinfosession
+        start: 2020-9-11T3:00:00
+        end: 2020-9-11T4:30:00
+        description:  Come learn about what being part of PiE is all about!
