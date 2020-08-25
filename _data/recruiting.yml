@@ -13,27 +13,21 @@
 
 active: true
 events_by_week:
-  - name: ""
-    events:
+  - events:
       - name: "Infosession #1"
         link: tinyurl.com/pieinfosession
-        start: 2020-8-31T19:00:00
-        end: 2020-8-31T20:30:00
+        time: Monday 8/31, 7 - 8:30 PM
         description:  Come learn about what being part of PiE is all about!
       - name: "Infosession #2"
         link: tinyurl.com/pieinfosession
-        start: 2020-9-3T19:00:00
-        end: 2020-9-3T20:30:00
+        time: Thursday 9/4, 7 - 8:30 PM
         description:  ""
-  - name: ""
-    events:
+  - events:
       - name: "Infosession #3"
         link: tinyurl.com/pieinfosession
-        start: 2020-9-8T19:00:00
-        end: 2020-9-8T20:30:00
+        time: Tuesday 9/8, 7 - 8:30 PM
         description:  ""
       - name: "Infosession #4"
         link: tinyurl.com/pieinfosession
-        start: 2020-9-11T15:00:00
-        end: 2020-9-11T16:30:00
+        time: Friday 9/11, 3 - 4:30 PM
         description:  ""
