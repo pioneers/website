@@ -3,7 +3,7 @@ PiE's public-facing website, built on Jekyll.
 
 To get help, checkout the [wiki](https://github.com/pioneers/website/wiki).
 
-# Developer Instructions
+# Developer Manual
 You can make a fork of this repo and host a development instance of your proposed changes via [GitHub project pages](https://pages.github.com/)
 
 Note that if you do this, take care to:
