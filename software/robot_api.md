@@ -535,13 +535,13 @@ def teleop_main():
 
 **limit switch**  Device that delivers information to the robot. Limit switches are like buttons and report whether they have been pressed or not.
 
-**line follower** Device that delivers information to the robot. A Line follower is a sensor that detects only how reflective the surface in front of it is.
+**line follower** Device that delivers information to the robot. A line follower is a sensor that detects only how reflective the surface in front of it is.
 
 **motor** Powerful device that converts electrical power to rotation.
 
-**paramameters (params)** Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
+**parameters (params)** Values that are given to a function when called. For example, `my_function(parameter1, parameter2)`
 
-**PID** Short for Proporitional Integral Differntial. Process for maintaining a sensor value. Similar to cruise control.
+**PID** Short for Proportional Integral Differential. Process for maintaining a sensor value. Similar to cruise control.
 
 **RFID**  Short for Radio Frequency Identification. A technology that allows passive (unpowered) devices to communicate data wirelessly using radio waves
 
