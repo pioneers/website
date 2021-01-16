@@ -1,33 +1,38 @@
-FROM ruby:2.6.3
-MAINTAINER Scott Numamoto <scott.numamoto@pioneers.berkeley.edu>
+#FROM ruby:2.6.3
+#MAINTAINER Scott Numamoto <scott.numamoto@pioneers.berkeley.edu>
 
 # Install bundler for dependency management
-RUN apt-get update -qq && apt-get install -y build-essential
+#RUN apt-get update -qq && apt-get install -y build-essential
 
 # Copy over the Gemfile. This reduces effort required to re-build
-ADD Gemfile /srv/jekyll/Gemfile
-ADD Gemfile.lock /srv/jekyll/Gemfile.lock
+#ADD Gemfile /srv/jekyll/Gemfile
+#ADD Gemfile.lock /srv/jekyll/Gemfile.lock
 
 # Use Bundler 2
-ENV BUNDLER_VERSION 2.0.2
-RUN gem install bundler
+#ENV BUNDLER_VERSION 2.0.2
+#RUN gem install bundler
 
 # Use this folder as dir we will work from
-WORKDIR /srv/jekyll
+#WORKDIR /srv/jekyll
 
 # Install dependencies
-RUN bundle install
+#RUN bundle install
 
 # Expose port 4000, the port Jekyll exposes by default
 # Rarely changed, but if needed, placed after the expensive download and install
 # of dependencies
-EXPOSE 4000
+#EXPOSE 4000
 
 # Add the enclosing dir to the image at /srv/jekyll
-ADD . /srv/jekyll
+#ADD . /srv/jekyll
 
 # Build the website
-RUN bundle exec jekyll build
+#RUN bundle exec jekyll build
 
 # Serve the website when we run the image
-CMD bundle exec jekyll serve
+#CMD bundle exec jekyll serve
+
+#EVERYTHING ABOVE THIS LINE IS JEKYLL-RELATED AND IS TEMPORAIRILY COMMENTED OUT
+#EVERYTHING AFTER THIS LINE IS NGINX-RELATED
+FROM nginx:latest
+COPY ./nginx_test.html /usr/share/nginx/html/index.html
