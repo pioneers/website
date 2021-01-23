@@ -75,13 +75,13 @@
     project: Runtime
     description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
     bio: 'Hey I''m Daniel and I''m a junior studying EECS or something. My favorite hobbies include gaming, watching tv, and reading(although its been a while since I''ve done this one). I am a mega Star Wars fan, like if you bring it up it''ll take a while for me to shut up about it. I''m also looking out for new anime to watch, so hmu if you''ve got recommendations. Super excited to get to know new staff. P.S. Ask me about my belly roll skills if that sounds remotely interesting to you.'
-    photo: Daniel.jpg
+    photo: Daniel_.jpg
 -
     name: Vincent Le
     project: Runtime
     description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
     bio: 'Hello! I''m Vincent and I''m from Milpitas (South Bay Area). My hobbies include hiking, running, and rewatching the MCU films for the fifth time.'
-    photo: Vincent.JPG
+    photo: Vincent_.JPG
 -
     name: Akshit Dewan
     project: Shepherd
