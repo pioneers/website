@@ -14,9 +14,9 @@
   bio: 'Hello, I am here to support you for your needs.'
 
 - name: Ben Liao
-  title: Director of Engineering (Software)
+  title: Director of Software
   picture: Ben_Liao.JPG
-  bio: 'I like low-level systems programming and high-level EE, and want to do something related to climate change (power electronics, smart grid, electric vehicles, etc.). But other than that, I love meeting and hanging out with people, I'm always open to chat about whatever!'
+  bio: 'I like low-level systems programming and high-level EE, and want to do something related to climate change (power electronics, smart grid, electric vehicles, etc.). But other than that, I love meeting and hanging out with people, I''m always open to chat about whatever!'
 
 - name: Bryant La
   title: Director of Hardware
