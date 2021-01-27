@@ -65,12 +65,6 @@
     bio: 'I''m a second year intended computer science major from San Francisco. I like music, movies/tv shows, and checking out cool food places :)'
     photo: Michelle.jpg
 -
-    name: Charles Hong
-    project: Pimulator
-    description: In Pimulator we are creating a computer application for students to use to test their robot programs on a virtual, simulated robot
-    bio: 'Hi! I''m a senior studying EECS. I''ve been part of PiE since I was a freshman, so feel free to ask why I''ve stuck around! '
-    photo: Charles.jpg
--
     name: Daniel Molina
     project: Runtime
     description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
@@ -89,8 +83,15 @@
     bio: ''
     photo: pie_logo.jpg
 -
-    Name: Alex Wong
-    Project: Shepherd
+    name: Alex Wong
+    project: Shepherd
     description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
     bio: 'I''m a Bay Area native, only child, and sports junkie who likes to make stuff.'
     photo: Alex.JPG
+-
+    name: Charles Hong
+    project: Simulator
+    description: In the Simulator team, we're creating a web app where students will be able test their code on a virtual, simulated robot.
+    bio: 'Hi! I''m a senior studying EECS. I''ve been part of PiE since I was a freshman, so feel free to ask why I''ve stuck around! '
+    photo: Charles_Hong.jpg
+

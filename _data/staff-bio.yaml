@@ -23,13 +23,15 @@
     bio: 'Hello, my name is Jeffrey Wu. I''m planning to study computer science, and maybe, double major with economics. '
     email:
 -
-    timestamp: 10/2/2019 21:02:20
-    name: Helen Zhao Chen
-    pronouns: She, her, hers
-    major: Bio somewhere
-    year: Freshman
-    bio: uwu
-    email:
+    name: Jessica Au
+    major: IEOR
+    picture: Jessica_Au.jpg
+    bio: ''
+-
+    name: Steven Lu
+    major: EECS
+    picture: Steven_Lu.jpg
+    bio: ''
 -
     timestamp: 10/2/2019 21:02:52
     name: Samarth Goel
@@ -37,14 +39,6 @@
     major: CS + Haas
     year: Freshman
     bio: 'Hi! I''m a freshman studying Computer Science, Data Science, and Business Administration. In addition to PiE, I''m part of the Cal Band, AFX Dance, and Berkeley Solar Car. '
-    email:
--
-    timestamp: 10/2/2019 22:02:55
-    name: Bryant La
-    pronouns: he/him/his
-    major: Mechanical Engineering
-    year: Sophomore
-    bio: "Bryant lived a fairly ordinary life, but that all changed one night when, while walking home from the cinema, he witnessed his own parents being murdered in front of his very eyes. From then on, he swore he would protect his city and its citizens so no one would have to suffer as he did. He would save his city. \n\nHowever, he recognized that, as a man, he was flesh and blood: he could be ignored, he could be destroyed; but as a symbol... as a symbol he could be incorruptible, he could be everlasting. To do that, he had to become someone else. He had to become something else.\n\nBut then he got accepted into Berkeley, so he scrapped those plans and now he's studying engineering."
     email:
 -
     timestamp: 10/2/2019 22:15:47
@@ -102,14 +96,6 @@
     year: Freshman
     bio: 'Hi, I''m Kyle Zhang. 👍'
     email: kylezhang@pioneers.berkeley.edu
--
-    timestamp: 10/3/2019 21:22:56
-    name: Sophia Li
-    pronouns: She/her
-    major: Toxicology
-    year: Junior
-    bio: I am mech. Ask me questions about anything
-    email: sophiali@pioneers.berkeley.edu
 -
     timestamp: 10/4/2019 11:47:45
     name: Karen Lee
@@ -174,14 +160,6 @@
     year: Freshman
     bio: /
     email: nathankelsh@pioneers.berkeley.edu
--
-    timestamp: 10/5/2019 13:25:34
-    name: Daniel Molina
-    pronouns: He/him/his
-    major: EECS
-    year: Sophomore
-    bio: 'Yo if any of y''all are huge DC Comics fans or like Dragon Ball or My Hero Academia then hit me up! Ask me about "Updog"!'
-    email: danielmolina@pioneers.berkeley.edu
 -
     timestamp: 10/5/2019 13:26:47
     name: Boyang Li
@@ -251,8 +229,8 @@
     name: Justin Shih
     pronouns: He/him/his
     major: Data Science
-    year: Freshman
-    bio: 'I''m a freshman studying data science and looking to double in economics, but I also really enjoy robotics and hope to help spread my passion for this subject to other students.'
+    year: Sophomore
+    bio: 'I''m a sophomore studying data science and looking to double in economics, but I also really enjoy robotics and hope to help spread my passion for this subject to other students.'
     email: justinshih@pioneers.berkeley.edu
 -
     timestamp: 10/11/2019 23:59:23
@@ -272,28 +250,12 @@
     email: ruohanyan@pioneers.berkeley.edu
 -
     timestamp: 10/12/2019 13:26:42
-    name: zhaoji li
+    name: Zhaoji Li
     pronouns: Alex
     major: mechanical engineering
     year: Junior
     bio: I would like to different kinds of skills
     email: alexli@pioneers.berkeley.edu
--
-    timestamp: 10/12/2019 13:27:21
-    name: Michelle Cheung
-    pronouns: She/her/hers
-    major: Computer Science
-    year: Freshman
-    bio: Born and raised in San Francisco. Excited to be on the Mech team this year! I love music, boba, and sci-fi movies/tv shows.
-    email: michellecheung@pioneers.berkeley.edu
--
-    timestamp: 10/12/2019 13:28:08
-    name: Kevin Rubio
-    pronouns: He/His/Him
-    major: Bioengineering
-    year: Sophomore
-    bio: 'I''m from the Central Valley and I''m passionate about BioTech. I like to swim, dance, and binge comedies.'
-    email: kevinrubio@pioneers.berkeley.edu
 -
     timestamp: 10/12/2019 13:29:12
     name: Tiffany Luong
