@@ -34,5 +34,17 @@
 
 #EVERYTHING ABOVE THIS LINE IS JEKYLL-RELATED AND IS TEMPORAIRILY COMMENTED OUT
 #EVERYTHING AFTER THIS LINE IS NGINX-RELATED
-FROM nginx:latest
-COPY ./nginx_test.html /usr/share/nginx/html/index.html
+#FROM ubuntu AS builder
+#COPY nginx_test.html /temp/
+
+#FROM nginx:latest
+#COPY --from=builder . /usr/share/nginx/html/
+FROM node:12-alpine AS build-stage
+#WORKDIR /app
+COPY nginx_test.html .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+
+
+FROM nginx:latest 
+COPY --from=build-stage nginx_test.html /usr/share/nginx/html/index.html
