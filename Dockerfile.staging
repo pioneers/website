@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.19.7
 EXPOSE 80
 
 # Configure Nginx for http basic auth
