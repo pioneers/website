@@ -5,7 +5,7 @@ hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 
 # Pioneers in Engineering Alumni Scholarship
-Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our eighth annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
+Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our eighth annual PiE alumni-funded scholarship for PiE students. The scholarship is for a single $2000 award, with $500 for finalists.
 
 The scholarship committee will review each application holistically, taking into account academic achievement, extracurricular activities, leadership skills, and passion. As a STEM organization, we are especially interested in how your pursuits involve science and engineering.
 
