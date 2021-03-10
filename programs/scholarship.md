@@ -29,7 +29,7 @@ Please use the online web application to submit your scholarship application.
 ### Resources
 The following documents from the 2021 season are provided for your convenience.
 
-* <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2021 Scholarship Workshop</a>
+* <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2021 Scholarship Workshop</a> (<a href="https://drive.google.com/file/d/1WK6IHjJFmyEaO8QcdZC1ZEn1EVLeVSgT/view?usp=sharing">recording</a>)
 * <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2021 Scholarship Application Summary</a>
 
 ## Past Scholars
