@@ -1,5 +1,5 @@
 - name: Kickoff
-  date: March 7th
+  date: March 6th, 2021
   time: 9am-5pm (check-in at 8am)
   # location: UC Berkeley - Sibley Auditorium
   description:
@@ -8,13 +8,13 @@
     We’ll start with a presentation from the Director, the Head Referee, and the keynote speaker!
     After you’ll meet your mentors, get your robot, and learn about the game.
 - name: Design Review
-  date: March 20th
+  date: March 20th, 2021
   time: 9am-12pm
   description:
     Students have the opportunity to present their robot designs to PiE staff and alumni, university professors, and industry professionals.
     It allows them an opportunity to practice formal presentations to judges and receive feedback on potential prototypes.
 - name: Exhibition
-  date: March 28th-April 10th
+  date: March 28th-April 10th, 2021
   time: Sign up at <a href="http://worksessions.pierobotics.org/">worksessions.pierobotics.org</a>
   description:
     Exhibition is a worksession style event where students can sign up for 30 minute slots to test run the robots on the field. 
@@ -22,14 +22,14 @@
     # Exhibition is the first opportunity for all PiE teams to come and test out their robot on a real field with other robots for competition.
     # It is a chance to get your robot running, see how your robot will perform, and figure out if you need to make any tweaks.
 - name: Scrimmage
-  date: April 24th
+  date: April 24th, 2021
   time: 9am-5pm (check-in at 8am)
   description:
     Scrimmage is the second to last event in the RC season.
     It is an opportunity for students to test their robots in practice matches and familiarize themselves with competition procedures.
     Robots that pass inspection may compete in practice matches against other teams, while a practice field remains open for teams to test their robots.
 - name: Final Comp
-  date: May 1st-2nd
+  date: May 1st-2nd, 2021
   time: 9am-5pm on Saturday and Sunday
   description:
     Final Competition is the last event of the season!
