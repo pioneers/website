@@ -15,3 +15,4 @@ echo "added .htpasswd to enable http basic auth"
 
 echo "starting nginx"
 nginx -g 'daemon off;'
+
