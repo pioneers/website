@@ -1,0 +1,14 @@
+FROM nginx:1.19.7
+EXPOSE 80
+
+# Configure Nginx for http basic auth
+COPY nginx/staging-nginx.conf /etc/nginx/nginx.conf
+COPY nginx/http-basic-auth-start.sh /etc/nginx/http-basic-auth-start.sh
+
+# Add website contents
+RUN echo "hello world!" > /usr/share/nginx/html/index.html
+
+# Prevent web scrapers
+RUN echo "User-agent: * Disallow: /" > /usr/share/nginx/html/robots.txt
+
+CMD /etc/nginx/http-basic-auth-start.sh
