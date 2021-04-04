@@ -5,28 +5,33 @@ hero-message: Pioneers in Engineering Alumni Scholarship
 ---
 
 # Pioneers in Engineering Alumni Scholarship
-Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our seventh annual PiE alumni-funded scholarship for PiE students. The scholarship will be for a one-time amount of $2000.
+Pioneers in Engineering strives to provide a quality STEM educational experience for Bay Area high school students. In keeping with our mission to promote science and engineering, we are happy to announce our eighth annual PiE alumni-funded scholarship for PiE students. The scholarship is for a single $2000 award, with $500 for finalists.
 
 The scholarship committee will review each application holistically, taking into account academic achievement, extracurricular activities, leadership skills, and passion. As a STEM organization, we are especially interested in how your pursuits involve science and engineering.
 
 <br>
 
-## 2020 Scholarship Schedule
+## 2021 Scholarship Schedule
 
-* Application opens Saturday 3/7/2020
-* Application due Saturday 4/22/2020
-* Interviews with finalists - Saturday 5/2/2020 and Sunday 5/3/2020
+* Application opens Saturday 3/6/2021
+* Application due Saturday 4/17/2021
+* Interviews with finalists - Saturday 5/1/2021
+* Recipient announced - Sunday 5/2/2021
 
 ## Applicant Eligibility
 Applicants must be current or past PiE participants in their last year of high school, and must intend to pursue post-secondary education (four-year, technical, vocational, etc.).
 
 Please use the online web application to submit your scholarship application.
+<center>
+  <a href="https://scholarship.pierobotics.org/accounts/google/login" class="btn btn-primary">Go to the web application! (Sign in with Google)</a>
+</center>
 
 ### Resources
-The following documents from the 2020 season are provided for your convenience.
+The following documents from the 2021 season are provided for your convenience.
 
-* [2020 Scholarship Workshop Slides](https://docs.google.com/presentation/d/1J-z0iznrPlQMSGBEmLeFR1X9qJ8um8HZVstEEf3SVuA/edit?usp=sharing)
-* 2020 Application Summary (to be released)
+* <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_workshop.pdf' | prepend: site.baseurl }}">2021 Scholarship Workshop</a> (<a href="https://drive.google.com/file/d/1WK6IHjJFmyEaO8QcdZC1ZEn1EVLeVSgT/view?usp=sharing">recording</a>)
+* <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_application.pdf' | prepend: site.baseurl }}">2021 Scholarship Application Summary</a>
+* <a target="_blank" href="{{ '/assets/scholarship/2021_pie_scholarship_interview_tips.pdf' | prepend: site.baseurl }}">2021 Scholarship Interview Tips</a>
 
 ## Past Scholars
 

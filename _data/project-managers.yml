@@ -1,105 +1,97 @@
 -
-    timestamp: 9/4/2019 20:54:13
-    name: Ben Liao
-    project: Hibike/Runtime
-    description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
-    bio: 'Hey guys! I''m a sophomore studying EECS and/or ME, and I grew up here in the Bay. I want to go into clean energy and clean transportation in the future. In my spare time, I like speedcubing, learning about astronomy, taking photos, and making tutorials. I''m in the Yali''s in Sutarja Dai for a couple hours every day, you can come find me there, I''m down to chat about anything!'
-    photo: Ben_Liao.JPG
--
-    timestamp: 9/5/2019 17:27:25
-    name: Jesse Valva
+    name: Cassidy Powers
     project: Atlas
     description: Join in on tasks like field construction and being a referee. The highlights of Game Implementation are the ease of joining and the large impact we cause. All you need to bring is time to invest and we’ll get you working on projects that are fundamental to the competition. Your handiwork will even be displayed and used by all the high school students.
-    bio: "I am the second best melee player in PiE. I don't actually live in 101 ok. My snapchat name is a nickname from my freshman year of high school. I think I study math but I'm not even sure anymore. I hope to graduate in 2020.\n\nI built the brown stained table in 101. I feel cool thanks for asking. "
-    photo: jesse_valva.jpg
+    bio: Hello, I am Cassidy Powers a second year mechanical engineering major. My interests are in robotics, space exploration, and biotechnology. For fun I like playing the guitar, hiking, and watching too much T.V.
+    photo: Cassidy.jpg
 -
-    timestamp: 9/6/2019 7:18:15
-    name: Ashley Byrne
-    project: Education
-    description: Education focuses on teaching workshops at events for students and teaching a DeCal for mentors in the Spring! We also have a fall project called PRB (Pie on the Road), where we make a smaller robot kit and bring it out to non-pie schools to spark interest in PiE or robotics in general. Our workshops vary from technical workshops like PiE API and Game Management to non-technical workshops like the Diversity workshop. DeCal is probably our biggest time commitment, as we run weekly classes and work on improving our curriculum. Education is a great project for learning about all the aspects in PiE and really connecting with the students and mentors!
-    bio: 'I''m a sophomore and an intended Psychology major. I joined PiE last year, and I was also a PiE student in high school (Go PV!). I enjoy playing video games, watching anime, and I have way too many stuffed animals. '
-    photo: Ashley_Byrne.jpg
+    name: Helen Zhao Chen
+    project: Atlas
+    description: Join in on tasks like field construction and being a referee. The highlights of Game Implementation are the ease of joining and the large impact we cause. All you need to bring is time to invest and we’ll get you working on projects that are fundamental to the competition. Your handiwork will even be displayed and used by all the high school students.
+    bio: 'Short bio: I already got too much bio on my plate.... Anyways, I enjoy being lazy (big time zzz), traveling, baking, binge watching movies and drama series, and more. I''m a bio major so if you have any questions in this field or in anything else, don''t hesitate to ask cuz I don''t bite uwu'
+    photo: Helen.jpg
 -
-    timestamp: 9/6/2019 18:12:53
-    name: Rafael Ostrea
-    project: DevOps
-    description: 'DevOps maintains things behind the scenes to help keep them working properly, like setting up the config files for the Raspberry Pi''s and automating their connection to their routers upon start-up, for example.'
-    bio: 'I''m a sophomore from the Philippines who enjoys reading and playing video games like Fire Emblem Three Houses and Smash Bros. Ultimate. My current CS interests include Artificial Intelligence and Video Game Development (and how they go hand in hand in making escort missions all the more fun for us players)!'
-    photo: Rafael_Ostrea.JPG
+    name: Jose Valera
+    project: CPR
+    description: CPR performs data analytics, networks with industry professionals, and creates grants for resources and funding
+    bio: I am from Los Angeles and love to watch Star Wars movies and collect coins during my free time.
+    photo: Jose.JPG
 -
-    timestamp: 9/7/2019 10:12:25
-    name: Lizhi (Gary) Yang
-    project: PieSens
-    description: At PieSens, we design, build and maintain actuator controls and sensors for the robot ranging from motor control boards to distance sensor boards. Skills we teach include embedded programming, PCB design (Eagle) and others.
-    bio: I am a sophomore in EECS interested in Robotics and CS in general. Feel free to shoot me any questions on Facebook @GaryYang2000 :)
-    photo: Gary_Yang.jpg
--
-    timestamp: 9/7/2019 14:09:52
-    name: Kaitlyn Chan
-    project: PiE Sens
-    description: PiE Sens is one of the two projects in PiE Electrical. Members of the team go through an iterative design process to put together our electrical system. The staff goes through a brainstorming phase to collect ideas on what sensors are required for the game. Then, the sensors are prototyped and then translated into a PCB (Printed Circuit Board). We teach the staff how to use industry level PCB software to route our boards before having our sponsors send us the completed boards. We then manufacture the boards in house to test and revise.
-    bio: I am currently a sophomore in EECS. I like robots, cats, and anime. Feel free to email me at kaitlynjchan@berkeley.edu with any questions! :)
-    photo: Kaitlyn_Chan.JPG
--
-    timestamp: 9/7/2019 15:01:43
-    name: Karen Darken
-    project: Dawn
-    description: Dawn is an application that allows students to program and monitor their robots.
-    bio: 'Hi, I''m Karen! I''m a 4th year CS major. I enjoy breakfast, dancing, and looking at other people''s dogs. '
-    photo: Karen_Darken.jpg
--
-    timestamp: 9/7/2019 15:02:01
-    name: Matthew Guo
+    name: Hailey Jang
     project: Dawn
     description: Dawn is a front-end desktop application that allows high school students to program their robots as well as view their statuses.
-    bio: 'Hi there! My name’s Matthew, and I’m a second year CS major from the Bay Area. When I’m not fostering Dawn''s culture, I like to spend my time drawing, making video games, and perfecting my (really bad) New Zealand accent. Fun fact about me: I can lick my elbow.'
-    photo: Matthew_Guo.jpg
+    bio: ''
+    photo: Hailey.png
 -
-    timestamp: 9/8/2019 21:53:50
-    name: Ryan Koh
-    project: Shepherd
-    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
-    bio: 'Hi, I''m a sophomore majoring in Computer Science! I came for the free pie, stayed for the fun times. Programming and robots are cool too I guess.'
-    photo: Ryan_Koh.JPG
+    name: Lance Jackson
+    project: Dawn
+    description: Dawn is a front-end desktop application that allows high school students to program their robots as well as view their statuses.
+    bio: ''
+    photo: Lance.png
 -
-    timestamp: 9/22/2018 16:14:52
-    name: Matthew Harrigan
-    project: Shepherd
-    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through shepherd, so if we don’t have our stuff together, nothing is going to work.'
-    bio: "I am a second year EECS major, and my favorite class so far has been CS61B. I like video/board games, hiking, and skiing.\nRobots are fun too :)"
-    photo: Matthew_Harrigan.png
+    name: Cindy Quang
+    project: Design
+    description: Design maintains club's image by managing our brand design
+    bio: My favorite boba order is jasmine green milk tea with boba and strawberry heart jellies from UCha!
+    photo: Cindy.jpg
 -
-    timestamp: 9/8/2019 22:00:25
-    name: Gregory Jerian
-    project: DevOps
-    description: Our DevOps team is responsible for the infrastructure that all other projects are based around. Here, you’ll learn and utilize, first hand, industry standard tools and systems. Gain experience working with a GNU/Linux development environment, shell scripting, CI (continuous integration), and more!
-    bio: 'I''m Greg, and I wear the freshest clothes, eat at the chillest restaurants and hang out with the hottest dudes'
-    photo: Gregory_Jerian.JPG
+    name: Aidan Tan
+    project: Education
+    description: Works hands-on with students, mentors, and staff by teaching workshops for students and holds a DeCal for mentors
+    bio: 'How did I become a PM?? Regardless, join edu!!! I''ll try my best to make this semester as seamless as possible.'
+    photo: Aidan.jpg
 -
-    timestamp: 9/8/2019 22:06:43
-    name: Sophia Li
+    name: Andrew Fan
+    project: Education
+    description: Education works hands-on with students, mentors, and staff by teaching workshops for students and holds a DeCal for mentors
+    bio: ''
+    photo: pie_logo.jpg
+-
+    name: Aldric Gozon
+    project: Electrical
+    bio: ''
+    description: Electrical designs, tests, and manufactures circuit boards.
+    photo: pie_logo.jpg
+-
+    name: Kevin Rubio
     project: Mechanical
     description: Here in mechanical we design and produce many parts that may be used for the robots. Join us for a fun and hands on experience!
-    bio: I also know a large amount about house plants. I have a stuffed sloth named Kenneth
-    photo: Sophia_Li.jpg
+    bio: Hello! I'm a third-year mechanical engineering major. Iâ€™m very passionate about bionics/robotics to aid people with physical disabilities and enhance their quality of life. I enjoy working out, watching anime and hanging out with my friends. Feel free to ask me any questions or just say hi!
+    photo: Kevin.jpeg
 -
-    timestamp: 9/8/2019 23:26:06
-    name: Kevin Zhu
-    project: Infrastructure
-    description: Infrastructure is focused on helping other projects and doing some of their projects. Infrastructure is also involved in maintaining and developing the website. The projects in infrastructure are focused on coding, but range from web development to writing scripts in various languages.
-    bio: Hello, I am a sophomore majoring in computer science. In my free time I enjoy watching and playing basketball. Feel free to contact me at kevin_zhu@berkeley.edu
-    photo: Kevin_Zhu.jpeg
--
-    timestamp: 9/8/2019 23:42:11
-    name: Albert Wen
+    name: Michelle Cheung
     project: Mechanical
-    description: I oversee the in-house and outsourced manufacturing of the parts for the PiE base kit.
-    bio: "I am a sophomore Mechanical Engineering major with an EECS minor. I am also doing research in printed batteries at the printed electronics lab in Cory Hall. \nWhere exactly is this lab? 420 Cory. You'll get to know it throughout the year. \nI can offer help with some of the Mechanical Engineering curriculum, so please give me a shout-out if you get stuck. \nIf you like being chaotic, I might be the right person for you.\nMy name on Slack as of now is @Onesie. \nI look forward to working with you! "
-    photo: Albert_Wen.jpeg
+    description: Here in mechanical we design and produce many parts that may be used for the robots. Join us for a fun and hands on experience!
+    bio: 'I''m a second year intended computer science major from San Francisco. I like music, movies/tv shows, and checking out cool food places :)'
+    photo: Michelle.jpg
 -
-    timestamp: 9/9/2019 0:56:56
-    name: Edward Choi
-    project: Dawn/Infrastructure (Software Coordinator)
-    description: ""
-    bio: Hey there! I'm a 3rd year CS major helping out with the Dawn and Infrastructure teams. I'm very much interested in building software that can directly impact people, and PiE was the perfect club for me in that sense! :)
-    photo: Edward_Choi.JPG
+    name: Daniel Molina
+    project: Runtime
+    description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
+    bio: 'Hey I''m Daniel and I''m a junior studying EECS or something. My favorite hobbies include gaming, watching tv, and reading(although its been a while since I''ve done this one). I am a mega Star Wars fan, like if you bring it up it''ll take a while for me to shut up about it. I''m also looking out for new anime to watch, so hmu if you''ve got recommendations. Super excited to get to know new staff. P.S. Ask me about my belly roll skills if that sounds remotely interesting to you.'
+    photo: Daniel_.jpg
+-
+    name: Vincent Le
+    project: Runtime
+    description: 'We write the code that runs on the students'' robots, relaying the signals sent by the student on their controllers to the servos, motors, and sensors on the robots. This project is all about the low-level machinery that makes the robots work!'
+    bio: 'Hello! I''m Vincent and I''m from Milpitas (South Bay Area). My hobbies include hiking, running, and rewatching the MCU films for the fifth time.'
+    photo: Vincent_.JPG
+-
+    name: Akshit Dewan
+    project: Shepherd
+    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
+    bio: ''
+    photo: pie_logo.jpg
+-
+    name: Alex Wong
+    project: Shepherd
+    description: 'Shepherd is a coding project that is instrumental to every PiE competition. We call ourselves Shepherd because we shepherd all the parts of the field and, more importantly, so we can eat shepherd''s pie. At competitions, everything that happens on the game field ends up going through Shepherd, so if we don''t have our stuff together, nothing is going to work. :'')'
+    bio: 'I''m a Bay Area native, only child, and sports junkie who likes to make stuff.'
+    photo: Alex.JPG
+-
+    name: Charles Hong
+    project: Simulator
+    description: In the Simulator team, we're creating a web app where students will be able test their code on a virtual, simulated robot.
+    bio: 'Hi! I''m a senior studying EECS. I''ve been part of PiE since I was a freshman, so feel free to ask why I''ve stuck around! '
+    photo: Charles_Hong.jpg
+
