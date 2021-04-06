@@ -1,4 +1,4 @@
-FROM ruby:2.6.3 AS builder
+FROM ruby:2.6.3
 MAINTAINER Scott Numamoto <scott.numamoto@pioneers.berkeley.edu>
 
 # Install bundler for dependency management
@@ -18,17 +18,16 @@ WORKDIR /srv/jekyll
 # Install dependencies
 RUN bundle install
 
+# Expose port 4000, the port Jekyll exposes by default
+# Rarely changed, but if needed, placed after the expensive download and install
+# of dependencies
+EXPOSE 4000
+
 # Add the enclosing dir to the image at /srv/jekyll
 ADD . /srv/jekyll
 
 # Build the website
-RUN bundle exec jekyll build -d ./build
+RUN bundle exec jekyll build
 
-#Copy the built site to our nginx
-FROM nginx:latest 
-
-#Expopse port 80, Nginx's default port
-EXPOSE 80 
-
-#Copy over just the built website from the previous stage
-COPY --from=builder /srv/jekyll/build /usr/share/nginx/html
+# Serve the website when we run the image
+CMD bundle exec jekyll serve
