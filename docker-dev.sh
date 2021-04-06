@@ -16,7 +16,7 @@ docker build -t $CONTAINER_NAME:latest -f Dockerfile.staging .
 
 # Run the container based on the latest image.
 #docker run --detach --rm --name $CONTAINER_NAME -p 4000:4000 $CONTAINER_NAME:latest
-htpasswd -bc /tmp/htpasswd username password
+htpasswd -bc /tmp/htpasswd pie staging
 docker run --env HTPASSWD=$(cat /tmp/htpasswd) --detach --name $CONTAINER_NAME -p 80:80 $CONTAINER_NAME:latest
 
 # Useful helptext here.
