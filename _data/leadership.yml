@@ -1,29 +1,24 @@
-- name: Karen Lee
+- name: Ashley Byrne
   title: Director
-  picture: karen_lee.png
-  bio: ''
+  picture: Ashley_Byrne.jpg
+  bio: Hello everyone! I have been with PiE for a surprising amount of time, but I've enjoyed every second of it and hope to create more memories with some awesome people.
 
-- name: Jessica Au
+- name: Jahnvi Doshi
   title: Director of Corporate & Public Relations
-  picture: Jessica_Au.jpg
+  picture: Jahnvi.png
   bio: ''
 
-- name: Kirsten Nguyen
-  title: Director of Education
-  picture: kirsten_nguyen.png
-  bio: ''
-
-- name: Jeanney Keo
+- name: Sophia Li
   title: Director of Programs
-  picture: jeanney_keo.jpg
-  bio: ''
+  picture: Sophia.jpg
+  bio: 'Hello, I am here to support you for your needs.'
 
-- name: Charles Hong
-  title: Director of Engineering (Software)
-  picture: Charles_Hong.jpg
-  bio: ''
+- name: Ben Liao
+  title: Director of Software
+  picture: Ben_Liao.JPG
+  bio: 'I like low-level systems programming and high-level EE, and want to do something related to climate change (power electronics, smart grid, electric vehicles, etc.). But other than that, I love meeting and hanging out with people, I''m always open to chat about whatever!'
 
-- name: Steven Lu
-  title: Director of Engineering (Hardware)
-  picture: Steven_Lu.jpg
-  bio: ''
+- name: Bryant La
+  title: Director of Hardware
+  picture: Bryant.jpg
+  bio: 'My hobbies include breathing, blinking, and not being able to play the guitar that well.'

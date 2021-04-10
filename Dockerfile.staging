@@ -1,0 +1,39 @@
+FROM ruby:2.6.3 AS builder
+# Install bundler for dependency management
+RUN apt-get update -qq && apt-get install -y build-essential
+
+# Copy over the Gemfile. This reduces effort required to re-build
+ADD Gemfile /srv/jekyll/Gemfile
+ADD Gemfile.lock /srv/jekyll/Gemfile.lock
+
+# Use Bundler 2
+ENV BUNDLER_VERSION 2.0.2
+RUN gem install bundler
+
+# Use this folder as dir we will work from
+WORKDIR /srv/jekyll
+
+# Install dependencies
+RUN bundle install
+
+# Add the enclosing dir to the image at /srv/jekyll
+ADD . /srv/jekyll
+
+# Build the website
+RUN bundle exec jekyll build -d ./build
+
+#Copy the built website over
+FROM nginx:1.19.7
+EXPOSE 80
+
+# Configure Nginx for http basic auth
+COPY nginx/staging-nginx.conf /etc/nginx/nginx.conf
+COPY nginx/http-basic-auth-start.sh /etc/nginx/http-basic-auth-start.sh
+
+# Add website contents
+COPY --from=builder /srv/jekyll/build /usr/share/nginx/html
+
+# Prevent web scrapers
+RUN echo "User-agent: * Disallow: /" > /usr/share/nginx/html/robots.txt
+
+CMD /etc/nginx/http-basic-auth-start.sh
