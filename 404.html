@@ -3,7 +3,7 @@ permalink: /404.html
 layout: default-minus-hero
 ---
 <div class="container">
-  <h1>Page Not Found</h1>
+  <h1>Page Not Found, SAD</h1>
 
   <p>Looks like we can't find that page. If you reached this page by typing in a URL, make sure that you spelled it correctly. If you reached this page by clicking on a link, contact us at {% email website@pioneers.berkeley.edu %} so we can fix the link!</p>
 </div>
@@ -11,7 +11,7 @@ layout: default-minus-hero
 <script>
   // Hacky solution to redirect old URLs. As written, this will only work in the
   // production environment; there is no easy way to copy variables like baseurl
-  // from _config.yml into the Javascript.
+  // from _config.yml into the Javascript. 
   (function () {
     var path = window.location.pathname.replace(/\//g, "");
     if (path == "home") {
