@@ -22,11 +22,11 @@ hero-message: Gallery
 
         <div id="fall-competition-2019" class="heading-image">
           <h1 class="heading-title">Fall Comp</h1>
-          <p class="heading-description">Staff and students alike had a (sugar) blast!</p>
+          <p class="heading-description">Staff and students alike had a (sugar) blast!
         </div>
           <div class="gallery">
-            {% for picture in site.data.gallery-fa-comp-2019 %}
-              {% capture url %}{{ picture.url }}{% endcapture %}
+            {% for picture in site.data.gallery-fa-comp-2019 }
+              {% capture url %}{{ picture.url }}{% endcapture }
               {% capture caption %}{{ picture.caption }}{% endcapture %}
               {% include gallery-image.html img_url=url img_caption=caption gallery="fall-competition-2019" %}
             {% endfor %}
