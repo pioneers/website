@@ -1,5 +1,5 @@
 image:
-  file: Dockerfile.dev
+  file: .gitpod.Dockerfile
 
 tasks:
   - init: gem install bundler:2.2.9 && bundle install
