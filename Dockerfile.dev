@@ -1,17 +1,8 @@
-FROM ruby:2.6.3
+FROM gitpod/workspace-postgres
+USER gitpod
 
-# Install bundler for dependency management
-RUN apt-get update -qq && apt-get install -y build-essential
-
-# Copy over the Gemfile. This reduces effort required to re-build
-ADD Gemfile /srv/jekyll/Gemfile
-ADD Gemfile.lock /srv/jekyll/Gemfile.lock
-
-# Use Bundler 2
-RUN gem install bundler:2.0.2
-
-# Use this folder as dir we will work from
-WORKDIR /srv/jekyll
-
-# Install dependencies
-RUN bundle install
+# Install the Ruby version specified in '.ruby-version'
+COPY --chown=gitpod:gitpod .ruby-version /tmp
+RUN echo "rvm_gems_path=/home/gitpod/.rvm" > ~/.rvmrc
+RUN bash -lc "rvm install ruby-$(cat /tmp/.ruby-version) && rvm use ruby-$(cat /tmp/.ruby-version) --default"
+RUN echo "rvm_gems_path=/workspace/.rvm" > ~/.rvmrc

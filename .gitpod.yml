@@ -1,5 +1,6 @@
 image:
   file: Dockerfile.dev
 tasks:
-  - command: bundle exec jekyll serve
+  - init: bunlde install
+    command: bundle exec jekyll serve
 
