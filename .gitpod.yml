@@ -1,6 +1,10 @@
 image:
   file: Dockerfile.dev
+
 tasks:
   - init: bunlde install
     command: bundle exec jekyll serve
 
+ports:
+  - port: 4000
+    onOpen: open-preview
