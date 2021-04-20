@@ -3,8 +3,9 @@ image:
 
 tasks:
   - init: gem install bundler:2.2.9 && bundle install
-    command: bundle exec jekyll serve
+    command: bundle exec jekyll serve --live-reload
+    openMode: split-right
 
 ports:
   - port: 4000
-    onOpen: open-preview
+    onOpen: open-browser
