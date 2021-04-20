@@ -2,7 +2,7 @@ image:
   file: Dockerfile.dev
 
 tasks:
-  - init: bunlde install
+  - init: gem install bundler:2.2.9 && bundle install
     command: bundle exec jekyll serve
 
 ports:
