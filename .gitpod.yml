@@ -3,7 +3,7 @@ image:
 
 tasks:
   - init: gem install bundler:2.2.9 && bundle install
-    command: bundle exec jekyll serve --live-reload
+    command: bundle exec jekyll serve --livereload
     openMode: split-right
 
 ports:
