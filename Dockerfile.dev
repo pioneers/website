@@ -8,8 +8,7 @@ ADD Gemfile /srv/jekyll/Gemfile
 ADD Gemfile.lock /srv/jekyll/Gemfile.lock
 
 # Use Bundler 2
-ENV BUNDLER_VERSION 2.0.2
-RUN gem install bundler
+RUN gem install bundler:2.0.2
 
 # Use this folder as dir we will work from
 WORKDIR /srv/jekyll
