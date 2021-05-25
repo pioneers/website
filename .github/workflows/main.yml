@@ -1,0 +1,22 @@
+
+name: 'deploy'
+
+# yamllint disable-line rule:truthy
+on:
+  tags:
+    - release
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloning repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to dokku
+        uses: dokku/github-action@master
+        with:
+          git_remote_url: 'ssh://dokku@apple.pierobotics.org:22/staging-website'
+          ssh_private_key: ${{ secrets.DOKKU_WEBSITE_PRIVATE_KEY }}
