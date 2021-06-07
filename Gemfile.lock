@@ -81,6 +81,7 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer (>= 3.10.0)
