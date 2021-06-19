@@ -11,7 +11,7 @@ WORKDIR /srv/jekyll
 ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
 
-# Use Bundler 2 with out config
+# Use Bundler 2 without config
 ADD .bundle .bundle
 ENV BUNDLER_VERSION 2.0.2
 RUN gem install bundler
