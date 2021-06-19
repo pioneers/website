@@ -1,0 +1,23 @@
+
+name: 'deploy'
+
+on:
+  # Triggers the workflow on branch and tag creation events
+  create:
+
+jobs:
+  deploy:
+    # Only deploy if it has the tag 'release'
+    if: ${{ startsWith(github.ref, 'refs/tags/release') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloning repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to dokku
+        uses: dokku/github-action@master
+        with:
+          git_remote_url: 'ssh://dokku@apple.pierobotics.org:22/staging-website'
+          ssh_private_key: ${{ secrets.DOKKU_WEBSITE_PRIVATE_KEY }}
