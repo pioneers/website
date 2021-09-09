@@ -87,6 +87,12 @@ The following documents from the 2021 season are provided for your convenience.
       <td>University of California, Berkeley</td>
       <td>2020</td>
     </tr>
+    <tr>
+      <td>Naydelin Cabrera</td>
+      <td>Pinole Valley High School</td>
+      <td>Contra Costa Community College</td>
+      <td>2021</td>
+    </tr>
   </tbody>
 </table>
 
